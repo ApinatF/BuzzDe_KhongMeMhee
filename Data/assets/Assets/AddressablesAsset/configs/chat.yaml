@@ -1,0 +1,28 @@
+header: "#0194BC" # สีหรือภาพแถบ header ด้านบน
+header_alpha: 255 #opacity 0-255
+screen_type: default #กรอบสีขาวที่เป็นพื้นที่การสนทนา ( default/noBox )
+me_frame: "#ffffff" #สีกล่องข้อความเรา
+me_text_color: "#000000" #สี text เรา
+other_frame: "#ffffff" #สีกล่องข้อความคนอื่น
+other_text_color: "#000000" #สี text คนอื่น
+highlight_choice: "#B1F5FF" #สี highlight choice
+select_choice: "#81F5FF" #สี select choice (เหมือนตัวนี้ buzzde ไม่ได้ใช้)
+background: true #ห้องแชทนี้มี bg หรือไม่ (true / false)
+bubble_decorations: # ตัวติดตุ้งติ้งของกรอบข้อความ (มีซ้าย กลาง ขวา (รวมบนล่าง))
+  me:
+    bottom_left: decor1 # ตำแหน่ง: ชื่อภาพตุ้งติ้ง
+  other:
+    bottom_right: decor1
+header_components: #ตัวปรับแต่ง bar haeder ด้านบน
+  text: "#ffffff" #สีชื่อตอน
+  buttons: #ตัวปรับแต่งปุ่มบนบาร์
+    back: #ปุ่มกลับ
+      color: "#ffffff" #สีปุ่ม ถ้าใส่สีเป็นสีขาว ภาพจะแสดงสีปกติกรณีทำปุ่มเป็นภาพ ถ้าเป็นสีอื่นๆ ระบบจะนำสีไป multiple กับภาพ
+    exit: #ปุ่มออก(อ่านจบ)
+      color: "#ffffff" #สีปุ่ม ถ้าใส่สีเป็นสีขาว ภาพจะแสดงสีปกติกรณีทำปุ่มเป็นภาพ ถ้าเป็นสีอื่นๆ ระบบจะนำสีไป multiple กับภาพ
+#      image: true # ปุ่มนี้ใช้ภาพไหม (true / false)
+    pause: #ปุ่มหยด
+      color: "#ffffff" #สีปุ่ม ถ้าใส่สีเป็นสีขาว ภาพจะแสดงสีปกติกรณีทำปุ่มเป็นภาพ ถ้าเป็นสีอื่นๆ ระบบจะนำสีไป multiple กับภาพ
+    play: #ปุ่มเล่นอัตโนมัติ
+      color: "#ffffff" #สีปุ่ม ถ้าใส่สีเป็นสีขาว ภาพจะแสดงสีปกติกรณีทำปุ่มเป็นภาพ ถ้าเป็นสีอื่นๆ ระบบจะนำสีไป multiple กับภาพ
+#      image: true # ปุ่มนี้ใช้ภาพไหม (true / false)

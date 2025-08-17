@@ -1,0 +1,9 @@
+- label: Minato
+  title: มินาโตะ
+  image: gallery_bear
+  collect:
+    - mini_cg: mcg_minatopunch
+- label: Akari
+  title: อคาริ
+  image: ชื่อไฟล์ภาพปกแกลเลอร์รี
+  collect: []

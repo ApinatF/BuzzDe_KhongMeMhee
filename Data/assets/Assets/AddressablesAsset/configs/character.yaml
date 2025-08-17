@@ -1,0 +1,158 @@
+- character: narrator
+  model: narrator
+  name: ''
+  action:
+    - default
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: me
+  model: me
+  name: me
+  action:
+    - default
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: Yamada_Minato_v01
+  model: Yamada_Minato_v01
+  name: Yamada Minato
+  action:
+    - tiredtalk
+    - idletalk
+    - close_eye_talk
+    - discontent
+    - suspect
+    - surprised
+    - smile
+    - smile2
+    - sad
+    - idle
+    - angry
+    - shy
+    - fun
+    - stunned
+    - relieved
+    - curious
+    - imagine
+  msg_color: ffffff
+  name_bgcolor: 6633FF
+- character: Yamada_Akari_v01
+  model: Yamada_Akari_v01
+  name: Yamada Akari
+  action:
+    - talk
+    - surprised
+    - sleep
+    - shy
+    - shocked
+    - sadtalk
+    - sad
+    - numb
+    - idle
+    - calmtalk
+    - calm
+    - angrytalk
+    - angry
+    - angryCute
+    - smile
+    - understand
+    - worry
+    - wonder
+    - pinch
+  msg_color: ffffff
+  name_bgcolor: 33CC99
+- character: Tavanchai_v01
+  model: Tavanchai_v01
+  name: Tavanchai
+  action:
+    - idle
+    - '03'
+    - '02'
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: Tan_v01
+  model: Tan_v01
+  name: Tan
+  action:
+    - talk
+    - smile
+    - shy
+    - 'no'
+    - idle
+    - happy
+    - fun
+    - angry
+    - bored
+    - sad
+    - confident
+    - wonder
+    - shocked
+    - hurt
+    - scared
+    - indifferent
+  msg_color: ffffff
+  name_bgcolor: D2B48C
+- character: man03_v01
+  model: man03_v01
+  name: man03
+  action:
+    - idle
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: man02_v01
+  model: man02_v01
+  name: คนรอบข้าง
+  action:
+    - idle
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: man01_v01
+  model: man01_v01
+  name: ตัวประกอบ A
+  action:
+    - idle
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: Chayanan_v01
+  model: Chayanan_v01
+  name: Chayanan
+  action:
+    - idle
+    - '03'
+    - '02'
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: Nightrose_v01
+  model: Nightrose_v01
+  name: Nightrose
+  action:
+    - talk
+    - suspicious2
+    - surprised1
+    - sadtalk
+    - sad
+    - idle
+    - happyTalk
+    - happy
+    - angrytalk
+    - angry
+    - smile
+    - worry
+  msg_color: ffffff
+  name_bgcolor: FFFACD
+- character: Enigma
+  model: Enigma
+  name: บุคคลปริศนา
+  action:
+    - tan
+    - nightrose
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: professor
+  model: professor
+  name: อาจารย์
+  action:
+    - aa
+    - bb
+    - cc
+  msg_color: ffffff
+  name_bgcolor: ffffff

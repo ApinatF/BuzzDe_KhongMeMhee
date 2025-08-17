@@ -1,0 +1,33 @@
+name: สองพี่น้องในมหาลัยสุดวุ่นวาย
+image: me
+avatar:
+  id: me
+  name: ""
+summary:
+  progress:
+    - key: var_minato
+      name: ค่ารูทเส้นทางของมินาโตะ
+      max: 100
+    - key: var_akari
+      name: ค่ารูทเส้นทางของอคาริ
+      max: 100
+    - key: rp_tan_akari
+      name: ค่าความสัมพันธ์ของแทนกับอคาริ
+      max: 200
+    - key: rp_nightrose_minato
+      name: ค่าความสัมพันธ์ของไนท์โรสกับมินาโตะ
+      max: 200
+group:
+  - รักโรแมนติก
+  - ชีวิตประจำวัน
+  - รอมคอม
+author:
+  - คนเขียน1
+  - คนเขียน2
+illustrator:
+  - คนวาด1
+  - คนวาด2
+mini_story: ทดสอบ
+to_be_continue: โปรดติดตามตอนต่อไป
+precarious: true
+ended: false

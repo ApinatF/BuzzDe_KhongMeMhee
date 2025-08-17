@@ -1,0 +1,8 @@
+- background: bg_nifront_wut
+- music: bgm_Your_Love_Is_Home
+- character: Yamada_Minato_v01
+  position: center
+  act: fun
+- msg: ยังไม่ได้ลงต่อครับ
+  character: Yamada_Minato_v01
+- delay: 60

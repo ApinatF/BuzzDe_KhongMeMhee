@@ -1,0 +1,8 @@
+- background: bg_living_room_yamada
+- music: bgm_Your_Love_Is_Home
+- character: Yamada_Akari_v01
+  position: center
+  act: smile
+- msg: ยังไม่ได้ลงต่อค่ะ
+  character: Yamada_Akari_v01
+- delay: 60

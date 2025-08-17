@@ -1,0 +1,901 @@
+- background: bedroom
+- music: bgm_startphone_1
+- msg: ณ ห้องนอนแห่งหนึ่งในบ้านของตัวละคร Minato และ Akari
+  character: narrator
+- msg: เสียงนาฬิกาปลุกดังขึ้น
+  character: narrator
+- music: bgm_Kuru_Kuru_KuKurin
+- character: Yamada_Minato_v01
+  position: center
+  act: idle
+- msg: 'เช้าแล้วหรอ… '
+  character: Yamada_Minato_v01
+- delay: 1
+- music: empty
+- msg: Minato ลุกขึ้นมายืดเส้นยืดสายแล้วก็ปิดนาฬิกาไป (ในห้องของ Minato)
+  character: narrator
+- msg: กี่โมงแล้วนะ….
+  character: Yamada_Minato_v01
+- msg: ….8:30 ป่านนี้แล้วหรอเนี้ย…. ต้องไปปลุกยัยนั้นก่อนละ
+  character: Yamada_Minato_v01
+- msg: >-
+    Minato แต่งตัวเป็นเครื่องแบบนักศึกษาแล้วเดินไปที่หน้าประตูห้องน้องสาว
+    (ฉากหน้าห้องน้องสาว)
+  character: narrator
+- background: living_room
+- delay: 1
+- msg: ' Akari ตื่นได้แล้วไม่งั้นจะสายเอานะ'
+  character: Yamada_Minato_v01
+- character: empty
+  position: center
+- character: Yamada_Akari_v01
+  position: center
+  act: idle
+- hide_msg: true
+- delay: 1
+- msg: …
+  character: Yamada_Akari_v01
+- character: empty
+  position: center
+- character: Yamada_Minato_v01
+  position: left
+  act: idle
+- character: Yamada_Akari_v01
+  position: right
+  act: idle
+- msg: Akari ได้ยินที่พี่พูดไหมเนี้ยตื่นได้แล้ว
+  character: Yamada_Minato_v01
+- msg: อืมม~~
+  character: Yamada_Akari_v01
+- msg: ถ้าไม่ลุกพี่จะเข้าไปปลุกเองนะ
+  character: Yamada_Minato_v01
+- msg: 'ค่าา~..ค่าา~ ขอเวลาหน่อยนะ~ '
+  character: Yamada_Akari_v01
+- msg: พี่จะรอที่หน้าประตูนะ
+  character: Yamada_Minato_v01
+- msg: ได้ค่าา
+  character: Yamada_Akari_v01
+- msg: Minato หลังจากปลุกน้องสาวก็ไปรอที่หน้าประตู
+  character: narrator
+- msg: มาแล้วๆ!
+  character: Yamada_Akari_v01
+- msg: วันหลังถ้าไม่ตื่นอีกเดี๋ยวทิ้งไว้อยู่ในห้องซะเลย
+  character: Yamada_Minato_v01
+- msg: ใจร้ายอะพี่! ไม่ได้สายขนาดนั้นซะหน่อย!
+  character: Yamada_Akari_v01
+- msg: อ๊าาา เปิดเทอมวันแรกแล้วสินะ แต่พี่ก็ยังรู้สึกอยากนอนเล่นเกมต่อจังเลยแหะ
+  character: Yamada_Minato_v01
+- msg: >-
+    นี่พี่ยังไม่ได้เรียนที่นี่ซะหน่อย พึ่งจะเปิดเทอมวันแรก
+    พี่ก็จะไม่ไปเรียนแล้วหรอ?
+  character: Yamada_Akari_v01
+- msg: ป่าวหรอก Akari พี่แค่รู้สึกเหมือนว่ายังเล่นเกมไม่หนำใจเลยน่ะ
+  character: Yamada_Minato_v01
+- msg: ' เล่นเกมมันก็ไม่ผิดหรอกพี่ แต่เปิดเทอมวันแรกพี่ต้องไปเรียนก่อนสิ!!'
+  character: Yamada_Akari_v01
+- msg: อือ… โอเคๆงั้นก็ไปไปกันเลยดีกว่า
+  character: Yamada_Minato_v01
+- msg: “สองพี่น้องในมหาลัยสุดวุ่นวาย”
+  character: narrator
+- hide_msg: true
+- delay: 5
+- background: bg_university_infront
+- msg: >-
+    Minato กับ Akari นั่งรถเมย์สาธารณะไปถึงหน้ามหาลัยในตอนที่ทั้ง 2
+    กำลังจะเดินเข้าไปในมหาลัย จู่ๆ ก็มีใครบางคนมาขวางทาง
+  character: narrator
+- character: man01_v01
+  position: center
+  act: idle
+- msg: โอ๊ะโอ! น้องสาว~ ไม่คุ้นหน้าเลยนะเป็นเด็กใหม่หรอ~?
+  character: man01_v01
+- msg: ใช่ค่ะ..ไม่ทราบว่าคุณคือ….
+  character: Yamada_Akari_v01
+- msg: เห้ยๆเจ้านั้นจะหลี่สาวอีกแล้วหวะ
+  character: man02_v01
+- msg: ไหนๆ
+  character: man02_v01
+- msg: >-
+    ผมหนะหรอ~
+    ผมคือรุ่นพี่ของคุณยังไงหละ~ว่าแต่ผู้ชายที่อยู่ข้างๆเธอนั้นใครกันหนะ~
+  character: man01_v01
+- character: Yamada_Akari_v01
+  position: right
+  act: idle
+- msg: อ่อ นี้พี่ชายของหนูเองค่ะรุ่นพี่ (หน้ากังวล)
+  character: Yamada_Akari_v01
+- character: Yamada_Minato_v01
+  position: left
+  act: idle
+- msg: สวัสดีครับรุ่นพี่ผมชื่อ Minato อยู่ปี 2 ครับยินดีที่ได้รู้จัก (หน้านิ่ง)
+  character: Yamada_Minato_v01
+- msg: เชอะ!...อาๆ ยินดีที่ได้รู้จักคุณพี่ชาย (หน้าไม่พอใจ)
+  character: man01_v01
+- msg: เหมื่อนจะไม่สำเร็จหวะ…นั้นใครวะหนะ
+  character: man02_v01
+- msg: แกๆผู้ชายคนนั้นเป็นใครอ่าาเท่จังมีปกป้องกันด้วย
+  character: man02_v01
+- msg: มีธุระอะไรกับน้องสาวผมหรอครับ (หน้าจริงจังเล็กน้อย)
+  character: Yamada_Minato_v01
+- msg: >-
+    ฉันก็แค่เห็นสาว~ที่ฉันไม่เคยเห็นมาก่อนเลยอยากช่วยนำทางไปตึกเรียนของนางให้เฉยๆเอง~
+    (หน้ากวนๆ)
+  character: man01_v01
+- msg: >-
+    ถ้าเรื่องนั้นไม่ต้องห่วงครับพวกเราศึกษาพื้นที่ในมหาลัยฯเรียบร้อยแล้วไม่จำเป็นต้องให้รุ่นพี่ช่วยหรอกครับ
+  character: narrator
+- msg: ใช่แล้วค่ะไม่เป็นไรค่ะ เดียวหาทางไปเองได้
+  character: Yamada_Akari_v01
+- msg: หืมดีแล้วหรอ ไม่คิดจะไปกับ พี่จริงๆ หรออาจจะมีบางจุดที่น้องๆไม่รู้ก็ได้นะ~
+  character: man01_v01
+- msg: >-
+    ขอโทษนะครับพวกเรา 2 คนขอตัวก่อนนะครับ *กำลังเดินเข้าไปในมหาลัย* “
+    (สีหน้าเบื่อหน่าย)
+  character: Yamada_Minato_v01
+- msg: หนอย!!
+  character: man01_v01
+- msg: แย่แล้วรุ่นพี่คนนั้นโกรธแล้ว
+  character: man02_v01
+- msg: เฮ้ยเดี๋ยวก่อนสิวะ *จับไหล่ Minato ที่กำลังจะเดินไป*
+  character: man01_v01
+- shake: left
+- msg: ผู้ชายคนนั้นไม่รอดแน่..
+  character: man02_v01
+- msg: แกคิดว่าพูดแค่นี้แล้วจากไปแบบนี้จะจบงั้นหรอไอเด็กเมื่อวานซืน!
+  character: man01_v01
+- character: Yamada_Minato_v01
+  position: center
+  act: idle
+- character: man01_v01
+  position: left
+  act: idle
+- msg: '*หันไปหา* ผมว่าเรื่องที่ผมพูดก็หมดไปแล้วนะครับรุ่นพี่ต้องการอะไรอีกหรอครับ'
+  character: Yamada_Minato_v01
+- msg: อย่าทำเท่ไปหน่อยเลยไอเด็กเหลือขอ!! *ง่างหมัด*
+  character: man01_v01
+- msg: เฮ้ยๆ!! ระวัง!
+  character: man02_v01
+- msg: พี่ค่ะอันตราย!!
+  character: Yamada_Akari_v01
+- msg: ในตอนนั้นเองหมัดของชายคนนั้นก็เข้ามาที่หน้า Minato ทันทีตอนนั้นเองก็
+  character: narrator
+- msg: '* โยกหัวหลบหมัดนั้นชิวๆ *'
+  character: Yamada_Minato_v01
+- delay: 2
+- msg: '?!?!'
+  character: man01_v01
+- msg: อู้ววว~~
+  character: man02_v01
+- msg: พี่ ?!
+  character: Yamada_Akari_v01
+- msg: ใช้ความรุนแรงแบบนี้ไม่ได้เลยนะครับ….”รุ่นพี่”
+  character: Yamada_Minato_v01
+- msg: >-
+    คะ..คะ..คือ เฮ้ๆๆ ใจเย็นๆก่อนนะน้อง..พะ..พี่แค่หยอกเล่นเฉยๆจริงๆนะ!
+    (หน้าตกใจและกลัวสุด)
+  character: man01_v01
+- msg: พี่คะ!เป็นไรมากไหม *ปัดมือตัวประกอบ A ออกแล้วไปดู Minato*
+  character: Yamada_Akari_v01
+- msg: พี่ไม่เป็นไรหรอก Akari だって君弱いもん
+  character: Yamada_Minato_v01
+- msg: '(datte kimi… Yowai mon) (เพราะว่าแกอ่อนแอไงหละ) '
+  character: Yamada_Minato_v01
+- msg: อะ..อะ..อะไรหนะ.. ช่วยพูดเป็นภาษาแถวนี้หน่อยสิเห้ย พี่จะเข้าใจมั้ยเนี่ย?!?
+  character: man01_v01
+- msg: ฉันรู้จักประโยคนี้นี่หนะมันมาจากอนิเมะเรื่องดังหนิ
+  character: man02_v01
+- msg: หลบหมัดของรุ่นพี่ได้แล้วก็พูดคำนั้นออกมานายแน่มากเด็กไหม่
+  character: man02_v01
+- msg: อะไรละครับ~ ผมก็พูดภาษาบ้านเกิดผมอยู่นะ คุณนั่นแหละที่เข้ามาเปิดก่อน
+  character: Yamada_Minato_v01
+- msg: ก็แค่อยากรู้จักยัยคนข้างๆนั่น แค่นั้นเองนะ
+  character: man01_v01
+- msg: >-
+    อ่อ งั้นก็คือคุณพี่ชาย กะหมายปองน้องสาวของผม
+    เพื่อเอาไปเข้าร่วมกลุ่มฮาเร็มงั้นหรอ~?
+  character: Yamada_Minato_v01
+- msg: >-
+    นะ..นี่หลอนป่าวเนี่ย แค่เข้ามาทักทายเฉยๆ
+    จะทำเป็นห่วงอะไรนักหนาเหมือนเป็นอะไรกันงั้นแหล่ะ
+  character: man02_v01
+- msg: >-
+    ก็ผมเป็นพี่ชายของนางหนิ 
+    แล้วแกเป็นใครมีสิทธิอะไรมาแตะต้องน้องสาวของฉันห่ะ!! 
+  character: Yamada_Minato_v01
+- msg: พูดได้ถูกใจมากเลยพรี่!
+  character: man02_v01
+- msg: >-
+    *ชงักเล็กน้อย* "เฮ้ๆๆ ใจเย็นน้อง! พี่แค่ทักทายเล่นๆเอง
+    ไม่คิดจะเปิดศึกแต่เช้านะ ฮ่าๆๆ
+  character: man01_v01
+- msg: 'ถ้าเข้าใจแล้วก็ขออนุญาติไปก่อนนะครับ *เดินผ่าน ตัวประกอบ A ไป* '
+  character: Yamada_Minato_v01
+- msg: 'Akari : ขอทางหน่อยนะคะ *เดินตาม Minato ไป*'
+  character: Yamada_Akari_v01
+- msg: >-
+    หึ! คิดว่าฉันจะจบแค่นี้หรือไงห่ะ!! * จับไหล่ Akari
+    ไว้แน่นก่อนจะแสยะยิ้มเจ้าเล่ห์ *
+  character: man01_v01
+- msg: ปะ…ปล่อยนะ!!
+  character: Yamada_Akari_v01
+- msg: หมอนั้นยังไม่หยุดอีกหรอหนะ
+  character: man02_v01
+- msg: >-
+    แหม่~ใจร้ายจังเลยนะ พี่อุตส่าห์มีน้ำใจจะช่วย...
+    แต่พี่ชายของแกก็ทำเสียแผนไปหมด!!
+  character: man01_v01
+- msg: >-
+    ปล่อยมือที่จับไหล่นั่นด้วยค่ะ และ
+    ก็ไม่มีใครอยากได้รับช่วยเหลือจากรุ่นพี่แปลกๆหรอกนะคะ 
+  character: Yamada_Akari_v01
+- msg: ปล่อยมือนั้นซะ! * พุ่งเข้ามาปัดมือรุ่นพี่ออก *
+  character: Yamada_Minato_v01
+- msg: Akari ไม่เป็นไรนะ *ดึง Akari มาอยู่ด้านหลัง*
+  character: Yamada_Minato_v01
+- msg: >-
+    ไม่เป็นอะไรค่ะ..*ดึงแขนเสื้อพี่ชายและชี้ไปที่รุ่นพี่*
+    เขาดูโมโหสุดๆไปเลยนะคะ 
+  character: Yamada_Akari_v01
+- msg: แกนะแก!!! *พุ่งเข้าไปจะใส่อีกหมัด*
+  character: man01_v01
+- msg: >-
+    นี้จะเป็นตัวเลือกในการเลือกตัวละครหลักที่คูณจะใช้ดำเนินเรื่องราวที่ต่างไปตามตัวละครที่เลือก
+  character: narrator
+- choice:
+    - msg: เลือกเล่นเป็น Minato
+      update:
+        - var_minato += 1
+        - var_akari -= 10
+    - msg: เลือกเล่นเป็น Akari
+      update:
+        - var_akari += 1
+        - var_minato -= 10
+      goto: my_story_ep1.0eer_lb_2
+  character: me
+  state: my_story_ep1.0eer_st_0
+- msg: ช่วยไม่ได้เจ็บหน่อยละนะรุ่นพี่!!
+  character: Yamada_Minato_v01
+- character: man01_v01
+  position: left
+  act: idle
+- shake: left
+- image: mcg_minatopunch
+- hide_msg: true
+- delay: 3
+- image: empty
+- goto: my_story_ep1.0eer_lb_3
+- msg: หยุดเลยไอรุ่นพี่เฮงซวย!! *เดินมาข้างหน้า Minato*
+  character: Yamada_Akari_v01
+  label: my_story_ep1.0eer_lb_2
+- msg: .....
+  character: narrator
+  label: my_story_ep1.0eer_lb_3
+- goto:
+    - my_story_ep1.0eer_lb_4 if var_minato >= 1
+    - my_story_ep1.0eer_lb_5
+- msg: โอ้ยยย!! จะ…เจ็บบ! * นอนลงไปดิ้น *
+  character: man01_v01
+  label: my_story_ep1.0eer_lb_4
+- msg: เก่งแต่ปากสมงสมองไม่ใช่หัดเจียมตัวซะบ้าง!
+  character: Yamada_Minato_v01
+- msg: ไปซะอยู่ห่างๆจากน้องฉันซะ!
+  character: Yamada_Minato_v01
+- msg: ฝะ…ฝากไว้ก่อนเถอะแก * รีบลุกขึ้นแล้วหนีไปทันที *
+  character: man01_v01
+- msg: หึ~พูดแบบนั้นจบไม่สวยซักราย
+  character: Yamada_Akari_v01
+- msg: >-
+    พี่ก็ว่างั้นแหละว่าแต่ว่านะ Akari
+    พี่ไม่ยักกะรู้น้องฮอตขนาดนี้นึกว่าเป็นแค่น้องที่ขี้เกียจคนนึงซะอีก
+  character: Yamada_Minato_v01
+- msg: นี้พี่…!! ให้มันน้อยๆหน่อยย!!
+  character: Yamada_Akari_v01
+- msg: >-
+    ฮ่าๆๅๆ…พี่ขอโทษๆ~…ในเมื่อน้องไม่เป็นไรงั้นเราก็เข้าไปเรียนดีใกล้ถึงเวลาเรียนแล้ว
+  character: Yamada_Minato_v01
+- msg: อาเคค่าา
+  character: Yamada_Akari_v01
+- msg: >-
+    2
+    พี่น้องวิ่งเข้ามหาลัยในขณะที่วงผู้คนกำลังแยกย้ายกันก็มีชายปริศนาแอบพูดแซวว่า
+  character: narrator
+- character: Enigma
+  position: center
+  act: tan
+- msg: สองพี่น้องนิสุดยอดจริงๆ เปิดเทอมวันแรกก็เอาสะแล้ว…..
+  character: Enigma
+- msg: …..ต่อไปนี้จะโดนอะไรอีกไหมเนี้ยย…
+  character: Enigma
+- goto: my_story_ep1.0eer_lb_6
+- msg: '*ชงักแบบใจสลาย* ตะ..ตะกี้ว่ายังไงนะ!'
+  character: man01_v01
+  label: my_story_ep1.0eer_lb_5
+- msg: あんた、男のくせに人前でよくそんな恥ずかしいこと平気でできるね。
+  character: Yamada_Akari_v01
+- msg: できるならもうちょっと丁寧な言葉遣いでも練習しなさいよ
+  character: Yamada_Akari_v01
+- msg: จะพูดอะไรหนะขอภาษาไทยสิเห้ย!
+  character: man01_v01
+- msg: ได้เดี๋ยวแปลให้ฟังเอง! ผู้ชายอะไรทำตัวหน้าไม่อายต่อที่สาธารณะเป็นไปได้
+  character: Yamada_Akari_v01
+- msg: ก็ควรไปฝึกวิธีการพูดให้มันสุภาพหน่อยเถอะค่ะ!!
+  character: Yamada_Akari_v01
+- msg: อะเอื่อก * เจ็บไปทั้งหัวใจ *
+  character: man01_v01
+- msg: >-
+    คิดว่าทำตัวเป็นเก่งแล้วจะได้หนูอย่างงั้นหรอยังไปอีก 100 ล้านปีหยะ!
+    ผู้ชายที่ดีกว่านี้มีตั้งเยอะ 
+  character: Yamada_Akari_v01
+- msg: เพราะฉนั้นไสหัวไปเลยค่ะ!! อย่าให้ฉันต้องเห็นหน้ารุ่นพี่อีกเป็นครั้งที่ 2 หละ
+  character: Yamada_Akari_v01
+- msg: .し..めんどくさいなー　どっか行け!
+  character: Yamada_Akari_v01
+- msg: (ชิ..น่ารำคาญชะมัด..ไปไหนก็ไป!)
+  character: Yamada_Akari_v01
+- msg: ' *กอดแขน Minato ทำหน้าซีเรียส*'
+  character: Yamada_Akari_v01
+- msg: ' A..Akari ไม่เห็นต้องแรงขนาดนั้นเลยหนิ'
+  character: Yamada_Minato_v01
+- msg: ก็ดูดิพี่ทำตัวแบบนี้แล้วแถมจะทำร้ายกันอีกไม่แจ้งตำรวจก็บุญแค่ไหนแล้วคะ!
+  character: Yamada_Akari_v01
+- msg: ' งั้นก็โทรเลยสิ *กระพริบตาข้างนึง*'
+  character: Yamada_Minato_v01
+- msg: 'ได้เลยย~จะเอาให้สำนึกไปเลย!! *แกล้งกดเบอร์* '
+  character: Yamada_Akari_v01
+- msg: >-
+    ดะ..ดะ..เดี๋ยวก่อนนขอโทษด้วยครับที่เสียมารยาทกับพวกคุณ!!ขอโทษจริงๆครับอย่าเรียกตำรวจเลยนะครับ!!
+  character: man01_v01
+- msg: หึครั้งนี้จะปล่อยไปก่อนละกันถ้ามีครั้งหน้าอีกได้ถึงซังเตแน่
+  character: Yamada_Akari_v01
+- msg: คะ…ครับ… *นั่งเศร้าพิงหน้ากำแพงมหาลัย*
+  character: man01_v01
+- msg: ให้มันได้อย่างงี้สิ  “Yare Yare Dawa”
+  character: Yamada_Akari_v01
+- msg: Akari เมื่อคืนดูอนิเมะจนดึกเลยสินะ
+  character: Yamada_Minato_v01
+- msg: เอ๋พี่รู้ได้ไง อะ
+  character: Yamada_Akari_v01
+- msg: ก็ประโยคตะกี้หนะพี่รู้นะว่ามาจากไหนเลยทำให้รู้
+  character: Yamada_Minato_v01
+- msg: เหหหห~~ พี่ก็ติ่งอนิเมะเหมื่อนกันนี่
+  character: Yamada_Akari_v01
+- msg: ช่างเรื่องนั้นก่อนเราต้องรีบแล้วนะเดี๋ยวสายกันพอดี
+  character: Yamada_Minato_v01
+- msg: ได้ค่ะพี่
+  character: Yamada_Akari_v01
+- msg: >-
+    2
+    พี่น้องวิ่งเข้ามหาลัยในขณะที่วงผู้คนกำลังแยกย้ายกันก็มีชายปริศนาแอบพูดแซวว่า
+  character: narrator
+- character: Enigma
+  position: center
+  act: tan
+- msg: สองพี่น้องนิสุดยอดจริงๆ เปิดเทอมวันแรกก็เอาสะแล้ว…..
+  character: Enigma
+- msg: …..ต่อไปนี้จะโดนอะไรอีกไหมเนี้ยย…
+  character: Enigma
+- msg: .....
+  character: narrator
+  label: my_story_ep1.0eer_lb_6
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
+- character: Yamada_Akari_v01
+  position: right
+  act: numb
+- character: Yamada_Minato_v01
+  position: left
+  act: idle
+- msg: วิชาแรกพี่เรียนวิชาอะไรหรอ (หน้าสงสัย)
+  character: Yamada_Akari_v01
+- msg: ' เรียนวิชา... นะ'
+  character: Yamada_Minato_v01
+- msg: พวกเราเรียนด้วยกันสินะ งั้นห้องเรียนก็ห้องข้างหน้านี้(หน้าปกติ)
+  character: Yamada_Akari_v01
+- msg: ถ้าถึงห้องแล้วพี่จะนั่งตรงไหนหรอ?
+  character: Yamada_Akari_v01
+- msg: >-
+    ถ้านั่งหน้าห้องจะเห็นข้อมูลชัดกว่าแต่
+    ถ้านั่งหลังห้องพวกเราจะเห็นทั้งหมดในชั้นเรียนว่าพวกเขาทำกันบ้าง
+  character: Yamada_Minato_v01
+- msg: >-
+    งั้นน้องเสนอเป็นนั่งหลังห้องกันจะได้เห็นทิวทัศน์ทั้งห้อง และ
+    เห็นข้อมูลโปรเจคเตอร์ได้เต็มที่ด้วย แตยังมีอีกสิ่งหนึ่งที่หน้าสนใจ
+    (หน้าปกติ)
+  character: Yamada_Akari_v01
+- msg: นั้นก็คือเราสามารถแอบทำอะไรหลังห้องก็ได้ยังไงละพี่
+  character: Yamada_Akari_v01
+- msg: สรุปแล้วเรามาเรียน หรือ มานั่งหาอะไรทำเนี้ย
+  character: Yamada_Minato_v01
+- msg: ก็เปิดมือถือหาข้อมูลไง แบบแอบไม่ให้อาจารย์เห็นว่าเราหาข้อมูลอะไรงี้ไง
+  character: Yamada_Akari_v01
+- msg: อ่อแล้วไป นึกว่าจะมาเป็นเหมือนพี่ ที่อยากแอบนั่งเล่นเกม
+  character: Yamada_Minato_v01
+- msg: พี่!!! คิดถึงแต่เกมติดเกมละสิ
+  character: Yamada_Akari_v01
+- msg: 'หยอกๆ หาข้อมูลเหมือนน้องนั่นและ '
+  character: Yamada_Minato_v01
+- msg: เอาเป็นว่านั่งหลังห้องแล้วกัน (หน้าปกติ)
+  character: Yamada_Minato_v01
+- msg: >-
+    หลังจากที่ Akari กับ Minato
+    ได้เลือกที่นั่งแล้วอาจารย์ก็กำลังเดินเข้ามาพร้อมถือข้อมูลเอกสารข้อมูล
+    แล้วเตรียมกำลังจะสอน
+  character: narrator
+- msg: >-
+    สวัสดีนักศึกษาทุกคนผม อาจารย์ ประจำวิชา สถิตินะครับ โดยเราจะ
+    (หลังจากนั้นพออาจารย์พูดถึงวิชา และ บอกว่าแต่ละสัปดาห์จะทำอะไร) 
+  character: professor
+- msg: >-
+    messageเอานักศึกษาทุกคนนะครับ อาจารย์อยากให้ทุกคนจับกลุ่มกันสัก 3 - 5 คน
+    ต่อกลุ่มน้อ ใครไม่มีกลุ่มหรือหาไม่ได้ให้มาหาอาจารย์
+  character: professor
+- msg: >-
+    หน้าห้องเดียวอาจารย์จะช่วยเองครับ
+    ,ใครที่จับกลุ่มได้แล้วสามารถออกจากห้องได้เลย
+  character: professor
+- msg: เอาไงดีเปิดมาก็จับกลุ่มเลยหรอ?! *มองซ้ายขวาเพื่อหาคน*
+  character: Yamada_Minato_v01
+- msg: ไม่รู้สิพี่หนูกำลังดูรายชื่อนักเรียนอยู่เลย * เช็กรายชื่อนักศึกษา *
+  character: Yamada_Akari_v01
+- msg: จะทำยังไงกันดี
+  character: Yamada_Minato_v01
+- msg: เปิดมาก็ให้จับกลุ่มเลยหรอ(เสียงหันซ้ายขวา)
+  character: man03_v01
+- msg: 'เอาใครเข้ากลุ่มดี ผู้ชายคนนั้นไหมเขาดูดีอะแก '
+  character: man03_v01
+- msg: นายๆ เราขอเข้ากลุ่มด้วยได้ไหม
+  character: man03_v01
+- msg: เอาไงดีพี่ ตอนนี้คนอื่นเริ่มหากลุ่มกันแล้ว( หน้ากังวล )
+  character: Yamada_Akari_v01
+- msg: พี่มีใครสนใจเป็นพิเศษอยากเอาใครเข้ากลุ่มไหม? (หน้าสงสัย)
+  character: Yamada_Akari_v01
+- msg: ตอนนี้พี่ยังไม่รู้เลยว่าจะเอาใครเข้ากลุ่มดี  (หน้ากำลังคิดอะไรอยู่)
+  character: Yamada_Minato_v01
+- msg: 'งั้น… '
+  character: Yamada_Akari_v01
+- msg: น้องมีคนหนึ่งที่น้องสนใจว่าจะเอาเข้ากลุ่ม น้องแค่มองผ่านๆ นะพี่ (หน้าคิดออก)
+  character: Yamada_Akari_v01
+- msg: คนไหนหรอ Akari (หน้าสงสัย)
+  character: Yamada_Minato_v01
+- character: Enigma
+  position: center
+  act: tan
+- msg: หึๆ * จับไหล่ทั้ง 2 คน *
+  character: Enigma
+- msg: นี้ๆพวกเธอ 2 คนหนะทำไมยังไม่ไปหากลุ่มอีกหละเดี๋ยวก็โดนทิ้งหรอก (หน้ามั้นใจ)
+  character: Enigma
+- msg: หืมม? *หันไปหาคนที่สะกิด*
+  character: Yamada_Minato_v01
+- msg: ห๊าาา?!  แกเป็นใครวะ? (หน้ากวนๆปนยิ้มนิดหน่อย)
+  character: Yamada_Minato_v01
+- msg: เอ้า ลืมกันเฉย แทนไง คงกะพัน จิตรคำแหง ไงโถ่วว (หน้ายิ้ม)
+  character: Enigma
+- msg: อ่อรุ่นพี่ขี้แอ็กคนนั้นเองหรอคะ (หน้าเข้าใจ)
+  character: Yamada_Akari_v01
+- character: Tan_v01
+  position: center
+  act: fun
+- msg: ขี้แอ็ก อะไรหละ Akari เธอนี้ก็ยังเกาะติด Minato ไม่เปลี่ยนเลยนะ (หน้าขำ)
+  character: Tan_v01
+- msg: >-
+    ก็พี่หนูเป็นคนที่น่าเชื่อถือมากกว่า พี่แทนอะสิ
+    หนูเลยไม่ค่อยอยากเกาะพี่แทนเท่าไหร่ (หน้ายิ้ม)
+  character: Yamada_Akari_v01
+- msg: ' ใจเย็นๆ Akari อย่าไปอารมณ์ร้อนกับคนที่ใช้แต่กำลังในการตัดสินสิ (หน้าเบื่อหน่าย)'
+  character: Yamada_Minato_v01
+- msg: Minato!! แกเองก็เข้าข้างน้องสาวงั้นหรอ!! ใจร้ายเกินไปแล้ว! ( หน้าน้อยใจ )
+  character: Yamada_Minato_v01
+- msg: หื้อ!!!!!!! この人、かわいくてちょっかいを出したくなっちゃう～
+  character: Yamada_Akari_v01
+- msg: (ผู้ชายคนนี้ดูน่ารักน่าแกล้งจังเลยยๆๆ) (หน้ายิ้มมุมปาก)
+  character: Yamada_Akari_v01
+- msg: เมื่อกี่พูดว่าอะไรน่า Akari (หน้าสงสัย)
+  character: Tan_v01
+- msg: หนูแค่บอกว่าพี่ซื้อบื้อค่ะ
+  character: Yamada_Akari_v01
+- msg: 'สะงั้น เหอะะ!! '
+  character: Tan_v01
+- msg: >-
+    เอาเถอะได้เจอเพื่อนเก่าอย่างงี้ค่อยชื้นใจหน่อยว่าไงหละจะมาจะมาจับกลุ่มกันไหมหละ
+    (หน้าสงสัย)
+  character: Tan_v01
+- msg: ก็ดีนะ ยังมีคำตอบอื่นอีกหรือไง เพื่อน (หน้านิ่ง)
+  character: Yamada_Minato_v01
+- msg: ลุกขึ้นแล้วจับมือกับแทนแบบมิตรภาพลูกผู้ชาย
+  character: Yamada_Minato_v01
+- msg: โห้~~ มิตรภาพลูกผู้ชายนี้นี้มันดีจริงๆเลย (หน้ามั้นใจ)
+  character: Tan_v01
+- msg: มิตรภาพลูกผู้ชายเป็นยังไงอะพี่ Minato (หน้านิ่งๆ)
+  character: Yamada_Akari_v01
+- msg: >-
+    อืมมมม จะพูดไงดีนะถ้าให้พี่บอกก็คือผู้ชายจับมือกัน และ เปิดอกคุยกันนะ
+    (หน้านิ่งๆ)
+  character: Yamada_Minato_v01
+- msg: เปิดอกคุยกันที่พี่พูดถึงนิหมายถึงเปิดอกแบบนี้ หรือ ป่าว (หน้าปกติ)
+  character: Yamada_Akari_v01
+- msg: ไม่ใช่เฟ้ยย น้องมันหมายถึงจับมือกันต่างหากละะ (หน้าอธิบาย)
+  character: Tan_v01
+- msg: อ่อออ (หน้าเข้าใจ)
+  character: Yamada_Akari_v01
+- msg: >-
+    akari มองบนใส่ทั้ง 2 ที่กำลังจับมือกันอย่าง งง งวย และ สักพักน้อง Akari
+    ก็สะกิด พี่Minato
+  character: Yamada_Akari_v01
+- msg: พี่Minato น้องหิวข้าวแล้วไป กินข้าวกันพี่ (หน้ายิ้ม)
+  character: Yamada_Akari_v01
+- msg: 'akari มองพี่ด้วยสีหน้าที่อยากพักหลังจากจับงานกลุ่ม '
+  character: narrator
+- msg: >-
+    ถ้างั้นไหนๆก็จับกลุ่มได้แล้วเรา 3 คนไปกินข้าวกันดีกว่าจะมาด้วยไหมแทน
+    (หน้าปกติ)
+  character: Yamada_Minato_v01
+- msg: เอาดิกำลังหิวอยู่พอดี (หน้าปกติ)
+  character: Tan_v01
+- msg: >-
+    หลังจากที่ Minato กับ Akari ได้แทนที่เป็นเพื่อนสนิทเข้ากลุ่มทั้ง 3
+    คนก็ออกจากตึกเพื่อไปหาอะไรกินที่โรงอาหาร
+  character: narrator
+- msg: มาถึงกันแล้วโรงอาหารกลาง (หน้าปกติ)
+  character: Yamada_Minato_v01
+- msg: ในที่สุดก็จะได้กินข้าวแล้ว (หน้ายิ้ม)
+  character: Yamada_Akari_v01
+- msg: งั้นฉันไปสั่งข้าวก่อนนะไปเจอกันที่โต๊ะหละ (หน้ายิ้ม)
+  character: Tan_v01
+- msg: โอเค (หน้าปกติ)
+  character: Yamada_Minato_v01
+- msg: หลังจากนั้นแทนก็แยกตัวไปซื้อข้าวร้านที่แทนกินประจำ
+  character: narrator
+- goto:
+    - my_story_ep1.0eer_lb_7 if var_minato >= 1
+    - my_story_ep1.0eer_lb_8
+- msg: เอาหละพี่จะกินอะไรกันดีหละ (หน้าสงสัย)
+  character: Yamada_Akari_v01
+  label: my_story_ep1.0eer_lb_7
+- msg: อยากกิน
+  character: Yamada_Minato_v01
+- choice:
+    - msg: ก๊วยจั๊บญวน
+    - msg: ข้าวมันไก่
+    - msg: แกงหระหรี่
+  character: me
+  state: my_story_ep1.0eer_st_1
+- msg: พี่นี้ชอบกินของพวกนี้จิงๆเลย
+  character: Yamada_Akari_v01
+- msg: ก็ของกินที่นี้ดูน่ากินมากเลยหนิ
+  character: Yamada_Minato_v01
+- msg: >-
+    เอาเถอะถ้ามีของที่ตัวเองอยากกินใครจะห้ามใจไหวถ้างั้นพี่จะไปสั่งของพี่น้องก็สั่งของน้องเลย
+  character: Yamada_Minato_v01
+- msg: โอเคพี่งั้นเดียวน้องไปสั่งของกินที่อยากกินก่อนแล้ว กลับมาเจอกันที่โต๊ะนะ
+  character: Yamada_Akari_v01
+- msg: แม่ค้าครับผมเอาอันนี้จานนึงครับ
+  character: Yamada_Minato_v01
+- goto: my_story_ep1.0eer_lb_9
+- msg: เอาหละน้องอยากจะกินอะไรกันดีหละ (หน้าสงสัย)
+  character: Yamada_Minato_v01
+  label: my_story_ep1.0eer_lb_8
+- msg: น้องอยากกิน
+  character: Yamada_Akari_v01
+- choice:
+    - msg: เครป
+    - msg: น้ำแข็งไส
+    - msg: ขนมปังปิ้ง
+  character: me
+  state: my_story_ep1.0eer_st_2
+- msg: นั้นมันของหวานไม่ใช่หรือไงเดี๋ยวก็ไม่อิ่มหรอก
+  character: Yamada_Minato_v01
+- msg: ' เถอะหน่าพี่ของหวานที่นี้น่ากินสุดไปเลยย'
+  character: Yamada_Akari_v01
+- msg: >-
+    เอาเถอะถ้ามีของที่ตัวเองอยากกินใครจะห้ามใจไหวถ้างั้นพี่จะไปสั่งของพี่น้องก็สั่งของน้องเลย
+  character: Yamada_Minato_v01
+- msg: โอเคพี่งั้นเดียวน้องไปสั่งของกินที่อยากกินก่อนแล้ว กลับมาเจอกันที่โต๊ะนะ
+  character: Yamada_Akari_v01
+- msg: แม่ค้าครับผมเอาอันนี้จานนึงครับ
+  character: Yamada_Minato_v01
+- msg: พี่แม่ค้าคะ! เอา… 2 ชิ้น คะ
+  character: Yamada_Akari_v01
+- msg: หลังจากนั้นทั้ง 3 ก็ซื้อของที่ตัวเองอยากกินมารวมตัวที่โต๊ะ
+  character: narrator
+  label: my_story_ep1.0eer_lb_9
+- msg: อาหารที่โรงอาหารนี้น่ากินทุกจานเลยนะ
+  character: Yamada_Minato_v01
+- msg: เห็นด้วยเลยย!!
+  character: Yamada_Akari_v01
+- msg: ใช่ไหมหละ~นี้เป็นโรงอาหารที่ฉันชอบมากินเป็นประจำเลยนะ
+  character: Tan_v01
+- msg: จริงหรอพี่ Minato ที่พี่แทนชอบอะ
+  character: Yamada_Akari_v01
+- msg: พี่ว่าอาจจะใช่ก็ได้นะเพราะปกติแทนก็มากินบ่อยอยู่นะ
+  character: Yamada_Minato_v01
+- msg: อ่อ หรอพี่
+  character: Yamada_Akari_v01
+- msg: ไม่เชื่อพี่แทนสุดเท่คนนี้บ้างเลอะ Akari
+  character: Tan_v01
+- msg: ไม่มีทางค่ะ ลิ้นจระเข้อย่างพี่แทนลิ้มรสชาติอาหารได้ด้วยหรอคะ!!!!
+  character: Yamada_Akari_v01
+- msg: เอ้าทำไมอะพูดกันแบบนี้หละโห้วววว
+  character: Tan_v01
+- msg: ไม่รู้สิค่ะ พี่แต่สัญชาตญาณน้องมันบอกว่างั้น
+  character: Yamada_Akari_v01
+- msg: Akari ใจเย็นๆ นะอย่าพึ่งคิดกับแทนอย่างงั้นมันก็มีเครดิตอยู่
+  character: Yamada_Minato_v01
+- msg: Minato เรามันไม่น่าเชื่อถือขนาดนั้นเลยหรอ
+  character: Tan_v01
+- msg: อือใช่!!!!
+  character: Yamada_Minato_v01
+- msg: เอ้าา
+  character: Tan_v01
+- msg: หยอกๆ
+  character: Yamada_Minato_v01
+- character: Enigma
+  position: center
+  act: nightrose
+- msg: เออขอโทษนะค่า…
+  character: Enigma
+- msg: ครับว่า * มองไปหาตามเสียง *
+  character: Yamada_Minato_v01
+- msg: สวัสดีค่ะ
+  character: Enigma
+- msg: เออสวัสดีครับไม่ทราบว่าคุณคือ…
+  character: Yamada_Minato_v01
+- character: Nightrose_v01
+  position: center
+  act: idle
+- msg: >-
+    ซอรี่ค่ะ ลืมแนะนำตัวเลย หนูอยู่ปี 1 ชื่อ Nightrose(ไนท์โรส) ค่ะ
+    พอดีว่าที่ตรงอื่นมันเต็มแล้วหนูขอนั่งด้วยได้ไหมคะ?
+  character: Nightrose_v01
+- msg: โอ้ได้สิๆมานั่งเลยพี่ๆดูสิหนูเจอปีเดียวกันด้วย!!
+  character: Yamada_Akari_v01
+- msg: ดีใจด้วยนะ Akari เจอรุ่นเดียวกันแล้ว
+  character: Yamada_Minato_v01
+- msg: นี้ๆเราชื่อ Akari อยู่ปี 1 ยินดีที่ได้รู้จักนะ Nightrose!
+  character: Yamada_Akari_v01
+- msg: ยินดีที่ได้รู้จักค่ะ Akari แล้วก็คนที่อยู่ข้างๆคือ..
+  character: Nightrose_v01
+- msg: นี้พี่ชายของฉันเองชื่อ Minato เขาเป็นพี่ที่ขี้เกียจสุดๆเลยหละ
+  character: Yamada_Akari_v01
+- msg: เดี๋ยวเถอะ Akari พี่ก็ไม่ได้ขี้เกียจขนาดนั้นซะหน่อย * เคาะหัว Akari ทีนึง *
+  character: Yamada_Minato_v01
+- msg: อึก!?! เจ็บนะพี่!
+  character: Yamada_Akari_v01
+- msg: แค่นี้เองร้องเจ็บมาได้
+  character: Yamada_Minato_v01
+- msg: ทั้ง 2 คนดูสนิทสนมสนกับเป็นพี่น้องจริงๆเลยนะคะ
+  character: Nightrose_v01
+- msg: ใช่ไหมหล่าา บอกแล้ว 2 พี่น้องนี้แหละตัวจี๊ดเลยแหละ
+  character: Tan_v01
+- msg: เงียบปากไปเลยแทนพี่น้องคุยกันอยู่!
+  character: Yamada_Minato_v01
+- msg: โดนดุซะแล้วสิ(เสียงนั่งลง)
+  character: Tan_v01
+- msg: 'ฮุ~ๆ ขออนุญาตินะคะ~ *นั่งลงและวางถาดอาหาร * '
+  character: Nightrose_v01
+- msg: หืมก๊วยจั๊บหรอครับ * มองที่อาหารของ Nightrose *
+  character: Yamada_Minato_v01
+- msg: >-
+    ใช่แล้วค่าหนูเลิฟมากๆเลย น้ำซุบที่กลมกล่อม~ เส้นที่ซู้ดได้แบบเต็มที่
+    แล้วก็หมูกรอบนี้อีก~ เป็นเมนูที่ดิฉันชอบตั้งแต่ก่อนเข้าเรียนเลยค่ะ!
+  character: Nightrose_v01
+- msg: หืมมน้องอธิบายเก่งเชียวนะชอบกินอย่างงั้นหรอ
+  character: Yamada_Minato_v01
+- msg: นี้อย่าบอกนะว่าเธอก็สายกินเหมื่อนฉันหนะ! *ตื่นเต้น*
+  character: Yamada_Akari_v01
+- msg: เยส!! หนูชอบอาหารของที่นี้มากเลยค่ะ
+  character: Nightrose_v01
+- msg: ฉันเองก็ด้วย!! อาหารของที่นี้สุดยอดไปเลยหละ!!
+  character: Yamada_Akari_v01
+- msg: พวกเธอ 2 คนดูจะคุยกันถูกคอน่าดูเลยนะ
+  character: Yamada_Minato_v01
+- msg: ฉันเห็นด้วยเลยหละ
+  character: Tan_v01
+- msg: เอาหละ! อิท ทาม ทู อีท!!
+  character: Nightrose_v01
+- msg: อะตะเกียบมัน!! * เผลอทำตะเกียบตก *
+  character: Nightrose_v01
+- msg: ไม่น่าาาา! แล้วฉันจะทำยังไงหละทีนี้ TT
+  character: Nightrose_v01
+- msg: เออถ้าไม่ว่าอะไรเชิญเอาอันนี้ไปใช่สิครับ * ยื่นตะเกียบให้ *
+  character: Yamada_Minato_v01
+- msg: อะขอบคุณมากเลยค่ะ มิสเตอร์~
+  character: Nightrose_v01
+- msg: ว่าแต่น้องไม่ได้หยิบช้อนส้อมมาหรอ
+  character: Yamada_Minato_v01
+- msg: >-
+    ก็อยากหยิบอยู่หละค่ะ…แต่ว่ามัน เอาต์ ออฟ สตอก์
+    แล้วหนะค่ะ…เหลือแค่ตะเกียบแล้วค่ะ
+  character: Nightrose_v01
+- msg: อืมมม * คิดบางอย่างได้ * ถ้าอย่างงั้นให้ผมสอนการใช่ตะเกียบให้ไหมครับ
+  character: Yamada_Minato_v01
+- msg: ได้จริงๆหรอค่ะ ถ้าได้จะช่วยหนูได้มากเลยค่ะ
+  character: Nightrose_v01
+- msg: วิ้วว~~ Minato เปิดเทอมวันแรกมาก็มีสาวมาติดซะแล้วไม่ธรรมดาเลยจริง~ๆ
+  character: Tan_v01
+- msg: ' เงียบปากไปก่อนที่ฉันจะเอาตะเกียบเสียบรูจมูกทั้ง 2 ของแกซะไอแทน'
+  character: Yamada_Minato_v01
+- msg: นะ…น่ากลัวจังเลยนะนายนี้
+  character: Tan_v01
+- msg: เอาหละต้องทำอย่างงี้นะ
+  character: Yamada_Minato_v01
+- msg: ตอนนี้ Minato กำลังสอน Nightrose ใช้ตะเกียบอย่างประณีต
+  character: narrator
+- msg: ร..รุ่นพี่ Minato ใช้ตะเกียบเก่งจังเลย * ขยับมือไปตามที่ Minato สอน*
+  character: Nightrose_v01
+- msg: เมื่อก่อนพวกเราอยู่ที่ญี่ปุ่นเลยได้ใช่ตะเกียบตลอดเลยหนะ
+  character: Yamada_Minato_v01
+- msg: อย่างงี้นี้เอง..ฮึบ! * พยายามจับตะเกียบตามที่สอน *
+  character: Nightrose_v01
+- msg: ไม่ไหวอ่าา~~ยากเกินไป ตะเกียบหลุดมืออีกแล้ว TT(เสียงหมับ)
+  character: Nightrose_v01
+- msg: ถ้างั้นขออนุญาตนะครับ * เอามือตัวเองไปจับมือ Nightrose *
+  character: Yamada_Minato_v01
+- msg: เอ๋!?!
+  character: Nightrose_v01
+- msg: ขยับตามมือผมนะครับ แบบนี้นะครับ
+  character: Yamada_Minato_v01
+- msg: อะ..อ่าาา!?..คือว่าาา…..
+  character: Nightrose_v01
+- msg: (มือรุ่นพี่…อุ่นจังเลย..)
+  character: Nightrose_v01
+- msg: แล้วก็แบบนี้เรียบร้อยยละ….ทีนี้ลองขยับนิ้วขึ้นลงดูสิ(เสียง แกร็กๆ)
+  character: Yamada_Minato_v01
+- msg: ดะ..ได้ค่ะ *ขยับตะเกียบดู*
+  character: Nightrose_v01
+- msg: ทำได้แล้วค่ะรุ่นพี่! ขอบคุณมากๆเลยค่ะ!
+  character: Nightrose_v01
+- msg: ไม่เป็นไรหรอก เอาหละกินกันต่อดีกว่า *ปล่อยมือออกจากมือ Nightrose*
+  character: Yamada_Minato_v01
+- msg: พี่นี้ก็เก่งเหมือนกันนะสอนคนด้วยได้
+  character: Yamada_Akari_v01
+- msg: ก็จริงนะว่างๆ สอนหน่อยสิเผื่อจะได้ลองเอาไปใช้ตอนทำงาน
+  character: Tan_v01
+- msg: ได้นะ พี่แทน~ แต่พี่ต้องแลกกับการที่ต้องเลี้ยงขนม หนู และ พี่ Minato นะ~
+  character: Yamada_Akari_v01
+- msg: คิดหนักเลยที่นี้ ตังก็เสียแลกกับการได้มารยาทงั้นหรอ เอาดีไหมนะ
+  character: Tan_v01
+- msg: >-
+    ลองคิดดูนะพี่แทน~ นอกจากจะได้มารยาทแล้วยังได้ความรู้อีกมากมายเลยนะพี่
+    แลกกับขนมนิดหน่อยเองนะๆ
+  character: Yamada_Akari_v01
+- msg: Akari หยุดแกล้งแทนก่อน
+  character: Yamada_Minato_v01
+- msg: ไม่ต้องคิดไรมากหรอกแทนเดี๋ยวก็เรียนรู้เรื่อยๆ ได้นั้นแหละ
+  character: Yamada_Minato_v01
+- msg: >-
+    เออ พอเองตอบค่อยโลงใจขึ้นมาหน่อย หรือ
+    ป่าวนะไม่ใช่ว่าแกคิดจะทำอะไรลับหลังอีกนะ
+  character: Tan_v01
+- msg: ไม่มีหรอกเว้ยยย
+  character: Yamada_Minato_v01
+- msg: >-
+    ในขณะที่แทนโดนแกล้งทุกคนในกลุ่มต่างหัวเราะออกกันอย่างสนุกสนาน และ
+    เริ่มคุยกันบ่อยขึ้นก่อนที่จะแยกย้ายกันไป
+  character: narrator
+- msg: เห้ยตามฉันมาทำไมเนี้ย
+  character: Tan_v01
+- goto:
+    - my_story_ep1.0eer_lb_10 if var_minato >= 1
+    - my_story_ep1.0eer_lb_13
+- msg: ป่าวหนิแค่จะไปร้านขนมที่เคยซื้อให้ Akari กินแกหนะแหละที่ตามฉันมา
+  character: Yamada_Minato_v01
+  label: my_story_ep1.0eer_lb_10
+- msg: ก็ไม่ได้ตามซะหน่อยแค่จะมาซื้อขนมเหมื่อนกัน
+  character: Tan_v01
+- msg: งั้นหรอ
+  character: Yamada_Minato_v01
+- msg: แถวยาวเป็นหางว่าวเลยหวะ
+  character: Yamada_Minato_v01
+- msg: ก็ปกติของร้านนี้นะขายดีเป็นเทน้ำเทท่าเลย
+  character: Tan_v01
+- msg: เฮ้อ~ ฉันไม่มีความอดทนรอคิวยาวขนาดนั้นด้วยสิ
+  character: Tan_v01
+- msg: นี้Minatoจะว่าไรไหมถ้าฉันขอฝากให้นายต่อแถวซื้อให้ฉันหน่อยหนะ
+  character: Tan_v01
+- msg: อ่าได้ๆ แล้วของแกมีอะไรบ้างอะ
+  character: Yamada_Minato_v01
+- msg: แครกเกอร์ กับ กาแฟนะ
+  character: Tan_v01
+- msg: โอเค
+  character: Yamada_Minato_v01
+- msg: '*เดินเข้าไปในร้านขนมสักพัก*'
+  character: Yamada_Minato_v01
+- msg: อะแทนของที่สั่งแครกเกอร์ กับ กาแฟได้ละนะ
+  character: Yamada_Minato_v01
+- msg: minato ควรทำอย่างไรดี
+  character: narrator
+- choice:
+    - msg: เฮ้ยจ่ายมาด้วยไม่ได้ซื้อฟรีๆนะเว้ย
+    - msg: ไม่ได้เจอตั้งนานเดี๋ยวเลี้ยงเอง
+      goto: my_story_ep1.0eer_lb_11
+  character: me
+  state: my_story_ep1.0eer_st_3
+- msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย(ค้นกระเป๋า ฉึบๆ)
+  character: Tan_v01
+- msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม*(เสียง แกรบ)
+  character: Tan_v01
+- msg: เออไว้เจอกัน
+  character: Yamada_Minato_v01
+- goto: my_story_ep1.0eer_lb_12
+- msg: 'เห้ยแปลกดีนะอยู่ดีๆก็ เลี้ยงปกติไม่ค่อยเห็นเลี้ยงนิ แต่ก็ขอบคุณนะ '
+  character: Tan_v01
+  label: my_story_ep1.0eer_lb_11
+- msg: พูดอย่างงี้สงสัยอยากโดนเก็บตังสิท่า
+  character: Yamada_Minato_v01
+- msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้
+  character: Tan_v01
+- msg: อ่อออแล้วไป
+  character: Yamada_Minato_v01
+- msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม*(เสียง แกรบ)
+  character: Tan_v01
+- msg: เออไว้เจอกัน
+  character: Yamada_Minato_v01
+- msg: มาวันแรกก็เกิดเรื่องเลย กลับบ้านดีกว่า
+  character: Yamada_Minato_v01
+  label: my_story_ep1.0eer_lb_12
+- goto: my_story_ep1.0eer_lb_16
+- msg: >-
+    ป่าวนิค่ะ จะไปร้านขนมเพื่อซื้อของกินแล้วไปเดินเล่นแถวมหาลัยสักหน่อย
+    ไม่ใช่พี่แทนหรอ~~~ที่ตามมานะ
+  character: Yamada_Akari_v01
+  label: my_story_ep1.0eer_lb_13
+- msg: ก็ไม่ได้ตามซะหน่อยแค่จะมาซื้อขนมเหมื่อนกัน
+  character: Tan_v01
+- msg: งั้นหรอ
+  character: Yamada_Akari_v01
+- msg: 'อะ..แถวยาวจังเลย..จะได้กินไหมนะ.. '
+  character: Yamada_Akari_v01
+- msg: ก็ปกติของร้านนี้นะขายดีเป็นเทน้ำเทท่าเลย
+  character: Tan_v01
+- msg: เฮ้อ~ ฉันไม่มีความอดทนรอคิวยาวขนาดนั้นด้วยสิ
+  character: Tan_v01
+- msg: นี้Akariจะว่าไรไหมถ้าฉันขอฝากให้เธอต่อแถวซื้อให้ฉันหน่อยหนะ
+  character: Tan_v01
+- msg: ได้ค่ะพี่แทน แล้วของพี่มีอะไรบ้างคะ?
+  character: Yamada_Akari_v01
+- msg: แครกเกอร์ กับ กาแฟนะ
+  character: Tan_v01
+- msg: โอเค
+  character: Yamada_Akari_v01
+- msg: '*เดินเข้าไปในร้านขนมสักพัก*'
+  character: Yamada_Akari_v01
+- msg: อะแทนของที่สั่งแครกเกอร์ กับ กาแฟได้ละนะ
+  character: Yamada_Akari_v01
+- msg: Akari ควรทำอย่างไรดี
+  character: narrator
+- choice:
+    - msg: เงินหละพี่หนูไม่ได้ซื้อให้ฟรีๆนะคะ
+    - msg: อะนี้หนูเลี้ยง (ค่าความสัมพันธ์เพิ่ม)
+      goto: my_story_ep1.0eer_lb_14
+  character: me
+  state: my_story_ep1.0eer_st_4
+- msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย(ค้นกระเป๋า ฉึบๆ)
+  character: Tan_v01
+- msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม*(เสียง แกรบ)
+  character: Tan_v01
+- msg: ไว้เจอกันใหม่ค่ะพี่แทน
+  character: Yamada_Akari_v01
+- goto: my_story_ep1.0eer_lb_15
+- msg: 'เห้ยแปลกดีนะอยู่ดีๆก็ เลี้ยงปกติไม่ค่อยเห็นเลี้ยงนิ แต่ก็ขอบคุณนะ '
+  character: Tan_v01
+  label: my_story_ep1.0eer_lb_14
+- msg: พี่แทนพูดอย่างงี้แสดงว่าอยากจ่ายตังให้หนูหรอ~
+  character: Yamada_Akari_v01
+- msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้
+  character: Tan_v01
+- msg: อ่อออแล้วไป
+  character: Yamada_Akari_v01
+- msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม*(เสียง แกรบ)
+  character: Tan_v01
+- msg: ไว้เจอกันใหม่ค่ะพี่แทน
+  character: Yamada_Akari_v01
+- msg: はぁー… มาวันแรกก็เจอคนแปลกๆ เยอะเลยฮ่าฮ่า กลับบ้านดีกว่า
+  character: Yamada_Akari_v01
+  label: my_story_ep1.0eer_lb_15
+- msg: จบ
+  character: narrator
+  label: my_story_ep1.0eer_lb_16

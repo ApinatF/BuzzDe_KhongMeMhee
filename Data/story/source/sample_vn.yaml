@@ -1,0 +1,104 @@
+- background: bg_1001
+- music: bgm_startphone
+- character: bear_v01
+  position: center
+  act: idle
+- msg: วันก่อนครับ
+  character: bear_v01
+- msg: ทำไมครับ
+  character: me
+- msg: ผมเปิดตู้เย็นแล้วผมกระเด็นเลยครับ
+  character: bear_v01
+- msg: เห้ยย โดนไฟช็อตหรอ??!!!
+  character: me
+- msg: เปล่าครับ ผมเจอผลัก!
+  character: bear_v01
+- sound: sv_040601
+- msg: นั่นมันผัก!!!
+  character: me
+- msg: ขอถามครับ 1+1= อะไร
+  character: bear_v01
+- choice:
+    - msg: ตอบ 1
+      update:
+        - var_score += 1
+    - msg: ตอบ 2
+      update:
+        - var_score += 3
+      goto: sample_vn_lb_0
+  character: me
+  state: sample_vn_st_0
+- msg: ฉันว่ามันผิดนะ
+  character: bear_v01
+- goto: sample_vn_lb_1
+- msg: ถั่วต้ม!!
+  character: bear_v01
+  label: sample_vn_lb_0
+- msg: หืมมม
+  character: me
+  label: sample_vn_lb_1
+- goto:
+    - sample_vn_lb_2 if var_score <= 1
+    - sample_vn_lb_3
+- character: bear_v01
+  position: center
+  act: angry
+  label: sample_vn_lb_2
+- msg: เป็นคำตอบที่ไม่น่าให้อภัยเลยย!!
+  character: bear_v01
+- goto: sample_vn_lb_4
+- character: bear_v01
+  position: center
+  act: laugh
+  label: sample_vn_lb_3
+- msg: เก่งมากๆเลย
+  character: bear_v01
+- character: bear_v01
+  position: center
+  act: idle
+  label: sample_vn_lb_4
+- msg: เอาหล่ะ มาลองนำภาพ cg ใส่กันเถอะ
+  character: bear_v01
+- msg: แต่นแต๊นน
+  character: bear_v01
+- cg: img_030901
+- delay: 2
+- cg: empty
+- msg: เพียงเท่านี้ก็ได้ cg แล้ว
+  character: bear_v01
+- msg: mini cg ก็ทำเหมือนกันนะ
+  character: bear_v01
+- image: mcg_010301
+- msg: mini cg จะมีขนาดเล็กกว่า คุณสามารถใช้แทนภาพ character ได้นะ
+  character: bear_v01
+- delay: 1
+- image: empty
+- msg: เท่านี้ก็เรียบร้อย
+  character: bear_v01
+- msg: ฉันขอเขย่าเธอได้ไหม
+  character: me
+- msg: ได้สิ เพียงแค่ใช้คำสั่ง shake
+  character: bear_v01
+- msg: ได้เลย จะเขย่าแล้วนะ
+  character: me
+- shake: center
+- msg: โอ้วว เขย่าได้จริงด้วย
+  character: me
+- msg: ฮ่าๆๆๆ
+  character: bear_v01
+- msg: เอาละ ถึงเวลาที่พวกคุณลองสร้างเรื่องของตัวเองหน่อยแล้ว
+  character: bear_v01
+- msg: จบตอน
+  character: me
+- msg: ภาพปก Gallery
+  character: ตั้งชื่ออัลบั้ม
+  override_name: select type of cg
+- msg: ภาพปก Gallery
+  character: ตั้งชื่ออัลบั้ม
+  override_name: select type of cg
+- character: raph_v01
+  position: center
+  act: idle
+- character: bear_v01
+  position: left
+  act: angry

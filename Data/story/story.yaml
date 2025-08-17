@@ -1,0 +1,26 @@
+- novel: my_story_ep1.0prologue
+  label: my_story_ep1.0prologue
+  title: EP1.0 สองพี่น้องในมหาลัยสุดวุ่นวาย
+  prologue: true
+- goto: 
+  - my_story_ep1.1_minato if var_minato >= 1
+  - my_story_ep1.1_akari
+- novel: my_story_test01
+  label: my_story_test01
+  title: test asset
+- novel: my_story_ep1.1_minato
+  label: my_story_ep1.1_minato
+  title: ep1.1 Minato Path (ยังไม่เริ่มลง)
+  cost:
+    type: ticket
+    value: 1
+- novel: my_story_ep1.1_akari
+  label: my_story_ep1.1_akari
+  title: ep1.2 Akari Path (ยังไม่เริ่มลง)
+  cost:
+    type: ticket
+    value: 1
+- ending:
+    title: Ending
+    subtitle: The End
+  label: Ending

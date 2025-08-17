@@ -1,0 +1,80 @@
+- music: bgm-startphone
+- sys: แบร์ สร้างกลุ่ม
+- avatar: bear_v01
+  image: img_030901
+- msg: แบร่...
+  avatar: bear_v01
+- msg: อะจึ๋ย
+  avatar: me
+- sticker: me_fear
+  avatar: me
+- typing: true
+  avatar: bear_v01
+- delay: 1
+- msg: ขอถามครับ 1+1= อะไร
+  avatar: bear_v01
+- choice:
+    - msg: ตอบ 1
+      update:
+        - var_score += 1
+    - msg: ตอบ 2
+      update:
+        - var_score += 3
+      goto: sample_chat_lb_0
+  avatar: me
+  state: sample_chat_st_0
+- msg: ฉันว่ามันผิดนะ
+  avatar: bear_v01
+- goto: sample_chat_lb_1
+- msg: ถั่วต้ม!!
+  avatar: bear_v01
+  label: sample_chat_lb_0
+- msg: หืมมม
+  avatar: me
+  label: sample_chat_lb_1
+- goto:
+    - sample_chat_lb_2 if var_score <= 1
+    - sample_chat_lb_3
+- msg: เป็นคำตอบที่ไม่น่าให้อภัยเลยย!!
+  avatar: bear_v01
+  label: sample_chat_lb_2
+- goto: sample_chat_lb_4
+- msg: เก่งมากๆเลย
+  avatar: bear_v01
+  label: sample_chat_lb_3
+- msg: เปลี่ยนโปรไฟล์ดีกว่า
+  avatar: me
+  label: sample_chat_lb_4
+- override_avatar: me
+  image: mc
+- delay: 1
+- msg: เรียบร้อย
+  avatar: me
+- msg: เปลี่ยนกลับได้มะ
+  avatar: bear_v01
+- msg: ได้
+  avatar: me
+- msg: ง่ายๆงี้เลยหรอ?
+  avatar: bear_v01
+- delay: 1
+- sound: sv_040601
+- override_avatar: me
+  image: empty
+- msg: เรียบร้อย
+  avatar: me
+- sys: จบห้องสนทนา
+- msg: message
+  avatar: select character
+- msg: message
+  avatar: select character
+- msg: select img name
+  avatar: select type of cg
+- msg: select img name
+  avatar: select type of cg
+- msg: message
+  avatar: select character
+- msg: ภาพปก Gallery
+  avatar: ตั้งชื่ออัลบั้ม
+  override_name: select type of cg
+- msg: message
+  avatar: select character
