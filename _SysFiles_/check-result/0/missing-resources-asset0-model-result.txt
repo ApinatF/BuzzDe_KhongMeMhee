@@ -1,0 +1,25 @@
+narrator [
+  {
+    "index": 0,
+    "error": [
+      "missing model #narrator"
+    ]
+  }
+]
+me [
+  {
+    "index": 0,
+    "error": [
+      "missing model #me"
+    ]
+  }
+]
+professor [
+  {
+    "index": 0,
+    "error": [
+      "missing model #professor-bb",
+      "missing model #professor-cc"
+    ]
+  }
+]
