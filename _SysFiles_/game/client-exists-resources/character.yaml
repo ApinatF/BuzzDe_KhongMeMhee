@@ -91,6 +91,13 @@
     - indifferent
   msg_color: ffffff
   name_bgcolor: D2B48C
+- character: Grandfather
+  model: Grandfather
+  name: ปู่
+  action:
+    - idle
+  msg_color: ffffff
+  name_bgcolor: ffffff
 - character: man03_v01
   model: man03_v01
   name: man03
@@ -154,5 +161,26 @@
     - aa
     - bb
     - cc
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: H_Disciplinary_Committee
+  model: H_Disciplinary_Committee
+  name: หัวหน้าคณะกรรมการวินัย
+  action:
+    - idle
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: Lucien_v01
+  model: Lucien_v01
+  name: Lucien
+  action:
+    - idle
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: Mob_D.C
+  model: Mob_D.C
+  name: คณะกรรมการวินัย
+  action:
+    - idle
   msg_color: ffffff
   name_bgcolor: ffffff

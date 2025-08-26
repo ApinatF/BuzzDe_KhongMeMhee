@@ -1,13 +1,10 @@
-- novel: my_story_ep1.0prologue
-  label: my_story_ep1.0prologue
-  title: EP1.0 สองพี่น้องในมหาลัยสุดวุ่นวาย
+- novel: novel_ep1.0
+  label: novel_ep1.0
+  title: EP1.0ใหม่
   prologue: true
-- goto: 
-  - my_story_ep1.1_minato if var_minato >= 1
-  - my_story_ep1.1_akari
-- novel: my_story_test01
-  label: my_story_test01
-  title: test asset
+- goto:
+    - my_story_ep1.1_minato if var_minato >= 1
+    - my_story_ep1.1_akari
 - novel: my_story_ep1.1_minato
   label: my_story_ep1.1_minato
   title: ep1.1 Minato Path (ยังไม่เริ่มลง)
