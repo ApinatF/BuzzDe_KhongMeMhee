@@ -163,13 +163,6 @@
     - cc
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: H_Disciplinary_Committee
-  model: H_Disciplinary_Committee
-  name: หัวหน้าคณะกรรมการวินัย
-  action:
-    - idle
-  msg_color: ffffff
-  name_bgcolor: ffffff
 - character: Lucien_v01
   model: Lucien_v01
   name: Lucien

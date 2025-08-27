@@ -251,17 +251,28 @@
 - choice:
     - msg: เลือกเล่นเป็น Minato
       update:
-        - var_path += 60
+        - var_minato += 1
+        - var_akari -= 10
     - msg: เลือกเล่นเป็น Akari
       update:
-        - var_path += 30
-      goto: novel_ep1.0_lb_0
+        - var_akari += 1
+        - var_minato -= 10
+      goto: novel_ep1.0_copy_lb_2
   character: me
-  state: novel_ep1.0_st_0
+  state: novel_ep1.0_copy_st_0
 - msg: “ช่วยไม่ได้อย่างงี้ต้องลุยกันสักยกละนะ!! “
   character: Yamada_Minato_v01
+- goto: novel_ep1.0_copy_lb_3
+- msg: น่าจะมากันแล้ว…
+  character: Yamada_Akari_v01
+  label: novel_ep1.0_copy_lb_2
+- goto:
+    - novel_ep1.0_copy_lb_4 if var_minato >= 1
+    - novel_ep1.0_copy_lb_5
+  label: novel_ep1.0_copy_lb_3
 - msg: 'โอ้ยยย!! จะ…เจ็บบ! * นอนลงไปดิ้น * '
   character: man01_v01
+  label: novel_ep1.0_copy_lb_4
 - msg: อย่าบอกนะว่านั้น! judo throw งั้นหรออ!
   character: man02_v01
 - msg: เวลาพูดอะไรให้เก่งเท่าปากด้วยนะครับรุ่นพี่ [หน้ายิ้ม]
@@ -273,33 +284,8 @@
   override_name: หัวหน้าคณะกรรมการวินัย
 - msg: ' อ๊ะ!? [หน้างง]'
   character: Yamada_Minato_v01
-- goto: novel_ep1.0_lb_1
-- msg: น่าจะมากันแล้ว…
-  character: Yamada_Akari_v01
-  label: novel_ep1.0_lb_0
-- msg: ทั้ง 2 คนนี้คือกรรมการวินัย!! หยุดการกระทำของพวกคุณซะดีๆ
-  character: Lucien_v01
-  override_name: หัวหน้าคณะกรรมการวินัย
-- msg: กะ..กรรมการวินัยงั้นหรอ!? ไปก่อนหละ!!
-  character: man01_v01
-- msg: จับหมอนั้นเอาไว้ให้ได้!
-  character: Lucien_v01
-  override_name: หัวหน้าคณะกรรมการวินัย
-- msg: Roger!
-  character: Mob_D.C
-- msg: ขอบคุณมากค่ะคุณกรรมการวินัย
-  character: Yamada_Akari_v01
-- msg: เอ๋ไปเรียกมาตอนไหนงั้นหรอ Akari
-  character: Yamada_Minato_v01
-- msg: อ๋ออพอดีว่า
-  character: Yamada_Akari_v01
-- goto:
-    - novel_ep1.0_lb_2 if var_path >= 50
-    - novel_ep1.0_lb_3
-  label: novel_ep1.0_lb_1
 - msg: นั้นมัน!! หัวหน้าคณะกรรมการวินัยหนิ
   character: man01_v01
-  label: novel_ep1.0_lb_2
 - msg: ฝะ…ฝากไว้ก่อนเถอะแก * รีบลุกขึ้นแล้วหนีไปทันที *
   character: man01_v01
 - msg: คิดว่าจะหนีได้งั้นหรอ
@@ -388,11 +374,13 @@
 - msg: ปีนี้คงจะสนุกแน่ๆเลย
   character: Tan_v01
   override_name: บุคคลปริศนา
-- goto: novel_ep1.0_lb_4
+- goto: novel_ep1.0_copy_lb_6
+- msg: น่าจะมากันแล้ว…
+  character: Yamada_Akari_v01
+  label: novel_ep1.0_copy_lb_5
 - msg: ทั้ง 2 คนนี้คือกรรมการวินัย!! หยุดการกระทำของพวกคุณซะดีๆ
   character: Lucien_v01
   override_name: หัวหน้าคณะกรรมการวินัย
-  label: novel_ep1.0_lb_3
 - msg: กะ..กรรมการวินัยงั้นหรอ!? ไปก่อนหละ!!
   character: man01_v01
 - msg: จับหมอนั้นเอาไว้ให้ได้!
@@ -451,7 +439,7 @@
     ไม่เป็นไรครับมันเป็นหน้าที่ของเราอยู่แล้วที่จะดูแลนักเรียนให้อยู่ในระเบียบถ้ารอบหน้าเจออะไรเรียกอีกได้นะครับ
   character: Lucien_v01
 - msg: ครับ / ค่ะ!!
-  character: narrator
+  character: me
   override_name: minato akari
 - msg: Lucien และกรรมการวินัยได้เดินออกจากพื้นที่ไป
   character: narrator
@@ -481,8 +469,98 @@
   override_name: บุคคลปริศนา
 - msg: หลังจากนั้นไม่นานขณะที่กำลังเดินกันอยู่นั้น
   character: narrator
-  label: novel_ep1.0_lb_4
 - msg: พี่วันแรกของมหาลัยนี้เขาให้ทำอะไรบ้างหรอคะ?
   character: Yamada_Akari_v01
 - msg: อ๋อเหมื่อนว่าจะมีการประถมนิเทศสำหรับนักศึกษาที่เข้ามาใหม่นะ
   character: Yamada_Minato_v01
+- msg: แล้วก็จะมีรุ่นพี่พาชมตึกเรียนด้วย แล้วก็-
+  character: Yamada_Minato_v01
+- msg: พี่ๆดูนั้นสิ!
+  character: Yamada_Akari_v01
+- msg: หืม?
+  character: Yamada_Minato_v01
+- msg: '*Minato มองไปตรงที่ๆ Akari ชี้อยู่*'
+  character: Yamada_Minato_v01
+- msg: มีเด็กใหม่คนไหนสนใจจะเข้าคณะวิทยาศาสตร์สาขาวิจัยสะสารโมเลกุลไหมครับ!!
+  character: man02_v01
+  override_name: 'นักศึกษา 1 '
+- msg: ทางนี้เป็นคณะนิติศาสตร์สาขากฏหมายรอบโลกค่าามีใครสนใจไหมค่าา!
+  character: man03_v01
+  override_name: นักศึกษา 2
+- msg: ตรงนั้นรุ่นพี่ทำไรกันนะ
+  character: Yamada_Minato_v01
+- msg: ดูเหมื่อนจะกำลังโปรโมทคณะกับสาขาอยู่นะคะ
+  character: Yamada_Akari_v01
+- msg: ถ้าเป็นคณะพี่ยังพอเข้าใจแต่สาขางั้นหรอนี้มันอะไรเนี้ย?
+  character: Yamada_Minato_v01
+- msg: แถมยังเป็นสาขาที่ไม่เคยได้ยินมาก่อนด้วยนะคะ
+  character: Yamada_Akari_v01
+- msg: นั้นสินะมหาลัยนี้มันอะไรกัน
+  character: Yamada_Minato_v01
+- msg: อะ!! จริงด้วยพี่แล้วสรุปคุณปู่บอกยังว่าส่งเรามาเรียนมหาลัยอะไรกันแน่
+  character: Yamada_Akari_v01
+- msg: จริงด้วย พี่ลืมเลยถ้าอย่างงั้นก็…
+  character: Yamada_Minato_v01
+- msg: Minato ได้เล่าสิ่งที่ปู่บอกมาให้ Akari ฟังในระหว่างที่เดินไปที่ตึกประถมนิเทศ
+  character: narrator
+- msg: สรุปก็คือปู่ส่งเรามาที่มหาลัยนานาชาติที่อัตราการจบมีแค่ 30% อย่างงั้นหรอ!
+  character: Yamada_Akari_v01
+- msg: นี้มันบ้าชัดๆ ちくしょう！ (Chikushou!)   หนอยแน่!
+  character: Yamada_Akari_v01
+- msg: เอาหน่าๆใจเย็นๆก่อน Akari พี่ว่าเอาความแค้นที่มีต่อปู่มาพยายามกันดีกว่านะ
+  character: Yamada_Minato_v01
+- msg: ค่าา…
+  character: Yamada_Akari_v01
+- msg: เราใกล้ถึงแล้วหละนั้นไงตึกประถมนิเทศ
+  character: Yamada_Minato_v01
+- msg: Minato ได้ชี้นิ้วไปที่อาคารที่ใหญ่มากๆตั้งอยู่ตรงใจกลางมหาลัย
+  character: Yamada_Minato_v01
+- msg: โหหหหหใหญ่เวอร์!!
+  character: Yamada_Akari_v01
+- msg: เอาหละเรารีบไปกันเถอะ!
+  character: Yamada_Minato_v01
+- msg: รอด้วยสิพี่!
+  character: Yamada_Akari_v01
+- msg: >-
+    (Run Fast)
+    ทั้งคู่ได้วิ่งเข้าไปในตึกประถมนิเทศแล้วเห็นว่ามีนักศึกษาใหม่ที่หาที่นั่งรอไว้แล้วแต่งานยังไม่เริ่ม
+  character: narrator
+- msg: ขนาดงานยังไม่เริ่มคนยังนั่งรอเยอะสุดๆเลยนะ
+  character: Yamada_Minato_v01
+- msg: ถ้าอย่างงั้นนั่งตรงไหนดีนะ
+  character: Yamada_Minato_v01
+- msg: หนูขอเสนอเอง!
+  character: Yamada_Akari_v01
+- msg: ว่ามา Akari
+  character: Yamada_Minato_v01
+- msg: หนูคิดว่าเราควรนั่งข้างหลังสุดเลยค่ะ!
+  character: Yamada_Akari_v01
+- msg: ไม่ได้หรอกนะ
+  character: Yamada_Minato_v01
+- msg: ทะ..ทำไมหละพี่!
+  character: Yamada_Akari_v01
+- msg: ถ้านั่งหลังสุดก็ไม่รู้กันพอดีหนะสิว่า ผอ พูดอะไรกับพวกเราหละ
+  character: Yamada_Minato_v01
+- msg: ทางที่ดีพี่คิดว่าไปนั่งตรงกลางไม่ก็หน้าดีกว่านะ
+  character: Yamada_Minato_v01
+- msg: ขอถามหน่อยเถอะ Akari ทำไมถึงอยากนั่งหลังหละ
+  character: Yamada_Minato_v01
+- msg: ' เพราะว่าเราสามารถแอบทำอะไรหลังห้องก็ได้ยังไงละพี่!!(หน้ายิ้มมุมปาก)'
+  character: Yamada_Akari_v01
+- msg: 'สรุปแล้วเรามาเรียน หรือ มานั่งหาอะไรทำเนี้ย '
+  character: Yamada_Minato_v01
+- msg: >-
+    ก็เปิดมือถือหาข้อมูลไง แบบแอบไม่ให้ ผอ เห็นว่าเราหาข้อมูลอะไรงี้ไง
+    (หน้าปกติพูด)
+  character: Yamada_Akari_v01
+- msg: แล้วจะหาข้อมูลไปทำไมในเมื่อ ผอ ก็จะอธิบายทุกอย่างอยู่แล้ว
+  character: Yamada_Minato_v01
+- msg: งะ!?!...จริงด้วย (หน้าหงอย)
+  character: Yamada_Akari_v01
+- msg: เร็วๆเข้าก่อนที่นั่งจะเต็ม
+  character: Yamada_Minato_v01
+- msg: '*ลาก Akari ไปที่หาที่นั่ง*'
+  character: Yamada_Minato_v01
+- delay: 12
+- msg: test
+  character: narrator

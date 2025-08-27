@@ -31,14 +31,6 @@ professor [
     ]
   }
 ]
-H_Disciplinary_Committee [
-  {
-    "index": 0,
-    "error": [
-      "missing model #H_Disciplinary_Committee"
-    ]
-  }
-]
 Lucien_v01 [
   {
     "index": 0,
