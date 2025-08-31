@@ -1,37 +1,37 @@
 - background: bg_living_room_yamada
 - delay: 1
-- character: Yamada_Minato_v01
+- character: Yamada_Minato
   position: left
   act: stunned
-- character: Yamada_Akari_v01
+- character: Yamada_Akari
   position: center
   act: sad
-- character: Tan_v01
+- character: Tan
   position: right
   act: shocked
 - msg: ''
-  character: Yamada_Minato_v01
+  character: Yamada_Minato
 - msg: ''
-  character: Yamada_Akari_v01
+  character: Yamada_Akari
 - msg: ''
-  character: Tan_v01
+  character: Tan
 - delay: 3
-- character: Nightrose_v01
+- character: Nightrose
   position: left
   act: angry
-- character: Chayanan_v01
+- character: Chayanan
   position: center
   act: idle
-- character: Tavanchai_v01
+- character: Tavanchai
   position: right
   act: idle
 - msg: ''
-  character: Nightrose_v01
+  character: Nightrose
 - msg: ''
-  character: Chayanan_v01
+  character: Chayanan
 - msg: ''
-  character: Tavanchai_v01
-- character: man01_v01
+  character: Tavanchai
+- character: man01
   position: left
   act: idle
 - character: Enigma
@@ -41,6 +41,6 @@
   position: right
   act: tan
 - msg: ''
-  character: man01_v01
+  character: man01
 - msg: ''
   character: Enigma

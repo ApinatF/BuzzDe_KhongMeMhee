@@ -12,9 +12,9 @@
     - default
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Yamada_Minato_v01
-  model: Yamada_Minato_v01
-  name: Yamada Minato
+- character: Yamada_Minato
+  model: Yamada_Minato
+  name: Minato
   action:
     - tiredtalk
     - idletalk
@@ -35,9 +35,9 @@
     - imagine
   msg_color: ffffff
   name_bgcolor: 6633FF
-- character: Yamada_Akari_v01
-  model: Yamada_Akari_v01
-  name: Yamada Akari
+- character: Yamada_Akari
+  model: Yamada_Akari
+  name: Akari
   action:
     - talk
     - surprised
@@ -60,8 +60,8 @@
     - pinch
   msg_color: ffffff
   name_bgcolor: 33CC99
-- character: Tavanchai_v01
-  model: Tavanchai_v01
+- character: Tavanchai
+  model: Tavanchai
   name: Tavanchai
   action:
     - idle
@@ -69,8 +69,8 @@
     - '02'
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Tan_v01
-  model: Tan_v01
+- character: Tan
+  model: Tan
   name: Tan
   action:
     - talk
@@ -98,29 +98,29 @@
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: man03_v01
-  model: man03_v01
+- character: man03
+  model: man03
   name: man03
   action:
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: man02_v01
-  model: man02_v01
+- character: man02
+  model: man02
   name: คนรอบข้าง
   action:
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: man01_v01
-  model: man01_v01
+- character: man01
+  model: man01
   name: ตัวประกอบ A
   action:
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Chayanan_v01
-  model: Chayanan_v01
+- character: Chayanan
+  model: Chayanan
   name: Chayanan
   action:
     - idle
@@ -128,8 +128,8 @@
     - '02'
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Nightrose_v01
-  model: Nightrose_v01
+- character: Nightrose
+  model: Nightrose
   name: Nightrose
   action:
     - talk
@@ -163,8 +163,8 @@
     - cc
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Lucien_v01
-  model: Lucien_v01
+- character: Lucien
+  model: Lucien
   name: Lucien
   action:
     - idle
