@@ -16,79 +16,29 @@
   model: Yamada_Minato
   name: Minato
   action:
-    - tiredtalk
-    - idletalk
-    - close_eye_talk
-    - discontent
-    - suspect
-    - surprised
-    - smile
-    - smile2
-    - sad
     - idle
-    - angry
-    - shy
-    - fun
-    - stunned
-    - relieved
-    - curious
-    - imagine
   msg_color: ffffff
   name_bgcolor: 6633FF
 - character: Yamada_Akari
   model: Yamada_Akari
   name: Akari
   action:
-    - talk
-    - surprised
-    - sleep
-    - shy
-    - shocked
-    - sadtalk
-    - sad
-    - numb
     - idle
-    - calmtalk
-    - calm
-    - angrytalk
-    - angry
-    - angryCute
-    - smile
-    - understand
-    - worry
-    - wonder
-    - pinch
   msg_color: ffffff
   name_bgcolor: 33CC99
-- character: Tavanchai
-  model: Tavanchai
-  name: Tavanchai
+- character: Nightrose
+  model: Nightrose
+  name: Nightrose
   action:
     - idle
-    - '03'
-    - '02'
   msg_color: ffffff
-  name_bgcolor: ffffff
+  name_bgcolor: FFFACD
 - character: Tan
   model: Tan
   name: Tan
   action:
-    - talk
-    - smile
-    - shy
-    - 'no'
     - idle
-    - happy
-    - fun
-    - angry
-    - bored
-    - sad
-    - confident
-    - wonder
-    - shocked
-    - hurt
-    - scared
-    - indifferent
+    - enigma
   msg_color: ffffff
   name_bgcolor: D2B48C
 - character: Grandfather
@@ -114,44 +64,9 @@
   name_bgcolor: ffffff
 - character: man01
   model: man01
-  name: ตัวประกอบ A
+  name: พี่ปฐมนิเทศ
   action:
     - idle
-  msg_color: ffffff
-  name_bgcolor: ffffff
-- character: Chayanan
-  model: Chayanan
-  name: Chayanan
-  action:
-    - idle
-    - '03'
-    - '02'
-  msg_color: ffffff
-  name_bgcolor: ffffff
-- character: Nightrose
-  model: Nightrose
-  name: Nightrose
-  action:
-    - talk
-    - suspicious2
-    - surprised1
-    - sadtalk
-    - sad
-    - idle
-    - happyTalk
-    - happy
-    - angrytalk
-    - angry
-    - smile
-    - worry
-  msg_color: ffffff
-  name_bgcolor: FFFACD
-- character: Enigma
-  model: Enigma
-  name: บุคคลปริศนา
-  action:
-    - tan
-    - nightrose
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: professor
@@ -159,8 +74,6 @@
   name: อาจารย์
   action:
     - aa
-    - bb
-    - cc
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: Lucien

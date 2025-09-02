@@ -14,46 +14,6 @@ me [
     ]
   }
 ]
-Yamada_Minato [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Yamada_Minato"
-    ]
-  }
-]
-Yamada_Akari [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Yamada_Akari"
-    ]
-  }
-]
-Tavanchai [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Tavanchai"
-    ]
-  }
-]
-Tan [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Tan"
-    ]
-  }
-]
-Grandfather [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Grandfather"
-    ]
-  }
-]
 man03 [
   {
     "index": 0,
@@ -67,47 +27,6 @@ man02 [
     "index": 0,
     "error": [
       "missing model #man02"
-    ]
-  }
-]
-man01 [
-  {
-    "index": 0,
-    "error": [
-      "missing model #man01"
-    ]
-  }
-]
-Chayanan [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Chayanan"
-    ]
-  }
-]
-Nightrose [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Nightrose"
-    ]
-  }
-]
-professor [
-  {
-    "index": 0,
-    "error": [
-      "missing model #professor-bb",
-      "missing model #professor-cc"
-    ]
-  }
-]
-Lucien [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Lucien"
     ]
   }
 ]

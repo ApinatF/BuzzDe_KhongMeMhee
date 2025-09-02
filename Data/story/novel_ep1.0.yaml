@@ -1,27 +1,39 @@
-- msg: 'Minato : Zzzz  [|หน้า|นอ|น] (|Cozy BG Star|t…|)'
-  character: Yamada_Minato
-- msg: สี|ยง|นาฬิกา|ปลุก|ดัง (|7 AM Wake Up Call|)
-  character: narrator
-- msg: อืมมม|~ ขอ|อีก 5 นาที|~ [|หน้า|นอ|น] (|33905|)
+- background: bedroom
+- music: bgm_Your_Love_Is_Home
+- character: Yamada_Minato
+  position: left
+  act: idle
+- msg: 'Minato : Zzzz  [|หน้า|นอ|น]'
   character: Yamada_Minato
 - sound: sv_7_AM_Wake_Up_Call
+- msg: เสียง|นาฬิกา|ปลุก|ดัง (|7 AM Wake Up Call|)
+  character: narrator
+- delay: 2
+- msg: 'อืมมม|~ ขอ|อีก 5 นาที|~ [|หน้า|นอ|น] '
+  character: Yamada_Minato
+- sound: sv_33905 Cartoon wake up yawn 2-full
+- delay: 1
 - msg: >-
     เสียง|ประตู|ห้อง|เปิด|ออก|พร้อม|มี|ผู้หญิง|คน|นึง|เดิน|เข้า|มา|ใน|ห้อง
-    SV|(|Door Open 60259|) SV|(|WalkingFSOWButFast|)
+    SV|(|Door Open 60259|)
   character: narrator
-- delay: 1
+- sound: sv_Walking_Footsteps_on_Woods_but_Fast
+- delay: 3
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: หึๆ~ วัน|นี้|แหละ|พี่|ต้อง|โดน|!  [ห|น้ายิ้|ม]
   character: Yamada_Akari
 - msg: ฮ|ึบ|.|.|! [ห|น้ายิ้|ม]
   character: Yamada_Minato
-- msg: (|Akari ลาก|เก้าอี้|มา|ตัว|นึง|แล้ว|ยืน|บน|นั้น|) SV|(|wheeled chair|)
+- msg: '*|Akari ลาก|เก้าอี้|มา|ตัว|นึง|แล้ว|ยืนบนนั้|น*'
   character: Yamada_Akari
 - msg: ประมาณ|นี้|แหละ|เล็ง|ให้|ดี|แล้|วก|็…|. [ห|น้ายิ้|ม]
   character: Yamada_Akari
 - msg: '!|?|! [ห|น้ายิ้|ม]'
   character: Yamada_Akari
 - msg: >-
-    起きてよ、このバカ兄貴！ (|Okite yo|, kono baka aniki|!|) 
+    起きてよ、このバカ兄貴！         (|Okite yo|, kono baka aniki|!|) 
     ตื่น|ได้|แล้ว|เจ้า|พี่|บ้า|!|!|! [ห|น้าจ|ริ|งจั|ง]
   character: Yamada_Akari
 - msg: >-
@@ -56,14 +68,16 @@
     [ห|น้านิ่|ง]
   character: Yamada_Minato
 - msg: >-
-    ก็|จะ|มา|ปลุก|พี่|ก่อน|ไง|แล้ว|ไป|เปลี่ยน|เร็วๆเข้า|เดี๋ยว|จะ|สาย|เอา|นะ
+    ก็|จะ|มา|ปลุก|พี่|ก่อน|ไง|แล้ว|ไป|เปลี่ยน|เร็วๆเข้า|เดี๋ยว|จะ|สาย|เอา|นะ    
     [ห|น้านิ่|ง]
   character: Yamada_Akari
 - msg: อา|เค [ห|น้านิ่|ง]
   character: Yamada_Akari
+- music: empty
 - msg: >-
     หลัง|จาก|นั่น|ผ่าน|ไป|สัก|พัก|ทั้ง|คู่|ก็|แต่ง|ตัว|เสร็จ|แล้ว|เตรียม|ตัว|ออก|ไป|มหา|ลัย
   character: narrator
+- background: bg_living_room_yamada
 - msg: ไม่|ลืม|อะไร|แล้ว|นะ Akari [ห|น้านิ่|ง]
   character: Yamada_Minato
 - msg: ' อืม!|! เตรียม|พร้อม|เรียบร้อย|~ [|หน้า|ยิ่ม]'
@@ -72,10 +86,10 @@
   character: Yamada_Akari
 - msg: ลุ|ยย|~|~ [|หน้า|ยิ่ม]
   character: Yamada_Akari
+- music: bgm_Walking On Gravel Road Near Stream
 - msg: >-
     Minato กับ Akari
-    ได้|เดิน|ไป|ที่|ป้าย|รถ|เมย์และ|รอ|รถ|เมย์สาย|ที่|ไป|มหา|ลัย|ของ|ทั้ง 2     
-    SV|(|Walking on Gravel|)
+    ได้|เดิน|ไป|ที่|ป้าย|รถ|เมย์และ|รอ|รถ|เมย์สาย|ที่|ไป|มหา|ลัย|ของ|ทั้ง 2 
   character: narrator
 - msg: พี่|คัน|นั้น|ไงๆ [ห|น้านิ่|ง]
   character: Yamada_Akari
@@ -93,6 +107,8 @@
   character: Yamada_Akari
 - msg: อา|เค [ห|น้านิ่|ง]
   character: Yamada_Minato
+- background: bg_nifront_wut
+- music: bgm_PublicBus_V1
 - msg: >-
     ทั้ง|คู่|ขึ้น|รถ|เมย์แล้ว|ปรากฏ|ว่า|มี|แต่|คน|ที่|แต่ง|ตัว|ใน|เครื่องแบบ|นักศึกษา|ทั้งนั้น|แถม|ยัง|ไม่|มี|พนักงาน|เก็บ|เงิน|ด้วย
   character: narrator
@@ -100,19 +116,27 @@
   character: Yamada_Minato
 - msg: เวลา|ผ่าน|ไป|สัก|พัก|หลัง|จาก|ที่|ออก|จาก|ป้าย|มา
   character: narrator
-- msg: 'Minato : …|ต้อง|โทร|ถาม|ปู่|ให้|แน่ใจ|ซะ|แล้ว|สิ [ห|น้าส|งสั|ย]'
+- msg: …|ต้อง|โทร|ถาม|ปู่|ให้|แน่ใจ|ซะ|แล้ว|สิ [ห|น้าส|งสั|ย]
   character: Yamada_Minato
 - msg: Minato ทำ|การ|โทร|ไป|หา|คุณ|ปู่|ที่|ญี่ปุ่น  S|V[|เล่น|เสียง|โท|รศั|พท์]
   character: Yamada_Minato
 - msg: … S|V[|เสียง|โทร|ดั|งอย|ู๋] [ห|น้านิ่|ง]
   character: Yamada_Minato
+- sound: sv_Phone Ring
+- delay: 10
 - msg: คู่สาย|ใน|โทรศัพท์
   character: narrator
+- sound: sv_Ping
 - msg: >-
     รับ|แล้ว|คุณ|ปู่|ได้ยิน|ผม|ไหม|ครับ S|V[|เสียง|รับ|สาย|แล้|ว]
     [ห|น้าจ|ริ|งจั|ง]
   character: Yamada_Minato
-- msg: 'ชัด|แจ๋ว|เลย|หละ|หลาน|เอ๋ย โทร|มา|มี|เรื่อง|อะไร|งั้น|หรอ|? '
+- character: Grandfather
+  position: center
+  act: idle
+- msg: 'ชัด|แจ๋ว|เลย|หละ|หลาน|เอ๋ย '
+  character: Grandfather
+- msg: 'โทร|มา|มี|เรื่อง|อะไร|งั้น|หรอ|? '
   character: Grandfather
 - msg: >-
     ปู่|มหา|ลัย|ที่|ปู่|ส่ง|พวก|ผม|มา|เรียน|คือ|มหา|ลัย|อะไร|กัน|แน่ 
@@ -128,13 +152,16 @@
   character: Yamada_Minato
 - msg: เฮ้อ|วัยรุ่น|เดี๋ยวนี้|ใจ|ร้อน|อยาก|ได้|คำ|ตอบ|เร็วๆกัน|จัง|เลย|นะ
   character: Grandfather
-- msg: เอา|หละ|ฟัง|ปู่|ดีๆหละ Minato SV (|เสีย|งป็อป|)
+- msg: เอา|หละ|ฟัง|ปู่|ดีๆหละ Minato
   character: Grandfather
+- sound: sv_Pop1
 - msg: เสียง|ลำโพง|ประกาศ
   character: narrator
 - msg: >-
     ขณะ|นี้|รถ|เมย์ของ|เรา|ได้|ถึง|หน้า|มหา|ลัย|แล้ว|โปรด|กรุณา|ลง|จาก|รถ|ด้วย|ค่ะ
   character: narrator
+- background: bg_university_infront
+- music: bgm_Education
 - msg: >-
     มหา|ลัย|ที่|ปู่|เลือก|ให้|หลา|นไ|ปห|นะ|เป็น|มหา|ลัย|นานา|ชาติ|ที่|มี|อัตรา|การ|จบ|อยู่|ที่
     3|0%
@@ -151,11 +178,18 @@
 - msg: >-
     ถ้า|ไม่|มี|อะไร|แล้ว|ปู่|วาง|สาย|ละ|นะ|ขอ|ให้|โชค|ดี|กับ|ชีวิต|ใน|รั่ว|มหา|ลัย|หละ
   character: Grandfather
+- sound: sv_Whoosh
+- character: empty
+  position: center
 - msg: >-
-    (|เสียง|วาง|สาย|) คุณ|ปู่|ของ Minato ได้|วาง|สาย|ไป|แล้ว|ขณะ|เดียวกัน Minato
-    กับ Akari ก็|ได้|ออก|มา|จาก|รถ|เมย์ 
+    คุณ|ปู่|ของ Minato ได้|วาง|สาย|ไป|แล้ว|ขณะ|เดียวกัน Minato กับ Akari
+    ก็|ได้|ออก|มา|จาก|รถ|เมย์ 
   character: narrator
-- msg: 'ตา|แก่…ここ、どこに留学に来たんだよ？ (|ส่ง|มา|เรียน|ที่ไหน|วะ|เนี้ย|) [|หน้า|เค|รีย|ด] '
+- msg: ตา|แก่…
+  character: Yamada_Minato
+- msg: 'ここ、どこに留学に来たんだよ？ '
+  character: Yamada_Minato
+- msg: '(|ส่ง|มา|เรียน|ที่ไหน|วะ|เนี้ย|) [|หน้า|เค|รีย|ด] '
   character: Yamada_Minato
 - msg: >-
     หืมม|?
@@ -163,19 +197,25 @@
     [ห|น้าส|งสั|ย]
   character: Yamada_Akari
 - msg: >-
-    นี้|มัน|แย่|กว่า|ที่|พี่|คิด|ไว้|ซะ|อีก Akar|i…|. やばい|.|.|. (|Yabai|)
+    นี้|มัน|แย่|กว่า|ที่|พี่|คิด|ไว้|ซะ|อีก Akar|i…|. やばい|.|.|.      (|Yabai|)
     ซวย|แล้ว|.|.[ห|น้าสิ้|นหวั|ง]
   character: Yamada_Minato
-- msg: แล้ว|มัน|คือ|อะไร|หละ|พี่|ตอบ|ให้|ชัดเจน|หน่อย|ดิ [ห|น้าส|งสั|ย]
+- msg: >-
+    แล้ว|มัน|คือ|อะไร|หละ|พี่|ตอบ|ให้|ชัดเจน|หน่อย|ดิ                      
+    [ห|น้าส|งสั|ย]
   character: Yamada_Akari
 - msg: ไว้|พี่|จะ|ไป|เล่า|ใน|ห้อง|เรีย|นน|ะ… [|หน้า|เครียด|สุดๆ]
   character: Yamada_Minato
 - msg: อะ|.|.|อืมม…|หืมม|นั้น|มัน [|หน้า|ปก|ติ]
   character: Yamada_Akari
+- background: BG_in_University
 - msg: >-
     ระหว่าง|ที่|ทั้ง|คู่|กำลัง|เดิน|เข้า|ไป|ใน|มหา|ลัย|นั้น|เอง 2
     พี่น้อง|ก็|ต้อง|เจอ|กับ
   character: narrator
+- character: man01
+  position: center
+  act: idle
 - msg: นี้|น้อง|สาว|~ ไม่|เคย|เห็น|หน้า|มา|ก่อน|เลย|เด็ก|ใหม่|งั้น|หรอ|~
   character: man01
 - msg: อะ|.|.|เอ๋|.|.ช|.|. ใช่|ค่ะ|แล้ว|คุณ|เป็น|ใคร|หรอ|คะ|? [ห|น้าส|งสั|ย]
@@ -215,7 +255,7 @@
 - msg: ความ|เร็ว|นั้น|ไม่|ธรรมดา|เลย|นะ|เนี้ย|สม|กับ|เป็น|หมอ|นั้น
   character: Tan
   override_name: บุคคลปริศนา
-- msg: (|Minato ปล่อย|คอ|เสื้อ|รุ่น|พี่|แล้ว|กำลัง|จะ|เดิน|เข้า|ไป|ใน|มหา|ลัย|)
+- msg: '*|Minato ปล่อย|คอ|เสื้อ|รุ่น|พี่|แล้ว|กำลัง|จะ|เดิน|เข้า|ไป    ใ|นม|หาลั|ย*'
   character: Yamada_Minato
 - msg: ขอโทษ|นะ|คะ|พี่|เป็น|เพราะ|หนู|เรื่อง|เลย|เป็น|แบบ|นี้|อะ [|หน้า|เศร้า]
   character: Yamada_Akari
@@ -226,7 +266,7 @@
 - msg: 'เห้ยๆนั้น|มัน|โกรธ|สุด|เลยน|ะห|นะ '
   character: man02
 - msg: >-
-    บังอาจ|มา|ทำให้|ภาพพจน์|ของ|ฉัน|เสียหาย|เตรียม|ตัว|รับผิดชอบ|ซะ|ไอ|เด็ก|ไห|ม่!|!|!
+    บังอาจ|มา|ทำให้|ภาพพจน์|ของ|ฉัน|เสียหาย|เตรียม|ตัว|รับผิดชอบ|ซะ|ไอ|เด็ก|ใหม่|!|!|!
   character: man01
 - msg: เฮ้ยๆ!|! เจ้า|เด็ก|ใหม่|ระวัง|!
   character: man02
@@ -279,6 +319,12 @@
 - msg: >-
     นี้|จะ|เป็น|ตัว|เลือก|ใน|การ|เลือก|ตัว|ละคร|หลัก|ที่|คูณ|จะ|ใช้|ดำเนิน|เรื่องราว|ที่|ต่าง|ไป|ตาม|ตัว|ละคร|ที่|เลือก
   character: narrator
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
 - delay: 3
 - choice:
     - msg: เลือก|เล่น|เป็น Minato
@@ -292,8 +338,38 @@
       goto: novel_ep1.0_lb_2
   character: me
   state: novel_ep1.0_st_0
+- music: bgm_Epic_Gym_Rock_Take2
+- character: Yamada_Minato
+  position: center
+  act: idle
 - msg: “|ช่วย|ไม่|ได้|อย่าง|งี้|ต้อง|ลุย|กัน|สัก|ยก|ละ|นะ|!|! “
   character: Yamada_Minato
+- character: man01
+  position: right
+  act: idle
+- hide_msg: true
+- sound: sv_Body_Fall_Down_2
+- image: mcg_minatopunch
+- delay: 3
+- goto: novel_ep1.0_lb_3
+- character: Yamada_Akari
+  position: center
+  act: idle
+  label: novel_ep1.0_lb_2
+- msg: น่า|จะ|มา|กัน|แล้|ว…
+  character: Yamada_Akari
+- character: Lucien
+  position: left
+  act: idle
+- msg: ทั้ง 2 คน|นี้|คือ|กรรมการ|วินัย|!|! หยุด|การ|กระทำ|ของ|พวก|คุณ|ซะ|ดีๆ
+  character: Lucien
+  override_name: ห.กรรมการวินัย
+- goto:
+    - novel_ep1.0_lb_4 if var_minato >= 5
+    - novel_ep1.0_lb_5
+  label: novel_ep1.0_lb_3
+- image: empty
+  label: novel_ep1.0_lb_4
 - msg: 'โอ้|ยยย|!|! จ|ะ…|เจ็|บบ|! * นอน|ลง|ไป|ดิ้น * '
   character: man01
 - msg: อย่า|บอก|นะ|ว่า|นั้น|! judo throw งั้|นหร|ออ|!
@@ -304,73 +380,60 @@
     เอา|หละ|ใส|หัว|ไป|ซะ|อย่า|มา|ยุ่ง|กับ|น้อง|สาว|ของ|ฉัน|อีก|เป็น|ครั้ง|ที่|สอง|!|!
     [ห|น้ายิ้|ม]
   character: Yamada_Minato
+- character: Lucien
+  position: left
+  act: idle
 - msg: พวก|คุณ|ทั้ง 2 คน|หยุด|เดี๋ยวนี้|!|!
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: ' อ๊ะ|!|? [ห|น้าง|ง]'
   character: Yamada_Minato
-- goto: novel_ep1.0_lb_3
-- msg: น่า|จะ|มา|กัน|แล้|ว…
-  character: Yamada_Akari
-  label: novel_ep1.0_lb_2
-- msg: ทั้ง 2 คน|นี้|คือ|กรรมการ|วินัย|!|! หยุด|การ|กระทำ|ของ|พวก|คุณ|ซะ|ดีๆ
-  character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
-- msg: กะ|.|.|กรรมการ|วินัย|งั้น|หรอ|!|? ไป|ก่อน|หละ|!|!
-  character: man01
-- msg: จับ|หมอ|นั้น|เอา|ไว้|ให้|ได้|!
-  character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
-- msg: Roger|!
-  character: Mob_D.C
-- msg: ขอบคุณ|มาก|ค่ะ|คุณ|กรรมการ|วินัย
-  character: Yamada_Akari
-- msg: เอ๋|ไป|เรียก|มา|ตอน|ไหน|งั้น|หรอ Akari
-  character: Yamada_Minato
-- msg: อ๋ออ|พอดี|ว่า
-  character: Yamada_Akari
-- goto:
-    - novel_ep1.0_lb_4 if var_minato >= 5
-    - novel_ep1.0_lb_5
-  label: novel_ep1.0_lb_3
 - msg: นั้น|มัน|!|! หัวหน้า|คณะ|กรรม|กา|รวิ|นั|ยห|นิ
   character: man01
-  label: novel_ep1.0_lb_4
 - msg: ฝะ…|ฝาก|ไว้|ก่อน|เถอะ|แก * รีบ|ลุก|ขึ้น|แล้ว|หนี|ไป|ทันที *
   character: man01
 - msg: คิด|ว่า|จะ|หนี|ได้|งั้น|หรอ
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: '* ยืน|ขวาง|ทาง|รุ่น|พี่|ใน|ทุก|ที่ *'
   character: Mob_D.C
 - msg: บะ|.|.|บ้าห|น่า|เป็น|แบบ|นี้|ไป|ได้|ไง|!|!
   character: man01
 - msg: นี้|มัน|! [ห|น้าง|ง]
   character: Yamada_Minato
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: อะไร|กัน|เนี้ยยยยย|!|! [ห|น้าง|ง]
   character: Yamada_Akari
+- character: man01
+  position: right
+  act: idle
 - msg: ปล่อย|นะ|!|! ฉัน|ไม่|ได้|ทำ|อะไร|สัก|หน่อย|!
   character: man01
 - msg: งั้น|หรอ|แล้ว|หมัด|ที่|ชก|ไป|นั้น|มั|นอ|ะไ|รห|นะ
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: '*|หัวหน้า|กรรมการ|วินัย|เปิดค|ริป|ที่|อัด|เอา|ไว้|จาก|มือ|ถือ*'
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: >-
     อึก|!|?|!
     แล้ว|อีก|คน|นึง|หละ|เมื่อกี้|เขาก|็ทุ่|มฉั|นห|นิท|ำไ|มไ|ม่จับ|มัน|ไป|ด้วย|หละ|!|!
   character: man01
 - msg: ทำร้าย|ร่างกาย|กับ|ป้องกัน|ตัวเอง|มัน|ต่าง|กัน|นะ|เจ้า|โง่
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: เอา|เถอะ|เดี๋ยว|พา|ไป|ห้อง|คุม|ประพฤติ|ก็|คง|จะ|รู้|เอง
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: อ|ะ…|อะไร|นะ ไม่ๆๆขอร้อง|ไม่|เอา|ห้อง|คุม|ประพฤติ|นะ ไม่|!|!|!
   character: man01
-- msg: คณะ|กรรมการ|วินัย|นำ|ตัว|รุ่น|พี่|ไป|แล้ว
+- msg: '*|คณะ|กรรมการ|วินัย|นำ|ตัว|รุ่น|พี่|ไป|แล้|ว*'
   character: Mob_D.C
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: >-
     หึ|คำ|ว่า|ฝาก|ไว้|ก่อน|ถือ|เป็น|คำ|ต้อง|ห้าม|นะ|~|พูด|แบบ|นั้น|จบ|ไม่|สวย|ซัก|ราย
     [ห|น้ายิ้|ม]
@@ -384,6 +447,8 @@
   character: Yamada_Akari
 - msg: '*|เฉ|อะ|หัว|พี่|ไป 1 ที* '
   character: Yamada_Akari
+- sound: sv_Whoosh
+- delay: 1
 - msg: >-
     โอ้ย|พี่|ขอโทษๆ~…|อภัย|ให้|พี่|เถอะ|นะ|เดี๋ยว|ซื้อ|เครป|ให้|กิน|หลัง|เลิก|เรียน
     [|หน้า|ยิ้ม|อ่อนๆ]
@@ -400,14 +465,16 @@
   character: Yamada_Akari
 - msg: '*|หัวหน้า|คณะ|กรรมการ|วินัย|ได้|เดิน|เข้า|มา|ใกล้ Minat|o*'
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
+- sound: sv_Walking_Footsteps_on_Woods_but_Fast
+- delay: 2
 - msg: >-
     คะ|.|.|คือ|ว่า|ขอโทษ|จริง|นะ|ครับ|ที่|ทำให้|เรื่อง|วุ่นวาย|ตั้งแต่|วัน|แรก|เลย|หน|ะค|รับ
   character: Yamada_Minato
 - msg: >-
     ไม่|เป็นไร|หรอก|ถือ|ว่า|ทำ|ได้|ดี|มาก|ที่|ใช่|ท่า|ศิลปะ|ป้องกัน|ตัว|ได้|ดี|อย่าง|งี้|ฝึก|มา|เยอะ|เลย|สิ|นะ
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: มะ|.|.|แหม่|ก็|ไม่|เท่า|ไหร่|หรอก|ครับ|ว่า|แต่|คุณ|ชื่อ|.|.
   character: Yamada_Minato
 - msg: เกือบ|ลืม|เลย|ผม|ชื่อ Lucien Adrain ยินดี|ที่|ได้|รู้จัก
@@ -421,40 +488,58 @@
 - msg: >-
     ครั้ง|หน้า|ถ้า|มี|ปัญหา|อะไร|ก็|เชิญ|ติดต่อ|เบอร์|ที่|ผม|แปะ|ไว้|ที่|โปสเตอร์|หน้า|มหา|ลัย|ได้|เลย|นะ
   character: Lucien
+- character: empty
+  position: left
 - msg: ขอบคุณ|มาก|ครับ Akari ตอน|นี้|เรา|ต้อง|ไป|กัน|แล้ว|นะ|เร็ว|เข้า|!
   character: Yamada_Minato
 - msg: ระ|.|.|รอ|ด้วย|สิ|คะ|พี่|!|!
   character: Yamada_Akari
+- character: empty
+  position: center
+- character: empty
+  position: right
+- character: Tan
+  position: center
+  act: enigma
 - msg: สอง|คู่|นั้น|นี้|สุด|ยอด|กัน|จริงๆเลย|นะ
   character: Tan
   override_name: บุคคลปริศนา
 - msg: ปี|นี้|คง|จะ|สนุก|แน่ๆเลย
   character: Tan
   override_name: บุคคลปริศนา
+- character: empty
+  position: center
 - goto: novel_ep1.0_lb_6
-- msg: ทั้ง 2 คน|นี้|คือ|กรรมการ|วินัย|!|! หยุด|การ|กระทำ|ของ|พวก|คุณ|ซะ|ดีๆ
-  character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
-  label: novel_ep1.0_lb_5
 - msg: กะ|.|.|กรรมการ|วินัย|งั้น|หรอ|!|? ไป|ก่อน|หละ|!|!
   character: man01
+  label: novel_ep1.0_lb_5
+- sound: sv_Footsteps Running Fade Away
+- delay: 1
 - msg: จับ|หมอ|นั้น|เอา|ไว้|ให้|ได้|!
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: Roger|!
   character: Mob_D.C
+- sound: sv_Footsteps Running Fade Away
+- delay: 1
 - msg: ขอบคุณ|มาก|ค่ะ|คุณ|กรรมการ|วินัย
   character: Yamada_Akari
+- character: Yamada_Minato
+  position: right
+  act: idle
 - msg: เอ๋|ไป|เรียก|มา|ตอน|ไหน|งั้น|หรอ Akari
   character: Yamada_Minato
 - msg: อ๋ออ|พอดี|ว่า
   character: Yamada_Akari
+- sound: sv_Flashback
+- delay: 3
 - msg: อะ|.|.|อืมม…|หืมม|นั้น|มัน
   character: Yamada_Akari
 - msg: >-
     ตรง|ที่ Akari
     มอง|เป็น|โปสเตอร์|รับสมัคร|คณะ|กรรมการ|วินัย|พร้อม|เบอร์|โทร|ไว้
   character: Yamada_Akari
+- delay: 3
 - msg: >-
     หนู|เห็น|โปสเตอร์|รับสมัคร|พร้อม|เบอร์|โทร|หนู|เลย|แอบ|โทร|ไป|ขอ|ความ|ช่วยเหลือ|ค่ะ
   character: Yamada_Akari
@@ -468,7 +553,7 @@
   character: man02
 - msg: ดี|มาก|เอา|ไป|ขัง|ไว้|ใน|ห้อง|คุม|ประพฤติ
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: ทราบ|!
   character: Mob_D.C
 - msg: อ|ะ…|อะไร|นะ|ไม่ๆ!|!
@@ -479,12 +564,12 @@
   character: narrator
 - msg: 'เธอ|ชื่อ Akari สิ|นะ '
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: คะ|.|.|ค่ะ|แล้ว|คุณ|ชื่อ|ว่าา
   character: Yamada_Akari
 - msg: Lucien
   character: Lucien
-  override_name: หัวหน้าคณะกรรมการวินัย
+  override_name: ห.กรรมการวินัย
 - msg: Lucien Adrain ครับ
   character: Lucien
 - msg: ขอบคุณ|มาก|เลย|ค่ะ|รุ่น|พี่ Lucien
@@ -501,6 +586,8 @@
   override_name: minato/akari
 - msg: Lucien และ|กรรมการ|วินัย|ได้|เดิน|ออก|จาก|พื้นที่|ไป
   character: narrator
+- character: empty
+  position: left
 - msg: คุณ Lucien เป็น|คน|ดี|จัง|เลย|นะ|พี่|ว่า|ไหม
   character: Yamada_Akari
 - msg: อืมดี|จริงๆ  แต่ว่า Akari ไหวพริบ|ดี|มาก|พี่|ชื้น|ชม|น้อง|จริงๆ
@@ -513,37 +600,55 @@
     จ้าๆ คน|เก่ง|ของ|พี่ เดี๋ยว|กลับ|ไป|จะ|เลี้ยง|ของ|หวาน|ให้|นะ
     (|เสียง|ลูบ|หัว|จบ|)
   character: Yamada_Minato
-- msg: Minato กำลัง|ลูบ|หัว Akari แล้ว|อยู่|ดีๆเสียง|ระฆัง|ก็|ดัง|ขึ้น
+- msg: Minato กำลัง|ลูบ|หัว Akari แล้ว|อยู่|ดีๆเสียง|ระฆัง    ก็|ดัง|ขึ้น
   character: Yamada_Minato
+- sound: sv_School Bell
 - msg: ใกล้|ถึง|เวลา|แล้ว|หรอ|?|.|.|อยาก|จะ|ลูบ|หัว|ต่อ|อีก|สัก|หน่อย
   character: Yamada_Minato
 - msg: พอ|ได้|แล้|วห|นะ|พี่|~ เดี๋ยว|ก็|สาย|หรอก
   character: Yamada_Akari
 - msg: จริง|ด้วย|รีบ|ไป|เถอะ Akari|!
   character: Yamada_Minato
+- character: empty
+  position: center
+- character: empty
+  position: right
+- character: Tan
+  position: center
+  act: enigma
 - msg: สอง|คู่|นั้น|นี้|สุด|ยอด|กัน|จริงๆเลย|นะ
   character: Tan
   override_name: บุคคลปริศนา
 - msg: ปี|นี้|คง|จะ|สนุก|แน่ๆเลย
   character: Tan
   override_name: บุคคลปริศนา
+- character: empty
+  position: center
 - msg: หลัง|จาก|นั้น|ไม่|นาน|ขณะ|ที่|กำลัง|เดิน|กัน|อยู่|นั้น
   character: narrator
   label: novel_ep1.0_lb_6
+- background: bg_uni_classroom
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: พี่|วัน|แรก|ของ|มหา|ลัย|นี้|เขา|ให้|ทำ|อะไร|บ้าง|หรอ|คะ|?
   character: Yamada_Akari
+- character: Yamada_Minato
+  position: left
+  act: idle
 - msg: อ๋อ|เห|มื่อน|ว่า|จะ|มี|การ|ประถม|นิเทศ|สำหรับ|นักศึกษา|ที่|เข้า|มา|ใหม่|นะ
   character: Yamada_Minato
 - msg: แล้ว|ก็|จะ|มี|รุ่น|พี่|พา|ชม|ตึก|เรียน|ด้วย แล้ว|ก็|-
   character: Yamada_Minato
 - msg: พี่ๆดู|นั้น|สิ|!
   character: Yamada_Akari
+- sound: sv_Ding
 - msg: หืม?
   character: Yamada_Minato
 - msg: '*|Minato มอง|ไป|ตรง|ที่ๆ Akari ชี|้อ|ยู|่*'
   character: Yamada_Minato
 - msg: >-
-    มี|เด็ก|ใหม่|คน|ไหน|สนใจ|จะ|เข้า|คณะ|วิทยาศาสตร์|สาขา|วิจัย|สะ|สาร|โมเลกุล|ไหม|ครับ|!|!
+    มี|เด็ก|ใหม่|คน|ไหน|สนใจ|จะ|เข้า|คณะ|วิทยาศาสตร์|สาขา|วิจัย|สสาร|โมเลกุล|ไหม|ครับ|!|!
   character: man02
   override_name: 'นักศึกษา 1 '
 - msg: ทาง|นี้|เป็น|คณะ|นิติศาสตร์|สาขา|กฏหมาย|รอบ|โลก|ค่าา|มี|ใคร|สนใจ|ไหม|ค่าา|!
@@ -567,7 +672,7 @@
   character: Yamada_Minato
 - msg: >-
     Minato ได้|เล่า|สิ่ง|ที่|ปู่|บอก|มา|ให้ Akari
-    ฟัง|ใน|ระหว่าง|ที่|เดิน|ไป|ที่|ตึก|ประถม|นิเทศ
+    ฟัง|ใน|ระหว่าง|ที่|เดิน|ไป|ที่|ตึก|ปฐมนิเทศ
   character: narrator
 - msg: >-
     สรุป|ก็|คือ|ปู่|ส่ง|เรา|มา|ที่|มหา|ลัย|นานา|ชาติ|ที่|อัตรา|การ|จบ|มี|แค่
@@ -583,6 +688,7 @@
   character: Yamada_Akari
 - msg: เรา|ใกล้|ถึง|แล้ว|หละ|นั้น|ไง|ตึก|ประถม|นิเทศ
   character: Yamada_Minato
+- sound: sv_Ding
 - msg: Minato ได้|ชี้|นิ้ว|ไป|ที่|อาคาร|ที่|ใหญ่|มากๆตั้ง|อยู่|ตรง|ใจ|กลาง|มหา|ลัย
   character: Yamada_Minato
 - msg: โ|หหหหห|ใหญ่|เวอร์|!|!
@@ -591,8 +697,8 @@
   character: Yamada_Minato
 - msg: รอ|ด้วย|สิ|พี่|!
   character: Yamada_Akari
+- sound: sv_Fast run meme
 - msg: >-
-    (|Run Fast|)
     ทั้ง|คู่|ได้|วิ่ง|เข้า|ไป|ใน|ตึก|ประถม|นิเทศ|แล้ว|เห็น|ว่า|มี|นักศึกษา|ใหม่|ที่|หา|ที่นั่ง|รอ|ไว้|แล้ว|แต่|งาน|ยัง|ไม่|เริ่ม
   character: narrator
 - msg: ขนาด|งาน|ยัง|ไม่|เริ่ม|คน|ยัง|นั่ง|รอ|เยอะ|สุดๆเลย|นะ
@@ -633,9 +739,10 @@
   character: Yamada_Minato
 - msg: '*|ลาก Akari ไป|ที่|หา|ที่นั่|ง*'
   character: Yamada_Minato
-- msg: (|เสียง|ไฟ|ดับ พ|รึ๊บบ|)
-  character: narrator
+- background: bg_uni_classroom_BR
+- sound: sv_Big Switch
 - delay: 3
+- background: bg_uni_classroom
 - msg: >-
     เวลา|ผ่าน|ไป|สัก|พัก|ไฟ|ทุก|ดวง|ดับ|ยกเว้น|บน|เวที|พิธี|ประถม|นิเทศ|ก็|ได้|เริ่ม|ขึ้น|และ
     ผอ ของ|มหา|ลัย|นี้|ก็|ได้|ขึ้น|มา|ต้อนรับ|ด้วย|ตัวเอง
@@ -644,6 +751,9 @@
   character: Yamada_Minato
 - msg: อืมม
   character: Yamada_Akari
+- character: professor
+  position: center
+  act: aa
 - msg: >-
     อรุณ|สวัสดิ์|เหล่า|แร่|ดิบ|ผู้|มี|พรสวรรค์ ยินดี|ที่|ได้|พบ|นะ|ผม|คือ ผอ
     ของ|มหา|ลัย|แห่ง|นี้
@@ -661,8 +771,13 @@
   character: professor
   override_name: ผอ.
 - msg: '?|!|?'
-  character: me
+  character: narrator
   override_name: minato/akari
+- sound: sv_Flashback
+- delay: 3
+- character: Grandfather
+  position: center
+  act: idle
 - msg: >-
     ปู่|เชื้อ|ว่า|หลาน|ทั้ง 2
     จะ|ต้อง|ผ่า|นไ|ปไ|ด่แน่ด้วย|ทักษะ|ของ|หลาน|ที่|ปู่|ขัด|เกลา|ให้|เอง|กับ|มือ
@@ -670,6 +785,13 @@
 - msg: >-
     ถ้า|ไม่|มี|อะไร|แล้ว|ปู่|วาง|สาย|ละ|นะ|ขอ|ให้|โชค|ดี|กับ|ชีวิต|ใน|รั่ว|มหา|ลัย|หละ
   character: Grandfather
+- character: empty
+  position: center
+- sound: sv_Flashback
+- delay: 3
+- character: professor
+  position: center
+  act: aa
 - msg: ด้วย|เหตุ|นี้|ทาง|เรา|จะ|ขอ|ชี้แจง|ก่อน|ว่า
   character: professor
   override_name: ผอ.
@@ -677,9 +799,11 @@
     แต่ละ|ปี|ขอ|งพว|กก|คุณ|นั้น|ถ้า|พวก|คุณ|ไม่|สามารถ|สร้าง|ผล|งาน|เป็น|ที่|ประ|จักร|ให้|แก่|มหา|ลัย|ของ|เราไ|ด้หล|ะก|็…
   character: professor
   override_name: ผอ.
-- msg: จะ|โดน|ไล่ออก|ทันที|!|!|(|เสียง|ผ่าง|งง|)
+- sound: sv_alert
+- msg: จะ|โดน|ไล่ออก|ทันที|!|!
   character: professor
   override_name: ผอ.
+- delay: 4
 - msg: เอ๋|!|? ว่า|ไง|นะ|ไล่ออก|หรอ|!|?
   character: man02
   override_name: นักศึกษาใหม่1
@@ -721,16 +845,26 @@
     ปี|ที่|โชค|ดี|หละ|เหล่า|นักศึกษา|ของ|ฉัน|.…
   character: professor
   override_name: ผอ.
+- sound: sv_Walking_Footsteps_on_Woods_3
+- background: bg_uni_classroom_BR
 - msg: >-
     เมื่อ ผอ
     พูด|เสร็จ|ก็|เดิน|ลง|จาก|เวที|แล้ว|หาย|ไป|ใน|เงา|มืด|ทันที|และ|ไฟ|ก็|กลับ|มา|ติด|อีก|ครั้ง
   character: narrator
+- delay: 1
+- sound: sv_Big Switch
+- delay: 3
+- character: empty
+  position: center
+- background: bg_uni_classroom
 - msg: การ|พูด|ปราศรัย|ของ ผอ ฟัง|แล้ว|ขน|ลุก|เลย Akari คิด|ว่า|ไง|หรอ
   character: Yamada_Minato
 - msg: หนู|ว่า ผอ คน|นี้|พูด|อะไร|ที่|ให้|ข้อ|คิด|ดีๆมาก|เลย|เลย|นะ|คะ
   character: Yamada_Akari
-- msg: '*|ท้อง|ร้อ|ง* (้|เสียง|จ๊อ|กก|)'
+- sound: sv_Stomach Growl
+- msg: '*|ท้อง|ร้อ|ง*'
   character: Yamada_Akari
+- delay: 3
 - msg: โอ้|ยย|~|พี่|หนู|หิว|ข้าว|แล้ว|อ่าา
   character: Yamada_Akari
 - msg: >-
@@ -740,10 +874,15 @@
   character: Yamada_Akari
 - msg: อืมงั้น|ไป|กัน
   character: Yamada_Minato
+- sound: sv_Footsteps
 - msg: >-
     ระหว่าง|ที่|ทั้ง 2
     กำลัง|จะ|ออก|จาก|ตึก|เพื่อ|ไป|หา|อะไร|กิน|ทันใด|นั้น|ก็|มี|ใคร|บาง|คน|มา|ดัก|หน้า|ทางออก|ตึก
   character: narrator
+- delay: 4
+- character: Tan
+  position: center
+  act: enigma
 - msg: นี้ๆพวก|เธอ 2 คน|ก็|มา|เรียน|ที่|นี้|ด้วย|หรอ|เนี้ยย
   character: Tan
   override_name: บุคคลปริศนา
@@ -754,14 +893,21 @@
   override_name: บุคคลปริศนา
 - msg: เสียง|แบบ|นี้|หรือ|ว่า|!|?
   character: Yamada_Minato
+- character: Tan
+  position: center
+  act: idle
 - msg: ไม่|ได้|เจอ|กัน|นาน|เลย|นะ Minato (|ปิด|เงา|หน้า|)
   character: Tan
   override_name: บุคคลปริศนา
+- sound: sv_alert
 - msg: นา|ยย|!|?|!|?
   character: Yamada_Minato
-- delay: 1
+- delay: 3
+- sound: sv_59
 - msg: เป็น|ใคร|วะ|?
   character: Yamada_Minato
+- msg: .|.|.
+  character: Tan
 - msg: >-
     แป้ว— เห้ย|เดี๋ยว|สิ|ลืม|กัน|งี้|ได้|ไง|เนี้ย|!|! Minato
     ฉั|นอ|ุตสาห์|มอง|นาย|ตั้งแต่|หน้า มหา|ลัย|เลย|นะ|รู้|ไหม|!|!
@@ -770,7 +916,7 @@
 - msg: พูด|อะไร|ย้อน|แย้ง|ชะมัด|เลย|นะ|แทน|!
   character: Yamada_Minato
 - msg: >-
-    ตะ|กี้|ยัง|พูด|เห|มื่อน|พึ่ง|รู้|ว่า|พวก|ฉัน|มา|เรียน|แต่|สัก|พัก|ก็|บอก|รู้|อยู่|แล้ว|ว่า|จะ|มา|เรียน|จะ|เอา|แบบ|ไหน|กัน|แน่|ห๊ะ|!|!
+    ตะ|กี้|ยัง|พูด|เห|มื่อน|พึ่ง|รู้|ว่า|พวก|ฉัน|มา|เรียน|แต่|สัก|พัก|ก็|บอก|รู้|อยู่|แล้ว|ว่า|จะ|มา|เรียน|จะ|เอา|แบบ|ไหน|กัน|แน่|ห๊ะ|!
   character: Yamada_Minato
 - msg: ฮึ่ย|!|! ช่าง|ฉัน|เถอะ|น่า|!|!
   character: Tan
@@ -853,6 +999,8 @@
   character: Tan
 - msg: ลุ|ยยย|~|~
   character: Yamada_Akari
+- music: bgm_Walking On Gravel Road Near Stream
+- background: BG_in_University
 - msg: ทั้ง 3 คน|ได้|เดิน|ตรง|ไป|ยัง|โรงอาหาร|กลาง|โดย Akari บ่น|ว่า|หิว|ตลอด|ทาง
   character: narrator
 - msg: ยัง|ไม่|ถึง|อีก|หรอ|พี่|~ หนู|หิว|จน|จะ|กิน|ม้า|ได้|ทั้ง|ตัว|แล้ว|เนี้ยยย
@@ -880,6 +1028,8 @@
   character: Tan
 - msg: ค่ะ|!
   character: Yamada_Akari
+- music: empty
+- background: bg_restaurant01
 - msg: ทั้ง 3 คน|ได้|เดิน|มา|ถึง|โรงอาหาร|กลาง|ได้|ใน|ที่สุด
   character: narrator
 - msg: ถึง|แล้|ววว|!|!
@@ -900,6 +1050,9 @@
   character: Yamada_Akari
 - msg: ดะ|.|.|เดี๋ยว|สิ Akari|!
   character: Yamada_Minato
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: อย่า|ดึง|สิ|?|!|?
   character: Tan
 - msg: >-
@@ -907,14 +1060,17 @@
     ก็|มี|นักศึกษา|ใหม่|ขี่|สก|ู๊ต|เตอร์ไฟฟ้า|ด้วย|ความ|เร็ว|สูง|มาก|กำลัง|จะ|เสียหลัก|และ|พุ่ง|ชน|ใส่
     Akari
   character: narrator
+- sound: sv_Scooter
 - msg: ถ–|ถอย|ไป|!|!|!
   character: man02
   override_name: นักศึกษาใหม่
+- delay: 4
 - msg: '!|?|!|?'
   character: narrator
   override_name: แทน/Minato
 - msg: 'Akari : อ่าาา|!|!  *|ปิด|ตา*'
   character: Yamada_Akari
+- sound: sv_cloth_hard_take_away
 - msg: >-
     ทั้ง|คู่|ดึง Akari
     กลับ|มา|แต่|เห|มื่อน|แทน|แรง|จะ|เยอะ|กว่า|เลย|กลาย|เป็น|ว่า|แทน|ดึง Akari
@@ -922,6 +1078,7 @@
   character: narrator
 - msg: …
   character: Yamada_Akari
+- music: bgm_Mysterious_Clock_Cello_take2
 - msg: Akari|!|!
   character: Tan
 - msg: '!|?|!'
@@ -936,9 +1093,11 @@
   character: Tan
 - msg: หนู|ไม่|เป็นไร|ค่ะ|แต่|ที่|สำคัญ|กว่า|นั้น|.|.|.|.|.|โอ้ย|!|?|!
   character: Yamada_Akari
+- sound: sv_Body Fall
 - msg: อ้าาก|กก|กก|!|!
   character: man02
   override_name: นักศึกษาใหม่
+- delay: 4
 - msg: >-
     สก|ู๊ต|เตอร์ไฟฟ้า|ของ|นักศึกษา|ใหม่|ล้ม|แล้ว|ตัว|เจ้า|ขอ|งก|็ก|ลิ่ง|จน|ไป|ชน|ฟุตบาท|ทำให้|เจ็บ|หนัก|ส่วน
     Akari ก็|ได้|แผล|ถลอก|ที่|ต้น|ขา
@@ -955,25 +1114,36 @@
   character: Yamada_Minato
 - msg: ค|ะ…|ค่ะ
   character: Yamada_Akari
+- sound: sv_Footsteps Running Fade Away
 - msg: >-
     *|Minato ได้|วิ่ง|ไป|แบก|คน|เจ็บ|ไป|ที่|ตึก|พยาบาล|ใน|ระหว่าง|นั้น แทน
     ก็|โทร|หา|คณะ|กรรมการ|วินัย|และ|เล่า|สิ่ง|ที่|เกิดขึ้|น*
   character: Yamada_Minato
+- delay: 2
 - goto:
-    - novel_ep1.0_lb_7 if var_akari > 5
+    - novel_ep1.0_lb_7 if var_akari >= 6
     - novel_ep1.0_lb_8
+- character: empty
+  position: left
+  label: novel_ep1.0_lb_7
 - msg: —|-|-|-|-|-|-|-|-|-|ใน|สาย|ของ|แทน—|-|-|-|-|-|-|-
   character: Tan
-  label: novel_ep1.0_lb_7
+- sound: sv_Phone Ring
+- delay: 10
 - msg: ครับ ตอน|นี้|คน|เจ็บ|อยู่|ที่|ตึก|พยาบาล|แล้ว|ครับ
   character: Tan
 - msg: ส่วน|อีก|คน|เป็น|แค่|แผล|ถลอก|นิดหน่อย|ครับ
   character: Tan
+- character: Lucien
+  position: left
+  act: idle
 - msg: >-
     อืมผม|รับ|เรื่อง|ไว้|แล้ว|เดี๋ยว|ผม|จะ|ส่ง|คน|ของ|ผม|ไป|ดู|เหตุการณ์|ให้|นะ|ครับ
   character: Lucien
 - msg: ขอบคุณ|มาก|ครับ|หัวหน้า|กรรมการ|วินัย
   character: Tan
+- character: empty
+  position: left
 - msg: —|-|-|-|-|-|-|-|-|-|-|-|-|-|วาง|สา|ย—|-|-|-|-|-|-|-|-|-|-|-|-|-|-
   character: Tan
 - msg: พี่|แทน|คะ|คือ|ว่า…
@@ -985,8 +1155,10 @@
 - msg: >-
     ไม่|ได้|หรอก|นะ|ต้องหา|ไร|มา|ผัน|แผล|นี้|ก่อน|.|.|เรา|มี|อะไร|ติด|ตัว|บ้าง|ไหม|นะ
   character: Tan
+- sound: sv_ClothMovement
 - msg: '*|เช็ค|ขอ|งใ|นตั|ว*'
   character: Tan
+- delay: 3
 - msg: นี้|ไง|เอา|ผ้าเช็ดหน้า|ไป|พัก|แผล|ก่อน|ละ|กัน
   character: Tan
 - msg: หนู|บอ|กว่า|แค่|นิดเดียว|.|.
@@ -1001,6 +1173,7 @@
   character: Yamada_Akari
 - msg: ช่วย|.|.|.|อ่อนโยน|ด้วย|นะ|คะ|.|.|. (|หน้า|หลบ|ตา|เขินๆนิดหน่อย|)
   character: Yamada_Akari
+- sound: sv_Bandage
 - msg: อ|ะ…|อืมม|.|.
   character: Tan
 - msg: 'ใน|ขณะ|นั้น|แทน|ก็|ได้|ผัน|แผล|ของ Akari ด้วย|ผ้าเช็ดหน้า|อย่าง|ระมัดระวัง '
@@ -1023,8 +1196,10 @@
   character: Tan
 - msg: เอา|หละ|เสร็จ|แล้ว|หละ ลอง|ขยับ|ขา|ดู|สิ
   character: Tan
+- sound: sv_Lays leg
 - msg: '*|ลอง|ขยับ|ขาด|ู* '
   character: Yamada_Akari
+- delay: 3
 - msg: >-
     ถึง|จะ|ยัง|เจ็บ|อยู่|แต่|ก็|น้อย|ลง|แล้ว|ค่ะ|ขอบคุณ|นะ|คะ|พี่|แทน|สัก|วัน|หนู|จะ|ตอบแทน|พี่|ให้|ได้|เลย
   character: Yamada_Akari
@@ -1034,15 +1209,26 @@
 - msg: .|.|.|.|.
   character: Yamada_Minato
   label: novel_ep1.0_lb_8
+- character: Yamada_Minato
+  position: left
+  act: idle
+  label: novel_ep1.0_lb_9
 - msg: ไม่|กี่|นาที|ต่อ|มา
   character: narrator
-  label: novel_ep1.0_lb_9
 - msg: พี่|กลับ|มา|แล้ว Akari !|!
   character: Yamada_Minato
+- character: Tan
+  position: right
+  act: idle
+- character: Yamada_Akari
+  position: center
+  act: idle
+- music: bgm_Your_Love_Is_Home
 - msg: พี่|คะ|~|~|!
   character: Yamada_Akari
 - msg: '* วิ่ง|เข้า|ไป|กอด Minat|o*'
   character: Yamada_Akari
+- sound: sv_ClothMovement
 - msg: '* กอด|akari|กลับ *'
   character: Yamada_Minato
 - msg: ไม่|เป็นไร|แล้ว|ใช่|ไหม
@@ -1055,6 +1241,9 @@
   character: Tan
 - msg: ได้|งั้น|เป็น|อัน|ตกลง
   character: Yamada_Minato
+- character: Lucien
+  position: left
+  act: idle
 - msg: วัน|นี้|วัน|เดียว|มี|หลาย|เหตุการณ์|เกิด|ขึ้น|เลย|นะ|ครับ
   character: Lucien
 - msg: โ|อ๊~ คุณ|หัวหน้า|กรรมการ|มา|ดู|สถานการณ์|ด้วย|ตัวเอง|เลย|หรอ|ครับ
@@ -1086,26 +1275,43 @@
   character: Lucien
 - msg: ไม่|เลย|ค่ะ|.|.
   character: Yamada_Akari
+- character: Yamada_Minato
+  position: left
+  act: idle
 - msg: ยัง|ไม่|ได้|กิน|เลย|ครับ
   character: Yamada_Minato
 - msg: พวก|เรา|กะ|ว่า|จะ|มา|หา|ไร|กิน|ซะ|หน่อย|แต่|ดัน|กลาย|เป็น|เรื่อง|ซะ|ได้
   character: Tan
+- character: Lucien
+  position: left
+  act: idle
 - msg: อย่าง|งี้|นี้|เอง|ถ้า|งั้น|ทุก|คน|เชิญ|ไป|ทาน|ข้าว|กัน|ก่อน|ได้|เลย|นะ|ครับ
   character: Lucien
+- character: Yamada_Minato
+  position: left
+  act: idle
 - msg: ถ้า|งั้น Akari จับ|มือ|พี่|ไว้|นะ
   character: Yamada_Minato
 - msg: ค่ะ|!
   character: Yamada_Akari
 - msg: ถ้า|งั้น|เรา|ไป|ก่อน|นะ|คุณ|หัวหน้า|กรรมการ|วินัย
   character: Tan
+- character: Lucien
+  position: left
+  act: idle
 - msg: …|.
   character: Lucien
 - msg: Buona fortuna|(|ขอ|ให้|โชค|ดี|)|.|.
   character: Lucien
+- character: Yamada_Minato
+  position: left
+  act: idle
 - msg: >-
     หลัง|จาก|เรื่อง|จบ|ทั้ง 3
     คน|ได้|เข้า|ไป|ใน|โรงอาหาร|กลาง|ของ|มหา|ลัย|ใน|ที่สุด
   character: narrator
+- background: bg_restaurant01
+- music: bgm_Big Canteen Ambience
 - msg: โ|หหหหห|!|!
   character: Yamada_Akari
 - msg: จะ|เวอร์|อะไร|ขนาด|นี้|!|?
@@ -1130,7 +1336,7 @@
 - msg: ได้|อยู่|แล้ว|สิ|คะ|! หนู|มี|หลาย|อย่าง|ที่|อยาก|กิน|เลย|นะ|!
   character: Yamada_Akari
 - goto:
-    - novel_ep1.0_lb_10 if var_minato >= 5
+    - novel_ep1.0_lb_10 if var_minato >= 8
     - novel_ep1.0_lb_11
 - msg: ว่า|แต่|พี่|จะ|กิน|อะไร|งั้น|หรอ
   character: Yamada_Akari
@@ -1143,6 +1349,7 @@
     - msg: แกง|หระ|หรี่
   character: me
   state: novel_ep1.0_st_1
+- sound: sv_Pop1
 - msg: ตั้งแต่|มา|ที่|ไทย|พี่|ก็|ชอบ|กิน|เมนู|นี้|ตลอด|เลย|นะ|ติดใจ|แล้ว|หรอ
   character: Yamada_Akari
 - msg: ก็|มัน|อร่อย|นี้|นา|พี่|จะ|ห้าม|ใจ|ได้|ไง|หละ
@@ -1161,8 +1368,6 @@
   character: Tan
 - msg: ขะ|.|.|ขอโทษ|ด้วย
   character: Yamada_Minato
-- msg: test
-  character: narrator
 - goto: novel_ep1.0_lb_12
 - msg: ว่า|แต่|น้อง|จะ|กิน|อะไร|งั้น|หรอ
   character: Yamada_Minato
@@ -1175,6 +1380,7 @@
     - msg: ขนม|ปัง|ปิ้ง
   character: me
   state: novel_ep1.0_st_2
+- sound: sv_Pop1
 - msg: Akari นั้น|มัน|ของ|หวาน|ไม่|ใช่|หรอ|เดี๋ยว|สาร|อาหาร|ก็|ไม่|พอ|หรอก
   character: Yamada_Minato
 - msg: ก็|หนู|ชอบ|แบบ|นี้|อะ|พี่
@@ -1203,10 +1409,12 @@
   character: Yamada_Minato
 - msg: ค่ะ|!
   character: Yamada_Akari
+- sound: sv_Footsteps Running Fade Away
 - msg: >-
     หลัง|จาก|นั้น|ทั้ง 3
     คน|ก็|แยกย้าย|ไป|ซื้อ|ของ|กิน|ตาม|ที่|ตัวเอง|ต้องการ|แล้ว|กลับ|มา|เจอ|กัน|ที่|โต๊ะ
   character: narrator
+- delay: 3
 - msg: หนู|ถึง|คน|แรก|~|!
   character: Yamada_Akari
 - msg: เดี๋ยวๆเรา|ไม่|ได้|แข่ง|กัน|เรื่อง|นี้|ไม่|ใช่|หรอ
@@ -1221,10 +1429,10 @@
   character: Yamada_Minato
 - msg: いただきます (|Itadakimasu|) จะ|กิน|แล้ว|นะ|!
   character: me
-  override_name: 'Minato / Akari / แทน '
+  override_name: 'minato/akari/แทน '
 - msg: อืมม|!|! อ|ร่อ|ยยยย
   character: me
-  override_name: 'Minato / Akari / แทน '
+  override_name: 'minato/akari/แทน '
 - msg: นี้|มัน|สุด|ยอด|ไป|เลย|นะ|เนี้ย|!
   character: Yamada_Minato
 - msg: >-
@@ -1259,10 +1467,17 @@
     คน|ใน|ระหว่าง|ที่|กิน|ไป|ด้วย|นั้น|ก็|พูด|คุย|กัน|อย่าง|มี|ความ|สุข|ใน|ตอน|นั้น|ก็|มี
     ผญ คน|นึง|ปรากฏ|ตัว|ขึ้น|มา
   character: narrator
+- character: Nightrose
+  position: left
+  act: idle
 - msg: เออ|ขอโทษ|นะ|ค่า…
   character: Nightrose
   override_name: '???'
-- msg: ครับ|ว่า * มอง|ไป|หา|ตาม|เสียง * (|หน้า|พูด|) (|Whoosh|)
+- character: Yamada_Minato
+  position: center
+  act: idle
+- sound: sv_Whoosh
+- msg: ครับ|ว่า * มอง|ไป|หา|ตาม|เสียง * (|หน้า|พูด|)
   character: Yamada_Minato
 - msg: '?|!|?|!'
   character: Nightrose
@@ -1277,16 +1492,25 @@
 - msg: ขอ|เสีย|มารยาท|หน่อย|นะ|คะ|.|.
   character: Nightrose
   override_name: '???'
-- msg: เธอ|ได้|มา|นั่ง|ข้าง Minato พร้อมหน้า|แดง|นิดหน่อย
+- msg: '*|เธอ|ได้|มา|นั่ง|ข้าง Minato พร้อม|สี|หน้าที่|แดง|นิด|หน่อ|ย*'
   character: Nightrose
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: '*|จ้อง|ง*'
   character: Yamada_Akari
 - delay: 2
+- character: Tan
+  position: right
+  act: idle
 - msg: '*|จ้อง|ง*'
   character: Tan
 - delay: 2
+- sound: sv_Clock Tick
 - msg: ' (|ทำไม|รู้สึก|แปลกๆหละ|เนี้ย|ต้องหา|เรื่อง|คุย|แล้ว|!|) '
   character: Yamada_Minato
+- delay: 4
+- sound: sv_Ping
 - msg: วะ|.|.|ว่า|แต่|คุณ|ชื่อ|อะไร|หรอ|ครับ|คุณ|ผู้หญิง|?
   character: Yamada_Minato
 - msg: อะ|!|?
@@ -1298,8 +1522,11 @@
   character: Nightrose
 - msg: >-
     เป็น|นักศึกษา|ใหม่|เห|มื่อน|กัน|สิ|นะ|ยินดี|ที่|ได้|รู้จัก|นะ Nightrose
-    ฉัน|ปี 1 ชื่อ Minato yamada ยินดี|ที่|ได้|รู้จัก
+    ฉัน|ปี 1 ชื่อ Minato yamada             ยินดี|ที่|ได้|รู้จัก
   character: Yamada_Minato
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: >-
     ส่วน|ฉัน|ชื่อ|ว่า Akari Yamada อยู่|ปี 1
     เห|มื่อน|กัน|ยินดี|ที่|ได้|รู้จัก|นะ Nightrose จัง
@@ -1335,9 +1562,12 @@
   character: Yamada_Akari
 - msg: พวก|เธอ 2 คน|ดู|จะ|คุย|กัน|ถูก|คอ|น่า|ดู|เลย|นะ (|หน้า|ปกติ|)
   character: Yamada_Minato
+- character: Tan
+  position: right
+  act: idle
 - msg: ฉัน|เห็นด้วย|เลย|หละ (|หน้า|ยิ้ม|)
   character: Tan
-- msg: เอา|หละ|!|! Let Eat|!|! (|หน้า|ยิ้ม|)
+- msg: เอา|หละ|!|! let|'s eat (|หน้า|ยิ้ม|)
   character: Nightrose
 - msg: อะ|ตะเกียบ|มัน|!|! * เผลอ|ทำ|ตะเกียบ|ตก * (|หน้า|ตกใจ|)
   character: Nightrose
@@ -1355,6 +1585,7 @@
     ก็|อยาก|หยิบ|อยู่|หละ|ค่ะ…|แต่ว่า|มัน Out of Stock
     แล้|ว…|ตอน|นี้|เหลือ|แค่|ตะเกียบ|แล้ว|ค่ะ (|หน้า|ปกติ|)
   character: Nightrose
+- sound: sv_Ping
 - msg: >-
     อืมมม * คิด|บาง|อย่าง|ได้ *
     ถ้า|อย่าง|งั้น|ให้|ผม|สอน|การ|ใช่|ตะเกียบ|ให้|ไหม|ครับ (|หน้า|ยิ้ม|)
@@ -1414,12 +1645,25 @@
   character: Yamada_Minato
 - msg: '*|ปล่อย|มือ|ออก|จาก|มือ Nightros|e*'
   character: Yamada_Minato
+- character: Yamada_Akari
+  position: right
+  act: idle
+- sound: sv_Riser
 - msg: '*|จ้อง|ง*'
   character: Yamada_Akari
+- delay: 4
+- character: Tan
+  position: right
+  act: idle
+- sound: sv_Riser
 - msg: '*|จ้อง|ง*'
   character: Tan
+- delay: 4
 - msg: อะ|.|.|อะไร|ของ|พวก|เธอ 2 คน|เนี้ย|จ้อง|ตั้งแต่|เมื่อกี้|แล้ว|นะ
   character: Yamada_Minato
+- character: Yamada_Akari
+  position: left
+  act: idle
 - msg: เปล่า|นะ|~|แค่|คิด|ว่า|พี่|ก็|สอน|เก่ง|เห|มื่อน|กัน|นะ|เนี้ย|~ (|หน้า|ปกติ|)
   character: Yamada_Akari
 - msg: นั้น|สิ|นะ Akari|~ สอน|คน|ที่พึ่ง|เจอ|กัน|ได้|อย่าง|ไร้|ที่|ติ|เลย|เนอะ|~
@@ -1428,13 +1672,16 @@
   character: Yamada_Minato
 - msg: นี้ Minato ตอน|นาย|สอน Nightrose นาย|ไม่|ได้|คิด|อะไร|เลย|จริงๆหรอ|~
   character: Tan
+- character: Nightrose
+  position: left
+  act: idle
 - msg: '!|?|! * สำลัก|น้ำ|ก๊วยจั๊บ *'
   character: Nightrose
 - msg: 'แค่กๆ! '
   character: Nightrose
 - msg: 'เป็นไร|ไหม Nightrose '
   character: Yamada_Minato
-- msg: ม่เป็นไร|ค่ะ|.|.|พอดี|สำลัก|นิด|หน่อ|ยห|นะ|.|.
+- msg: ไม่|เป็นไร|ค่ะ|.|.|พอดี|สำลัก|นิด|หน่อ|ยห|นะ|.|.
   character: Nightrose
 - msg: ถะ|.|.|ถะ|.|.|ถ้า|งั้น|หนู|ขอ|เอา|จาน|ไป|เก็บ|ก่อน|นะ|คะ|!
   character: Nightrose
@@ -1444,16 +1691,26 @@
   character: Yamada_Minato
 - msg: '!|?|!|!'
   character: Nightrose
+- character: Yamada_Akari
+  position: right
+  act: idle
 - msg: เดี๋ยว|สิ|พี่|! ล้ำเส้น|เกิน|ไป|แล้ว|นะ|!
   character: Yamada_Akari
 - msg: คะ|.|.|คะ|.|.|คะ|.|.|คือ|ว่า|.|.
   character: Nightrose
 - msg: ขอ|ขอบคุณ|สำหรับ|วัน|นี้|นะ|ค่าาา|คุณ Minato|!|!
   character: Nightrose
+- sound: sv_Footsteps Running Fade Away
 - msg: >-
     จาก|นั้น Nightrose
     ก็|รีบ|ยก|ถาด|อาหาร|ไป|เก็บ|แล้ว|ก็|ออก|จาก|โรงอาหาร|ไป|เลย
   character: narrator
+- character: empty
+  position: left
+- delay: 3
+- character: Tan
+  position: left
+  act: idle
 - msg: ให้|ตาย|สิ Minato นาย|หยอด|เขา|แรง|ไป|แล้ว|นะ
   character: Tan
 - msg: เอ๋|ฉัน|ยัง|ไม่|ได้|ทำ|อะไร|เลย|นะ
@@ -1467,24 +1724,34 @@
   character: Yamada_Minato
 - msg: ได้|เลย|!
   character: Yamada_Akari
+- music: empty
 - msg: >-
     กลุ่ม|ของ Minato
     หลัง|จาก|กิน|ข้าว|แล้ว|ก็|แยกย้าย|กัน|ไป|เตรียม|ตัว|ของ|ตัวเอง|แต่|ตัว|เอก|เรา|ก็|เดิน|ไป|ทาง|เดียว|กับ|แทน
   character: narrator
+- character: empty
+  position: center
+- character: empty
+  position: right
+- delay: 3
 - msg: เห้ย|ตาม|ฉัน|มา|ทำไม|เนี้ย (|หน้า|ตกใจ|)
   character: Tan
 - goto:
-    - novel_ep1.0_lb_13 if var_minato >= 5
+    - novel_ep1.0_lb_13 if var_minato >= 9
     - novel_ep1.0_lb_16
+- character: Yamada_Minato
+  position: center
+  act: idle
+  label: novel_ep1.0_lb_13
 - msg: >-
     ป่า|วห|นิ|แค่|จะ|ไป|ร้าน|ขนม|ที่|เคย|ซื้อ|ให้ Akari
     กิน|แกห|นะ|แหละ|ที่|ตาม|ฉัน|มา
   character: Yamada_Minato
-  label: novel_ep1.0_lb_13
 - msg: ก็|ไม่|ได้|ตาม|ซะ|หน่อย|แค่|จะ|มา|ซื้อ|ขนม|เห|มื่อน|กัน (|หน้า|ปกติ|)
   character: Tan
 - msg: งั้น|หรอ (|หน้า|ปกติ|)
   character: Yamada_Minato
+- music: bgm_Walking On Gravel Road Near Stream
 - msg: แถว|ยาว|เป็น|หางว่าว|เลย|หวะ (|หน้า|ปกติ|พูด|)
   character: Yamada_Minato
 - msg: ก็|ปกติ|ของ|ร้าน|นี้|นะ|ขาย|ดี|เป็น|เท|น้ำ|เท|ท่า|เลย (|หน้า|ปกติ|พูด|)
@@ -1513,8 +1780,10 @@
       goto: novel_ep1.0_lb_14
   character: me
   state: novel_ep1.0_st_3
+- sound: sv_Search
 - msg: เออ|รู้|แล้ว|กำลัง|เอา|เงิน|มา|ให้|อยู่|ใน|กระเป๋า|เนี้ย (|หน้า|โกรธ|พูด|)
   character: Tan
+- delay: 2
 - goto: novel_ep1.0_lb_15
 - msg: >-
     เห้ย|แปลก|ดี|นะ|อยู่|ดีๆก็ เลี้ยง|ปกติ|ไม่|ค่อย|เห็น|เลี้ยง|นิ
@@ -1528,23 +1797,27 @@
   character: Tan
 - msg: 'อ่อ|ออ|แล้ว|ไป (ห|น้าป|กตื|) '
   character: Yamada_Minato
-- msg: >-
-    แทน  : โอเค|ถ้า|งั้น|ไป|ละ ไว้|เจอ|กัน|ใหม่|นะ *|หยิบ|ถุง|ขน|ม*
-    (|หน้า|ยิ้ม|)
+- sound: sv_Grab Chip
+- msg: โอเค|ถ้า|งั้น|ไป|ละ ไว้|เจอ|กัน|ใหม่|นะ *|หยิบ|ถุง|ขน|ม* (|หน้า|ยิ้ม|)
   character: Tan
+- music: bgm_Your_Love_Is_Home
 - msg: ออ|ไว้|เจอ|กัน (|หน้า|ยิ้ม|)
   character: Yamada_Minato
 - goto: novel_ep1.0_lb_19
+- character: Yamada_Akari
+  position: center
+  act: idle
+  label: novel_ep1.0_lb_16
 - msg: >-
     ป่าว|นิ|ค่ะ
     จะ|ไป|ร้าน|ขนม|เพื่อ|ซื้อ|ของ|กิน|แล้ว|ไป|เดิน|เล่น|แถว|มหา|ลัย|สัก|หน่อย
     ไม่|ใช่|พี่|แทน|หรอ|~|~|~|ที่|ตาม|มานะ (|หน้า|ปกติ|)
   character: Yamada_Akari
-  label: novel_ep1.0_lb_16
 - msg: ก็|ไม่|ได้|ตาม|ซะ|หน่อย|แค่|จะ|มา|ซื้อ|ขนม|เห|มื่อน|กัน (|หน้า|ปกติ|)
   character: Tan
 - msg: งั้น|หรอ (|หน้า|ปกติ|)
   character: Yamada_Akari
+- music: bgm_Walking On Gravel Road Near Stream
 - msg: อะ|.|.|แถว|ยาว|จัง|เลย|.|.|จะ|ได้|กิน|ไหม|นะ|.|.  (|หน้า|ปกติ|พูด|)
   character: Yamada_Akari
 - msg: ก็|ปกติ|ของ|ร้าน|นี้|นะ|ขาย|ดี|เป็น|เท|น้ำ|เท|ท่า|เลย (|หน้า|ปกติ|พูด|)
@@ -1571,12 +1844,13 @@
   character: narrator
 - choice:
     - msg: เงิน|หละ|พี่|หนู|ไม่|ได้|ซื้อ|ให้|ฟรีๆนะ|คะ
-    - msg: อะ|นี้|หนู|เลี้ยง (|ค่า|ความ|สัมพันธ์|เพิ่ม|)
+    - msg: อะ|นี้|หนู|เลี้ยง
       update:
         - rp_tan_akari += 5
       goto: novel_ep1.0_lb_17
   character: me
   state: novel_ep1.0_st_4
+- sound: sv_Search
 - msg: เออ|รู้|แล้ว|กำลัง|เอา|เงิน|มา|ให้|อยู่|ใน|กระเป๋า|เนี้ย (|หน้า|โกรธ|พูด|)
   character: Tan
 - goto: novel_ep1.0_lb_18
@@ -1594,12 +1868,14 @@
   character: Tan
 - msg: 'อ่อ|ออ|แล้ว|ไป (ห|น้าป|กตื|) '
   character: Yamada_Akari
-- msg: >-
-    แทน  : โอเค|ถ้า|งั้น|ไป|ละ ไว้|เจอ|กัน|ใหม่|นะ *|หยิบ|ถุง|ขน|ม*
-    (|หน้า|ยิ้ม|)
+- sound: sv_Grab Chip
+- msg: โอเค|ถ้า|งั้น|ไป|ละ ไว้|เจอ|กัน|ใหม่|นะ *|หยิบ|ถุง|ขน|ม* (|หน้า|ยิ้ม|)
   character: Tan
+- music: bgm_Your_Love_Is_Home
 - msg: ไว้|เจอ|กัน|ใหม่|ค่ะ|พี่|แทน (|หน้า|ยิ้ม|)
   character: Yamada_Akari
+- character: empty
+  position: left
+  label: novel_ep1.0_lb_19
 - msg: จบ|ตอน|ที่|1|.|0 to be continue
   character: narrator
-  label: novel_ep1.0_lb_19
