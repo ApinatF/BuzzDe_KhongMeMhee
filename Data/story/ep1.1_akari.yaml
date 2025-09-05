@@ -1,8 +1,8 @@
 - background: bg_living_room_yamada
 - music: bgm_Your_Love_Is_Home
-- character: Yamada_Akari
+- character: Yamada_Minato
   position: center
-  act: smile
+  act: idle
 - msg: ยัง|ไม่|ได้|ลง|ต่อ|ค่ะ
   character: Yamada_Akari
 - delay: 60

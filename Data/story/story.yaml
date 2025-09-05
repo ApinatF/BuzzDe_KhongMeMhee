@@ -17,6 +17,12 @@
   cost:
     type: ticket
     value: 1
+- novel: test_minato
+  label: test_minato
+  title: test_minato
+- novel: test_akari
+  label: test_akari
+  title: test_akari
 - ending:
     title: Ending
     subtitle: The End

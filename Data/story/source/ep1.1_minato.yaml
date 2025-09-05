@@ -2,7 +2,7 @@
 - music: bgm_Your_Love_Is_Home
 - character: Yamada_Minato
   position: center
-  act: fun
+  act: idle
 - msg: ยังไม่ได้ลงต่อครับ
   character: Yamada_Minato
 - delay: 60

@@ -1,0 +1,10 @@
+- background: bg_living_room_yamada
+- delay: 1
+- msg: >-
+    起きてよ、このバカ兄貴！         (|Okite yo|, kono baka aniki|!|) 
+    ตื่น|ได้|แล้ว|เจ้า|พี่|บ้า|!|!|! [ห|น้าจ|ริ|งจั|ง]
+  character: Yamada_Minato
+- msg: >-
+    <size=40>起きてよ、このバカ兄貴</size>|         (|Okite yo|, kono baka aniki|!|) 
+    ตื่น|ได้|แล้ว|เจ้า|พี่|บ้า|!|!|! [ห|น้าจ|ริ|งจั|ง]
+  character: Yamada_Akari
