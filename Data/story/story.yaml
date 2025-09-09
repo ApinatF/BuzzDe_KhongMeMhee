@@ -1,19 +1,19 @@
 - novel: novel_ep1.0
   label: novel_ep1.0
-  title: EP1.0ใหม่
+  title: วันแรกในมหาลัย
   prologue: true
 - goto:
     - ep1.1_minato if var_minato >= 1
     - ep1.1_akari
 - novel: ep1.1_minato
   label: ep1.1_minato
-  title: ep1.1 Minato Path (ยังไม่เริ่มลง)
+  title: ep1.1 minato Path (ยังไม่เริ่มลง)
   cost:
     type: ticket
     value: 1
 - novel: ep1.1_akari
   label: ep1.1_akari
-  title: ep1.2 Akari Path (ยังไม่เริ่มลง)
+  title: ep1.2 akari Path (ยังไม่เริ่มลง)
   cost:
     type: ticket
     value: 1

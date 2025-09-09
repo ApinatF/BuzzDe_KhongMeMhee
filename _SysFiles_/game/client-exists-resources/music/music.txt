@@ -1,7 +1,9 @@
 bgm_Big Canteen Ambience
+bgm_Cozy
 bgm_Education
 bgm_Epic_Gym_Rock_Take1
 bgm_Epic_Gym_Rock_Take2
+bgm_LoFi HipHop
 bgm_Mysterious_Clock_Cello_take2
 bgm_PublicBus_V1
 bgm_Walking On Gravel Road Near Stream

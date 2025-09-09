@@ -1,8 +1,8 @@
 - background: bg_nifront_wut
 - music: bgm_Your_Love_Is_Home
-- character: Yamada_Minato
+- character: minato
   position: center
   act: idle
 - msg: ยัง|ไม่|ได้|ลง|ต่อ|ครับ
-  character: Yamada_Minato
+  character: minato
 - delay: 60

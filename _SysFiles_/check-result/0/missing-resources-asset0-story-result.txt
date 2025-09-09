@@ -1,0 +1,8 @@
+ep1.1_akari [
+  {
+    "index": 2,
+    "error": [
+      "missing act select action for character minato"
+    ]
+  }
+]

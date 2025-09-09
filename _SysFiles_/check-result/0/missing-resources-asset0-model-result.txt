@@ -38,3 +38,11 @@ Mob_D.C [
     ]
   }
 ]
+Test [
+  {
+    "index": 0,
+    "error": [
+      "missing model #Test"
+    ]
+  }
+]

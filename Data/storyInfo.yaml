@@ -13,10 +13,10 @@ summary:
       max: 100
     - key: rp_tan_akari
       name: ค่าความสัมพันธ์ของแทนกับอคาริ
-      max: 200
+      max: 100
     - key: rp_nightrose_minato
       name: ค่าความสัมพันธ์ของไนท์โรสกับมินาโตะ
-      max: 200
+      max: 100
 group:
   - รักโรแมนติก
   - ชีวิตประจำวัน

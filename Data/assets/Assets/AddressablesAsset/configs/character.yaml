@@ -12,37 +12,41 @@
     - default
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Yamada_Minato
-  model: Yamada_Minato
+- character: minato
+  model: minato
   name: Minato
   action:
     - idle
+    - Angry
+    - Happy
+    - Normal
   msg_color: ffffff
   name_bgcolor: 6633FF
-- character: Yamada_Akari
-  model: Yamada_Akari
+  have_animation: true
+- character: akari
+  model: akari
   name: Akari
   action:
     - idle
   msg_color: ffffff
   name_bgcolor: 33CC99
-- character: Nightrose
-  model: Nightrose
+- character: nightrose
+  model: nightrose
   name: Nightrose
   action:
     - idle
   msg_color: ffffff
   name_bgcolor: FFFACD
-- character: Tan
-  model: Tan
+- character: tan
+  model: tan
   name: Tan
   action:
     - idle
     - enigma
   msg_color: ffffff
   name_bgcolor: D2B48C
-- character: Grandfather
-  model: Grandfather
+- character: grandfather
+  model: grandfather
   name: ปู่
   action:
     - idle
@@ -76,9 +80,9 @@
     - aa
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Lucien
-  model: Lucien
-  name: Lucien
+- character: lucien
+  model: lucien
+  name: lucien
   action:
     - idle
   msg_color: ffffff
@@ -90,3 +94,12 @@
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
+- character: Test
+  model: Test
+  name: Test
+  action:
+    - idle
+    - do_flip
+  msg_color: ffffff
+  name_bgcolor: ffffff
+  have_animation: true

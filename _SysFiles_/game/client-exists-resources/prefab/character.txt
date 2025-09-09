@@ -1,14 +1,19 @@
 480_20250824204727
+akari-idle
 default-default
-Grandfather-idle
-Lucien-idle
+grandfather-idle
+lucien-idle
 man01-idle
 man01_v01-idle - Copy
 man02_v01-idle
 man03_v01-idle
-Nightrose-idle
+minato
+minato-idle
+minato
+nightrose-idle
 professor-aa
-Tan-enigma
-Tan-idle
-Yamada_Akari-idle
-Yamada_Minato-idle
+raw
+tan-enigma
+tan-idle
+test
+test

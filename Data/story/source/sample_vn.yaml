@@ -42,7 +42,7 @@
     - sample_vn_lb_3
 - character: bear
   position: center
-  act: angry
+  act: Angry
   label: sample_vn_lb_2
 - msg: เป็นคำตอบที่ไม่น่าให้อภัยเลยย!!
   character: bear
@@ -101,4 +101,4 @@
   act: idle
 - character: bear
   position: left
-  act: angry
+  act: Angry
