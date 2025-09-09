@@ -5,8 +5,8 @@ grandfather-idle
 lucien-idle
 man01-idle
 man01_v01-idle - Copy
-man02_v01-idle
-man03_v01-idle
+man02-idle
+man03-idle
 minato
 minato-idle
 minato

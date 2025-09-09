@@ -14,35 +14,11 @@ me [
     ]
   }
 ]
-man03 [
+mob_D.C [
   {
     "index": 0,
     "error": [
-      "missing model #man03"
-    ]
-  }
-]
-man02 [
-  {
-    "index": 0,
-    "error": [
-      "missing model #man02"
-    ]
-  }
-]
-Mob_D.C [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Mob_D.C"
-    ]
-  }
-]
-Test [
-  {
-    "index": 0,
-    "error": [
-      "missing model #Test"
+      "missing model #mob_D.C"
     ]
   }
 ]

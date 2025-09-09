@@ -87,15 +87,15 @@
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Mob_D.C
-  model: Mob_D.C
+- character: mob_D.C
+  model: mob_D.C
   name: คณะกรรมการวินัย
   action:
     - idle
   msg_color: ffffff
   name_bgcolor: ffffff
-- character: Test
-  model: Test
+- character: test
+  model: test
   name: Test
   action:
     - idle
