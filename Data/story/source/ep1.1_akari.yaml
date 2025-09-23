@@ -1,8 +1,0 @@
-- background: bg_living_room_yamada
-- music: bgm_Your_Love_Is_Home
-- character: minato
-  position: center
-  act: select action
-- msg: ยังไม่ได้ลงต่อค่ะ
-  character: akari
-- delay: 60
