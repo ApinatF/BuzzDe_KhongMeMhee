@@ -1,0 +1,7 @@
+frames:  #กรณีที่เรามีภาพ หรือไฟล์ prefab ของ chat_frame เราสามารถนำมาใช้ได้โดยการเพิ่มในนี้เป็นชื่อภาพหรือไฟล์ prefab
+  - bubble01
+  - bubble02
+  - bubble03
+  - bubble04
+  - bubble05
+  - bubble06

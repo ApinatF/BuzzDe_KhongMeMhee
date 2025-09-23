@@ -1,0 +1,48 @@
+- novel: EP1.0_v3(MA)
+  label: EP1.0_v3(MA)
+  title: EP1 วันแรกในมหาลัย
+  prologue: true
+- goto:
+    - EP2.0_v3(Minato) if var_minato >= 1
+    - EP2.0_v3(Akari)
+- novel: EP2.0_v3(Minato)
+  label: EP2.0_v3(Minato)
+  title: EP2 จะกินได้ไหมเนี้ย…(Minato)
+- goto: EP3.0_v3(MA)
+- novel: EP2.0_v3(Akari)
+  label: EP2.0_v3(Akari)
+  title: EP2 จะกินได้ไหมเนี้ย…(Akari)
+- novel: EP3.0_SP1(Akari)
+  label: EP3.0_SP1(Akari)
+  title: บทพิเศษ Akari 1
+- novel: EP3.0_v3(MA)
+  label: EP3.0_v3(MA)
+  title: EP3 ตู้เย็นไม่มีอะไรเลย
+  cost:
+    type: ticket
+    value: 1
+- goto:
+    - test_minato if var_minato >= 1
+    - test_akari
+- novel: test_minato
+  label: test_minato
+  title: test_minato
+  cost:
+    type: ticket
+    value: 99
+- novel: test_akari
+  label: test_akari
+  title: test_akari
+  cost:
+    type: ticket
+    value: 99
+- novel: test
+  label: test
+  title: Test
+  cost:
+    type: ticket
+    value: 99
+- ending:
+    title: Ending
+    subtitle: The End
+  label: Ending

@@ -1,0 +1,10 @@
+- background: bedroom
+- music: bgm_Cozy
+- character: minato
+  position: left
+  act: Smile
+- msg: 'minato : Zzzz  [หน้านอน]'
+  character: minato
+- sound: sv_7_AM_Wake_Up_Call
+- msg: message
+  character: narrator
