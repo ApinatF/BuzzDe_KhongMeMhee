@@ -1,0 +1,849 @@
+- background: bg_living_room_yamada
+- music: bgm_Cozy
+- msg: >-
+    เวลา|ผ่าน|ไป Akari และ Minato
+    ตั้งใจ|อย่าง|หนัก|ใน|มหา|ลัย|และ|กำลัง|จะ|เข้า|สู่|ปลาย เทอม ที่ 1 ใน|ที่สุด
+  character: narrator
+- character: akari
+  position: center
+  act: idle
+- msg: พี่|จ๋า  หนู|กลับ|มา|แล้ว|~ พี่|ทำ|อะไร|อยู่|หรือ
+  character: akari
+- character: minato
+  position: left
+  act: idle
+- msg: 'อ่อนั่|งอ|ยู|่… ก็|นั่ง|เล่น|เกม|ปกติ|ผ่อน|คล้ายๆ ไม่|รู้|จะ|ทำ|อะไร|ดี|นะ '
+  character: minato
+- msg: 'แหม่|พี่|อย่า|เล่น|แต่|เกม|สิ|หา|อะไร|ทำ|อย่าง|อ่าน|บ้าง|ไม่|ดี|กว่า|หรอ '
+  character: akari
+- msg: >-
+    จะ|ให้|พี่|อ่าน|อะไร|ละ|ไลท์|โน|เวล กับ
+    มัง|งะ|ก็|อ่าน|หมด|ทุก|เล่ม|แล้ว|ด้วย
+  character: minato
+- msg: ให้|ตาย|สิ|พี่|นี้ล|ะก|็…
+  character: akari
+- msg: 'อะ|จริง|ด้วย|พี่|หนู|มี|เรื่อง|อยาก|ให้|ช่วย|หน่อย '
+  character: akari
+- msg: 'มี|อะไร|งั้น|หรอ '
+  character: minato
+- msg: >-
+    อืมม  ช่วง|นี้|หนู|กำลัง|หา|มัง|งะ|เรื่อง|ใหม่|อยู่ พี่|จ๋า
+    ช่วย|แนะน|ำมัง|งะ|ให้|หน่อย|สิ เรื่อง|ไหน|หน้า|อ่าน|บ้าง
+  character: akari
+- msg: อยาก|ให้|พี่|แนะนำ|งั้น|หรอ
+  character: minato
+- msg: ใช่|ค่ะ|แนะนำ|ให้|หนู|หน่อย|น่าาา|~
+  character: akari
+- msg: งั้น|พี|่ขอขึ้|นไ|ปห|ยิบมัง|งะ|ที่|พี่|คิด|ว่า|เหมาะ|มา|ให้|ก่อน|นะ
+  character: minato
+- msg: ได้|ค่ะ|หนู|รอ|ได้
+  character: akari
+- msg: รอ|พี่|แปบ|นะ * ขึ้น|ห้อ|งไ|ปห|ยิบมัง|งะ *
+  character: minato
+- msg: ระหว่าง|นี้|ทำ|ไร|ดี|นะ *|นั่ง|ลง|โซ|ฟา*
+  character: akari
+- msg: '*|เปิด|โทรศัพท์|ขึ้น|มา* มี|ร้าน|ของ|หวาน|อะไร|น่า|สนใจ|บ้าง|ไหม|น่าา|~'
+  character: akari
+- msg: เวลา|ผ่าน|ไป|ไม่|นาน
+  character: narrator
+- msg: Akari พี่|เอามัง|งะ|ที่|คิด|ว่า|เหมาะ|กับ|น้อง|มา|ให้|เลือ|กล|ะน|ะ–
+  character: minato
+- msg: อู|้ววว|! ร้าน|นี้|ต้อง|ไป|กิน|ให้|ได้|เลย|ต้อง|ให้|พี่|พา|ไป|ซะ|แล้ว|~
+  character: akari
+- msg: Akari|!|!
+  character: minato
+- msg: อะ|.|.|เอ๋…|พี่|เอง|หรอ
+  character: akari
+- msg: พี่|เอา|หนังสือ|มา|ให้|ละ|นะ|ลอง|ดู|ว่า|มี|เรื่อง|ไหน|น่า|สนใจ|บ้าง|ไหม
+  character: minato
+- msg: '*|วาง|หนังสือ 3 เล่มบ|นโ|ต๊ะ* (|เสีย|งฟึบ|)'
+  character: minato
+- goto:
+    - Copy of EP3.0_v3(MA)_lb_0 if var_minato >= 8
+    - Copy of EP3.0_v3(MA)_lb_4
+- msg: เอา|เรื่อง|นี้|แล้วกัน
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_0
+- choice:
+    - msg: .
+      msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
+    - msg: .|.
+      msg_override: สาวเเกลกับนายคอสเพลย์
+      goto: Copy of EP3.0_v3(MA)_lb_1
+    - msg: .|.|.
+      msg_override: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
+      goto: Copy of EP3.0_v3(MA)_lb_2
+  character: me
+  state: Copy of EP3.0_v3(MA)_st_0
+- msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
+  character: minato
+- msg: >-
+    เรื่อง|นี้|ถ้า|หนู|จำ|ไม่|ผิด ตัว|เอก|หลัง|มา|เกิด|ใหม่|ก็|เหมือน|จะ|เล่น
+    แม่|เลย|นิ|เห็น|ทำ|หน้า|ยิ้ม|น่า|กลัวๆ ด้วยๆ 
+  character: akari
+- msg: 'แปลก|ดี|ไห|มละ '
+  character: minato
+- msg: >-
+    แต่|เดี๋ยว|ก่อ|น…|ทำไม|แนะนำ|เล่น|นี้|ให้|หนู|ละ|คะ|!|!|.|.|.
+    แล้ว|พี่|อ่าน|เรื่อง|นี้|จริงๆหรอ|!|!
+  character: akari
+- msg: >-
+    ฮ่าาๆๆ.|.|นิดๆหน่อย|เอ|งห|น่าา
+    แต่|เนื้อหา|จริง|ดี|มาก|เลย|นะ|ถ้า|ตัด|เรื่อง|แย่ๆออก|ไป|นะ
+  character: minato
+- goto: Copy of EP3.0_v3(MA)_lb_3
+- msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_1
+- msg: ถ้า|จำ|ไม่|ผิด|หนู|จำ|ได้|ว่า|เรื่อง|ผู้ชาย|เรื่อง|นี้เ|เม่ง|หน้า|หล่อ|มาก
+  character: akari
+- msg: นี้|ก็|เป็น|เรื่อง|ที่|พี่|ชอบ|อ่าน|ตอน|ว่างๆเห|มื่อน|กัน|นะ|มัน|ฮีล|ใจ|ดี
+  character: minato
+- msg: ไม่|คิด|เลย|นะ|ว่า|พี่|ก็|อยาก|มี|โม|เม้น|ฮีล|ใจ|กับ|เขา|ด้วย
+  character: akari
+- msg: 'เงีย|บห|น่าาาา '
+  character: minato
+- goto: Copy of EP3.0_v3(MA)_lb_3
+- msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_2
+- msg: >-
+    พี่|ค่ะ เรื่อง|นี้|มัน|แปลกๆ นะ
+    มัน|มี|คน|แต่ง|เรื่อง|นี้|อยู่|บน|โลก|ด้วย|หรอ
+  character: akari
+- msg: เอ|อ…|สงสัย|พี่|หยิบ|ผิด|เรื่อง|มา…|.|.
+  character: minato
+- msg: หนู|ว่า|.|.|ลืม|มัน|ไป|เถอะ|ค่ะ…
+  character: akari
+- msg: 'อืม.|. '
+  character: minato
+- goto: Copy of EP3.0_v3(MA)_lb_7
+  label: Copy of EP3.0_v3(MA)_lb_3
+- msg: เอา|เรื่อง|นี้|แล้วกัน
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_4
+- choice:
+    - msg: .
+      msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
+    - msg: .|.
+      msg_override: สาวเเกลกับนายคอสเพลย์
+      goto: Copy of EP3.0_v3(MA)_lb_5
+    - msg: .|.|.
+      msg_override: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
+      goto: Copy of EP3.0_v3(MA)_lb_6
+  character: me
+  state: Copy of EP3.0_v3(MA)_st_1
+- msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
+  character: akari
+- msg: >-
+    เรื่อง|นี้|ถ้า|หนู|จำ|ไม่|ผิด ตัว|เอก|หลัง|มา|เกิด|ใหม่|ก็|เหมือน|จะ|เล่น
+    แม่|เลย|นิ|เห็น|ทำ|หน้า|ยิ้ม|น่า|กลัวๆ ด้วยๆ 
+  character: akari
+- msg: 'แปลก|ดี|ไห|มละ '
+  character: minato
+- msg: >-
+    แต่|เดี๋ยว|ก่อ|น…|ทำไม|แนะนำ|เล่น|นี้|ให้|หนู|ละ|คะ|!|!|.|.|.
+    แล้ว|พี่|อ่าน|เรื่อง|นี้|จริงๆหรอ|!|!
+  character: akari
+- msg: >-
+    ฮ่าาๆๆ.|.|นิดๆหน่อย|เอ|งห|น่าา
+    แต่|เนื้อหา|จริง|ดี|มาก|เลย|นะ|ถ้า|ตัด|เรื่อง|แย่ๆออก|ไป|นะ
+  character: minato
+- goto: Copy of EP3.0_v3(MA)_lb_7
+- msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
+  character: akari
+  label: Copy of EP3.0_v3(MA)_lb_5
+- msg: ถ้า|จำ|ไม่|ผิด|หนู|จำ|ได้|ว่า|เรื่อง|ผู้ชาย|เรื่อง|นี้เ|เม่ง|หน้า|หล่อ|มาก
+  character: akari
+- msg: นี้|ก็|เป็น|เรื่อง|ที่|พี่|ชอบ|อ่าน|ตอน|ว่างๆเห|มื่อน|กัน|นะ|มัน|ฮีล|ใจ|ดี
+  character: minato
+- msg: ไม่|คิด|เลย|นะ|ว่า|พี่|ก็|อยาก|มี|โม|เม้น|ฮีล|ใจ|กับ|เขา|ด้วย
+  character: akari
+- msg: 'เงีย|บห|น่าาาา '
+  character: minato
+- goto: Copy of EP3.0_v3(MA)_lb_7
+- msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
+  character: akari
+  label: Copy of EP3.0_v3(MA)_lb_6
+- msg: >-
+    พี่|ค่ะ เรื่อง|นี้|มัน|แปลกๆ นะ
+    มัน|มี|คน|แต่ง|เรื่อง|นี้|อยู่|บน|โลก|ด้วย|หรอ
+  character: akari
+- msg: เอ|อ…|สงสัย|พี่|หยิบ|ผิด|เรื่อง|มา…|.|.
+  character: minato
+- msg: หนู|ว่า|.|.|ลืม|มัน|ไป|เถอะ|ค่ะ…
+  character: akari
+- msg: 'อืม.|. '
+  character: minato
+- msg: มัง|งะ|สมัย|นี้|แปลกๆ นะ|พี่ เขา|ผ่าน สำนักพิมพ์|มา|ได้|ยังไง|?
+  character: narrator
+  label: Copy of EP3.0_v3(MA)_lb_7
+- msg: >-
+    พี่ ว่า|มัน|ก็|สนุก|ดี|นะ|พี่|คิด|ว่า มัง|งะ|สมัย|นี้|ผู้|สร้าง|มี|ไอเดีย
+    และ จิตร|นา|การ|ล้ำเลิศ|ดี|นะ
+  character: minato
+- msg: ถึง|แม้|บาง|อัน|จะ|แปลกๆก็|เถอะ
+  character: minato
+- msg: อืมม น้อง|ว่า|ก็|อย่าง|นั้น|น้าาาา|~|~ * พูด|ด้วย|น้ำเสียง|ฉอเลาะ *
+  character: akari
+- msg: >-
+    จริงๆแล้ว|พี่|อีก|เล่ม|อัน|นี้|ของ|ดี|เลย Akari
+    ลอง|เอา|เรื่อง|นี้|ไป|อ่าน|ดู|พี่|ว่า|เหมาะ|กับ|น้อง|ดี 
+  character: minato
+- msg: ไหนๆๆ หนู|อยาก|เห็นๆ
+  character: akari
+- msg: นี้|เลย|เล่ม|นี้|เกี่ยว|กับ|อาหาร|เกือบ|ทุก|อย่าง|เลย|นะ
+  character: minato
+- sound: sv_Ding
+- msg: อา|หา|รหร|ออ|!|! *|ตา|ประ|กา|ย*
+  character: akari
+- msg: ไหนๆ! *|ฉก|หนังสือ|ทัน|ที*
+  character: akari
+- msg: ดะ|.|.|เดี๋ยว|สิ
+  character: minato
+- msg: ว้า|ววว|~ ใน|เรื่อง|มี|แต่|เมนู|แปลก|ที่|หน้า|กิน|ทั้งนั้น|เลย|~
+  character: akari
+- msg: 'อะ|.|.|แฮ่ม|.|. '
+  character: minato
+- msg: งะ…|ขอโทษ|ค่ะ|เผลอ|ตัว|ไป|หน่อย ขอบ|คุ|ณส|ำหรั|บมัง|งะ|ค่ะ
+  character: akari
+- msg: พอ|อ่าน|แล้ว|คิด|ว่า|ไง|บ้าง|อะ
+  character: minato
+- msg: >-
+    ก็|ดี|สุดๆไป|เลย|ค่ะ…|. พี่|แนะน|ำมัง|งะ|ดีๆ
+    ให้|น้อง|สาว|สุด|น่า|รัก|ของ|พี่|เป็น|นิ|หน้า|และ|ไอ|เรื่อง|ก่อนหน้า|มัน|คือ|อะไร|คะ|?
+  character: akari
+- msg: 'แค่|เอา|มา|แกล้ง|หนู|งั้น|หรอ|คะ|พี่|~ '
+  character: akari
+- msg: แฮะๆ พี่|แค่|อยาก|แกล้ง|น้อง|สาว|สุด|น่า|รัก|ของ|พี่|เฉยๆ
+  character: minato
+- msg: พี่|นิ|น้าาา !|!|!|!
+  character: akari
+- sound: sv_Body Fall
+- msg: '*|Akari ตี|ไหล่|พี่|แรง|ที่สุด|เท่า|ที|่ท|ำไ|ด้*'
+  character: akari
+- msg: พี่|ต้อง|เจอ|แบบ|นี้|!|!
+  character: akari
+- msg: อืมม|~ นี้|นวด|ไหล่|ให้|พี่|หรอ
+  character: minato
+- msg: ใช่|ที่ไหน|ละ|ไอ|พี่|บ้า|!|!
+  character: akari
+- msg: หลัง|ตี|ไป|สัก|พัก Akari ก็|สงบ|ลง|บ้าง|แล้ว|กลับ|ไป|นั่ง|ที่|โซ|ฟา
+  character: narrator
+- msg: บ้าๆ พี่|บ้า|ที่สุด เฮ้อ
+  character: akari
+- msg: หาย|โกรธ|แล้ว|หรอ|~
+  character: minato
+- msg: ม่ได้|โกรธ|ค่ะ แค่|หมั่น|เขี้ยว|พี่|ชาย|นิดหน่อย
+  character: akari
+- msg: 'หมั่น|เขี้ยว|หรอ นึก|ว่า|บริการ|นวด|ฟรี '
+  character: minato
+- msg: นวด|อะไร|ค่ะ|พี่|เอา|ไป|นี้|ไป นี่แน่ะ ทุบ|แรงๆ
+  character: akari
+- msg: อาา สบาย|จัง|เลยย
+  character: minato
+- msg: เหนื่อย|จัง|สงสัย|ใช่|แรง|เยอะ|ไป
+  character: akari
+- msg: >-
+    ไม่|ทุบ|หลัง|พี่|ต่อ|แล้ว|หรอ
+    แย่|จัง|นึก|ว่า|บริการ|นวด|ฟรี|จะ|ได้|อยู่|นาน|กว่า|นี้|ซะ|หน่อย|~
+  character: minato
+- msg: พี่|อ่า|!|!|.|.|.|เฮ้ออ|~
+  character: akari
+- msg: ขอบคุณ|นะ|พี่|ที่|แนะน|ำมัง|งะ|ให้|น้อง|เดียว|น้อง|จะ|อ่าน|เดียว|นี้|และ
+  character: akari
+- msg: อืมดี|แล้ว|ที่|น้อง|ชอบ|นะ
+  character: minato
+- msg: >-
+    หลัง|จาก|นั้น|ก็|กลับ|ไป|มอง|หน้า|จอ|เกม|พร้อม|แสดง|สีหน้า|ตกใจ|แบบ|สุด|แรง|เกิด
+  character: narrator
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character
+- msg: message
+  character: select character

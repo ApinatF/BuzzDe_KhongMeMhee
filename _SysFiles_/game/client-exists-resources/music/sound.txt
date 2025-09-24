@@ -7,6 +7,7 @@ sv_Big Switch
 sv_Body Fall
 sv_Body_Fall_Down_2
 sv_cellphonePickup
+sv_Censor
 sv_Clock Tick
 sv_ClothMovement
 sv_cloth_hard_take_away

@@ -1,10 +1,160 @@
-- background: bedroom
+- background: bg_university_infront
 - music: bgm_Cozy
+- character: akari
+  position: center
+  act: idle
+- msg: วันนี้พี่จะทำอะไรให้กินบ้างน่าา~
+  character: akari
+- msg: Akari หลังจากทำธุระเสร็จก็เดินไปที่ป้ายรถเมย์แล้วรอรถเมย์มา
+  character: narrator
+- msg: ระหว่างนี้ทำอะไรดีนะ *หยิบโทรศัพท์มาดูข่าวสาร*
+  character: akari
+- msg: อ่าวว่าไง Akari จัง
+  character: tan
+- msg: หืมม? *หันไปตามเสียง*
+  character: akari
+- character: tan
+  position: right
+  act: idle
+- msg: สวัสดีตอนเย็นนะ Akari จัง
+  character: tan
+- msg: สะ..สวัสดีค่ะ! รุ่นพี่แทน?!
+  character: akari
+- msg: อะไรกันไม่ต้องตกใจขนาดนั้นก็ได้หนิ Akari พี่ไม่ใช่ผีสักหน่อยนะ
+  character: tan
+- msg: ขะ..ขอโทษค่ะจูุ่ๆก็มีคนเดินเข้ามาทักนึกว่าจะเป็นคนไม่รู้นะค่ะ!!
+  character: akari
+- msg: ว่าแต่ทำไมรุ่นพี่ถึงอยู่แถวนี้หรอคะ?
+  character: akari
+- msg: พอดีว่าพี่มาทำธุระอะไรหน่อยอะนะ
+  character: tan
+- msg: หืมมมม…เวลาป่านนี้นะหรอคะ?
+  character: akari
+- msg: อืมมใช่แล้วละ เอ๋..จะว่าไป Minato ละหายไปไหนแล้วละ
+  character: tan
+- msg: ถ้าเป็นพี่ละก็กลับไปที่บ้านแล้วค่ะ..เขาพูดว่า…
+  character: akari
+- character: empty
+  position: right
+- msg: —---Flashback Akari—---
+  character: narrator
 - character: minato
   position: left
-  act: Smile
-- msg: 'minato : Zzzz  [หน้านอน]'
+  act: idle
+- msg: Akari เดี๋ยวพี่ขอกลับบ้านก่อนนะไม่ว่าอะไรใช่ไหม
   character: minato
-- sound: sv_7_AM_Wake_Up_Call
-- msg: message
+- msg: ก็ไม่ว่าหรอกค่ะแต่มีสาเหตุอยู่หรือเปล่าคะ?
+  character: akari
+- msg: พอดีว่าพี่อยากจะกลับไปเตรียมกับข้าวให้ก่อนนะ
+  character: minato
+- msg: แถมตอนนี้ไม่มีใครอยู่บ้านด้วยพี่เป็นห่วงว่าจะมีโจรบุกบ้านนะ
+  character: minato
+- msg: คิดมากจริงๆเลยนะคะพี่ชาย..แต่ก็โอเคค่ะถ้าหนูเสร็จธุระแล้ว
+  character: akari
+- msg: โอเคงั้นตกลงตามนั้นนะ
+  character: minato
+- msg: อืมม!
+  character: akari
+- character: empty
+  position: left
+- msg: จบ—-Flashback Akari—---
+  character: narrator
+- msg: ก็ตามนั้นแหละค่ะ
+  character: akari
+- character: tan
+  position: right
+  act: idle
+- msg: >-
+    เป็นอย่างงี้นี้เองสินะ…จะว่าไป Akari อาทิตย์ที่แล้ว Minato บอกว่า Akari
+    ป่วยเกิดอะไรขึ้น?
+  character: tan
+- msg: เออ…คือว่า
+  character: akari
+- msg: หลังจากนั้น Akari ก็เล่าสิ่งที่เกิดขึ้นในคาบทำอาหารของวันนั้นให้พี่แทนฟัง
+  character: narrator
+- msg: ฮ่าาาาๆๆ!! ขอโทษด้วยนะ Akari จังแต่มัน…ฮ่าๆๆ!
+  character: tan
+- msg: พี่แทนคะ! ช่วยหยุดหัวเราะด้วยเถอะนะคะ!!
+  character: akari
+- msg: >-
+    ก็แหม่ๆ Akari
+    จังทำข้าวผัดจนเป็นสีดำไม่พอแถมกินเข้าไปอีกด้วยเธอนี้บ้าสุดๆไปเลยนะ
+  character: tan
+- msg: หยุดเดี๋ยวนี้เลยนะคะ! *ทุบไหล่อแทน 2 ข้างแรงๆ*
+  character: akari
+- msg: ฮ่าาๆ มันอดไม่ได้นะโทษที
+  character: tan
+- msg: <b><size=40>バーカ</size></b>(baaka) ตาาบ้า~
+  character: akari
+- msg: เมื่อกี้พูดว่าอะไรหรือป่าว?
+  character: tan
+- msg: ไม่มีค่ะ!
+  character: akari
+- msg: ในตอนนั้นเองรถเมย์ก็ได้มาถึงแล้ว
+  character: narrator
+- msg: รถเมย์ได้มาถึงแล้วประตูเปิดภายใน 3 วินะ
+  character: man03
+  override_name: คนขับรถเมย์
+- msg: เหมื่อนจะมาถึงแล้ว
+  character: me
+  override_name: แทน/Akari
+- shake: me
+- msg: เอ่?!
+  character: me
+  override_name: แทน / Akari
+- msg: พี่แทนก็ขึ้นสายนี้หรอคะ?
+  character: akari
+- msg: อืมพี่เองก็ขึ้นรถเมย์สายนี้นะ
+  character: tan
+- msg: อย่างงี้นี้เองสินะ
+  character: akari
+- msg: ประตูรถเมย์ได้เปิดขึ้นทุกคนเข้าไปกันอย่างแออัด
+  character: narrator
+- msg: ในตอนนี้ประตูกำลังจะปิดภายใน 5 วินาทีครับ
+  character: man03
+  override_name: คนขับรถเมย์
+- msg: คนจะเยอะอะไรอย่างงี้เนี้ยย!
+  character: tan
+- msg: นะ…แน่นไปหมดเลย *พยายามเบียดเข้าแต่ไม่ไหว*
+  character: akari
+- msg: Akari?!
+  character: tan
+- msg: ไม่ไหวแล้วว..ต้องตกรถแน่ๆเลย
+  character: tan
+- msg: ในตอนนั้นมือของแทนก็ดึงตัวของ Akari เข้ามาหาตัวเองทำให้ Akari ไม่ตกรถ
+  character: narrator
+- msg: 'เกือบได้ตกรถแล้วนะ Akari '
+  character: tan
+- msg: ขอบคุณค่ะพี่แทนแต่ว่าคนมันแน่นไปไหมคะ…
+  character: akari
+- msg: นั้นสินะ..ขอโทษนะ Akari แต่ช่วยอยู่แบบนี้ไปก่อนนะ
+  character: tan
+- msg: ค..ค่ะ
+  character: akari
+- msg: >-
+    รถเมย์ได้จอดตามป้ายไปเรื่อยๆคนในรถก็น้อยลงจนไม่อึดอัดแล้ว Akari
+    ก็ไปนั่งตรงที่นั่งกับแทน
+  character: narrator
+- msg: นึกว่าตายยซะแล้ว
+  character: akari
+- msg: เวอร์ไปแล้ว..ว่าแต่ Akari จะลงป้ายไหนหรอ
+  character: tan
+- msg: ก็ป้ายข้างหน้านี้แหละค่ะแล้วพี่แทนลงป้ายไหนหรอคะ?
+  character: akari
+- msg: ของพี่ต้องอีก 2 ป้ายเลยน่ะถึงจะไปถึงที่หมาย
+  character: tan
+- msg: รถเมย์ได้มาถึงป้ายแล้วประตูเปิดภายใน 3 วิ
+  character: man03
+  override_name: คนขับรถเมย์
+- msg: เอะถึงแล้วหรอเร็วชะมัดงั้นหนูไปก่อนนะคะพี่แทนไว้เจอกันนะคะ!
+  character: akari
+- msg: อืมม!
+  character: tan
+- msg: จากนั้น Akari ก็ลงจากรถบัสแล้วกลับมาที่บ้าน
+  character: narrator
+- character: empty
+  position: right
+- msg: จากนั้น Akari ก็ลงจากรถบัสแล้วกลับมาที่บ้าน
+  character: akari
+- msg: จบบทพิเศษสำหรับคนเล่น Akari
   character: narrator

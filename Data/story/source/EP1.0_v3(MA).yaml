@@ -1187,6 +1187,7 @@
 - cg: cg_EP1_Tan_Akari1
 - msg: (*MINI CG* แทนเอาผ้าพันให้ Akari)
   character: narrator
+- hide_msg: true
 - delay: 3
 - cg: empty
 - msg: โอ้ย~ แสบอ่าา…
@@ -1859,8 +1860,11 @@
 - msg: Minato ตอนนี้กำลังสอนการใช่นิ้วและข้อมือให้กับ Nightrose
   character: narrator
 - cg: cg_EP1_Ni_Mi1
-- delay: 3
+- music: bgm_Your_Love_Is_Home
+- hide_msg: true
+- delay: 5
 - cg: empty
+- music: bgm_Big Canteen Ambience
 - msg: ไม่ไหวอ่าา~~ยากเกินไป ตะเกียบหลุดมืออีกแล้ว TT (หน้าเศร้า)
   character: nightrose
 - msg: ลองอีกรอบนะครับ..เดี๋ยวรอบนี้ผมจะเอามือผมวางบนมือ Nightrose แล้วขยับนะ
@@ -2163,5 +2167,5 @@
   position: center
   label: EP1.0_v3(MA)_lb_27
 - music: bgm_Your_Love_Is_Home
-- msg: จบตอน
+- msg: จบตอนที่1 "วันแรกในมหาลัย"
   character: narrator
