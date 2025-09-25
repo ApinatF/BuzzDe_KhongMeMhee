@@ -2,7 +2,7 @@
 - music: bgm_Cozy
 - character: akari
   position: center
-  act: idle
+  act: happy
 - msg: วัน|นี้|พี่|จะ|ทำ|อะไร|ให้|กิน|บ้าง|น่าา|~
   character: akari
 - msg: Akari หลัง|จาก|ทำ|ธุระ|เสร็จ|ก็|เดิน|ไป|ที่|ป้าย|รถ|เมย์แล้ว|รอ|รถ|เมย์มา
@@ -11,6 +11,9 @@
   character: akari
 - msg: อ่าว|ว่า|ไง Akari จัง
   character: tan
+- character: akari
+  position: center
+  act: Normal
 - msg: หืมม|? *|หัน|ไป|ตาม|เสีย|ง*
   character: akari
 - character: tan
@@ -18,6 +21,9 @@
   act: idle
 - msg: สวัสดี|ตอน|เย็น|นะ Akari จัง
   character: tan
+- character: akari
+  position: center
+  act: surprised
 - msg: สะ|.|.|สวัสดี|ค่ะ|! รุ่น|พี่|แทน|?|!
   character: akari
 - msg: >-
@@ -27,6 +33,9 @@
 - msg: >-
     ขะ|.|.|ขอโทษ|ค่ะจูุ่ๆก็|มี|คน|เดิน|เข้า|มา|ทัก|นึก|ว่า|จะ|เป็น|คน|ไม่|รู้|นะ|ค่ะ|!|!
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: ว่า|แต่|ทำไม|รุ่น|พี่|ถึง|อยู่|แถว|นี้|หรอ|คะ|?
   character: akari
 - msg: พอดี|ว่า|พี่|มา|ทำ|ธุระ|อะไร|หน่อย|อะ|นะ
@@ -37,17 +46,26 @@
   character: tan
 - msg: ถ้า|เป็น|พี่|ละ|ก็|กลับ|ไป|ที่|บ้าน|แล้ว|ค่ะ|.|.|เขา|พูด|ว่า…
   character: akari
+- character: akari
+  position: center
+  act: sad
 - character: empty
   position: right
 - msg: —|-|-|-|Flashback Akar|i—|-|-|-
   character: narrator
 - character: minato
   position: left
-  act: idle
+  act: Normal
 - msg: Akari เดี๋ยว|พี่|ขอ|กลับ|บ้าน|ก่อน|นะ|ไม่|ว่า|อะไร|ใช่|ไหม
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: ก็|ไม่|ว่า|หรอก|ค่ะ|แต่|มี|สาเหตุ|อยู่|หรือ|เปล่า|คะ|?
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: พอดี|ว่า|พี่|อยาก|จะ|กลับ|ไป|เตรียม|กับข้าว|ให้|ก่อน|นะ
   character: minato
 - msg: แถม|ตอน|นี้|ไม่|มี|ใคร|อยู่|บ้าน|ด้วย|พี่|เป็นห่วง|ว่า|จะ|มี|โจร|บุก|บ้าน|นะ
@@ -56,6 +74,9 @@
   character: akari
 - msg: โอเค|งั้น|ตกลง|ตาม|นั้น|นะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: อืมม|!
   character: akari
 - character: empty
@@ -71,6 +92,9 @@
     เป็น|อย่าง|งี้|นี้|เอง|สิน|ะ…|จะ|ว่า|ไป Akari อาทิตย์|ที่|แล้ว Minato
     บอ|กว่า Akari ป่วย|เกิด|อะไร|ขึ้น|?
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: เอ|อ…|คือ|ว่า
   character: akari
 - msg: >-
@@ -79,20 +103,30 @@
   character: narrator
 - msg: ฮ่าาาาๆๆ!|! ขอโทษ|ด้วย|นะ Akari จัง|แต่มั|น…|ฮ่าๆๆ!
   character: tan
-- msg: พี่|แทน|คะ|! ช่วย|หยุด|หัวเราะ|ด้วย|เถอะ|นะ|คะ|!|!
-  character: akari
+- character: akari
+  position: center
+  act: Shy
 - msg: >-
     ก็|แหม่ๆ Akari
     จัง|ทำ|ข้าว|ผัด|จน|เป็น|สี|ดำ|ไม่|พอ|แถม|กิน|เข้า|ไป|อีก|ด้วย|เธอ|นี้|บ้า|สุดๆไป|เลย|นะ
   character: tan
+- character: akari
+  position: center
+  act: angry
 - msg: หยุด|เดี๋ยวนี้|เลย|นะ|คะ|! *|ทุบ|ไห|ล่อ|แทน 2 ข้าง|แรงๆ*
   character: akari
 - msg: ฮ่าาๆ มัน|อด|ไม่|ได้|นะ|โทษ|ที
   character: tan
+- character: akari
+  position: center
+  act: Haru
 - msg: <b><size=40>バーカ</size></b>|(|baaka|) ตาา|บ้า|~
   character: akari
 - msg: เมื่อกี้|พูด|ว่า|อะไร|หรือ|ป่าว|?
   character: tan
+- character: akari
+  position: center
+  act: Shy
 - msg: ไม่|มี|ค่ะ|!
   character: akari
 - msg: ใน|ตอน|นั้น|เอง|รถ|เมย์ก็|ได้|มา|ถึง|แล้ว
@@ -103,7 +137,10 @@
 - msg: เห|มื่อน|จะ|มา|ถึง|แล้ว
   character: me
   override_name: แทน/Akari
-- shake: me
+- sound: sv_Ding
+- character: akari
+  position: center
+  act: surprised
 - msg: เอ่?|!
   character: me
   override_name: แทน / Akari
@@ -111,6 +148,9 @@
   character: akari
 - msg: อืมพี่|เอง|ก็|ขึ้น|รถ|เมย์สาย|นี้|นะ
   character: tan
+- character: akari
+  position: center
+  act: Normal
 - msg: อย่าง|งี้|นี้|เอง|สิ|นะ
   character: akari
 - msg: ประตู|รถ|เมย์ได้|เปิด|ขึ้น|ทุก|คน|เข้า|ไป|กัน|อย่าง|แออัด
@@ -124,28 +164,43 @@
   character: akari
 - msg: Akari|?|!
   character: tan
+- character: akari
+  position: center
+  act: Haru
 - msg: ไม่|ไหว|แล้|วว|.|.|ต้อง|ตก|รถ|แน่ๆเลย
-  character: tan
+  character: akari
 - msg: >-
     ใน|ตอน|นั้น|มือ|ของ|แทน|ก็|ดึง|ตัว|ของ Akari เข้า|มา|หา|ตัวเอง|ทำให้ Akari
     ไม่|ตก|รถ
   character: narrator
 - msg: 'เกือบ|ได้|ตก|รถ|แล้ว|นะ Akari '
   character: tan
+- character: akari
+  position: center
+  act: happy
 - msg: ขอบคุณ|ค่ะ|พี่|แทน|แต่ว่า|คน|มัน|แน่น|ไป|ไห|มค|ะ…
   character: akari
 - msg: นั้น|สิ|นะ|.|.|ขอโทษ|นะ Akari แต่|ช่วย|อยู่|แบบ|นี้|ไป|ก่อน|นะ
   character: tan
+- character: akari
+  position: center
+  act: Normal
 - msg: ค|.|.|ค่ะ
   character: akari
 - msg: >-
     รถ|เมย์ได้|จอด|ตาม|ป้าย|ไป|เรื่อยๆคน|ใน|รถ|ก็|น้อย|ลง|จน|ไม่|อึดอัด|แล้ว
     Akari ก็|ไป|นั่ง|ตรง|ที่นั่ง|กับ|แทน
   character: narrator
+- character: akari
+  position: center
+  act: Haru
 - msg: นึก|ว่า|ตา|ยย|ซะ|แล้ว
   character: akari
 - msg: เวอร์|ไป|แล้ว|.|.|ว่า|แต่ Akari จะ|ลง|ป้าย|ไหน|หรอ
   character: tan
+- character: akari
+  position: center
+  act: Normal
 - msg: ก็|ป้าย|ข้าง|หน้า|นี้|แหละ|ค่ะ|แล้ว|พี่|แทน|ลง|ป้าย|ไหน|หรอ|คะ|?
   character: akari
 - msg: ของ|พี่|ต้อง|อีก 2 ป้าย|เลย|น่ะ|ถึง|จะ|ไป|ถึง|ที่หมาย
@@ -162,7 +217,7 @@
   character: narrator
 - character: empty
   position: right
-- msg: จาก|นั้น Akari ก็|ลง|จาก|รถ|บัส|แล้ว|กลับ|มา|ที่|บ้าน
+- msg: '*|จาก|นั้น Akari ก็|ลง|จาก|รถ|บัส|แล้ว|กลับ|มา|ที่|บ้า|น*'
   character: akari
 - msg: จบ|บท|พิเศษ|สำหรับ|คน|เล่น Akari
   character: narrator
