@@ -120,7 +120,7 @@
 - goto: Copy of EP3.0_v3(MA)_lb_7
   label: Copy of EP3.0_v3(MA)_lb_3
 - msg: เอา|เรื่อง|นี้|แล้วกัน
-  character: minato
+  character: akari
   label: Copy of EP3.0_v3(MA)_lb_4
 - choice:
     - msg: .
@@ -257,593 +257,936 @@
 - msg: >-
     หลัง|จาก|นั้น|ก็|กลับ|ไป|มอง|หน้า|จอ|เกม|พร้อม|แสดง|สีหน้า|ตกใจ|แบบ|สุด|แรง|เกิด
   character: narrator
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
-- msg: message
-  character: select character
+- sound: sv_Censor
+- msg: อ่าว|!|@#$|@#$|@# ลืม|กด|หยุด|เกม นึก|ว่าก|ดห|ยุ|ดไ|ปเ|เล้ว…|เวรกรรม|!
+  character: minato
+- msg: ว้ายๆๆๆ  เพราะ|พี|่มั|วเ|เต่เ|เนะ|เรื่อ|งเ|เปลกๆอะไร|ก็|ไม่|รู้|ให้|ไป|อ่าน
+  character: akari
+- msg: 'ก็|เผื่อ|ออ|ยาก|อ่าน|เพื่อ|เปลี่ยน|บรรยากาศ|ไง|ครับ|น้อง โ|ถ่วววว '
+  character: minato
+- msg: ไม่|รับ|ข้อ|แก้ตัว|~|~
+  character: akari
+- msg: น้อง|นี่|นะ|!|! *|ทำ|เสียง|เจ็|บใ|จ*
+  character: minato
+- sound: sv_Stomach Growl
+- msg: '*|ท้อง|ร้อง|ทั้ง|คู|่*'
+  character: me
+  override_name: Akari/Minato
+- msg: ใช่|พลังงาน|เยอะ|ไป|หน่อย|หิว|ซะ|แล้|วว
+  character: akari
+- msg: ใช่|เยอะ|ตรง|ไห|นไ|ม่ท|รา|บบบ|!
+  character: minato
+- msg: เยอะ|สิ|!|! เพราะ|หนู|ขยับ|ร่างกาย|เยอะ|ไง|ละ|~|!
+  character: akari
+- msg: >-
+    แล้ว|ก็|ตอน|ที่|พี่|กลับ|พี่|บอก|เอง|ไม่|ใช่|หรอ|ว่า|จะ|เตรียม|กับข้าว|ไว้|ให้|นะ|!
+    นี้|กลับ|เล่น|เกม|เฉย|เลย|!|!
+  character: akari
+- msg: เรื่อง|นั้น|พี่|ขอโทษ|พี่|ลืม|เอง|แต่ว่า
+  character: minato
+- msg: ไอ|ขยับ|ร่างกาย|เยอะ|เนี้ย|!|! ไม่|เห็น|จะ|เมค|เซ้นส์ตรง|ไหน|เลย *|เกาหั|ว*
+  character: minato
+- goto:
+    - Copy of EP3.0_v3(MA)_lb_8 if var_minato >= 8
+    - Copy of EP3.0_v3(MA)_lb_9
+- msg: >-
+    อืมมม…|พี่|ขอ|เช็ค|แปบ|นะ ไหน|ขอ|ดู|ซิ|ว่า|มี|ไร|กิน|บ้าง 
+    ได้|เปิด|ตู้|เย็น|แล้ว|ก็|ได้|รู้|ว่า…|.|. *|เดิน|ไป|เปิด|ตู้|เย็|น*
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_8
+- msg: อะไร|เนี้ย|!
+  character: minato
+- msg: Akari กิน|ของ|ใน|ตู้|เย็น|หมด|เลย|หรอ|!
+  character: minato
+- msg: หนู|ไม่|ได้|กิน|ซะ|หน่อย|ไหน|พี่
+  character: akari
+- msg: '*|ลุก|มา|ดู|ตู้|เย็|น*'
+  character: akari
+- msg: >-
+    เห|มื่อนจ|ะ…|หมด|ตู้|เลย…|ดู|เห|มื่อน|ต้อง|ไป|ซื้อ|ของ|มา|เติม|ตู้|เย็น|แล้|วล|ะ…
+  character: minato
+- msg: พี่|จะ|ไป|ร้าน|สะดวก|ซื้อ|หรอ|?|!|? หนู|ไป|ด้วย|สิ|!
+  character: akari
+- msg: พวก|เรา|ไป|ด้วย|กัน|ดี|กว่า|จะ|ได้|หยิบ|ของ|ที่|อยาก|ได้|มา|เลย|คิด|ว่า|ไง|?
+  character: minato
+- msg: อืมม|ไม่|เลว|เลย|!|! ไป|กัน|เลยย
+  character: akari
+- goto: Copy of EP3.0_v3(MA)_lb_10
+- msg: >-
+    อืมมม…|น้อง|ขอ|เช็ค|แปบ|นะ ไหน|ขอ|ดู|ซิ|ว่า|มี|ไร|กิน|บ้าง
+    ได้|เปิด|ตู้|เย็น|แล้ว|ก็|ได้|รู้|ว่า…|.|. *|เดิน|ไป|เปิด|ตู้|เย็|น* 
+  character: akari
+  label: Copy of EP3.0_v3(MA)_lb_9
+- msg: จะ|.|.จ|ะ…|จบ|สิ้น|แล้|ว…
+  character: akari
+- msg: พี่|มา|ดู|สิ|!|!|.|.|.|ตู้|เย็น|เรา|!|!
+  character: akari
+- msg: ไหนๆพี่|ขอ|ดู|หน่อย
+  character: minato
+- msg: '*|ลุก|มา|ดู|ตู้|เย็|น*'
+  character: minato
+- msg: >-
+    เห|มื่อนจ|ะ…|หมด|ตู้|เลย…|ดู|เห|มื่อน|ต้อง|ไป|ซื้อ|ของ|มา|เติม|ตู้|เย็น|แล้|วล|ะ…
+  character: akari
+- msg: จะ|ไป|ร้าน|สะดวก|ซื้อ|หรอ|พี่|ไป|ด้วย|สิ
+  character: minato
+- msg: พวก|เรา|ไป|ด้วย|กัน|ดี|กว่า|จะ|ได้|หยิบ|ของ|ที่|อยาก|ได้|มา|เลย|คิด|ว่า|ไง|?
+  character: akari
+- msg: เป็น|ความคิด|ที่|ดี|นะ|งั้น|ไป|กัน|เลย
+  character: minato
+- msg: >-
+    ทั้ง|คู่|ออก|จาก|บ้าน|แล้ว|กำลัง|เดิน|ไป|ที่|ร้าน|สะดวก|ซื้อ|ระหว่าง|ทาง|ก็|พูด|คุย|กัน|นิดหน่อย
+    (|นอก|บ้าน|ซัก|ซอย|)
+  character: narrator
+  label: Copy of EP3.0_v3(MA)_lb_10
+- msg: 'พี่|คะ|.|. '
+  character: akari
+- msg: หืม?|มี|อะไร|หรอ Akari
+  character: minato
+- msg: >-
+    เรา|ย้าย|มา|มหา|ลัย|แค่|วัน|แรก|เอง|แต่|ก็|มี|เรื่อง|เกิด|ขึ้น|เยอะ|เลย|นะ|คะ
+  character: akari
+- msg: ก็|นะ|วัน|แรก|ก็|อย่าง|งี้|แหละ
+  character: minato
+- msg: แล้ว|ที่|บ้าน|พ่อ|และ|แม่|จะ|สบาย|ดี|ไหม|นะ
+  character: akari
+- msg: >-
+    นี้|แค่|วัน|แรก|เอง|เป็นห่วง|ทาง|นั้น|แล้ว|หรอ|ขี้|เป็นห่วง|ขนาด|นี้|ตั้งแต่|เมื่อไหร่|เนี้ย
+  character: minato
+- msg: >-
+    พี่|ก็|ไม่|ต่าง|กัน|หรอก|พี่|มา|ที่|มหา|ลัย|นี้|เพื่อ|หา|ทาง|ฟื้นฟู|ตระกูล|เรา|ไม่|ใช่|หรอ|ค่ะ|?
+  character: akari
+- msg: งาน|ใหญ่|เลย|นะ|คะ|พี่
+  character: akari
+- msg: >-
+    นั้น|สิ|นะ|งาน|ช้าง|เลย|ละ|แต่|คิด|มาก|ไป|ก็|ช่วย|ไม่|ได้|หรอก|นะ Akari
+    เรา|ต้อง|ยิ้มแย้ม|เข้า|ไว้|เพื่อ|ให้|เรา|ผ่าน|ช่วง|เวลา|นี้|ไป|ให้|ได้|นะ
+  character: minato
+- msg: เหห|~|~|พี่|พูด|อะไร|ดีๆกับ|เขา|เป็น|ด้วย|หรอ|เนี้ย
+  character: akari
+- sound: sv_Grab Chip
+- msg: >-
+    หนู|เชื่อ|ว่า|พี่|ต้อง|รักษา|ตระกูล|พวก|เรา|ไว้|ได้|แน่นอน|ค่ะ|! *|จับ|แขน
+    Minato พ|ร้อ|มใ|ห้ก|ำลั|งใ|จ*
+  character: akari
+- msg: นี้|เรา|ก็|เดิน|มา|สัก|พัก|แล้ว|นะ|เมื่อไหร่|จะ|ถึง|หว่า
+  character: minato
+- msg: อีก|นิดเดียว|เอง|พี่|นั้น|ไง *|ชี้|ที่|ร้า|นส|ะดวกซื้|อ*
+  character: akari
+- msg: >-
+    ตรง|นั้น|เอง|หรอ งั้น Akari
+    มา|วิ่ง|แข่ง|กัน|ไหม|ถ้า|น้อง|ชนะ|พี่|จะ|ให้|หยิบ|อะไร|ก็|ได้|ตาม|ที่|น้อง|ต้องการ|เลย|นะ|~|~
+  character: minato
+- sound: sv_Fast run meme
+- msg: อ่าว|วอ|ย่าง|งี้|ก็|สวย|สิ|~|! งั้น|หนู|ไป|ก่อน|ละ|!|! *|ชิ่ง|ไป|ก่อน|เลย*
+  character: akari
+- msg: อ่าว|เห้ยย|!|! รอ|ก่อ|นน|ยัง|ไม่|เริ่ม|นับ|เลยย|!|! *|วิ่ง|ตา|ม*
+  character: minato
+- msg: Minato กับ Akari วิ่ง|แข่ง|จน|มา|ถึง|หน้า|ร้าน|สะดวก|ซื้อ|และ|ผล|คือ…
+  character: narrator
+- background: bg_Blackscreen
+- sound: sv_Ding
+- msg: เสียง|ประตู|อัตโนมัติ
+  character: narrator
+- msg: เย้|~ หนู|ชนะ|แล้ว|รักษา|สัญญา|ด้วย|ละ|พี่|~
+  character: akari
+- msg: >-
+    แฮ่ก|~|.|.|.|.|แฮ่ก|~|.|.|.|.|โอ้ย|พลัง|จะ|เหลือ|ล้นอ|ะไ|รข|นาดนั้|นยัย|น้อง|คน|นี้…
+  character: minato
+- msg: ฮิ|ฮิ|~|อย่า|ลืม|ซะ|ละ
+  character: akari
+- msg: บิด|!|!
+  character: minato
+- msg: พี่|!|!
+  character: akari
+- msg: หยอก|~ๆ ถ้า|งั้น|ก็|เข้า|ไป|ข้าง|ใน|เถอะ|อยู่|ข้าง|นอก|นี้|ร้อน|สุดๆไป|เลย
+  character: minato
+- msg: ได้|เลย|!
+  character: akari
+- sound: sv_Ding
+- msg: เสียง ต้อนรับ|คน|เข้า|ร้าน ดัง|ขึ้น|เมื่อ|ทั้ง|คู่|เข้า|ไป
+  character: narrator
+- msg: นี้|นะ|หรอ|ร้าน|สะดวก|ซื้อ|ของ|ประเทศ|ไทย *|มอง|รอบๆ*
+  character: minato
+- msg: ดู|ดี|มาก|เลย|นะ|คะ|พี่ *|มอ|งไปทั่|ว*
+  character: akari
+- msg: เอา|ละ|อย่า|หยิบ|เยอะ|เกิน|ละ|เดี๋ยว|พี่|จ่าย|ไม่|ไหว
+  character: minato
+- msg: ฮิ|ฮิ|~ ไม่|ต้อง|ห่วง|หรอก|นะ|พี่|~|~
+  character: akari
+- msg: ยิ่ง|พู|ดงี่|ยิ่ง|น่า|สงสัย|เข้า|ไป|ไห|ญ๋!
+  character: minato
+- msg: ไม่|หรอก|~|เอา|ละ|ไป|หา|ของ|กิน|กลับ|บ้าน|กัน|!|!
+  character: akari
+- msg: เฮ้ออ|~|~ จ้าๆ
+  character: minato
+- msg: ผ่าน|ไป|สัก|พัก
+  character: narrator
+- msg: >-
+    ว้า|ววว…|ของ|กิน|ใน|ไทย|มี|แต่|อะไร|น่า|กิน|เต็ม|ไป|หมด|เลย|~
+    *|วิ่ง|ไป|รอบๆร้าน|ดู|ของ|กิน*
+  character: akari
+- msg: >-
+    มี|ข้าว|และ|กับข้าว|ให้|ซื้อ|แยก|กัน|ด้วย|สะดวก|ดี|จัง|เครื่อง|ดื่ม|ก็|เยอะ|ด้วย
+  character: minato
+- msg: พี่ๆ ซื้อ|นี้|ไป|ด้วย|สิ|~|~|~ *ห|ยิบใ|ส่ตร|ะก|ร้า*
+  character: akari
+- msg: '…… '
+  character: akari
+- msg: อัน|นี้|ด้วย|!|! *ห|ยิบใ|ส่ตร|ะก|ร้า*
+  character: akari
+- msg: '…… '
+  character: akari
+- msg: แล้ว|ก็|อัน|นี้ๆๆๆอัน|นั้นๆๆ *|หยิบ|ขอ|งใ|ส่ตร|ะก|ร้า|มัน|มือ*
+  character: akari
+- msg: พ|ะ…|พอ|ได้|แล้ว Akari เยอะ|ไป|แล้ว|!|! *|ยก|มือ|ห้าม|ใส่ Akar|i*
+  character: minato
+- msg: โ|ถ่~ มี|ของ|ที่|อยาก|ได้|เยอะ|กว่า|นี้|อีก|ง่าา
+  character: akari
+- msg: อ|ะ…|แฮ่้ม…*|หยิบ|ขอ|งชิ้|นนึ|งใ|นตร|ะก|ร้า|มา* ไอ|นี้|จะ|เอา|มา|ทำไม
+  character: minato
+- msg: '*|หยิบ|ครีม|ซัก|อย่าง|มา*'
+  character: minato
+- msg: นี้|นะ|ครีม|บำรุง|ผม|ไง|ของ|น้อง|หมด|แล้ว|งะ
+  character: akari
+- msg: พี่|จำ|ได้|ว่า|ตอน|แรก|จุด|ประสงค์|เรา|คือ|หา|ของ|เข้า|ตู้|เย็น|นะ
+  character: minato
+- msg: ถือ|ว่า|ซื้อ|ของ|ใช้|กลับ|ไป|บ้าน|ด้วย|เลย|ไง|!
+  character: akari
+- msg: แล้ว|พี่|เถอะ นี้|คือ|อะไร|หรอ|คะ * หยิบ|ขอ|งใ|นตร|ะก|ร้า|มา *
+  character: akari
+- msg: '*|หยิบ|หู|ฟัง|สาย|มา*'
+  character: akari
+- msg: หู|ฟัง|ไม่|ใช่|ว่า|มี|อยู่|แล้ว|หรอ|คะ|ที่|บ้าน|นะ|เห็น|เยอะ|มากๆเลย|นะ
+  character: akari
+- msg: ก|ะ…|ก็|เผื่อ|ทำ|หา|ยไ|ง…|แฮ่|.|.ๆ
+  character: minato
+- msg: อ|ะ…|เอา|เป็น|ว่า|เรา|ไป|คิด|ตัง|ดี|กว่า
+  character: minato
+- msg: บ่ายเบี่ยง|เลย|นะ|พี่|เนี้ย
+  character: akari
+- msg: '*|เดิน|ไป|ที่|เคาน์|เตอร์* พี่|ครับ|คิด|เงิน|ด้วย'
+  character: minato
+- msg: ได้|ครับ|รอ|สัก|ครู่|นะ|ครับ *รั|บตร|ะก|ร้า|มา|คิดตั|ง*
+  character: man03
+  override_name: 'พนักงานคิดตัง '
+- msg: ทั้งหมด 1569 บาท|ครับ
+  character: man03
+  override_name: 'พนักงานคิดตัง '
+- msg: จ|ะอ|ึ่ยย|.|.
+  character: minato
+- msg: มี|ไร|หรอ|พี่|~|จ่าย|ไหว|ไหม|นะ|~
+  character: akari
+- msg: ว|ะ…|ไหว|สิ…|รับ|สแกน|จ่าย|เงิน|ไหม|ครับ
+  character: minato
+- msg: สแกน|ตรง|นี้|ได้|เลย|ครับ
+  character: man03
+  override_name: 'พนักงานคิดตัง '
+- msg: '*|สแกน|จ่าย|เงิน* ไม่|น่า|เลย|เรา TT'
+  character: minato
+- msg: '*|มอง|ไป|รอบๆร้าน|เจอ|หนัก|งาน|ที่|หน้า|คุ้นๆ*'
+  character: akari
+- msg: หืมมม|?  พี่|คะ|พนักงาน|คน|นั้น|เหมือน|ใคร|เลย|นะ|คะ
+  character: akari
+- msg: 'หืมมม|? ไหน|หรอ Akari '
+  character: minato
+- msg: คน|นั้น|อะ|ค่ะ *|ชี้|แบบ|เนียนๆไม่|ให้|พนักงาน|รู|้ตั|ว*
+  character: akari
+- msg: อืมม|หน้า|คุ้นๆจริง|ด้วย|แต่|มอง|ไม่|ชัด|เลย|แฮะ
+  character: minato
+- msg: เข้า|ไป|ทัก|ดี|ไหม|คะ หนู|กลัว|จะ|เสีย|มารยาท|อะ|ต่ะ
+  character: akari
+- msg: >-
+    อย่า|เลย Akari
+    เรา|ไม่|ควร|ไป|ยุ่ง|กับ|คน|อื่น|ให้|มาก|นะ|นอก|ซะ|จา|กว่า|เป็น|คน|รู้จัก|อะ|นะ
+  character: minato
+- msg: เสียง|จาก|พนักงาน|คน|นั้น|ดัง|ขึ้น|พร้อม|เงย|หน้า|ขึ้น
+  character: narrator
+- msg: เออ พี่|ครับ|เอา|ของ|ไว้|ตรง|นี้|ใช่|ไหม|ครับ
+  character: tan
+- msg: 'อา|.|.|แล้ว|ก็|อย่า|ให้|สินค้า|เสียหาย|ละ|ไม่|งั้น|ผู้จัดการ|เอา|เรื่อง|แน่ '
+  character: man03
+  override_name: พนักงาน
+- msg: คะ|.|.|ครับ
+  character: tan
+- msg: '*|เดิน|จา|กไ|ป*'
+  character: man03
+  override_name: พนักงาน
+- msg: เฮ้ออ|~ งาน|จะ|เยอะ|เกิน|ไป|แล้ว|นะ *|ถอน|หา|ยใ|จ*
+  character: tan
+- msg: พี|่ค|ะ…|..นั้|นใ|ช่…|คน|ที่|เรา|คิด|ไห|มค|ะ…
+  character: akari
+- msg: อ่าา…|.|ใช่|แหละ มั้ง|หน้า|เอ๋อๆ มี|คน|เดียว|นะ|Akari
+  character: minato
+- goto:
+    - Copy of EP3.0_v3(MA)_lb_11 if var_minato >= 8
+    - Copy of EP3.0_v3(MA)_lb_12
+- msg: 'นั้น|มัน|ไอ|แทน|นี้|หว่า|!|! '
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_11
+- goto: Copy of EP3.0_v3(MA)_lb_13
+- msg: นั้น|พี่|แทน|นี้|นา|!|!
+  character: akari
+  label: Copy of EP3.0_v3(MA)_lb_12
+- msg: เอ๋|?
+  character: tan
+  label: Copy of EP3.0_v3(MA)_lb_13
+- msg: เสียง|นั้น  Akari จัง|กับ Minato ห|นิ|?|!
+  character: tan
+- msg: พี่|แทน|มา|ทำ|อะไร|ที่|นี้|เนี้ย *|วิ่ง|ไป|หา*
+  character: akari
+- msg: นาย|ทำงาน|อยู่|ที่|นี้|งั้น|หรอ *|เดิน|ตาม|มาส|มท|บ*
+  character: minato
+- msg: ใช่|แล้ว|ละ|พี่|ทำงาน|หนัก|เพื่อ|หา|เงิน|มา|จ่าย|ค่า|เทอม|นะ
+  character: tan
+- msg: >-
+    ว่า|แต่|พวก|เธอ 2 คน|มา|ซื้อ|ของ|งั้น|หรอ|เยอะ|เชียว|นะ *|มอง|ถุง|ใน|ใหญ่ 2
+    ถุง|ที่ Minato ถือ*
+  character: tan
+- msg: เพราะ|ฉัน|ดัน|ตั้ง|กฏ|บ้าๆแข่ง|กับ|น้อง|สาว|เลย|เป็น|งี้|แหละ
+  character: minato
+- msg: ฮ่าาา|~ๆๆ!|! เอาจริง|ดิ Minato แหม่|ลำบาก|แย่|เลย|นะ
+  character: tan
+- msg: รอ|แป๊บ|นะ|ฉัน|ขอ|จัด|ของ|ให้|เสร็จ|ก่อน|แล้ว|เจอ|กัน|หน้า|ร้าน|นะ
+  character: tan
+- msg: ได้|เลย งั้น|จะ|รอ|นะ *|เดิน|ออก|ไป|รอ|นอก|ร้า|น*
+  character: minato
+- msg: แล้ว|จะ|รอ|นะ|คะ|พี่|แทน *|เดิน|ตาม Minat|o*
+  character: akari
+- background: garden
+- msg: หลัง|จาก|นั้น|แทน|ก็|ทำงาน|เสร็จ|แล้ว|ออก|มา|เจอ|กับ Minato และ Akari
+  character: narrator
+- msg: มา|แล้วๆรอ|นาน|หรือ|เปล่า งาน|วัน|นี้|หนัก|สุดๆไป|เลย
+  character: tan
+- msg: ก็|ไม่|นาน|มาก|หรอ|กว่า|แต่|นาย|ดู|ชิ|วก|ว่าที่|ฉัน|คิด|นะ
+  character: minato
+- msg: จริง|ค่ะ|พี่|แทน|ดู|ชิว|มาก|เลย|นะ|คะ
+  character: akari
+- msg: '*|ดื่ม|น้ำ|เปล่า|ที่|ซื้อ|มาครึ่|งนึ|ง*'
+  character: akari
+- msg: ฉัน|ก็|ชิ|วอ|ย่าง|งี้|ตั้งแต่|เด็กๆแล้ว|ละ เลย|เป็น|นิสัย|ไป|แล้ว
+  character: tan
+- msg: ดี|จัง|เลย|นะ|นาย|เนี้ย|จะ|ลำบาก|แค่|ไหน|แต่|ก็|ยัง|ชิว|ได้|เนี้ย
+  character: minato
+- msg: ไม่|เท่า|ไหร่|หรอ|กห|น่า
+  character: tan
+- sound: sv_Stomach Growl
+- msg: โอ้|ยย…|! *|ปวด|ท้อ|ง*
+  character: minato
+- msg: เห้ยๆเพื่อน|เป็นไร|วะ (|หน้า|ตกใจ|)
+  character: tan
+- msg: ทะ|.|.|โทษ|ที|.|.|พอดี|ปวด|ห้อง|กร|ะทั|นหั|นน|ะ…|แถว|นี้|มี|ห้องน้ำ|ไหม|.|.
+  character: minato
+- msg: >-
+    ถ้า|ห้องน้ำ|วิ่ง|ไป|ทาง|ซ้าย|ตรง|นั้น|จะ|มี|สวน|สาธารณะ|เล็กๆตรง|นั้น|มี|ห้องน้ำ|อยู่
+    (|หน้า|ตกใจ|นิดหน่อย|)
+  character: tan
+- msg: ขะ…|ขอบใจ|มาก|เพื่อ|น…*|สีหน้า|เริ่ม|ไม่|ไห|ว*
+  character: minato
+- msg: Akari พี่|ขอ|ไป|หา|ห้องน้ำ|แถว|นี้|หน่อย|นะ|อยู่|กับ|แทน|ไป|ก่อน|นะ
+  character: minato
+- msg: ได้|ค่ะ|พี่
+  character: akari
+- msg: '* รี|บวื่ง|ไป|ทันที *'
+  character: minato
+- msg: จะ|เป็น|อะไร|ไหม|นะ|พี่|เนี้ย
+  character: akari
+- msg: ไม่|เป็นไร|หรอ|กห|น่า|เชื่อ|พี่|สิ (|หน้า|อธิบาย|)
+  character: tan
+- msg: ไม่|เชื่อ|ได้|ไหม|เนี้ย
+  character: akari
+- msg: เอ้|าา|จบ|กัน (|หน้า|นิ่ง|)
+  character: tan
+- msg: ล้อเล่น|ค่ะ
+  character: akari
+- msg: Akari นี้|ขี้|เล่น|จริงๆเลย|นะ
+  character: tan
+- msg: ฮึ|~
+  character: akari
+- goto:
+    - Copy of EP3.0_v3(MA)_lb_14 if var_minato >= 8
+    - Copy of EP3.0_v3(MA)_lb_15
+- msg: สวน|อยู่|ตรง|ไหน|น่าาๆ
+  character: minato
+  label: Copy of EP3.0_v3(MA)_lb_14
+- msg: ใช่|ตรง|นั้น|ป่าว|นะ *|เห็น|เครื่องเล่น|เด็ก|และ|ห้อง|เล็กๆที่|มี|ไฟ|ติ|ด*
+  character: minato
+- msg: นั้น|ไง|!|!
+  character: minato
+- msg: ห้องน้ำ|จ๋า|พี่|มา|แล้|วว|~ *|รีบ|วิ่ง|ไป|เข้า|ทัน|ที*
+  character: minato
+- msg: …|.|. เมื่อ|ถึง|ห้องน้ำ|แล้ว Minato ก็|รีบ|ทำ|ธุระ|ทันที
+  character: narrator
+- msg: ' อ่าา|~ สวรรค์'
+  character: minato
+- msg: Akari จะ|เป็น|อะไร|ไหม|นะ|อยู่|กับ|แทน|เนี้ย
+  character: minato
+- msg: คิด|มาก|ไป|ก็|ป่าว|ประโยชน์
+  character: minato
+- msg: รีบๆ ทำ|ธุระ|ให้|มัน|เสร็จ และ ไป|หา|น้อง|Akari ดี|กว่า
+  character: minato
+- msg: Minato ทำ|ธุระ|เสร็จ|แล้ว|ก็|เตรียม|กลับ|ไป|รวม|ตัว|กับ Akari
+  character: narrator
+- msg: เวลา|ผ่าน|ไป|ไม่|นาน
+  character: narrator
+- msg: 'Akari พี่|กลับ|มา|แล้|วว '
+  character: minato
+- msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
+  character: akari
+- msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
+  character: minato
+- msg: ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o*  (|สีหน้า|ปกติ|พูด|)
+  character: tan
+- msg: >-
+    เป็น|อย่าง|งี้|นี้|เอง|ขอบใจ|นะ|ไอ|แทน|ที่|ช่วย|น้อง|สาว|ของ|ฉัน|ไว้|คน|เป็น|พี่|อย่าง|ฉัน|ขอ|ขอบคุณ|สุด|ใจ|เลย
+    *|ก้ม|ตัว|ขอบคุณ|แทน*
+  character: minato
+- msg: ไม่|เอาห|น่า Minato ฉัน|เกร็ง|ไป|หมด|แล้ว|นะ
+  character: tan
+- msg: >-
+    พี่|แทน|ช่วย|หนู|ไว้|นะ|คะ|รับ|คำ|ขอบคุณ|จาก|พี่|เถอะ|ค่ะ|ถ้า|พี่|แทน|รับ|คำ|ขอบคุณ|หนู|ก็|สบายใจ|แล้ว
+  character: akari
+- msg: >-
+    อะ|.|.|อา|เค|ก็|ได้|ฉัน|จะ|รับ|คำ|ขอบคุณ|นั้น|ไว้|ละ|กัน|ว่า|แต่|ไม่|ใช่|ว่า|พวก|เธอ
+    2
+    คน|ต้อง|รีบ|กลับ|หรอก|หรอ|นี้|ก็|ดึก|มาก|แล้ว|นะ|พรุ่งนี้|มี|คาบ|ทำ|อาหาร|ด้ว|ยห|นิ
+    (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: อะ|!|?|! จริง|ด้วย Akari เรา|รีบ|กลับ|กัน|ดี|กว่า
+  character: minato
+- msg: ได้|ค่ะ|พี่
+  character: akari
+- msg: ถ้า|งั้น|แทน|เจอ|กัน|พรุ่งนี้|นะ
+  character: minato
+- msg: เจอ|กัน|นะ|คะ|พี่|แทน
+  character: akari
+- msg: อืมม|เจอ|กัน|นะ|ทั้ง 2 คน (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: '*|หัน|หลัง|เดิน|กลับ|บ้าน|พร้อม|จูง|มือ Akari ด้ว|ย*'
+  character: minato
+- msg: '*|ตาม Minato ไป|พร้อม|หัน|มา|ยิ้ม|ใส่|แทน|แล้|วหั|นก|ลั|บ*'
+  character: akari
+- goto: Copy of EP3.0_v3(MA)_lb_18
+- msg: เหนื่อย|แย่|เลย|นะ|คะ|พี่|แทน
+  character: akari
+  label: Copy of EP3.0_v3(MA)_lb_15
+- msg: โอ้|ยย|แค่|นี้|เอง|ไม่|มี|ปัญหา|หรอก (|หน้า|ปกติ|)
+  character: tan
+- msg: พี่|แทน|เหงื่อ|พี่|เยอะ|มาก|เลย|นะ|คะ *|สังเกต|เห็น|เหงื่|อ*
+  character: akari
+- msg: >-
+    อ๋อ|น่า|จะ|เพราะ|วัน|นี้|ทำงาน|หนัก|นะ|เลย|เหงื่อ|ไหล่|ทั้ง|ตัว|เลย|ไม่|ต้อง|ใส่ใจ|หรอก 
+    (|หน้า|หมด|แรง|)
+  character: tan
+- msg: แต่|ว่า…
+  character: akari
+- msg: >-
+    ไม่|เป็นไร|หรอ|กห|น่าา Akari อย่า|ใส่ใจ|เลย *|หายใจ|แรง|เป็น|บาง|ช่ว|ง*
+    (ห|น้ามั้น|ใจ|)
+  character: tan
+- msg: (|พี่|แทน|วัน|นี้|ดู|เหนื่อย|มากๆเลย|เรา|พอ|ช่วย|อะไร|เขา|ได้|บ้าง|นะ|)
+  character: akari
+- choice:
+    - msg: .|.
+      msg_override: เอาน้ำเปล่าที่ดื่มแล้วครึ่งนึงมาให้แทน
+      update:
+        - rp_tan_akari += 5
+    - msg: .|.|.
+      msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
+      update:
+        - rp_tan_akari += 10
+      goto: Copy of EP3.0_v3(MA)_lb_16
+  character: me
+  state: Copy of EP3.0_v3(MA)_st_2
+- msg: พี่|แทน|คะ
+  character: akari
+- msg: มี|ไร|หรอ Akari (|หน้า|สงสัย|)
+  character: tan
+- msg: ถ้า|พี่|เหนื่อย|เอา|น้ำ|นี้|ไป|ดื่ม|สิ|คะ *|ยื่น|ขวด|น้ำใ|ห้*
+  character: akari
+- msg: น้ำ|งั้น|หรอ Akari ขอบใจ|นะ|ช่วย|ได้|มาก|เลย (|หน้า|ยิ้ม|แย่ม|)
+  character: tan
+- msg: >-
+    แทน|หยิบ|ขวด|น้ำ|จาก Akari มือ|ของ|แทน|กับ Akari
+    ได้|สัมผัส|กัน|แบบ|ไม่|ตั้งใจ
+  character: narrator
+- msg: อ่ะ !|?
+  character: akari
+- msg: ทะ|.|.|โทษ|ที (|หน้า|กังวล|)
+  character: tan
+- msg: หนู|ไม่|ถือ|หรอก|ค่ะ|.…|. *|พูด|เบาๆ* ถ้า|เป็น|พี่|แทน|ไม่|เป็นไร|หรอก|.|.
+  character: akari
+- msg: เมื่อ|กี่ Akari พูด|ว่า|ไร|หรอ (|หน้า|สงสัย|)
+  character: tan
+- msg: ป|ะ…|เปล่า|ค่ะ ไม่|มีอ|ะไ|ร…
+  character: akari
+- msg: งั้|นหร|อ…|. (|หน้า|ปกติ|)
+  character: tan
+- msg: อึก|~ๆๆ *|กระดก|น้ำจ|นหม|ดขว|ด* อ่าาา|~|~|สด|ชื้น|จริงๆเลย (|หน้า|ยิ้ม|)
+  character: tan
+- msg: ดะ|.|.|เดี๋ยว|สิ|นี้|เล่น|ดื่ม|หมด|เลยหร|ออ|!
+  character: akari
+- msg: ขอโทษ|~ๆ พอดี|หิว|น้ำ|สุดๆไป|เลย|นะ (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: ไม่|เป็นไร|ค่ะ|หนู|ดื่ม|ไป|แล้ว|ครึ่ง|นึง|ด้วย
+  character: akari
+- msg: >-
+    !|?|!|?|.|.|.|.|.|เมื่อกี้|ว่า|ไง|นะ|น้ำ|ขวด|นี้|ไม่|ใช่|ของ Minato
+    หรอก|หรอ|!|? (|สีหน้า|ตกใจ|)
+  character: tan
+- msg: นี้|ของ|หนู|เอง|ค่ะ|พี่|แทน|ทำไม|หรอ|ค่ะ|?
+  character: akari
+- msg: น้ำ|ขวด|นั้น|หนู|ดื่ม|ไป|แล้ว|ครึ่ง|ขวด|นะ|ค่ะ
+  character: akari
+- msg: '!|?|!|? (|สีหน้า|ตกใจ|)'
+  character: tan
+- msg: พี่|แทน|คะ|พี่|เป็น|อะไร|ไป|เนี้ย…|? ไม่|สบาย|ตรง|ไหน|หรือ|เปล่า
+  character: akari
+- msg: ม|ะ…|ไม่|มีอ…|อะไร|หรอก Akari พ|ะ…|พี่|สบาย|ดี (|สีหน้า|เชิน|)
+  character: tan
+- msg: จะ|จริง|ไหม|นะ *|เดิน|ไป|หา|แทน*
+  character: akari
+- msg: A|.|.|Akari จ|ะท|ำอ|ะไ|รน|ะ…|!|? (|สีหน้า|เชิน|)
+  character: tan
+- msg: >-
+    พี่|แทน|อยู่|นิ่งๆนะ|คะ
+    *|เข้า|ไป|เอา|หน้า|ใกล้|แทน|พร้อม|เอา|มือจับ|หน้าผา|ก*
+  character: akari
+- msg: A|.|.|Akari เดี๋ยว|สิพ|ะ…|พี่|เขิน|นะ (|สีหน้า|เชิน|)
+  character: tan
+- msg: อืมม|ก็|ไม่|มี|ไข้|นี้|นา *|ไม่|ได้|ฟัง|ที่|แทน|พูด|โฟกัส|กับ|บาง|อย่า|ง*
+  character: akari
+- msg: นี้|ได้ยิน|ที่|พูด|ไหม|เนี้ยย|! (|สีหน้า|เชิน|)
+  character: tan
+- msg: พี่|ก็|สบาย|ดีห|นิค|ะท|ำไ|มอ|ยู่|ดีๆทำ|ตัว|แปลกๆละ
+  character: akari
+- msg: ช่าง|เถอ|ะ…|พี่|สบาย|ดี (|สีห|น้าป|กตื|)
+  character: tan
+- msg: พี่|เอา|ขวด|มา|สิ|คะ|เดี๋ยว|หนู|ไป|ตรง|ถัง|ขยะ|ตรง|นั้น|ให้ (|สีห|น้าป|กตื|)
+  character: akari
+- msg: อืม.|.|อะ|นี้  *|ยื่น|ขวด|น้ำใ|ห้* (|สีห|น้าป|กตื|)
+  character: tan
+- msg: >-
+    *|รับ|ขวด|น้ำ|มา|กำลัง|จะ|ไป|ที|่ทิ้|งขย|ะ*
+    ได้ยิน|เสียง|เห|มื่อน|เครื่องยนต์   หืมม|?
+  character: akari
+- msg: Akari|!|! (|สีหน้า|ตกใจ|)
+  character: tan
+- msg: เอ๋|!|?
+  character: akari
+- msg: รถ|ที่|พุ่ง|มา|ด้วย|ความ|เร็ว|สูง|กำลัง|จะ|ชน Akari
+  character: narrator
+- msg: ระวัง|!|! (|สีหน้า|ตกใจ|)
+  character: tan
+- msg: >-
+    * รีบ|จับ|แขน Akari แล้ว|ดึง|เข้า|หา|ตัวแทน|ทันที *
+    เห้ย|นี้|เขต|ชุมชน|นะ|เว้ย|!|! ไอ|เวร|นี้|!|! *|(|สีหน้า|ตกใจ|)
+  character: tan
+- msg: >-
+    Akari เป็น|อะไร|มาก|ไหม|!|? *|ตอน|นี้|เห|มื่อน|กำลัง|กอด Akari อ|ยู|่*
+    (|สีหน้า|ตกใจ|)
+  character: tan
+- msg: >-
+    น|ะ…|หนู|ไม่|เป็นไร|ค่ะ|พี่|แทน…*|สั่น|ด้วย|ความ|กลัว|พร้อม|กอด|แทน|ไป|ด้ว|ย* 
+  character: akari
+- msg: ขอบคุณ|มาก|เลย|ค่ะ|พี่|แทน
+  character: akari
+- msg: ไม่|เป็นไรๆพี่|อยู่|นี้|แล้ว * ลูบ|หัว Akari เบาๆ* (|สีหน้า|ห่วง|)
+  character: tan
+- msg: นอกจาก|พี่ Minato แล้|ว…|ก็|มี|พี่|แทน|นะ|คะ|ที่|ได้|ลูบ|หัว|หน|ู…
+  character: akari
+- msg: อย่าง|งั้น|หรอ *|กำลัง|จะ|ปล่อย|มือ|ออก|จาก Akar|i* (|สีหน้า|นิ่ง|)
+  character: tan
+- msg: พี่|แทน|คะ|หนู|ขอ|อยู่|แบบ|นี้|สัก|พัก|นะ|คะ|.|.
+  character: akari
+- msg: อืมได้|สิ * กลับ|ไป|กอด Akari อีก|สัก|พัก * (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: หลัง|จาก|นั้น Akari ก็|สงบ|ลง|แล้ว|ปล่อย|กอด|จาก|แทน
+  character: narrator
+- msg: ใจ|เย็น|ขึ้น|มา|บ้าง|ยัง (|สีหน้า|สงสัย|)
+  character: tan
+- msg: เยอะ|ขึ้น|มาก|เลย|ค่ะ…|ขอบคุณ|นะ|คะ|พี่|แทน|ไม่|ได้|พี่|หนู|คง|แย่|เลย|.|.
+  character: akari
+- msg: ป่านนี้|แล้ว|เจ้า Minato ยัง|ไม่|กลับ|มา|อีก|หรอ  (|สีหน้า|สงสัย|)
+  character: tan
+- msg: ต้อง|ออก|ไป|หา|ไหม|เนี้ย (|สีหน้า|สงสัย|)
+  character: tan
+- msg: เดี๋ยว|พี่|เขา|ก็|กลับ|มา|แหละ|ค่ะ|ตอน|นี้|ช่วย|อยู่|กับ|หนู|ก่อน|นะ|คะ
+  character: akari
+- msg: อ|ะ…|อืม (|สีหน้า|ปกติ|)
+  character: tan
+- goto: Copy of EP3.0_v3(MA)_lb_17
+- msg: พี่|แทน|คะ
+  character: akari
+  label: Copy of EP3.0_v3(MA)_lb_16
+- msg: มี|ไร|หรอ Akari (|สีหน้า|ปกติ|)
+  character: tan
+- msg: พี่|แทน|ช่วย|ยื่น|หน้า|มา|หน่อย|ได้|ไหม|ครับ
+  character: akari
+- msg: หืมได้|สิ|ทำไม|หรอ *|ก้ม|ตัว|แล้ว|ยื่น|หน้า|ไป|หา* (|สีหน้า|สงสัย|)
+  character: tan
+- msg: ขอ|อนุญาต|นะ|คะ
+  character: akari
+- msg: ฮ|ึบ|.|.* ยื่น|มือ|ที่|มี|ผ้าเช็ดหน้า|ไป|เช็ด|หน้า|แทน*
+  character: akari
+- msg: A|.|.|Akari เธอ…|ทำ|อะไร|นะ|!|?|! (|สีหน้า|ตกใจ|)
+  character: tan
+- msg: อยู่|นิ่งๆหน่อย|สิ|คะ|หนู|จะ|เช็ด|เหงื่อ|ให้|ค่ะ
+  character: akari
+- msg: ด|ะ…|เดี๋ยว|สิพ|ะ…|พี่|ยัง|ไม่|พร้อม|เลย|นะ|!|?|!
+  character: tan
+- msg: ยัง|ไม่|พร้อม|อะไร|หรอ|คะ *|ยื่น|หน้า|เข้า|ไป|ใกล้|อี|ก*
+  character: akari
+- msg: คะ|.|.|คือ…|ไม่|มี|อะไร|หรอ|ก…|แต่|หน้า|จะ|ใกล้|เกิน|ไป|แล้ว (|สีหน้า|เชิน|)
+  character: tan
+- msg: ขอโทษ|ค่ะ อีก|สัก|ครู่|นะ|คะ|ใกล้|เสร็จ|แล้ว
+  character: akari
+- msg: อืมม  (|สีหน้า|เชิน|)
+  character: tan
+- msg: '*|Akari ใช่|ผ้าเช็ดหน้า|เช็ด|หน้า|ของ|แทน*'
+  character: akari
+- msg: เสร็จ|แล้ว|ค่ะ
+  character: akari
+- msg: ให้|ตาย|สิ|ทีหลัง|ก็|บอก|กัน|ก่อน|สิ (|สีหน้า|ปกติ|)
+  character: tan
+- msg: หนู|ก็|บอก|ไป|แล้ว|นะ|คะ|ว่า|จะ|เช็ด|หน้า|ให้
+  character: akari
+- msg: อืมมม…|พี่|ขอโทษ|ที่|คิด|มาก|ไป|เอง (|สีหน้า|ปกติ|)
+  character: tan
+- msg: จะ|มา|ขอโทษ|อะไร|เหล่า|พี่|แทน|ยัง|ไม่|ได้|ทำ|อะไร|เลยห|นิ
+  character: akari
+- msg: ก็|จริง|.|. (|สีหน้า|ปกติ|)
+  character: tan
+- msg: ใน|ระหว่าง|ที่|พูด|คุย|กัน|ก็|มี|กลุ่ม|วัน|รุ่น|คน|นึง|เดิน|เข้า|มา
+  character: narrator
+  label: Copy of EP3.0_v3(MA)_lb_17
+- msg: พวก|วัน|นี้|กิน|ไร|ดี|วะ
+  character: man02
+  override_name: อัลตพาล 1
+- msg: อะไร|ก็|ได้|แหล|ะห|น่าา
+  character: man03
+  override_name: อัลตพาล 2
+- msg: ไม่|ได้|หรอก|เรา|ต้อง|ถาม|หัวหน้า|ก่อน|ว่า|หัวหน้า|อยาก|กิน|อะไร
+  character: man02
+  override_name: อัลตพาล 1
+- msg: ก็|ได้|งั้น|ก็|หัวหน้า|! กิน|ไร|ดี|ครับ|!
+  character: man03
+  override_name: อัลตพาล 2
+- msg: >-
+    จะ|กิน|อะไร|ก็|เรื่อง|ของ|ฉัน *|เดิน|ไป|ชน Akari
+    ที่|ยื่น|อยู่|หน้า|ร้าน|ให้|ล้ม*
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: อ้าาา|~|!  *|ล้มล|งก|ำลั|งจ|ะถึงพื้|น*
+  character: akari
+- msg: Akari|! *|พุ่ง|มา|รับ|ตัว Akari ไ|ด้ทั|น* (|สีหน้า|ตกใจ|)
+  character: tan
+- msg: >-
+    นี้|! ชน|แล้ว|ก็|ขอโทษ|ด้วย|สิวะ|มารยาท|ไป|ไหน|หมด|เนี้ย
+    *|พูด|น้ำเสียง|หนักแน่น|ใน|ขณะ|ประคอง Akari อ|ยู|่* (|สีหน้า|โกรธ|)
+  character: tan
+- msg: อุ้ย|~|ขอโทษ|ด้วย|นะ|แม่|สาวน้อย|แต่|เธอ|ขวาง|ทาง|ฉัน|อยู่|นะ|~
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: แล้ว|ก็|นาย|นะ|ยุ่ง|ไม่|เข้า|เรื่อง|เลย|นะ
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: ช่ายๆนาย|ไม่|ควร|เข้า|มา|ยุ่ง|เลย|นะ
+  character: man03
+  override_name: อัลตพาล 2
+- msg: >-
+    Akari ยืน|ได้|หรือ|ป่าว|บาดเจ็บ|ตรง|ไหน|ไหม
+    *|เมิน|คำ|พูด|ของ|อัลต|พาล|สน|แต่ Akar|i* (|สีหน้า|เป็นห่วง|)
+  character: tan
+- msg: หนู|ไม่|เป็นไร|ค่ะ|พี่|แทน
+  character: akari
+- msg: >-
+    ไอ|นี้|กล้า|เมิน|ฉัน|อย่าง|งั้น|หรอ|หะ|!
+    *|เดิน|เข้า|ไป|ใส่|หมัด|เข้า|แทน|ทัน|ที*
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: อั่ก|!|! (|สีหน้า|โกรธ|)
+  character: tan
+- msg: พี่|แทน|!|!
+  character: akari
+- msg: แหม่ๆนึก|ว่า|จะ|ต่อย|ที|เดียว|สลบ|เลย|นะ|เนี้ย|ถึก|เห|มื่อน|กัน|นี้|หว่า
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: >-
+    ไม่|เป็|นไ|ร…*|ทำ|มือ|ขวาง Akari ไ|ว้* พวก|นี้|นะ|พี่|จัดการ|เอง
+    (|สีหน้า|โกรธ|)
+  character: tan
+- msg: พี่|แทน|ไม่|ไหว|หรอก|ค่ะ|มัน|มี|กัน 3 คน|เลย|นะ|คะ|!
+  character: akari
+- msg: นาย|ควร|ฟัง|แฟน|ของ|นาย|ดี|กว่า|นะ|~ ฮ่าาาๆ
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: ฮ่าาา|~ๆๆๆ
+  character: man02
+  override_name: อัลตพาล1/2
+- msg: '*|พุ่ง|เข้า|ไป|หมัด|ตรง|ใส่|หน้า|หัวหน้า|ทัน|ที*'
+  character: tan
+- msg: เอื่|อก|!|! *|กระเด็น|ไป|ลง|ไป|ใน|ที|่ถั|งขย|ะ*
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: 'หั|วห|น้~ ๆๆ หัวหน้า|!|! '
+  character: man02
+  override_name: อัลตพาล1/2
+- msg: '* โผล่|ขึ้น|มา|จาก|ถัง|ขยะ * หน|อยเ|เน่เ|เก'
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: พวก|แก จัดการ|มัน
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: เจอ|นี้
+  character: man02
+  override_name: อัลตพาล1/2
+- msg: >-
+    *|แทน|ตั้ง|รับ|ทั้ง 2 คน|พร้อม|กัน แล้ว|สวน|หมัด 1 แรก|เข้า|ท้อง|อัลต|พาล 1
+    และ อีก|หมัด|เข้า|หน้า อัลต|พาล|2*
+  character: tan
+- msg: อึก|!|!
+  character: man02
+  override_name: อัลตพาล1/2
+- msg: >-
+    นี้|นะ|หรอ|ความ|สามารถ|ของ|พวก|แก 3 คน
+    โคตร|กระจอก|เลย|ถ้า|ขึ้น|บน|เวที|ชก|โดน|น็อค|ไป|หมด|แล้ว (|สีหน้า|โกรธ|)
+  character: tan
+- msg: นี้|หรือ|ว่า แก|จะ|เป็น|คง|กะ|พัน จิตร|คำแหง|งั้น|หรอ|!|!
+  character: man01
+- msg: เออ ใช่|แล้ว|มี|ปัญหา|หรอ|ห้ะ|!|! (|สีหน้า|โกรธ|)
+  character: tan
+- msg: 'อ่าา|เจ็บ เอา|เป็น|ว่า|เรา|หนี|ดี|กว่า '
+  character: man02
+  override_name: อัลตพาล 1
+- msg: จริง|วิ่ง|หนี|เร็ว
+  character: man03
+  override_name: อัลตพาล 2
+- msg: อัลต|พาล|1 / 2 วิ่ง|หนี|ด้วย|สภาพ|ที่|เจ็บ|ตัว
+  character: narrator
+- msg: >-
+    ลูกน้อง|แก|ดู|จะ|รู้|ดี|นะ|ว่า|ไม่|ควร|เอา|ไง คุ|ณหั|วห|น้าอัลต|พาล
+    จะ|หนี|ไหม (|สีหน้า|โกรธ|)
+  character: tan
+- msg: โทษ|เว้ย ฝาก|ไว้|ก่อน|เถอะๆ
+  character: man01
+  override_name: หัวหน้าอัลตพาล
+- msg: หลัง|จากนั้|นหั|วห|น้าอัลต|พาล|ก็|วิ่ง|หนี|สุด|ขีด
+  character: narrator
+- msg: >-
+    หัด|ใช้|กำลัง|ใน|ทาง|ที่|ถูก|ละ และ ก็|เลิก|นิสัย|ปาก|เสีย|นั้น|ด้วย
+    (|สีหน้า|โกรธ|)
+  character: tan
+- msg: กะ|.|.|เกิดอ|ะไรขึ้|นน|ะ…|พี่|แทน|หน้า|เป็นไร|ไหม|คะ|?|!|?
+  character: akari
+- msg: '* วิ่ง|เข้า|มา|ดู|อาการ *'
+  character: akari
+- msg: ไม่|เป็นไร|มาก|หรอก (|สีหน้า|ปกติ|)
+  character: tan
+- msg: '*|แตะ|ที่|รอย|ที่|โดน|ต่อย|เล็ก|น้อ|ย*'
+  character: akari
+- msg: โอ้ยๆ อ่าา…|. (|สีหน้า|ปกติ|)
+  character: tan
+- msg: >-
+    นั้น|ไง|เจ็บ|จริงๆด้วย|รอ|แปบ|นะ|คะ *|หยิบ|ผ้าเช็ดหน้า|ออก|มา|อี|กรอ|บ*
+    (|สีหน้า|ห่วง|)
+  character: akari
+- msg: >-
+    Akari หน้า|น้อ|ง…|มัน *|หยิบ|ผ้า|เช็|หน้า|ออก|มา|เห|มื่อน|กั|น*
+    (|สีหน้า|ปกติ|)
+  character: tan
+- msg: อ่ะ|!|?|!
+  character: me
+  override_name: Akari/แทน
+- msg: พี่|แทน|ทำไม|ถึง|เอา|ผ้า|ออก|มา|หรอ|คะ
+  character: akari
+- msg: หน้า|น้อง|เปื่อน|นิดหน่อย|นะ|เลย|อยาก|เอา|คืน|ตะ|กี้|ซะ|หน่อย
+  character: tan
+- msg: มัน|ก็|ได้|แหละ|ค่ะ|แต่|ขอ|เบาๆหน่อ|ยน|ะค|ะ…
+  character: akari
+- msg: แทน|กับ Akari เช็ด|หน้า|ไป|ต่าง|ฝ่าย|ต่าง|เขิน|ซึ่ง|กัน|แล|กัน
+  character: narrator
+- msg: น|ะ…|หน้า|อาย|จัง|เลย… *|หน้า|แดง|มา|ก*
+  character: akari
+- msg: >-
+    ก็|มัน|ช่วย|ไม่|ได้|นี้|นา|.|ผู้ชาย|คน|อื่น|เช็ด|หน้า|ให้|นี้|นา|.
+    *|หน้า|แดง|ไม่|ต่าง|กั|น*
+  character: tan
+- msg: ไม่|ใช่|เรื่อง|นั้น|ค่ะ…
+  character: akari
+- msg: เรื่อง|ไหน|งั้น|หรอ (|สีหน้า|เชิน|)
+  character: tan
+- msg: >-
+    …|. *|กำลัง|คิด|มาก|และ|เหม่อ|กับ|เรื่อง|ที|่อัลต|พาล|บอ|กว่า|เป็น|แฟน*
+    (|สีหน้า|เชิน|)
+  character: akari
+- msg: >-
+    ฮัลโหล Akari อยู่|ไหม Akari เหม่อ|ไร|อยู่|นะ *|เอา|หน้า|เข้|าไ|ปใก|ล้*
+    (|สีหน้า|สงสัย|)
+  character: tan
+- msg: อะ|.|.|เอ๋|!|?|! ขะ…|ขอโทษ|ค่ะ|คือ|.|.* หน้า|แดง|มากๆ *
+  character: akari
+- msg: มี|ไร|บอก|พี่|ได้|นะ (|สีหน้า|ปกติ|)
+  character: tan
+- msg: มะ|.|.|ไม่|มี|ไร|แล้ว|ค่ะ|.|. (|สีหน้า|ปกติ|)
+  character: akari
+- msg: ถ้า|งั้น|ก็|มา|นั่ง|รอ|พี่|เธอ|กลับ|มา|ดี|กว่า|เห็นด้วย|ไหม (|สีหน้า|ปกติ|)
+  character: tan
+- msg: อืออ
+  character: akari
+- msg: นั่ง|รอ Minato กัน|สัก|พัก
+  character: narrator
+- msg: 'Akari พี่|กลับ|มา|แล้|วว '
+  character: minato
+- msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
+  character: akari
+- msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
+  character: minato
+- msg: ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o*  (|สีหน้า|ปกติ|พูด|)
+  character: tan
+- msg: >-
+    แบบ|นี้|เอง|สิ|นะ|สม|กับ|เป็น|นาย|จริงๆเลย|นะ|หมัด|นาย|ยัง|หนัก|เห|มื่อน|เดิม|เลย
+  character: minato
+- msg: อย่า|ชม|กัน|แบบ|นั้น|สิ (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: ตั้งแต่|งาน|แข่ง|แล้ว|นะ|นาย|แสดง|หมัด|แรงๆนั้น|ได้|โคตร|เคะ|ตา|คน|ดู|เลย
+  character: minato
+- msg: เอ๋|การ|แข่ง|?
+  character: akari
+- msg: Akari ยัง|ไม่|รู้|อีก|หรอ Minato
+  character: tan
+- msg: 'จะ|บอก|เดี๋ยวนี้|แหละ Akari ฟัง|ที่|พี่|จะ|พูด|ดีๆนะ '
+  character: minato
+- msg: ค่ะ
+  character: akari
+- msg: >-
+    แทน|นะ|เคย|ได้|รับ|เลือก|ไป|แข่ง|มวยไทย|ระดับ|ชาติ|เลย|ละ ฉายา|หมัด|เหล็ก
+    ของ|นาย|ยัง|อยู่|สิ|นะ
+  character: minato
+- msg: ฉัน|อาย|นะ|เอา|อดีต|ฉัน|มา|พูด|แบบ|นี้|เนี้ย  (|สีหน้า|เขิน|)
+  character: tan
+- msg: เอาห|น่า|บอกๆไป|เถอะ
+  character: minato
+- msg: >-
+    ถึง|ว่า|ละ|พี่|แทน|เลย|ไม่|กลัว
+    ขอ|คุณ|มาก|เลย|ค่ะ|พี่|แทน|ที่|ปกป้อง|หนู|ไว้
+  character: akari
+- msg: ไม่|เป้น|ไร ถ้า|น้อง|เป็นไร|บอก|พี่|ได้|เสมอ|นะ (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: 'ค่ะ|! '
+  character: akari
+- msg: >-
+    แต่ว่า|ตอน|นี้|ก็|เริ่ม|ดึก|แล้ว|นะ|ไม่|รีบ|กลับ|บ้าน|หรอ|พรุ่งนี้|มี|คาบ|ทำ|อา|หา|รห|นิ
+    (|สีหน้า|ปกติ|)
+  character: tan
+- msg: ก็|จริง|แหะ|งั้น Akari เรา|รีบ|กลับ|บ้าน|กัน|ดี|กว่า
+  character: minato
+- msg: ค่าา หนู|ขอ|ลา|พี่|แทน|ก่อน|นะ|คะ
+  character: akari
+- msg: ได้|เลย
+  character: minato
+- msg: >-
+    *|ก้ม|หัว|ให้|แทน* ขอบคุณ|จริงๆค่ะ|งั้น|หนู|ไอ|ก่อน|นะ|คะ|อัน|นี้|หนู|ให้
+    *|เอา|ของ|บาง|อย่าง|ใส่|มือ|แทน|แล้ว|กลับ|ไป|หา Minat|o*
+  character: akari
+- msg: เจอ|กัน|พรุ่งนี้|นะ|คะ|พี่|แทน|~|~
+  character: akari
+- msg: เจอ|กัน|นะ Akari Minato (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: 'อาา|เจอ|กัน|แทน *|Minato กับ Akari เดิน|กลับ|บ้าน|อย่าง|ปลอดภัย '
+  character: minato
+- msg: >-
+    ว่า|แต่|ให้|ไร|มานะ * แบ|มือ|ออก|มา|เป็น|ผ้าเช็ดหน้า|ของ Akari *
+    (|สีหน้า|สงสัย|)
+  character: tan
+- msg: >-
+    ผ้าเช็ดหน้า|ของ Akari ห|นิ|หืมม|?|?|มี|ไร|เขียน|ไว้|ด้วย|แหะ
+    (|สีหน้า|สงสัย|)
+  character: tan
+- cg: cg_Blackscreen
+- msg: >-
+    ประโยค|ที่|เขียน|ใน|กระดาษ|ผ้าเช็ดหน้า
+    "|หนู|ไม่|รู้|จะ|ขอบคุณ|พี่|แทน|ยังไง|ดี|ได้|โปรด|รับ|ผ้าเช็ดหน้า|หนู|ไป
+    ด้วย|ค่ะ|ถือ|ว่า|เป็น|น้ำใจ|เล็กๆน้อยๆนะ|คะ|"
+  character: me
+- delay: 5
+- cg: empty
+- msg: >-
+    แหม่ Akari นี้ล|ะก|็…|จะ|เก็บ|ไว้|ให้|ดีๆเลย * เอา|ผ้าเช็ดหน้า|ของ Akari
+    ใส่|กระเป๋า|เสื้อ|คู่|กับ|ผ้า|ของ|ตัว|เอ|ง* (|สีหน้า|ยิ้ม|)
+  character: tan
+- music: bgm_Your_Love_Is_Home
+  label: Copy of EP3.0_v3(MA)_lb_18
+- background: bg_living_room_yamada
+- msg: หลัง|จาก|กลับ|มา|จาก|ไป|ซื้อ|ของ|เสร็จ|แล้ว ก็|กลับ|บ้าน|มา
+  character: narrator
+- msg: พี่|ค่ะ น้อง|ขอ|น้ำส้ม หน่อ|ยยยยย
+  character: akari
+- msg: เอา|นี้ๆๆ น้ำส้มๆ
+  character: minato
+- msg: >-
+    ใน|ขณะ|ที่|น้อง|สาว|กำลัง|กิน|น้ำส้ม|เข้า|ไป|ได้|ประมาณ นิดหน่อย
+    พี่|ชาย|ก็|เปิด|ประเด็น|แซว|น้อง|ตัวเอง
+  character: narrator
+- msg: อย่า|กิน|เยอะ|นัก|ละ|เดียว|น้ำ|นัก|เพิ่มๆ
+  character: minato
+- msg: >-
+    ไม่|ต้อง|ห่วง|น้อง|สาว|หรอก น้อง|มี|กระเพาะ|ที่|สอง กระเพาะ|เสริม
+    สามารถ|รับ|สิ่ง|ที่|ชอบ|เข้า|ไป|กิน|ได้|อีก|หน่อย|นะ|พี่|กิน|ไม่|อ้วนๆ
+  character: akari
+- msg: เกาะ|เพาะ|น้อง|เก็บ|ไว้|ตรง|ไหน|ละ|นั้น|!|!|!|!
+  character: minato
+- msg: >-
+    ไม่|รู้|สิ|เดียว|กิน|เสร็จ พรุ่งนี้|ก็|เอาไ|ปพ|ลาน|พลังงาน|ออก|ต่อ
+    รับรอง|น้ำหนัก|เท่า|เมื่อ|วาน|แถม ตัว|เท่า|เดิม
+  character: akari
+- msg: จ้าๆ น้อง|คน|เก่ง|ของ|พี่
+  character: minato
+- msg: >-
+    หลัง|จาก|น้อง|สาว|กำลัง|ดื่ม|น้ำส้ม อยู่ Minato
+    เห็น|แก้ม|น้อง|ก็|นึก|ถึง|กระรอก|ขึ้น|มา 
+  character: narrator
+- msg: >-
+    ก็|ได้|เข้า|ไป|ใกล้ๆ น้อง|สาว งง|แปป|หนึ่ง|ก่อน|ที่|จะ|รู้สึก|ว่า|เอ้ะ|ทำไม
+    หน้า|พี่|กับ|มือ|มัน|แปลกๆ
+  character: narrator
+- msg: พะ พี่ !|!|! จะ|ทำ|อะไร|นะ ทำไม|หน้าตา|ดู|หน้า|กลัว
+  character: akari
+- msg: ป่าวๆ ไม่|มี|อะไร
+  character: minato
+- msg: '*|หลัง|จาก|นั้น|ก็|จับ|แก้ม|น้อง และ หยิก|เบาๆ แบบ|เอ็นดู|น้อง|ตัว|เอ|ง*'
+  character: minato
+- msg: พี่|หยิก|ทำไม อือ|~|~|~|~
+  character: akari
+- msg: เห็น|แก้ม|น้อง|น่า|รัก น่า|หยิก|ดี งั้น|ขอ|บับ|อีก|สัก|นิด|นะ
+  character: minato
+- msg: พี่|จะๆๆ เจ็บ อย่า|หยิก แรง|เดียว|แก้|มบว|มม
+  character: akari
+- msg: >-
+    *|หลัง|จาก Minato หยิก|แก้ม|ได้|สัก|พัก|หนึ่ง|ก็|เลย|หยุด|ดิก และ
+    ลูป|หัว|น้อง|นิด|ห่น่อย*
+  character: minato
+- msg: ใน|ที่สุด|นรก|ที่|พี่|จะ|แกล้ง|ก็|ได้|จบ|สัก|ที่
+  character: akari
+- msg: อยาก|โดน|อีก|หรอ
+  character: minato
+- msg: ไม่|ค่ะ พี่|หยุด|เลย
+  character: akari
+- msg: 'หลัง|จาก|นั้น|พอ Minato เลิก|แกล้ง|เสร็จ|ก็|หา|อะไร|ทำ|อีก|หน่อย '
+  character: narrator
+- msg: >-
+    ดียว|น้อง|ขึ้น|ห้อง|ละ|พี่|อย่า|ลืม|ส่ง
+    ชื่อ|มัง|งะ|เรื่อง|นั้น|มา|ใน|แชท|น้อง|ด้วย
+  character: akari
+- msg: ได้ๆๆ เดียว|พี่|ลืม|ส่ง
+  character: minato
+- msg: เดี่ยวๆ ไม่|ใช่|ลืม|ต้อง|ส่ง|สิ
+  character: akari
+- msg: หยอกๆ เดียว|ส่ง|ให้
+  character: minato
+- msg: ฝัน|ดี|ค่ะ|พี่ น้อง|ไป|นอน|อ่าน|หนังสือ|มัง|งะ|อีก|เรื่อง|ต่อ|ละๆ
+  character: akari
+- msg: ฝัน|ดีๆ พี่|ก็|ขึ้น|ห้อง|นอน|เหมือน|กัน|ละ|ไม่|มี|อะไร|ทำ|แล้ว
+  character: minato
+- msg: จบ|ตอน|ที่ 3 "|ตู้|เย็น|ไม่|มี|อะไร|เลย|"
+  character: narrator

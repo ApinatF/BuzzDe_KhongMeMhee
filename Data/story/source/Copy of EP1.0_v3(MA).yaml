@@ -1,0 +1,2171 @@
+- background: bedroom
+- music: bgm_Cozy
+- character: minato
+  position: left
+  act: Smile
+- msg: 'Zzzz '
+  character: minato
+- sound: sv_7_AM_Wake_Up_Call
+- msg: เสียงนาฬิกาปลุกดัง
+  character: narrator
+- delay: 2
+- msg: อืมมม~ ขออีก 5 นาที~
+  character: minato
+- sound: sv_33905 Cartoon wake up yawn 2-full
+- delay: 1
+- msg: 'เสียงประตูห้องเปิดออกพร้อมมีผู้หญิงคนนึงเดินเข้ามาในห้อง '
+  character: narrator
+- sound: sv_Walking_Footsteps_on_Woods_but_Fast
+- delay: 3
+- sound: sv_DoorOpen60259
+- delay: 1
+- character: akari
+  position: right
+  act: Normal
+- msg: 'หึๆ~ วันนี้แนะพี่ต้องโดน!  '
+  character: akari
+- msg: 'ฮึบ..! '
+  character: akari
+- sound: sv_drag a chair
+- msg: '*akari ลากเก้าอี้มาตัวนึงแล้วยืนบนนั้น*'
+  character: akari
+- character: akari
+  position: right
+  act: angry
+- msg: 'ประมาณนี้แหละเล็งให้ดีแล้วก็…. '
+  character: akari
+- msg: '!?! '
+  character: akari
+- character: akari
+  position: right
+  act: happy
+- msg: >-
+    <b><size=40>起きてよ、このバカ兄貴</size></b>！(Okite yo, kono baka aniki!) 
+    ตื่นได้แล้วเจ้าพี่บ้า!!! 
+  character: akari
+- msg: >-
+    *akari ได้กระโดดถีบขาคู่ ใส่ minato ที่กำลังนอนอยู่แต่หัว akari
+    ดันไปชนเพดานด้วย*
+  character: akari
+- sound: sv_Head Hit Low End Wallop
+- character: akari
+  position: right
+  act: Haru
+- msg: 'โอ้ย!! '
+  character: akari
+- delay: 1
+- sound: sv_Head Hit Low End Wallop
+- character: minato
+  position: left
+  act: Shocked
+- msg: 'อะเฮื่อก!! '
+  character: minato
+- delay: 1
+- character: minato
+  position: left
+  act: Angry
+- msg: >-
+    <b><size=40>一体何やってんだ、このアホ</size></b>!  (Ittai nani yatten da, kono aho!)
+    นี้เธอทำบ้าอะไรเนี้ยไอน้องเวร! 
+  character: minato
+- msg: 'เจ็บหัวอ่า~ '
+  character: akari
+- msg: 'ก็เพราะเล่นอะไรไม่รู้เรื่องกรรมเลยตามทันเลยเนี้ย '
+  character: minato
+- character: akari
+  position: right
+  act: sad
+- msg: 'งื่อ~~ '
+  character: akari
+- msg: 'แต่ว่านะพี่ๆลืมหรอว่าวันนี้ต้องไปมหาลัยนะ '
+  character: akari
+- character: minato
+  position: left
+  act: Surprised
+- msg: 'เอ๋วันนี้งั้นหรอ?! '
+  character: minato
+- character: akari
+  position: right
+  act: surprised
+- msg: 'ก็ใช่นะสิพี่ลุกไปแต่งตัวเร็วเข้า!  '
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: 'อะ..อา akari ก็รีบแต่งตัวด้วยนะยังอยู่ในชุดนอนอยู่เลยไม่ใช่หรือไง '
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: 'ก็จะมาปลุกพี่ก่อนไงแล้วไปเปลี่ยนเร็วๆเข้าเดี๋ยวจะสายเอานะ '
+  character: akari
+- msg: 'อาเค '
+  character: akari
+- music: empty
+- msg: หลังจากนั่นผ่านไปสักพักทั้งคู่ก็แต่งตัวเสร็จแล้วเตรียมตัวออกไปมหาลัย
+  character: narrator
+- background: bg_living_room_yamada
+- music: bgm_LoFi HipHop
+- msg: 'ไม่ลืมอะไรแล้วนะ akari '
+  character: minato
+- msg: ' อืม!! เตรียมพร้อมเรียบร้อย~ '
+  character: akari
+- character: minato
+  position: left
+  act: Smile
+- msg: 'ถ้างั้นก็ไปลุยกันเลย! '
+  character: minato
+- character: akari
+  position: right
+  act: happy
+- msg: 'ลุยย~~ '
+  character: akari
+- music: bgm_Walking On Gravel Road Near Stream
+- msg: minato กับ akari ได้เดินไปที่ป้ายรถเมย์และรอรถที่ไปมหาลัยของทั้ง 2
+  character: narrator
+- character: akari
+  position: right
+  act: Normal
+- msg: พี่คันนั้นไงๆ
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: คันนี้หรอ akari มั่นใจนะ
+  character: minato
+- msg: 'แน่สิพี่ '
+  character: akari
+- character: minato
+  position: left
+  act: TopView
+- msg: >-
+    พี่ว่า…มันดูหรูกว่ารถของมหาลัยอีกนะ
+    ที่ที่เราจะได้เรียนมันเป็นมหาลัยแบบไหนเนี้ย
+  character: minato
+- msg: 'อย่าคิดมากเลยหน่าพี่ ขึ้นมาก่อนเถอะเดี๋ยวค่อยมาคิดที่หลังอีกที่ '
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: อาเค
+  character: minato
+- background: bg_nifront_wut
+- music: bgm_PublicBus_V1
+- msg: >-
+    ทั้งคู่ขึ้นรถของมหาลัยแล้วปรากฏว่ามีแต่คนที่แต่งตัวในเครื่องแบบนักศึกษาทั้งนั้น 
+  character: narrator
+- msg: โอ้! คนเยอะกว่าที่คิดไว้อีกนะเนี้ย
+  character: minato
+- character: akari
+  position: right
+  act: sad
+- msg: คนก็เยอะอยู่เเล้วสิ เป็นวันเปิดมหาลัยวันเเรกนี่น่า ขึ้นรถไปกันสักทีน่า
+  character: akari
+- msg: เวลาผ่านไปสักพักหลังจากที่ออกจากป้ายมา
+  character: narrator
+- msg: จู่ๆก็มีคนโทรเข้าโทรศัพท์ของ minato
+  character: narrator
+- character: minato
+  position: left
+  act: TopView
+- msg: 'หืมม? ใครโทรมาตอนนี้ละเนี่ย '
+  character: minato
+- msg: '*minato รับสายโทรศัพท์จากญี่ปุ่น*'
+  character: minato
+- sound: sv_Phone Ring
+- delay: 10
+- msg: คู่สายในโทรศัพท์
+  character: narrator
+- sound: sv_Ping
+- character: minato
+  position: left
+  act: Surprised
+- msg: สวัสดีครับ?  นี้ใครหรอ
+  character: minato
+- character: grandfather
+  position: center
+  act: idle
+- msg: 'นี่ปู่เองหลานเอ๋ย เป็นไงมั่งเรียนมหาลัยวันเเรก '
+  character: grandfather
+- character: minato
+  position: left
+  act: Normal
+- msg: ผมยังไม่ได้เข้าไปเรียนเลย ปู่จะรีบโทรมาทำไม?
+  character: minato
+- msg: เอ้า ปู่ก็คิดถึงหลานๆไง โทรมาหาไม่ได้หรือไง?
+  character: grandfather
+- msg: อ่า…เเล้วเเต่ปู่เถอะ เเล้วมหาลัยที่ปู่ส่งมานี่เป็นมหาลัยเเบบไหนงั้นหรือ
+  character: minato
+- msg: >-
+    เป็นมหาลัยชั้นนำที่ปู่รับรองเลยว่าจะต้องทำให้พวกเธอ 2
+    คนเติบโตไปเป็นคนใหญ่คนโตให้กับตระกูลได้แน่ๆ
+  character: grandfather
+- msg: อาหะ…แล้วมีอะไรอีกหรือเปล่าคงไม่ได้มีแค่นี้สินะ
+  character: minato
+- msg: >-
+    … ก็จริงอย่างที่หลานว่ายังมีอีกอย่างที่ปู่ยังไม่ได้บอก…งั้นเอาละฟังปู่ดีๆนะ
+    minato
+  character: grandfather
+- sound: sv_Pop1
+- msg: เสียงลำโพงประกาศ
+  character: narrator
+- msg: 'ขณะนี้รถของมหาลัยเราได้ถึงหน้ามหาลัยแล้วโปรดกรุณาลงจากรถด้วยค่ะ '
+  character: narrator
+- background: bg_university_infront
+- music: bgm_LoFi HipHop
+- msg: มหาลัยที่ปู่ให้หลานไปเรียนนะ….
+  character: grandfather
+- msg: เป็นมหาลัยนานาชาติที่มีอัตราการจบอยู่ที่ 30% เท่านั้น
+  character: grandfather
+- character: minato
+  position: left
+  act: Shocked
+- msg: '!?! [หน้าช็อคสุดๆ]'
+  character: minato
+- msg: 'ปู่คิดว่ามันถึงเวลาที่หลานทั้ง 2 คนต้องแสดงความสามารถให้ทุกคนได้เห็นซะที '
+  character: grandfather
+- msg: >-
+    ปู่ได้สอนสิ่งที่ปู่รู้ให้หลานๆไปแล้วจากนี้ไปก็ขึ้นอยู่กับพวกหลานแล้วว่าจะทำยังไงต่อไป
+  character: grandfather
+- character: minato
+  position: left
+  act: Angry
+- msg: ' คะ-ครับ *กลืนน้ำลาย*'
+  character: minato
+- msg: โอเค! ถ้าไม่มีอะไรแล้วปู่วางสายละนะขอให้โชคดีกับชีวิตในรั่วมหาลัยละ
+  character: grandfather
+- sound: sv_Whoosh
+- character: empty
+  position: center
+- msg: >-
+    คุณปู่ของ minato ได้วางสายไปแล้วขณะเดียวกัน minato กับ akari
+    ก็ได้ออกมาจากรถมหาลัย
+  character: narrator
+- character: minato
+  position: left
+  act: Bemused
+- msg: ตาแก่…<b><size=40>ここ、どこに留学に来たんだよ</size></b>？(ส่งมาเรียนที่ไหนวะเนี้ย)
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: 'หืมม? เป็นไรหรอพี่ดูหงุดหงิดตั้งแต่โทรไปหาปู่แล้วนะปู่ได้บอกอะไรบ้างไหม '
+  character: akari
+- character: minato
+  position: left
+  act: Sad
+- msg: >-
+    minato : นี้มันแย่กว่าที่พี่คิดไว้ซะอีก akari….
+    <b><size=40>やばい</size></b>... (Yabai) ซวยแล้ว..
+  character: minato
+- msg: 'แล้วมันคืออะไรละพี่ตอบให้ชัดเจนหน่อยดิ '
+  character: akari
+- character: minato
+  position: left
+  act: Angry
+- msg: 'ไว้พี่จะไปเล่าในห้องเรียนนะ… '
+  character: minato
+- msg: 'อะ..อืมม…หืมมนั้นมัน '
+  character: akari
+- music: empty
+- background: BG_in_University
+- music: bgm_Education
+- msg: ระหว่างที่ทั้งคู่กำลังเดินเข้าไปในมหาลัยนั้นเอง 2 พี่น้องก็ต้องเจอกับ
+  character: narrator
+- character: man01
+  position: center
+  act: idle
+- msg: นี้~ ไม่เคยเห็นหน้ามาก่อนเลยเด็กใหม่งั้นหรอ~
+  character: man01
+- character: akari
+  position: right
+  act: surprised
+- msg: 'อะ..เอ๋..ช.. ใช่ค่ะแล้วคุณเป็นใครหรอคะ? '
+  character: akari
+- msg: ' ผมคือพี่ปฐมนิเทศ~ ของมหาลัยนี้ไม่ทราบว่าน้องๆต้องการจะเรียนคณะไหนหรอครับเรามีหลายคณะเลยนะครับตั้งแต่ คหกรรม ศิลปกรรม วิศวกรรม '
+  character: man01
+- msg: >-
+    บริหารธุรกิจ มีคณะไหนที่น้องๆสนใจไหมครับ~
+    หรือว่าให้ผมแนะนำคณะให้เอาไหมครับ~ๆ
+  character: man01
+- character: minato
+  position: left
+  act: Normal
+- msg: >-
+    เหอะ-..พูดเยอะชะมัดเลยไปกันดีกว่า akari
+    เราไม่มีเวลาให้พี่ปฐมนิเทศคนนี้หรอกนะ 
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: 'ค่ะ '
+  character: akari
+- msg: เอ๋!? เดี๋ยวก่อนน้อง..! พี่ยังพูดไม่จบเลยนะ!
+  character: man01
+- msg: ทั้งคู่เดินผ่านพี่ปฐมนิเทศไปอย่างกับไม่มีอะไรเกิดขึ้น
+  character: narrator
+- character: minato
+  position: left
+  act: Thinking
+- msg: (จะทำยังไงกับรุ่นพี่คนนี้ดีนะ)
+  character: minato
+- character: akari
+  position: right
+  act: sad
+- msg: (ทำไงถึงจะผ่านไปได้นะ)
+  character: akari
+- delay: 1
+- msg: >-
+    นี้จะเป็นตัวเลือกในการเลือกตัวละครหลักที่คูณจะใช้ดำเนินเรื่องราวที่ต่างไปตามตัวละครที่เลือก
+  character: narrator
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
+- delay: 3
+- choice:
+    - msg: เลือกเล่นเป็น minato
+      update:
+        - var_minato += 10
+        - var_akari -= 10
+    - msg: เลือกเล่นเป็น akari
+      update:
+        - var_akari += 10
+        - var_minato -= 10
+      goto: Copy of EP1.0_v3(MA)_lb_2
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_0
+- music: bgm_Epic_Gym_Rock_Take2
+- character: minato
+  position: center
+  act: Smile
+- msg: >-
+    คือว่านะครับรุ่นพี่พวกผมคิดว่าจะไปตึกปฐมนิเทศก่อนแล้วค่อยตัดสินใจครับรบกวนช่วยถอยไปหน่อยจะได้ไหมครับ
+  character: minato
+- character: man01
+  position: right
+  act: idle
+- goto: Copy of EP1.0_v3(MA)_lb_3
+- character: akari
+  position: center
+  act: happy
+  label: Copy of EP1.0_v3(MA)_lb_2
+- msg: >-
+    ขะ..ขอโทษนะคะรุ่นพี่แต่พวกหนูมีกำหนดว่าต้องไปที่ตึกปฐมนิเทศก่อนค่ะพวกเราคงไม่มีเวลา…
+  character: akari
+- character: man01
+  position: right
+  act: idle
+- goto:
+    - Copy of EP1.0_v3(MA)_lb_4 if var_minato >= 5
+    - Copy of EP1.0_v3(MA)_lb_5
+  label: Copy of EP1.0_v3(MA)_lb_3
+- msg: ตะ..แต่ว่าถ้าน้องเข้าคณะนี้น้องจะ…
+  character: man01
+  label: Copy of EP1.0_v3(MA)_lb_4
+- character: minato
+  position: center
+  act: Bemused
+- msg: >-
+    <b><size=40>やかましい</size></b>！ (Yakamashi!!) พูดมากจริงๆเลย!
+    ผมบอกแล้วไงว่าผมยังไม่สน! 
+  character: minato
+- msg: แต่พี่ว่ายังไงน้องก็ต้องเขาคณะนี้นะ!!
+  character: man01
+- msg: ในขณะที่ minato สงบสติไม่ได้อยู่นั้นเองก็มีเสียงหนึ่งดังขึ้นมา
+  character: narrator
+- character: lucien
+  position: left
+  act: idle
+- msg: ไม่ทราบว่า เกิดอะไรขึ้นงั้นหรอ ผมขอทราบสถานการณ์หน่อยสิครับ~
+  character: lucien
+  override_name: ห.กรรมการวินัย
+- character: minato
+  position: center
+  act: TopView
+- msg: 'หืมม…นั้นใครนะ? '
+  character: minato
+- msg: ซะ..ซวยแล้ว หัวหน้ากรรมการวินัยมา
+  character: man01
+- character: minato
+  position: center
+  act: Normal
+- msg: อะไรนะ… คุณคือหัวหน้าคณะกรรมการวินัยหรือครับ?!
+  character: minato
+- msg: ถูกต้องแล้วครับผมคือหัวหน้ากรรมการวินัยชื่อว่า lucien ครับ
+  character: lucien
+  override_name: ห.กรรมการวินัย
+- msg: >-
+    คุณ lucien
+    ผมแค่พยายามจะแนะนำคณะให้รุ่นน้องเองนะครับนี้ก็เป็นสิ่งที่พี่ปฐมนิเทศต้องทำสิครับ!
+  character: man01
+- msg: >-
+    ผมเข้าใจนะว่าคุณไม่ได้มีเจตนาไม่ดีแต่ว่าถ้าคุณทำอย่างี้มันรบกวนเด็กใหม่ด้วยนะครับ
+  character: lucien
+- msg: แต่ว่า!
+  character: man01
+- msg: ไม่มีแต่ครับผมขอใช้สิทธ์กรรมการวินัยบังคับไล่คุณออกทันที
+  character: lucien
+- msg: หะ!! เดี๋ยวสิครับคุณ lucien ผมนะ!
+  character: man01
+- msg: ออกไปซะ…ที่นี้ไม่ต้อนรับแกแล้ว..
+  character: lucien
+- msg: อึก!?!
+  character: man01
+- msg: '*หลังจากนั้นพี่ปฐมนิเทศก็เดินออกจากมหาลัยอย่างคับแค้น*'
+  character: man01
+- sound: sv_FootSteps Fade away
+- delay: 2
+- character: empty
+  position: right
+- msg: แหม่ๆ ขอโทษนะครับที่ทำให้ลำบากนะ
+  character: lucien
+- character: minato
+  position: center
+  act: Smile
+- msg: ไม่ขนาดนั้นหรอกครับถ้าคุณ lucien ไม่มาผมคงได้พูดอะไรหนักกว่านี้แน่ครับ
+  character: minato
+- msg: คุณนี้ใจดีจังเลยนะครับ ขอทราบชื่อของคุณหน่อยสิครับ
+  character: lucien
+- character: minato
+  position: center
+  act: Normal
+- msg: ผมชื่อ minato…Yamada minato ครับยินดีที่ได้รู้จักครับคุณ lucien
+  character: minato
+- msg: ยินดีที่ได้รู้จักนะ minato แต่ตอนนี้นายต้องรีบแล้วนะพิธีกำลังจะเริ่มแล้ว
+  character: lucien
+- msg: '*lucien ชี้ไปที่หอนาฬิกาให้ minato เห็นว่ากำลังจะสาย*'
+  character: lucien
+- character: minato
+  position: center
+  act: Shocked
+- msg: ' ยะ..แย่แล้ว!? ถ้างั้นผมต้องไปก่อนนะครับไว้เจอกันนะครับคุณ lucien! ไปกันได้แล้ว akari'
+  character: minato
+- character: akari
+  position: right
+  act: idle
+- msg: คะ..ค่ะ!
+  character: akari
+- msg: ไว้เจอกันนะ~
+  character: lucien
+- character: empty
+  position: left
+- character: empty
+  position: right
+- character: empty
+  position: center
+- goto: Copy of EP1.0_v3(MA)_lb_6
+- msg: แต่ว่าถ้าน้องได้เข้าคณะของพี่แล้วเชื่อว่าน้องต้องชอบแน่ๆครับ~
+  character: man01
+  label: Copy of EP1.0_v3(MA)_lb_5
+- character: akari
+  position: center
+  act: Normal
+- msg: มะ..ไม่ดีกว่าค่ะ..หนูขอหาเองดีกว่–
+  character: akari
+- msg: ไม่ต้องเขินไปหรอกครับเดี่ยวผมจะแนะนำให้เป็นอย่างดีเลย
+  character: man01
+- character: akari
+  position: center
+  act: surprised
+- msg: นี้!?..จะทำอะไรนะปล่อยนะคะ!
+  character: akari
+- character: minato
+  position: left
+  act: Surprised
+- msg: akari!?
+  character: minato
+- msg: ผมจะดูคณะให้อย่างดีเลยครับ~
+  character: man01
+- character: akari
+  position: center
+  act: angry
+- msg: ปล่อยน้าาาาาา!!
+  character: akari
+- character: lucien
+  position: left
+  act: idle
+- msg: เห้ย ตรงนั้นนะหยุดเดี๋ยวนี้เลยนะ!!
+  character: lucien
+  override_name: ห.กรรมการวินัย
+- msg: อยู่ดีๆก็มีใครไม่รู้เข้ามาแล้วปัดมือของพี่ปฐมนิเทศออกไป
+  character: narrator
+- msg: คิดจะทำอะไรเด็กใหม่ไม่ทราบหรอครับคุณสตาฟวันปฐมนิเทศ
+  character: lucien
+  override_name: ห.กรรมการวินัย
+- msg: >-
+    หัวหน้ากะ.กรรมการวินัยงั้นหรอ!?
+    ผมเปล่านะครับผมแค่อยากให้รุ่นน้องเข้าคณะที่ผมแนะนำเองครับ!
+  character: man01
+- character: akari
+  position: center
+  act: surprised
+- msg: หัวหน้ากรรมการวินัยงั้นหรอ?!?
+  character: akari
+- msg: ถูกต้องแล้วครับผมคือหัวหน้ากรรมการวินัยชื่อว่า lucien ครับ
+  character: lucien
+  override_name: ห.กรรมการวินัย
+- character: akari
+  position: center
+  act: Normal
+- msg: >-
+    คือว่าอยู่ดีๆดิฉันก็โดนพี่คนนี้ดึงไปแล้วพูดอะไรไม่รู้เกี่ยวกับการเข้าคณะที่เขาแนะนำนะค่ะ
+  character: akari
+- msg: อย่างงี้นี้เองเอานะคุณสตาฟปฐมนิเทศคุณจะอธิบายยังไง
+  character: lucien
+- msg: อึก?! คือว่า!!
+  character: man01
+- msg: ไม่มีข้อแก้ตัวสินะถ้างั้นผมขอใช้สิทธ์กรรมการวินัยบังคับไล่คุณออกทันที
+  character: lucien
+- msg: หะ!! เดี๋ยวสิครับคุณ lucien ผมนะ!
+  character: man01
+- msg: ออกไปซะ…ที่นี้ไม่ต้อนรับแกแล้ว..
+  character: lucien
+- msg: อึก!?!
+  character: man01
+- character: empty
+  position: right
+- msg: หลังจากนั้นพี่ปฐมนิเทศก็เดินออกจากมหาลัยอย่างคับแค้น
+  character: narrator
+- msg: ขอบคุณมากเลยค่ะคุณ lucien ที่มาช่วยดิฉันไว้ถ้าคุณไม่มาดิฉันคงแย่แน่ๆเลยค่ะ
+  character: akari
+- msg: ไม่ต้องทางการหรอกเป็นกันเองได้เลย
+  character: lucien
+- msg: ถ้าคุณ lucien พูดอย่างงั้นก็โอเคค่ะ หนูขอขอบคุณอีกครั้งนะคะ
+  character: akari
+- msg: ไม่เป็นไรหรอกครับนี้ก็เป็นงานของเราอยู่แล้วสบายมาก
+  character: lucien
+- msg: อะจริงด้วยหนูชื่อ akari..Yamada akari ค่ะ
+  character: akari
+- msg: akari งั้นหรอยินดีที่ได้รู้จักนะรุ่นน้อง akari
+  character: lucien
+- msg: ค่ะ! คุณ lucien
+  character: akari
+- msg: แต่ตอนนี้ผมว่าพวกคุณต้องรีบหน่อยแล้วนะครับพิธีมันจะเริ่มแล้วนะครับ
+  character: lucien
+- msg: '*lucien ชี้ไปที่หอนาฬิกาให้ akariเห็นว่ากำลังจะสาย*'
+  character: lucien
+- character: akari
+  position: center
+  act: Haru
+- msg: >-
+    ยะ..แย่แล้ว!? ถ้างั้นหนูต้องไปก่อนแล้ว!ไว้เจอกันนะคะคุณ lucien!
+    เราไปกันเถอะพี่!
+  character: akari
+- character: minato
+  position: right
+  act: Normal
+- msg: อะ..อืม
+  character: minato
+- msg: ไว้เจอกันนะ~
+  character: lucien
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
+- music: bgm_Walking On Gravel Road Near Stream
+  label: Copy of EP1.0_v3(MA)_lb_6
+- msg: หลังจากนั้นไม่นานขณะที่ทั้งคู่กำลังรีบไปที่ตึกปฐมนิเทศ
+  character: narrator
+- character: akari
+  position: right
+  act: Normal
+- msg: พี่คะปฐมนิเทศจะเริ่มอีกกี่นาทีหรอคะ!?
+  character: akari
+- character: minato
+  position: left
+  act: Angry
+- msg: เหมื่อนว่าจะอีก 20 นาทีนะ ต้องรีบแล้ว akari ตามพี่ให้ทันนะ!!
+  character: minato
+- character: akari
+  position: right
+  act: angry
+- msg: รู้แล้วหน่าาา!!
+  character: akari
+- msg: ทั้งคู่ใส่แรงที่ขาตัวเองอย่างสุดกำลังและในที่สุด..
+  character: narrator
+- msg: แฮ่กๆๆ~
+  character: me
+  override_name: Minato/Akari
+- character: minato
+  position: left
+  act: Sad
+- msg: ถึง..ซักที Akari ไหวไหม..
+  character: minato
+- msg: จะไหวได้ไงนะพี่หนูหอบจนจะตายอยู่แล้วเนี้ย!
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: เรารีบเข้าไปกับเถอะ
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: อืม!
+  character: akari
+- msg: >-
+    ทั้งคู่ได้วิ่งเข้าไปในตึกปฐมนิเทศแล้วเห็นว่ามีนักศึกษาใหม่ที่หาที่นั่งรอไว้แล้วแต่งานยังไม่เริ่ม
+  character: narrator
+- sound: sv_Fast run meme
+- background: bg_uni_classroom
+- character: minato
+  position: left
+  act: Happy
+- music: bgm_Education
+- msg: โชคดีจังที่งานยังไม่เริ่มหาที่นั่งกันดีกว่า Akari อยากนั่งตรงไหนงั้นหรอ
+  character: minato
+- msg: หนูขอที่นั่งหลังสุดได้ไหมคะ
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: มีเหตุผลอะไรหรือป่าวทำไมถึงต้องข้างหลังนะ
+  character: minato
+- msg: ก็หนูพึ่งวิ่งมาหนิคะหนูอยากหาที่นั่งลับตาคนจะได้นอนสบายๆหน่อยนะ
+  character: akari
+- msg: ถ้านั่งหลังสุดก็ไม่รู้กันพอดีนะสิว่า ผอ พูดอะไรกับพวกเรานะ
+  character: minato
+- msg: ทางที่ดีพี่คิดว่าไปนั่งตรงกลางไม่ก็หน้าดีกว่านะ
+  character: minato
+- msg: ท่าพี่ว่าอย่างงั้นตรงกลางก็ได้ค่ะไม่แย่เหมื่อนกัน
+  character: akari
+- msg: อืมงั้นเราไปกันเถอะ
+  character: minato
+- msg: ค่ะ
+  character: akari
+- sound: sv_Big Switch
+- background: bg_uni_classroom_BR
+- msg: >-
+    เวลาผ่านไปสักพักไฟทุกดวงดับยกเว้นบนเวทีพิธีประถมนิเทศก็ได้เริ่มขึ้นและ ผอ
+    ของมหาลัยนี้ก็ได้ขึ้นมาต้อนรับด้วยตัวเอง
+  character: narrator
+- msg: ผอ มาแล้ว Akari เงียบๆไว้นะ
+  character: minato
+- msg: อืมม
+  character: akari
+- character: professor
+  position: center
+  act: aa
+- msg: อรุณสวัสดิ์เหล่าแร่ดิบผู้มีพรสวรรค์ ยินดีที่ได้พบนะผมคือ ผอ ของมหาลัยแห่งนี้
+  character: professor
+  override_name: ผอ.
+- msg: ขอแสดงความยินดีด้วยกับพวกคุณที่สามารถเข้ามาเรียนที่แห่งนี้ได้
+  character: professor
+  override_name: ผอ.
+- msg: >-
+    แต่ว่า..พวกคุณก็ต้องรู้ไว้ก่อนนะว่าหากได้กลายเป็นนักศึกษาของมหาลัยแห่งนี้แบบเต็มตัวแล้วละก็
+  character: professor
+  override_name: ผอ.
+- msg: พวกคุณต้องใช่ความสามารถทั้งหมดของคุณเอาตัวรอดให้ได้ซะล่ะ
+  character: professor
+  override_name: ผอ.
+- character: minato
+  position: left
+  act: Bemused
+- character: akari
+  position: right
+  act: surprised
+- msg: '?!?'
+  character: me
+  override_name: Minato/Akari
+- background: bg_Blackscreen
+- sound: sv_Flashback
+- msg: —----------Flashback—----------
+  character: narrator
+- delay: 3
+- character: grandfather
+  position: center
+  act: idle
+- msg: >-
+    ปู่เชื้อว่าหลานทั้ง 2
+    จะต้องผ่านไปได่แน่ด้วยทักษะของหลานที่ปู่ขัดเกลาให้เองกับมือ
+  character: grandfather
+- msg: ถ้าไม่มีอะไรแล้วปู่วางสายละนะขอให้โชคดีกับชีวิตในรั่วมหาลัยนะ
+  character: grandfather
+- msg: —----------จบFlashback—----------
+  character: narrator
+- delay: 3
+- background: bg_uni_classroom_BR
+- character: professor
+  position: center
+  act: aa
+- msg: ด้วยเหตุนี้ทางเราจะขอชี้แจงก่อนว่า
+  character: professor
+  override_name: ผอ.
+- msg: >-
+    แต่ละปีของพวกคุณนั้นถ้าพวกคุณไม่สามารถสร้างผลงานเป็นที่ประจักรให้แก่มหาลัยของเราได้นะก็…
+  character: professor
+  override_name: ผอ.
+- sound: sv_alert
+- msg: อรุณสวัสดิ์เหล่าแร่ดิบผู้มีพรสวรรค์ ยินดีที่ได้พบนะผมคือ ผอ ของมหาลัยแห่งนี้
+  character: professor
+  override_name: ผอ.
+- delay: 1
+- msg: เอ๋!? ว่าไงนะไล่ออกหรอ!?
+  character: man02
+  override_name: นักศึกษาใหม่1
+- msg: บ้าหน่า! พวกเราแค่ปี 1 เองนะ!
+  character: man02
+  override_name: นักศึกษาใหม่2
+- msg: ไม่ไหวหรอก!
+  character: man02
+  override_name: นักศึกษาใหม่3
+- character: akari
+  position: right
+  act: angry
+- msg: พี่คะนี้มัน
+  character: akari
+- character: minato
+  position: left
+  act: Angry
+- msg: อืมเริ่มแล้วสินะการเอาตัวรอดนะ
+  character: minato
+- msg: เราได้โดนไล่ออกกันแน่ๆ!
+  character: man02
+  override_name: นักศึกษาใหม่2
+- msg: อยู่ในความสงบซะ!!
+  character: professor
+  override_name: ผอ.
+- msg: '!?!?'
+  character: man02
+  override_name: นักศึกษาใหม่ทุกคน
+- msg: '?!?'
+  character: me
+  override_name: Minato/Akari
+- msg: พอได้ตะโกนแบบนี้แล้วกินแรงเอาเรื่องเลยนะฮ่าๆๆ!
+  character: professor
+  override_name: ผอ.
+- msg: อะ..อะไรนะแรงกดดันตะกี้นี้!?
+  character: akari
+- msg: นี้มันอะไรกันแค่ตะโกนก็ทำให้ตื่นกลัวได้ขนาดนี้เลยหรอ!?
+  character: minato
+- msg: >-
+    อะแฮ่ม…มหาลัยแห่งนี้ไม่ต้องการคนที่เหยียบย้ำอยู่กับที่จำไว้ซะว่าถ้าพวกเธอคือแร่ดิบที่มีศักย์ภาพมากพอ
+  character: professor
+  override_name: ผอ.
+- msg: >-
+    อยู่ที่พวกเธอว่าจะขัดเกลามันออกมายังไง ขอให้เป็น 4
+    ปีที่โชคดีนะเหล่านักศึกษาของฉัน.…
+  character: professor
+  override_name: ผอ.
+- sound: sv_Big Switch
+- delay: 1
+- character: empty
+  position: center
+- sound: sv_Walking_Footsteps_on_Woods_3
+- background: bg_uni_classroom
+- msg: >-
+    เมื่อ ผอ
+    พูดเสร็จก็เดินลงจากเวทีแล้วหายไปในเงามืดทันทีและไฟก็กลับมาติดอีกครั้ง
+  character: narrator
+- delay: 3
+- character: minato
+  position: left
+  act: Normal
+- msg: การพูดปราศรัยของ ผอ ฟังแล้วขนลุกเลย Akari คิดว่าไงหรอ
+  character: minato
+- msg: หนูว่า ผอ คนนี้พูดอะไรที่ให้ข้อคิดดีๆมากเลยเลยนะคะ
+  character: akari
+- sound: sv_Stomach Growl
+- msg: '*ท้องร้อง*'
+  character: akari
+- delay: 3
+- character: akari
+  position: right
+  act: Shy
+- msg: โอ้ยย~พี่หนูหิวข้าวแล้วอ่าา
+  character: akari
+- character: minato
+  position: left
+  act: Smile
+- msg: นั้นสินะพวกเราก็ยังไม่ได้กินอะไรเลยด้วยพี่เองก็หิวแล้วเหมื่อนกัน
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: งั้นเราไปที่โรงอาหารกลางกันดีกว่าเห็นว่าโรงอาหารใหญ่มากกกก
+  character: akari
+- msg: อืมงั้นไปกัน
+  character: minato
+- sound: sv_Walking_Footsteps_on_Woods_3
+- background: BG_in_University
+- msg: >-
+    ระหว่างที่ทั้ง 2
+    กำลังจะออกจากตึกเพื่อไปหาอะไรกินทันใดนั้นก็มีใครบางคนมาดักหน้าทางออกตึก
+  character: narrator
+- character: tan
+  position: center
+  act: idle
+- msg: นี้ๆพวกเธอ 2 คนก็มาเรียนที่นี้ด้วยหรอเนี้ยย
+  character: tan
+  override_name: บุคคลปริศนา
+- character: minato
+  position: left
+  act: Normal
+- msg: หืมม?
+  character: minato
+- msg: ไม่คิดเลยนะว่าจะได้มาเจอนายที่นี้…Minato
+  character: tan
+  override_name: บุคคลปริศนา
+- character: minato
+  position: left
+  act: Surprised
+- msg: เสียงแบบนี้หรือว่า!?
+  character: minato
+- msg: ไม่ได้เจอกันนานเลยนะ Minato
+  character: tan
+  override_name: บุคคลปริศนา
+- sound: sv_alert
+- msg: นายย!?!?
+  character: minato
+- delay: 1
+- character: minato
+  position: left
+  act: Bemused
+- msg: เป็นใครวะ?
+  character: minato
+- msg: >-
+    แป้ว— เห้ยเดี๋ยวสิลืมกันงี้ได้ไงเนี้ย!! Minato ฉันอุตสาห์มองนายตั้งแต่หน้า
+    มหาลัยเลยนะรู้ไหม!!
+  character: tan
+  override_name: บุคคลปริศนา
+- character: minato
+  position: left
+  act: Normal
+- msg: พูดอะไรย้อนแย้งชะมัดเลยนะนายเนี้ย!
+  character: minato
+- character: minato
+  position: left
+  act: Smile
+- msg: >-
+    ตะกี้ยังพูดเหมื่อนพึ่งรู้ว่าพวกฉันมาเรียนแต่สักพักก็บอกรู้อยู่แล้วว่าจะมาเรียนจะเอาแบบไหนกันแน่ห๊ะ!!
+  character: minato
+- msg: ฮึ่ย!! ช่างฉันเถอะน่า!!
+  character: tan
+  override_name: บุคคลปริศนา
+- character: akari
+  position: right
+  act: sad
+- msg: พี่คะถ้าหนูจำไม่ผิดนั้นใช่…เพื่อนสมัยเด็กของพี่หรือป่าวคะ
+  character: akari
+- msg: >-
+    ถูกต้องแล้วละ Akari
+    คนนี้คือเพื่อนสุดน่ารำคาญของพี่ในสมัยเด็กเองถ้าจำไม่ผิดชื่อว่า..
+  character: minato
+- msg: แทนเฟ้ย!! ฉันชื่อ คงกะพัน จิตรคำแหง เป็นรุ่นพี่ของเธอไงละ!
+  character: tan
+- character: akari
+  position: right
+  act: Normal
+- msg: ก็ว่าใครเป็นรุ่นพี่ขี้แอ็กคนนั้นเองหรอคะเนี้ย (หน้าเข้าใจ)
+  character: akari
+- msg: ขี้แอ็ก อะไรละ Akari เธอนี้ก็ยังปากแซ่บไม่เปลี่ยนเลยนะ (หน้าขำ)
+  character: tan
+- msg: ฮ่าๆๆ! พูดได้ถูกใจพี่มากเลยละ Akari ฮ่าๆๆ! โอ้ยๆไม่ไหวท้องจะแข็งแล้ว ฮ่าๆๆ
+  character: minato
+- msg: จะขำกันอะไรขนาดนั้นละ อะโด่เอ๋ย
+  character: tan
+- msg: เอาหน่าผ่อนคลายนะผ่อนคลาย
+  character: minato
+- character: minato
+  position: left
+  act: Normal
+- msg: ว่าแต่การที่นายอยู่ที่นี้ก็หมายความว่านายได้อยู่ปี 2 แล้วอย่างงั้นหรอ!
+  character: minato
+- msg: อืมใช่แล้วละต่อจากนี้ก็เรียกฉันว่ารุ่นพี่ด้วยละเข้าใจไหม Minato คุง~
+  character: tan
+- character: minato
+  position: left
+  act: Angry
+- msg: ให้ตายยังไงฉันก็ไม่เรียกโว้ย!!
+  character: minato
+- msg: ยังใจร้ายอยู่เหมื่อนเดิมเลยนะนายเนี้ย ฉันอดคิดถึงสมัยเก่าไม่ได้จริงเลย
+  character: tan
+- msg: นายในตอนนั้นนะทำฉันอึ่งไปเลยนะกับความสามารถรอบด้านของนายนะฉันนับถือนายนะ~
+  character: tan
+- character: minato
+  position: left
+  act: Sad
+- msg: พอได้แล้วยิ่งฟังยิ่งขนลุก
+  character: minato
+- msg: แค่นี้เองไม่เห็นเป็นไรเลย…ว่าแต่พวกเธอ 2 คนกำลังจะไปไหนงั้นหรอ
+  character: tan
+- msg: อะพอดีว่าพวกเราหิวข้าวนะค่ะเลยกะว่าจะไปโรงอาหารกลางนะคะ
+  character: akari
+- msg: งั้นพี่ขอตามไปด้วยละกัน
+  character: tan
+- msg: เอ๋พี่จะตามพวกหนูมาหรอหรือว่าจริงๆแล้วพี่เป็น stalker จริงๆกันน่า~
+  character: akari
+- msg: ไม่ใช่โว้ยย!
+  character: tan
+- msg: "ล้อเล่นหน่า~\r"
+  character: akari
+- msg: เฮอะ~พอรู้ว่าพวกเธอ 2 คนจะมาเรียนด้วยฉันรับประกันได้เลยว่าปีนี้สนุกแน่
+  character: tan
+- msg: จะเป็นอย่างงั้นแน่หรอ
+  character: minato
+- msg: แน่สิฉันมั่นใจสุดๆเลยละ
+  character: tan
+- character: minato
+  position: left
+  act: Normal
+- msg: อาๆแล้วแต่จะคิดละกัน
+  character: minato
+- msg: แต่ตอนนี้เรารีบไปโรงอาหารกลางกันดีกว่า ฉันหิวจะตายอยู่แล้ว
+  character: minato
+- msg: หนูก็ด้วยย…
+  character: akari
+- music: bgm_Walking On Gravel Road Near Stream
+- background: BG_in_University
+- msg: ทั้ง 3 คนได้เดินตรงไปยังโรงอาหารกลางโดย Akari บ่นว่าหิวตลอดทาง
+  character: narrator
+- character: akari
+  position: right
+  act: sad
+- msg: ยังไม่ถึงอีกหรอพี่~ หนูหิวจนจะกินม้าได้ทั้งตัวแล้วเนี้ยยย
+  character: akari
+- msg: อดทนหน่อยนะ Akari เดี๋ยวก็ถึงแล้วละ
+  character: minato
+- msg: Akari จังหิวขนาดนั้นเลยหรอ
+  character: tan
+- msg: อืมม!! สุดๆไปเลย!
+  character: akari
+- msg: โทษนะแทนที่ต้องให้นายมาด้วย
+  character: minato
+- msg: ฉันไม่ถือหรอก Minato ยังไงคาบเรียนของฉันก็เริ่มประมาณบ่ายโมงครึ่ง
+  character: tan
+- msg: เพราะฉนั่นนี้ก็เป็นเวลาที่ดีที่จะหาอะไรกินก่อนเข้าเรียนอะนะ
+  character: tan
+- msg: ขอบใจนะ
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: ขอบคุณที่ช่วยนำทางให้นะคะรุ่นพี่แทน
+  character: akari
+- msg: ไม่เป็นไรแต่ตอนนี้เราใกล้ถึงแล้วละอดทนหน่อยนะ Akari จัง
+  character: tan
+- msg: ค่ะ!
+  character: akari
+- music: empty
+- msg: ทั้ง 3 คนได้เดินมาถึงโรงอาหารกลางได้ในที่สุด
+  character: narrator
+- background: bg_restaurant01
+- character: minato
+  position: left
+  act: Normal
+- character: tan
+  position: right
+  act: idle
+- character: akari
+  position: center
+  act: happy
+- msg: 'ถึงแล้ววว!! โอโหหใหญ่มากกกก!! นี้หรอโรงอาหารของมหาลัยนานาชาตินะ!?! '
+  character: akari
+- msg: '*ดมกลิ่น* กลิ่นนี้มันไม่ผิดแน่ของอร่อย!! มันกำลังรอหนูอยู่ข้างในนั้น!!'
+  character: akari
+- msg: พี่คะ!! เรารีบไปกันเถอะ พี่แทนก็ด้วย!!
+  character: akari
+- character: minato
+  position: left
+  act: Surprised
+- msg: ดะ..เดี๋ยวสิ Akari!
+  character: minato
+- msg: อย่าดึงสิ?!?
+  character: tan
+- character: akari
+  position: center
+  act: Normal
+- msg: >-
+    ขณะที่ Akari กำลังลากทั้ง 2 คนไปโรงอาหารกลาง
+    ก็มีนักศึกษาใหม่ขี่สกู๊ตเตอร์ไฟฟ้าด้วยความเร็วสูงมากกำลังจะเสียหลักและพุ่งชนใส่
+    Akari
+  character: narrator
+- sound: sv_Scooter
+- msg: ถ–ถอยไป!!!
+  character: man02
+  override_name: นักศึกษาใหม่
+- character: minato
+  position: left
+  act: TopView
+- msg: '!?!?'
+  character: me
+  override_name: 'แทน/Minato '
+- character: akari
+  position: center
+  act: surprised
+- msg: อ่าาา!!  *ปิดตา*
+  character: akari
+- shake: center
+- sound: sv_cloth_hard_take_away
+- msg: >-
+    ทั้งคู่ดึง Akari กลับมาแต่เหมื่อนแทนแรงจะเยอะกว่าเลยกลายเป็นว่าแทนดึง Akari
+    มากอดไว้
+  character: narrator
+- character: akari
+  position: center
+  act: Haru
+- msg: …
+  character: akari
+- msg: Akari!!
+  character: tan
+- msg: '!?!'
+  character: akari
+- msg: ตื่นสิ Akari!
+  character: tan
+- character: akari
+  position: center
+  act: sad
+- msg: เอ๋!? *เปิดตา*
+  character: akari
+- character: akari
+  position: center
+  act: Shy
+- msg: พะ..พะ..พี่แทนทำไมถึงได้..?
+  character: akari
+- delay: 2
+- msg: ไม่เป็นไรใช่ไหม Akari *ยังกอดอยู่*
+  character: tan
+- character: minato
+  position: left
+  act: Bemused
+- msg: Akari!! น้องรู้สึกเจ็บมากไหม?
+  character: minato
+- msg: หนูไม่เป็นไรค่ะแต่ที่สำคัญกว่านั้น.....โอ้ย!?!
+  character: akari
+- sound: sv_Body Fall
+- msg: 'อ้าากกกกก!! '
+  character: man02
+  override_name: นักศึกษาใหม่
+- msg: Minato เดี๋ยวฉันจะโทรหากรรมการวินัยเองนายช่วยพาคนๆนั้นไปห้องพยาบาลหน่อยนะ
+  character: tan
+- msg: ส่วนน้องสาวของนายเดี๋ยวฉันจะดูแลให้เอง
+  character: tan
+- character: minato
+  position: left
+  act: Angry
+- msg: ' อาเข้าใจแล้วละ'
+  character: minato
+- msg: งั้น Akari อยู่กับแทนไปก่อนนะเดี๋ยวพี่จะกลับมา
+  character: minato
+- character: akari
+  position: center
+  act: sad
+- msg: คะ…ค่ะ
+  character: akari
+- sound: sv_Footsteps Running Fade Away
+- msg: >-
+    *Minato ได้วิ่งไปแบกคนเจ็บไปที่ตึกพยาบาลในระหว่างนั้น แทน
+    ก็โทรหาคณะกรรมการวินัยและเล่าสิ่งที่เกิดขึ้น*
+  character: minato
+- goto:
+    - Copy of EP1.0_v3(MA)_lb_7 if var_akari >= 6
+    - Copy of EP1.0_v3(MA)_lb_11
+- character: empty
+  position: left
+  label: Copy of EP1.0_v3(MA)_lb_7
+- music: bgm_Your_Love_Is_Home
+- msg: —---------ในสายของแทน—-------
+  character: tan
+- msg: ครับ ตอนนี้คนเจ็บอยู่ที่ตึกพยาบาลแล้วครับ
+  character: tan
+- msg: ส่วนอีกคนเป็นแค่แผลถลอกนิดหน่อยครับ
+  character: tan
+- msg: อืมผมรับเรื่องไว้แล้วเดี๋ยวผมจะส่งคนของผมไปดูเหตุการณ์ให้นะครับ
+  character: lucien
+- msg: ขอบคุณมากครับหัวหน้ากรรมการวินัย
+  character: tan
+- msg: —-------------วางสาย—--------------
+  character: tan
+- msg: พี่แทนคะคือว่า…
+  character: akari
+- msg: อย่าพึ่งขยับนะ Akari ที่ต้นขาน้องยังมีแผลอยู่นะ
+  character: tan
+- msg: แค่แผลถลอกเองค่ะพี่
+  character: akari
+- msg: ไม่ได้หรอกนะต้องหาไรมาผันแผลนี้ก่อน..เรามีอะไรติดตัวบ้างไหมนะ
+  character: tan
+- sound: sv_ClothMovement
+- msg: '*เช็คของในตัว*(เสียงถูผ้า)'
+  character: tan
+- msg: นี้ไงเอาผ้าเช็ดหน้าไปพักแผลก่อนละกัน
+  character: tan
+- msg: หนูบอกว่าแค่นิดเดียว..
+  character: akari
+- msg: เอาหน่ายื่นขามา
+  character: tan
+- character: akari
+  position: center
+  act: Shy
+- msg: ในสถานการณ์นี้Akariควรทำอย่างไร
+  character: narrator
+- choice:
+    - msg: 'หนูทำเองได้ค่ะ '
+    - msg: ฝากด้วยนะพี่แทน
+      update:
+        - rp_tan_akari += 5
+      goto: Copy of EP1.0_v3(MA)_lb_8
+    - msg: ช่วย...อ่อนโยนด้วยนะคะ...
+      cost: 8
+      update:
+        - rp_tan_akari += 10
+      goto: Copy of EP1.0_v3(MA)_lb_9
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_1
+- character: akari
+  position: center
+  act: angry
+- msg: หนูทำเองได้ค่ะ
+  character: akari
+- msg: งะ..งั้นหรอถ้างั้นก็ไม่เป็นไรอะนี้ผ้านะ
+  character: tan
+- character: akari
+  position: center
+  act: Normal
+- msg: ขอบคุณสำหรับผ้านะคะพี่แทน
+  character: akari
+- msg: ไม่เป็นไรจริงๆหรอ Akari
+  character: tan
+- msg: หนูบอกว่าไหวก็ต้องไหวสิคะพี่แทน
+  character: akari
+- msg: อะ..อืมถ้างั้นก็โอเค..
+  character: tan
+- sound: sv_Bandage
+- msg: '*หลังจากนั้น Akari ก็ผันผ้าที่ต้นขาตัวเองไว้*'
+  character: akari
+- goto: Copy of EP1.0_v3(MA)_lb_10
+- character: akari
+  position: center
+  act: happy
+  label: Copy of EP1.0_v3(MA)_lb_8
+- msg: 'ฝากด้วยนะพี่แทน '
+  character: akari
+- msg: ไว้ใจพี่ได้เลย!
+  character: tan
+- sound: sv_Bandage
+- msg: '*แทนก็ได้ผันแผลของ Akari ด้วยผ้าเช็ดหน้า*'
+  character: tan
+- character: akari
+  position: center
+  act: angry
+- msg: แสบสุดๆไปเลย!
+  character: akari
+- msg: โทษทีๆ จะทำให้เบากว่านี้นะ
+  character: tan
+- character: akari
+  position: center
+  act: Normal
+- msg: อืมม!
+  character: akari
+- msg: ซวยจริงๆเลยนะเธอเนี้ยเจออะไรแบบนั้นมานะ
+  character: tan
+- msg: เอานะเสร็จแล้วนะ ลองขยับขาดูสิ
+  character: tan
+- sound: sv_Lays leg
+- msg: '*ลองขยับขาดู*'
+  character: akari
+- msg: ถึงจะยังเจ็บอยู่แต่ก็น้อยลงแล้วขอบคุณมากค่ะพี่แทน
+  character: akari
+- msg: ไม่เป็นไรหรอกไม่ต้องคิดมากแต่ตอนนี้น่าจะใกล้ถึงเวลาแล้วนะ
+  character: tan
+- goto: Copy of EP1.0_v3(MA)_lb_10
+- msg: ช่วย...อ่อนโยนด้วยนะคะ... *หน้าหลบตาเขินๆนิดหน่อย*
+  character: akari
+  label: Copy of EP1.0_v3(MA)_lb_9
+- msg: '*ยื่นขาที่เจ็บออกไป*'
+  character: akari
+- msg: อะ…อืมม..
+  character: tan
+- msg: '*แทนก็ได้ผันแผลของ Akari ด้วยผ้าเช็ดหน้าอย่างระมัดระวัง*'
+  character: narrator
+- sound: sv_Bandage
+- cg: cg_EP1_Tan_Akari1
+- msg: (*MINI CG* แทนเอาผ้าพันให้ Akari)
+  character: narrator
+- hide_msg: true
+- delay: 3
+- cg: empty
+- msg: โอ้ย~ แสบอ่าา…
+  character: akari
+- msg: พี่ขอโทษนะ จะทำให้นุ่มนวลกว่านี้นะ
+  character: tan
+- msg: อะ..อืมม
+  character: akari
+- msg: พี่แทนเป็นคนที่อ่อนโยนจังเลย..
+  character: akari
+- msg: พอๆกับพี่หนูเลยค่ะ..
+  character: akari
+- msg: งั้นหรอ Minato คงจะดูแลเธอดีมากเลยสินะ
+  character: tan
+- character: akari
+  position: center
+  act: happy
+- msg: อืม…พี่ Minato เป็นพี่ที่หนูเคารพมากที่สุดเลยนะ
+  character: akari
+- msg: ดีแล้วนะที่มีพี่ชายดีๆแบบนี้
+  character: tan
+- msg: เอานะเสร็จแล้วนะ ลองขยับขาดูสิ
+  character: tan
+- sound: sv_Lays leg
+- msg: '*ลองขยับขาดู*'
+  character: akari
+- msg: >-
+    ถึงจะยังเจ็บอยู่แต่ก็น้อยลงแล้วค่ะขอบคุณนะคะพี่แทนสักวันหนูจะตอบแทนพี่ให้ได้เลย
+  character: akari
+- msg: ไม่เป็นไรหรอกไม่ต้องคิดมากแต่ตอนนี้น่าจะใกล้ถึงเวลาแล้วนะ
+  character: tan
+- music: empty
+  label: Copy of EP1.0_v3(MA)_lb_10
+- goto: Copy of EP1.0_v3(MA)_lb_12
+- character: minato
+  position: left
+  act: Angry
+  label: Copy of EP1.0_v3(MA)_lb_11
+- msg: (รอก่อนนะAkariพี่จะรีบกลับมาให้เร็วที่สุด)
+  character: minato
+- msg: ไม่กีนาทีต่อมา
+  character: narrator
+  label: Copy of EP1.0_v3(MA)_lb_12
+- music: bgm_Your_Love_Is_Home
+- character: minato
+  position: left
+  act: Happy
+- msg: Akari พี่กลับมาแล้ว!!
+  character: minato
+- character: akari
+  position: center
+  act: surprised
+- msg: พี่คะ~~! โอ้ย~!?
+  character: akari
+- msg: '*Akari ได้เข้าไปกอด Minato แต่เหมื่อนแผลจะยังไม่หายดีมาก*'
+  character: akari
+- character: minato
+  position: left
+  act: Sad
+- msg: นี้ Akari ยังเป็นแผลอยู่ไม่ใช่หรอเป็นอะไรมากหรือป่าว!?
+  character: minato
+- character: akari
+  position: center
+  act: happy
+- msg: >-
+    ถึงจะเจ็บนิดหน่อยแต่ก็ไม่เป้นไรค่ะพี่เพราะพี่แทนช่วยปฐมพยาบาลเบื้องต้นไปแล้วค่ะ
+  character: akari
+- character: minato
+  position: left
+  act: Happy
+- msg: >-
+    ถึงอย่างงั้น Akari
+    ตอนนี้อย่าขยับเยอะจะดีกว่านะแล้วก็ขอบใจมากนะแทนนายนี้พึ่งพาได้จริงๆ
+  character: minato
+- character: tan
+  position: right
+  act: idle
+- msg: ขอรับค่าขอบคุณเป็นข้าวมื้อนึงได้ป่าวละ~
+  character: tan
+- msg: ได้งั้นเป็นอันตกลง
+  character: minato
+- character: lucien
+  position: left
+  act: idle
+- msg: วันนี้วันเดียวมีหลายเหตุการณ์เกิดขึ้นเลยนะครับ
+  character: lucien
+- msg: โอ๊~ คุณหัวหน้ากรรมการมาดูสถานการณ์ด้วยตัวเองเลยหรอครับ
+  character: tan
+- msg: เมื่อกี้ในสายบอกว่าจะส่งลูกน้องมาเช็คเองหนิ
+  character: tan
+- msg: มันอดเป็นห่วงไม่ได้ขึ้นมานะเลยอยากมาดูเองเหมื่อนว่าจะจัดการกันเองได้แล้วสินะ
+  character: lucien
+- character: akari
+  position: center
+  act: Normal
+- msg: รุ่นพี่ Lucien หนิ!
+  character: akari
+- msg: ว่าไงคุณ Akari สบายดีหรือป่าวดูเหมื่อนคุณจะเจ็บมานิดหน่อยนะครับ
+  character: lucien
+- msg: ค่ะรุ่นพี่ Lucien หนูไม่เป็นไรมากหรอกค่ะแค่แผลถลอกเองค่ะ
+  character: akari
+- msg: ถ้าจะข้ามถนนรอบหน้าระวังด้วยละ อุบัติเหตุเกิดได้ทุกที่นะ
+  character: lucien
+- msg: ค่ะ..
+  character: akari
+- msg: ไม่เมื่อไม่มีอะไรแล้วผมคงต้องไปก่อนแล้วส่วนนักเรียนที่ขับสกู๊ตเตอร์คนนั้น
+  character: lucien
+- msg: ทางเราจะลงโทษตามความเหมาะสมให้เองครับไว้ใจได้เลย
+  character: lucien
+- msg: พวกคุณแต่ละคนดูแรงน้อยมากเลยนะครับได้ทานข้าวกันบ้างหรือเปล่าครับ
+  character: lucien
+- msg: ไม่เลยค่ะ..
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: ยังไม่ได้กินเลยครับ
+  character: minato
+- msg: พวกเรากะว่าจะมาหาไรกินซะหน่อยแต่ดันกลายเป็นเรื่องซะได้
+  character: tan
+- character: lucien
+  position: left
+  act: idle
+- msg: อย่างงี้นี้เองถ้างั้นทุกคนเชิญไปทานข้าวกันก่อนได้เลยนะครับ
+  character: lucien
+- character: minato
+  position: left
+  act: Happy
+- msg: ถ้างั้น Akari จับมือพี่ไว้นะ
+  character: minato
+- msg: ค่ะ!
+  character: akari
+- msg: ถ้างั้นเราไปก่อนนะคุณหัวหน้ากรรมการวินัย
+  character: tan
+- character: lucien
+  position: right
+  act: idle
+- msg: ….
+  character: lucien
+- msg: Buona fortuna.. ขอให้โชคดี.
+  character: lucien
+- character: empty
+  position: right
+- msg: >-
+    หลังจากเรื่องจบทั้ง 3 คนได้เข้าไปในโรงอาหารกลางของมหาลัยโดยที่ Minato
+    กำลังพยุง Akari อยู่
+  character: narrator
+- music: bgm_Big Canteen Ambience
+- character: minato
+  position: left
+  act: Normal
+- msg: Akari เดินไหวอยู่ไหมเจ็บมากหรือป่าว
+  character: minato
+- character: akari
+  position: center
+  act: Normal
+- msg: แค่แผลถลอกเองพี่ไม่ได้ขาหักหน่อยไม่เป็นไรหรอกหน่าา…โอ้ย~!
+  character: akari
+- msg: ว่าแล้วเชียวยังเจ็บอยู่สินะแทนนายช่วยหาที่นั่งให้หน่อยสิ
+  character: minato
+- character: tan
+  position: right
+  act: idle
+- msg: ได้เลยรอแปบนะ
+  character: tan
+- msg: ผ่านไปไม่นานแทนก็เจอที่นั่งแล้ว
+  character: narrator
+- msg: Akari…Minato ทางนี้! *กวักมือเรียก*
+  character: tan
+- msg: อ่าา! กำลังไป…ทนหน่อยนะ Akari
+  character: minato
+- msg: ค่ะ
+  character: akari
+- msg: '*พยุง Akari ไปที่โต๊ะโรงอาหารที่แทนหาแล้วให้ Akari นั่งลง*'
+  character: minato
+- msg: Akari จังยังไหวอยู่หรือป่าว
+  character: tan
+- character: akari
+  position: center
+  act: happy
+- msg: หนูไหวค่ะขอบคุณที่เป็นห่วงนะคะพี่แทน..แต่ตอนนี้หนูหิวแล้วอะพี่
+  character: akari
+- msg: ' ถ้างั้นเดี๋ยวพี่จะไปซื้ออาหารแทน Akari ให้เอง'
+  character: minato
+- msg: อืมมงั้นฉันก็จะไปสั่งของฉันเหมื่อนกันไว้เจอกันนะ Minato Akari
+  character: tan
+- msg: อืมม ได้เลยตกลงตามนั้น Akari ละว่าไง
+  character: minato
+- msg: ' ได้อยู่แล้วสิคะ! หนูมีหลายอย่างที่อยากกินเลยนะ!'
+  character: akari
+- goto:
+    - Copy of EP1.0_v3(MA)_lb_13 if var_minato >= 6
+    - Copy of EP1.0_v3(MA)_lb_14
+- character: akari
+  position: left
+  act: Normal
+  label: Copy of EP1.0_v3(MA)_lb_13
+- character: minato
+  position: center
+  act: Normal
+- character: tan
+  position: right
+  act: idle
+- msg: ว่าแต่พี่จะกินอะไรงั้นหรอ
+  character: akari
+- msg: พี่ว่าอยากจะกิน...
+  character: minato
+- choice:
+    - msg: ก๊วยจั๊บญวน
+    - msg: ข้าวมันไก่
+    - msg: แกงหระหรี่
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_2
+- sound: sv_Pop3
+- msg: ตั้งแต่มาที่ไทยพี่ก็ชอบกินเมนูนี้ตลอดเลยนะติดใจแล้วหรอ
+  character: akari
+- character: minato
+  position: center
+  act: Happy
+- msg: ก็มันอร่อยนี้นาพี่จะห้ามใจได้ไงละ
+  character: minato
+- msg: ก็ใช่สิคะ พี่ตั้งแต่มาไทยก็สั่งเมนูนั้นมากินแทบทุกวันเลย
+  character: akari
+- msg: ก็มันช่วยไม่ได้หนิ
+  character: minato
+- msg: กินเยอะแบบนี้พี่จะอ้วน
+  character: akari
+- msg: จ้าๆ พี่ไม่รับความเห็นต่างเกี่ยวกับอาหารที่พี่ชอบหรอกนะ~
+  character: minato
+- goto: Copy of EP1.0_v3(MA)_lb_15
+- character: akari
+  position: center
+  act: Normal
+  label: Copy of EP1.0_v3(MA)_lb_14
+- character: minato
+  position: left
+  act: Normal
+- character: tan
+  position: right
+  act: idle
+- msg: ว่าแต่น้องจะกินอะไรงั้นหรอ
+  character: minato
+- msg: หนูว่าอยากจะกิน...
+  character: akari
+- choice:
+    - msg: เครป
+    - msg: น้ำแข็งไส
+    - msg: ขนมปังปิ้ง
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_3
+- sound: sv_Pop3
+- msg: Akari นั้นมันของหวานไม่ใช่หรอเดี๋ยวสารอาหารก็ไม่พอหรอก
+  character: minato
+- character: akari
+  position: center
+  act: happy
+- msg: >-
+    ก็หนูชอบแบบนี้อะพี่
+    ร่างกายหนูต้องการน้ำตาลเยอะมากกๆเพื่อที่จะให้ก้าวต่อไปได้ยังไงละ!!
+  character: akari
+- msg: มีหวังได้อ้วนก่อนนะสิ!
+  character: minato
+- msg: ร่างกายหนูนี้หนูก็ต้องมีสิทธ์สิพี่อีกอย่างหนูขนาดนั้นก็ยังไม่อ้วนเลยนะ
+  character: akari
+- character: akari
+  position: right
+  act: Normal
+  label: Copy of EP1.0_v3(MA)_lb_15
+- character: minato
+  position: left
+  act: Normal
+- character: tan
+  position: center
+  act: idle
+- msg: ต่างคนก็มีความเห็นเรื่องอาหารเป็นของตัวเองแหละเนอะ
+  character: minato
+- msg: อยู่ดีๆก็พูดอะไรไม่รู้เรื่องนะพี่ช่างเถอะฝากเรื่องของกินของหนูด้วยนะพี่
+  character: akari
+- msg: อืมได้เลย
+  character: minato
+- sound: sv_Footsteps Running Fade Away
+- msg: >-
+    หลังจากนั้นทั้ง 3
+    คนก็แยกย้ายไปซื้อของกินตามที่ตัวเองต้องการแล้วกลับมาเจอกันที่โต๊ะ
+  character: narrator
+- msg: ของที่ Akari สั่งมาพี่ซื้อมาให้แล้วนะ
+  character: minato
+- msg: ขอบคุณค่ะพี่
+  character: akari
+- msg: โชคร้ายจริงๆเลยนะพวกเธอเนี้ยวันแรกก็ซวยขนาดนี้เลยหรอ
+  character: tan
+- msg: ก็นะมันก็แปลกๆแหละที่วันแรกที่มาที่นี้แล้วเจอเหตุการณ์แปลกๆนะ
+  character: minato
+- msg: ช่างเรื่องนั้นเถอะหน่าพี่เรามากินกันดีกว่าค่ะ
+  character: akari
+- msg: <b><size=40>いただきます</size></b> (Itadakimasu) จะกินแล้วนะ!
+  character: me
+  override_name: Minato/Akari/แทน
+- character: minato
+  position: left
+  act: Surprised
+- character: akari
+  position: right
+  act: surprised
+- msg: อืมม!! อร่อยยยย
+  character: me
+  override_name: Minato/Akari/แทน
+- msg: นี้มันสุดยอดไปเลยนะเนี้ย!
+  character: minato
+- msg: ใช่ไหมนะ~นี้เป็นโรงอาหารที่ฉันชอบสุดๆเลยนะ!! (หน้ายิ้มSmile)
+  character: tan
+- character: akari
+  position: right
+  act: happy
+- msg: ไม่เสียชื่อมหาลัยนานาชาติเลย!
+  character: akari
+- character: minato
+  position: left
+  act: TopView
+- msg: แต่ว่านะแทนสมัยนายยังเด็กนายก็กินอะไรไม่เลือกหน้าเลยไม่ใช่หรอ
+  character: minato
+- msg: อย่าพูดถึงอดีตแบบนั้นสิ Minato
+  character: tan
+- msg: เอ๋กินไม่เลือกหรอคะ?
+  character: akari
+- msg: อืม แทน นะนะตอนเด็กไม่ว่าอาหารจะห่วยแตกแค่ไหนหมอนั้นก็บอกอร่อยเสมอ
+  character: minato
+- msg: ขนาดข้าวผัดใหม่ๆ แทน ก็ยังกินอย่างอร่อยเลยวันนั้นแกท้องเสียไป 3 รอบเลยหนิ
+  character: minato
+- msg: อ้าาาา!!! เลิกพูดเรื่องนี้ขอนะถือว่าขอเถอะนะ Minato!
+  character: tan
+- msg: รุ่นพี่เป็นพวกลิ้นจระเข้สินะ เป็นแบบนี้เองสินะ
+  character: akari
+- msg: ดะ..เดี๋ยวสิ Akari ก็เอากับเขาด้วยหรอ!!
+  character: tan
+- msg: >-
+    ทั้ง 3 คนในระหว่างที่กินไปด้วยนั้นก็พูดคุยกันอย่างมีความสุขในตอนนั้นก็มี ผญ
+    คนนึงปรากฏตัวขึ้นมา
+  character: narrator
+- character: nightrose
+  position: center
+  act: idle
+- msg: เออขอโทษนะค่า…
+  character: nightrose
+  override_name: '??? '
+- sound: sv_Whoosh
+- character: minato
+  position: left
+  act: Happy
+- msg: ' ครับว่า * มองไปหาตามเสียง * (หน้าพูด)'
+  character: minato
+- msg: '?!?! '
+  character: nightrose
+  override_name: '??? '
+- msg: >-
+    คะ..คะ..คือว่า..ไม่ทราบว่าตรงนี้ยังมีที่ว่างไหมคะ!?
+    (พูดด้วยหน้าเขินอายออกไป)
+  character: nightrose
+  override_name: '??? '
+- character: minato
+  position: left
+  act: Shy
+- msg: อ๋อยังมีอยู่ครับเชิญนั่งได้เลย… (หน้าพูด)
+  character: minato
+- msg: ขอเสียมารยาทหน่อยนะคะ..
+  character: nightrose
+  override_name: '??? '
+- msg: '*ผู้หญิงปริศนาได้มานั่งข้าง Minato พร้อมหน้าแดงนิดหน่อย*'
+  character: nightrose
+  override_name: '??? '
+- character: akari
+  position: right
+  act: sad
+- msg: '*จ้องง*'
+  character: akari
+- delay: 2
+- character: tan
+  position: right
+  act: idle
+- msg: '*จ้องง*'
+  character: tan
+- delay: 2
+- sound: sv_Clock Tick
+- character: minato
+  position: left
+  act: Thinking
+- msg: (ทำไมรู้สึกแปลกๆนะเนี้ยต้องหาเรื่องคุยแล้ว!)
+  character: minato
+- sound: sv_Ping
+- character: minato
+  position: left
+  act: Smile
+- msg: วะ..ว่าแต่คุณชื่ออะไรหรอครับคุณผู้หญิง?
+  character: minato
+  override_name: '???'
+- msg: อะ!?
+  character: nightrose
+- msg: ' ขอโทษนะคะที่ยังไม่ได้แนะนำตัวเลยหนูเป็นนักศึกษาใหม่อยู่ปี 1 ชื่อ Nightrose Roberts ค่ะ'
+  character: nightrose
+- msg: >-
+    เป็นนักศึกษาใหม่เหมื่อนกันสินะยินดีที่ได้รู้จักนะ Nightrose ฉันปี 1 ชื่อ
+    Minato yamada ยินดีที่ได้รู้จัก
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: >-
+    ส่วนฉันชื่อว่า Akari Yamada อยู่ปี 1 เหมื่อนกันยินดีที่ได้รู้จักนะ Nightrose
+    จัง
+  character: akari
+- msg: มิสเตอร์ Yamada…ทั้ง 2 คนเป็นพี่น้องกันหรอคะ?
+  character: nightrose
+- msg: อืมถูกต้องแล้วนะ
+  character: minato
+- msg: ดีจังเลยนะคะพี่น้องได้เรียนมหาลัยปีเดียวกันเนี้ย
+  character: nightrose
+- msg: แหม่ไม่ขนาดนั้นหรอก ว่าแต่ Nightrose สั่งอะไรมากินงั้นหรอ
+  character: minato
+- msg: อ๋อเมนูของหนูนะคือออ..
+  character: nightrose
+- msg: ก๊วยจั๊บค่ะ!!
+  character: nightrose
+- msg: หืมก๊วยจั๊บงั้นหรอครับ
+  character: minato
+- msg: >-
+    ใช่แล้วค่าหนูเลิฟมากๆเลย น้ำซุบที่กลมกล่อม~ เส้นที่ซู้ดได้แบบเต็มที่
+    แล้วก็หมูกรอบนี้อีก~ เป็นเมนูที่ดิฉันชอบตั้งแต่ก่อนเข้าเรียนเลยค่ะ!
+  character: nightrose
+- msg: ' หืมม Nightrose อธิบายเก่งเชียวนะชอบกินอย่างงั้นหรอ (หน้าปกติ)'
+  character: minato
+- msg: Nightrose หรือว่าเธอก็สายกินเหมื่อนฉันนะ! *ตื่นเต้น* (หน้าเชิน)
+  character: akari
+- msg: ' Yess!! หนูชอบอาหารของที่นี้มากเลยค่ะ (หน้ายิ้มSmlip)'
+  character: nightrose
+- msg: ฉันเองก็ด้วย!! อาหารของที่นี้สุดยอดไปเลยนะ!! (หน้ายิ้ม)
+  character: akari
+- character: minato
+  position: left
+  act: Normal
+- msg: พวกเธอ 2 คนดูจะคุยกันถูกคอน่าดูเลยนะ (หน้าปกติ)
+  character: minato
+- msg: ฉันเห็นด้วยเลยนะ (หน้ายิ้ม)
+  character: tan
+- msg: เอาละ!! Let's Eat!! (หน้ายิ้ม)
+  character: nightrose
+- msg: 'อะตะเกียบมัน!! * เผลอทำตะเกียบตก * (หน้าตกใจ) '
+  character: nightrose
+- msg: ไม่น่าาาา! แล้วฉันจะทำยังไงละทีนี้ TT (หน้าตกใจ)
+  character: nightrose
+- msg: เออถ้าไม่ว่าอะไรเชิญเอาอันนี้ไปใช่สิครับ * ยื่นตะเกียบให้ * (หน้าปกติ)
+  character: minato
+- msg: อะขอบคุณมากเลยค่ะ มิสเตอร์~ (หน้ายิ้ม)
+  character: nightrose
+- character: minato
+  position: left
+  act: Happy
+- msg: ว่าแต่ Nightrose ไม่ได้หยิบช้อนส้อมมาหรอ  (หน้าสงสัย)
+  character: minato
+- msg: >-
+    ก็อยากหยิบอยู่ค่ะ…แต่ว่ามัน Out of Stock แล้ว…ตอนนี้เหลือแค่ตะเกียบแล้ว
+    (หน้าปกติ)
+  character: nightrose
+- sound: sv_Clock Tick
+- character: minato
+  position: left
+  act: Thinking
+- msg: (โฮกาสมาถึงแล้วเราควรทำไงต่อดี)
+  character: minato
+- choice:
+    - msg: Akari ช่วยสอน Nightrose ให้หน่อยสิ
+    - msg: งั้นผมพอบอกเคล็ดลับการใช่ตะเกียบให้นะครับ
+      goto: Copy of EP1.0_v3(MA)_lb_16
+    - msg: ถ้าอย่างงั้นให้ผมสอนการใช่ตะเกียบให้ไหมครับ
+      cost: 8
+      goto: Copy of EP1.0_v3(MA)_lb_18
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_4
+- sound: sv_Ping
+- character: minato
+  position: left
+  act: Normal
+- msg: Akari ช่วยสอน Nightrose ให้หน่อยสิ
+  character: minato
+- msg: เอ๋ทำไมเป็นหนูหรอคะ?
+  character: akari
+- msg: พี่คิดว่าน้องน่าจะสอน Nightrose ได้ดีกว่าพี่ช่วยหน่อยนะ
+  character: minato
+- msg: เหอะ..ช่วยไม่ได้ถ้างั้นก็ Nightrose จังเราจะเป็นคนสอนเธอเอง!!
+  character: akari
+- msg: ค่ะ!!
+  character: nightrose
+- msg: Akari ก็ฝึก Nightrose ในการจับตะเกียบ
+  character: narrator
+- character: akari
+  position: right
+  act: happy
+- msg: นี้ Nightrose ดูนะต้องจับแบบนี้นะ
+  character: akari
+- msg: บะ..แบบนี้หรอคะ
+  character: nightrose
+- msg: อืมม! ใช่แล้ววแบบนั้นแหละเก่งมาก Nightrose จัง!
+  character: akari
+- msg: ขอบคุณมากค่ะคุณ Akari
+  character: nightrose
+- msg: ไม่เป็นไรๆ ไม่ต้องคุณหรอกเรียกฉันว่า Akari เฉยๆได้เลย
+  character: akari
+- msg: ค่ะ Akari จัง~
+  character: nightrose
+- msg: Nightrose จัง~
+  character: akari
+- character: minato
+  position: left
+  act: Smile
+- msg: ทั้ง 2 คนสนิทกันเร็วๆจริงๆเลยนะ แต่ตอนนี้มากินกันต่อดีกว่านะ
+  character: minato
+- msg: ค่าาา
+  character: me
+  override_name: Akari/Nightrose
+- msg: หลังจากนั้นทั้ง 4 คนก็กินข้าวกันจนหมด
+  character: narrator
+- character: akari
+  position: right
+  act: Normal
+- msg: อิ่มสุดๆไปเลย~
+  character: akari
+- msg: ที่นี้ทำฉัน Full ไปหมดเลยค่ะ
+  character: nightrose
+- msg: อะใกล้ถึงเวลาแล้วหนูต้องไปแล้วละค่ะขอบคุณที่ให้นั่งโต๊ะเดียวกันนะคะ
+  character: nightrose
+- msg: >-
+    ไม่เป็นไรหรอกหน่าา..นี้ขอแลกข้อมูลติดต่อหน่อยสิ
+    เผื่อฉันอยากโทรไปชวนเธอมาที่บ้าน!
+  character: akari
+- msg: อืมม!! ได้สิ
+  character: nightrose
+- msg: ถ้างั้นฉันขอตัวก่อนนะคะ
+  character: nightrose
+- msg: เจอกันนะ Nightrose~
+  character: akari
+- msg: ค่าา~
+  character: nightrose
+- msg: 'จากนั้น Nightrose ก็รีบยกถาดอาหารไปเก็บแล้วก็ออกจากโรงอาหารไปเลย '
+  character: narrator
+- character: tan
+  position: center
+  act: idle
+- character: akari
+  position: right
+  act: Normal
+- msg: เออแล้วเราทำไรต่อดีหว่า
+  character: akari
+- msg: เอาเป็นว่าเราเองก็เอาถาดไปเก็บเถอะพวกนายต้องเตรียมตัวสำหรับการเรียนแล้วนะ
+  character: tan
+- msg: อืมม
+  character: minato
+- msg: ได้เลย!
+  character: akari
+- goto: Copy of EP1.0_v3(MA)_lb_20
+- sound: sv_Ping
+  label: Copy of EP1.0_v3(MA)_lb_16
+- character: minato
+  position: left
+  act: Happy
+- msg: งั้นผมพอบอกเคล็ดลับการใช่ตะเกียบให้นะครับ
+  character: minato
+- msg: จริงหรอคะ?
+  character: nightrose
+- msg: อืมเดี๋ยวผมจะบอกการใช่ตะเกียบให้ง่ายเองรอผมสักครู่นะครับ
+  character: minato
+- msg: '*Minato ลุกขึ้นแล้วไปหยิบตะเกียบมาเพิ่มแล้วก็หนังยางมา*'
+  character: minato
+- msg: มิสเตอร์ Yamada นี้คือ?
+  character: nightrose
+- msg: อ๋อตะเกียบกับหนังยางครับผม
+  character: minato
+- msg: เอาใว้ใช่ทำอะไรหรอคะ?
+  character: nightrose
+- msg: ลองเอาตะเกียบคู่นึงมาประกบกันแล้วเอาหนังยางมัดตรงด้านใดด้านนึงสิ
+  character: minato
+- msg: ค่ะ..แบบนี้แล้วยังไงต่อหรอคะ
+  character: nightrose
+- msg: >-
+    จากนั้นก็เอาตะเกียบอีกอันเสียบเข้ามาระหว่างตะเกียบทั้ง 2
+    อันที่นี้ก็จะได้ตะเกียบที่คีบง่ายๆแล้วละ
+  character: minato
+- msg: ว้าวววไม่นึกเลยว่าจะเอามาทำแบบนี้ได้ด้วย ขอบคุณนะคะ
+  character: nightrose
+- msg: ไม่เป็นไรหรอก แต่ตอนนี้เรามากินกันต่อกันเถอะ
+  character: minato
+- msg: ค่ะ!
+  character: nightrose
+- msg: หลังจากที่ Minato สอนเสร็จนั้นทั้ง 4 คนก็กินข้าวกันต่อจนหมด
+  character: narrator
+- character: minato
+  position: left
+  act: Surprised
+- msg: ข้าวที่นี้อร่อยสุดๆไปเลย
+  character: minato
+- msg: ที่นี้ทำฉัน Satisfy ไปหมดเลยค่ะ
+  character: nightrose
+- msg: >-
+    อะ!?..เหมื่อนว่าถึงเวลาที่ฉันต้องไปแล้วละค่ะถ้างั้นคุณ Minato
+    แล้วก็ทุกคนดิฉันขอตัวก่อนนะคะ
+  character: nightrose
+- character: tan
+  position: center
+  act: idle
+- character: minato
+  position: left
+  act: Happy
+- msg: อืมไว้เจอกันละ Nightrose
+  character: minato
+- msg: คะ..ค่ะ!
+  character: nightrose
+- msg: จากนั้น Nightrose ก็รีบยกถาดอาหารไปเก็บแล้วก็ออกจากโรงอาหารไปเลย
+  character: narrator
+- character: akari
+  position: right
+  act: Normal
+- msg: เออแล้วเราทำไรต่อดีหว่า
+  character: akari
+- msg: เอาเป็นว่าเราเองก็เอาถาดไปเก็บเถอะพวกนายต้องเตรียมตัวสำหรับการเรียนแล้วนะ
+  character: tan
+- character: minato
+  position: left
+  act: Normal
+- msg: อืมม
+  character: minato
+- msg: ได้เลย!
+  character: akari
+- goto: Copy of EP1.0_v3(MA)_lb_20
+- sound: sv_Ping
+  label: Copy of EP1.0_v3(MA)_lb_18
+- character: minato
+  position: left
+  act: Smile
+- msg: ถ้าอย่างงั้นให้ผมสอนการใช่ตะเกียบให้ไหมครับ (หน้ายิ้ม)
+  character: minato
+- msg: มิสเตอร์ yamada จะสอนให้งั้นหรอคะ?
+  character: nightrose
+- character: tan
+  position: right
+  act: idle
+- msg: >-
+    วิ้วว~~ Minato เปิดเทอมวันแรกมาก็มีสาวมาติดซะแล้วไม่ธรรมดาเลยจริง~ๆ
+    (หน้าพูด)
+  character: tan
+- character: minato
+  position: left
+  act: Bemused
+- msg: เงียบปากไปก่อนที่ฉันจะเอาตะเกียบเสียบรูจมูกทั้ง 2 ของแกซะไอแทน (หน้าโกรธพูด)
+  character: minato
+- msg: นะ…น่ากลัวจังเลยนะนายนี้ (หน้าตกใจ)
+  character: tan
+- character: minato
+  position: left
+  act: Smile
+- msg: 'เอาละต้องทำอย่างงี้นะ '
+  character: minato
+- msg: '*Minato สอน Nightrose ใช้ตะเกียบอย่างประณีต*'
+  character: minato
+- msg: >-
+    มิสเตอร์ yamada ไม่ได้นะคะถ้าจับแบบนั้นละก็~* ขยับมือไปตามที่ Minato สอน*
+    (หน้าเชิน)
+  character: nightrose
+- msg: เธอไปเรียนรู้ประโยคแบบนี้มาจากไหนน่ะมันฟังดูแปลกๆนะ
+  character: minato
+- msg: ขะ..ขอโทษค่าา!? *เขินหนัก*
+  character: nightrose
+- msg: Minato ตอนนี้กำลังสอนการใช่นิ้วและข้อมือให้กับ Nightrose
+  character: narrator
+- cg: cg_EP1_Ni_Mi1
+- music: bgm_Your_Love_Is_Home
+- hide_msg: true
+- delay: 5
+- cg: empty
+- music: bgm_Big Canteen Ambience
+- msg: ไม่ไหวอ่าา~~ยากเกินไป ตะเกียบหลุดมืออีกแล้ว TT (หน้าเศร้า)
+  character: nightrose
+- msg: ลองอีกรอบนะครับ..เดี๋ยวรอบนี้ผมจะเอามือผมวางบนมือ Nightrose แล้วขยับนะ
+  character: minato
+- character: minato
+  position: left
+  act: Happy
+- msg: ระหว่างนั้น Nightrose ก็ต้องขยับตามด้วยนะ
+  character: minato
+- msg: เอ๋!?! (หน้าตกใจ)
+  character: nightrose
+- msg: ขยับตามมือผมนะครับ แบบนี้นะครับ  (หน้าปกติพูด)
+  character: minato
+- msg: อะ..อ่าาา!?..คือว่าาา….. (หน้าเชิน)
+  character: nightrose
+- msg: (มือรุ่นพี่…อุ่นจังเลย..) (หน้าเชิน)
+  character: nightrose
+- character: minato
+  position: left
+  act: Normal
+- msg: แล้วก็แบบนี้เรียบร้อยยละ….ทีนี้ลองขยับนิ้วขึ้นลงดูสิ (หน้าปกติพูด)
+  character: minato
+- msg: ดะ..ได้ค่ะ *ขยับตะเกียบดู* (หน้าเชิน)
+  character: nightrose
+- msg: ทำได้แล้วค่ะรุ่นพี่! ขอบคุณมากๆเลยค่ะ! (หน้าเชิน)
+  character: nightrose
+- character: minato
+  position: left
+  act: Smile
+- msg: >-
+    ไม่เป็นไรหรอก ตอนนี้เรากินกันต่อดีกว่า *ปล่อยมือออกจากมือ Nightrose*
+    (หน้ายิ้ม)
+  character: minato
+- character: akari
+  position: right
+  act: sad
+- sound: sv_Riser
+- msg: '*จ้องง*'
+  character: akari
+- delay: 3
+- sound: sv_Riser
+- character: tan
+  position: right
+  act: idle
+- msg: '*จ้องง*'
+  character: tan
+- delay: 3
+- character: minato
+  position: left
+  act: Normal
+- msg: อะ..อะไรของพวกเธอ 2 คนเนี้ยจ้องตั้งแต่เมื่อกี้แล้วนะ
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: เปล่านะ~แค่คิดว่าพี่ก็สอนเก่งเหมื่อนกันนะเนี้ย~ (หน้าปกติ)
+  character: akari
+- character: tan
+  position: right
+  act: idle
+- msg: นั้นสินะ Minato~ สอนคนที่พึ่งเจอกันได้อย่างไร้ที่ติเลยเนอะ~
+  character: tan
+- msg: พอได้แล้วพวกเธอ 2 คนฉันขนลุกไปหมดแล้วเนี้ย
+  character: minato
+- msg: นี้ Minato ตอนนายสอน Nightrose นายไม่ได้คิดอะไรเลยจริงๆหรอ~
+  character: tan
+- msg: '!?! * สำลักน้ำก๊วยจั๊บ *'
+  character: nightrose
+- msg: 'แค่กๆ! '
+  character: nightrose
+- character: minato
+  position: left
+  act: Shocked
+- msg: 'เป็นไรไหม Nightrose '
+  character: minato
+- msg: ไม่เป็นไรค่ะ..พอดีสำลักนิดหน่อย...
+  character: nightrose
+- msg: ถะ..ถะ..ถ้างั้นหนูขอเอาจานไปเก็บก่อนนะคะ!
+  character: nightrose
+- msg: ไว้เจอกันนะคะ! มิสเตอร์ Yamada!
+  character: nightrose
+- character: minato
+  position: left
+  act: Happy
+- msg: เรียกผมว่า Minato ก็ได้นะ Nightrose
+  character: minato
+- msg: ' !?!!'
+  character: nightrose
+- character: akari
+  position: right
+  act: angry
+- msg: เดี๋ยวสิพี่! ล้ำเส้นเกินไปแล้วนะ!
+  character: akari
+- msg: คะ..คะ..คะ..คือว่า..
+  character: nightrose
+- msg: ขอขอบคุณสำหรับวันนี้นะค่าาาคุณ Minato!!
+  character: nightrose
+- sound: sv_Footsteps Running Fade Away
+- msg: จากนั้น Nightrose ก็รีบยกถาดอาหารไปเก็บแล้วก็ออกจากโรงอาหารไปเลย
+  character: narrator
+- delay: 2
+- character: tan
+  position: center
+  act: idle
+- msg: ให้ตายสิ Minato นายหยอดเขาแรงไปแล้วนะ
+  character: tan
+- character: minato
+  position: left
+  act: Sad
+- msg: เอ๋ฉันยังไม่ได้ทำอะไรเลยนะ
+  character: minato
+- msg: ทำไปขนาดนั้นยังไม่รู้ตัวอีกตาทึ่มเอ้ย
+  character: akari
+- msg: เอาเป็นว่าเราเองก็เอาถาดไปเก็บเถอะพวกนายต้องเตรียมตัวสำหรับการเรียนแล้วนะ
+  character: tan
+- character: minato
+  position: left
+  act: Normal
+- msg: อืมม
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: ได้เลย!
+  character: akari
+- character: empty
+  position: left
+  label: Copy of EP1.0_v3(MA)_lb_20
+- character: empty
+  position: right
+- music: bgm_LoFi HipHop
+- background: bg_restaurant02
+- msg: >-
+    กลุ่มของ Minato
+    หลังจากกินข้าวแล้วก็แยกย้ายกันไปเตรียมตัวของตัวเองแต่ตัวเอกเราก็เดินไปทางเดียวกับแทน
+  character: narrator
+- msg: เห้ยตามฉันมาทำไมเนี้ย (หน้าตกใจ)
+  character: tan
+- goto:
+    - Copy of EP1.0_v3(MA)_lb_21 if var_minato >= 9
+    - Copy of EP1.0_v3(MA)_lb_24
+- music: bgm_Cozy
+  label: Copy of EP1.0_v3(MA)_lb_21
+- character: minato
+  position: left
+  act: Normal
+- msg: ป่าวหนิแค่จะไปร้านขนมที่เคยซื้อให้ Akari กินแกนะแหละที่ตามฉันมา
+  character: minato
+- msg: ก็ไม่ได้ตามซะหน่อยแค่จะมาซื้อขนมเหมื่อนกัน (หน้าปกติ)
+  character: tan
+- msg: งั้นหรอ (หน้าปกติ)
+  character: minato
+- msg: แถวยาวเป็นหางว่าวเลยหวะ (หน้าปกติพูด)
+  character: minato
+- msg: ก็ปกติของร้านนี้นะขายดีเป็นเทน้ำเทท่าเลย (หน้าปกติพูด)
+  character: tan
+- msg: เฮ้อ~ ฉันไม่มีความอดทนรอคิวยาวขนาดนั้นด้วยสิ (หน้าปกติพูด)
+  character: tan
+- msg: นี้Minatoจะว่าไรไหมถ้าฉันขอฝากให้ นายต่อแถวซื้อให้ฉันหน่อยนะ (หน้าปกติพูด)
+  character: tan
+- character: minato
+  position: left
+  act: TopView
+- msg: อ่าได้ๆ แล้วของแกมีอะไรบ้างอะ  (หน้าสงสัย)
+  character: minato
+- msg: แครกเกอร์ กับ กาแฟนะ (ปกตืพูด)
+  character: tan
+- msg: โอเค (หน้าปกติ)
+  character: minato
+- msg: '*เดินเข้าไปในร้านขนมสักพัก*'
+  character: minato
+- msg: อะแทนของที่สั่งแครกเกอร์ กับ กาแฟได้ละนะ (หน้าปกติ)
+  character: minato
+- choice:
+    - msg: เฮ้ยจ่ายมาด้วยไม่ได้ซื้อฟรีๆนะเว้ย
+    - msg: ไม่ได้เจอตั้งนานเดี๋ยวเลี้ยงเอง
+      goto: Copy of EP1.0_v3(MA)_lb_22
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_5
+- character: minato
+  position: left
+  act: Angry
+- msg: เฮ้ยจ่ายมาด้วยไม่ได้ซื้อฟรีๆนะเว้ย
+  character: minato
+- msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย (หน้าโกรธพูด)
+  character: tan
+- goto: Copy of EP1.0_v3(MA)_lb_23
+- character: minato
+  position: left
+  act: Smile
+  label: Copy of EP1.0_v3(MA)_lb_22
+- msg: ไม่ได้เจอตั้งนานเดี๋ยวเลี้ยงเอง
+  character: minato
+- msg: >-
+    เห้ยแปลกดีนะอยู่ดีๆก็ เลี้ยงปกติไม่ค่อยเห็นเลี้ยงนิ แต่ก็ขอบคุณนะ (2)
+    (หน้าว้าว)
+  character: tan
+- character: minato
+  position: left
+  act: Angry
+- msg: พูดอย่างงี้สงสัยอยากโดนเก็บตังสิท่า
+  character: minato
+- msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้ (หน้าฮารุ)
+  character: tan
+- character: minato
+  position: left
+  act: Normal
+- msg: อ่อออแล้วไป (หน้าปกตื)
+  character: minato
+- sound: sv_Grab Chip
+  label: Copy of EP1.0_v3(MA)_lb_23
+- character: minato
+  position: left
+  act: Happy
+- msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม* (หน้ายิ้ม)
+  character: tan
+- msg: เออไว้เจอกัน (หน้ายิ้ม)
+  character: minato
+- goto: Copy of EP1.0_v3(MA)_lb_27
+- music: bgm_Cozy
+  label: Copy of EP1.0_v3(MA)_lb_24
+- character: akari
+  position: right
+  act: Normal
+- msg: >-
+    ป่าวนิค่ะ
+    จะไปร้านขนมเพื่อซื้อของกินแล้วไปเดินเล่นแถวมหาลัยสักหน่อยไม่ใช่พี่แทนหรอ~~~ที่ตามมานะ
+    (หน้าปกติ)
+  character: akari
+- msg: ก็ไม่ได้ตามซะหน่อยแค่จะมาซื้อขนมเหมื่อนกัน (หน้าปกติ)
+  character: tan
+- msg: งั้นหรอ (หน้าปกติ)
+  character: akari
+- msg: อะ..แถวยาวจังเลย..จะได้กินไหมนะ..  (หน้าปกติพูด)
+  character: akari
+- msg: ก็ปกติของร้านนี้นะขายดีเป็นเทน้ำเทท่าเลย (หน้าปกติพูด)
+  character: tan
+- msg: เฮ้อ~ ฉันไม่มีความอดทนรอคิวยาวขนาดนั้นด้วยสิ (หน้าปกติพูด)
+  character: tan
+- msg: นี้Akariจะว่าไรไหมถ้าฉันขอฝากให้ เธอต่อแถวซื้อให้ฉันหน่อยนะ (หน้าปกติพูด)
+  character: tan
+- character: akari
+  position: right
+  act: sad
+- msg: ได้ค่ะพี่แทน แล้วของพี่มีอะไรบ้างคะ? (หน้าสงสัย)
+  character: akari
+- msg: แครกเกอร์ กับ กาแฟนะ (ปกตืพูด)
+  character: tan
+- msg: โอเค (หน้าปกติ)
+  character: akari
+- msg: '*เดินเข้าไปในร้านขนมสักพัก*'
+  character: akari
+- msg: พี่แทนคะได้ของที่ต้องการแล้วค่ะแครกเกอร์ กับ กาแฟสินะคะ (หน้าปกติ)
+  character: akari
+- choice:
+    - msg: เงินนะพี่หนูไม่ได้ซื้อให้ฟรีๆนะคะ
+    - msg: อะนี้หนูเลี้ยง
+      update:
+        - rp_tan_akari += 5
+      goto: Copy of EP1.0_v3(MA)_lb_25
+  character: me
+  state: Copy of EP1.0_v3(MA)_st_6
+- character: akari
+  position: right
+  act: angry
+- msg: เงินนะพี่หนูไม่ได้ซื้อให้ฟรีๆนะคะ
+  character: akari
+- msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย (หน้าโกรธพูด)
+  character: tan
+- goto: Copy of EP1.0_v3(MA)_lb_26
+- character: akari
+  position: right
+  act: Shy
+  label: Copy of EP1.0_v3(MA)_lb_25
+- msg: อะนี้หนูเลี้ยง
+  character: akari
+- msg: >-
+    เห้ยแปลกดีนะอยู่ดีๆก็ เลี้ยงปกติไม่ค่อยเห็นเลี้ยงนิ แต่ก็ขอบคุณนะ (2)
+    (หน้าว้าว)
+  character: tan
+- character: akari
+  position: right
+  act: happy
+- msg: พี่แทนพูดอย่างงี้แสดงว่าอยากจ่ายตังให้หนูหรอ~ (หน้ายิ้มมุมปาก)
+  character: akari
+- msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้ (หน้าฮารุ)
+  character: tan
+- msg: อ่อออแล้วไป
+  character: akari
+- sound: sv_Grab Chip
+  label: Copy of EP1.0_v3(MA)_lb_26
+- msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม* (หน้ายิ้ม)
+  character: tan
+- character: akari
+  position: right
+  act: happy
+- msg: ไว้เจอกันใหม่ค่ะพี่แทน (หน้ายิ้ม)
+  character: akari
+- character: empty
+  position: center
+  label: Copy of EP1.0_v3(MA)_lb_27
+- music: bgm_Your_Love_Is_Home
+- msg: จบตอนที่1 "วันแรกในมหาลัย"
+  character: narrator

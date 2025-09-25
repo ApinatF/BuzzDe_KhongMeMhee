@@ -6,14 +6,17 @@
   character: narrator
 - character: akari
   position: center
-  act: idle
+  act: Normal
 - msg: พี่|จ๋า  หนู|กลับ|มา|แล้ว|~ พี่|ทำ|อะไร|อยู่|หรือ
   character: akari
 - character: minato
   position: left
-  act: idle
+  act: Normal
 - msg: 'อ่อนั่|งอ|ยู|่… ก็|นั่ง|เล่น|เกม|ปกติ|ผ่อน|คล้ายๆ ไม่|รู้|จะ|ทำ|อะไร|ดี|นะ '
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: 'แหม่|พี่|อย่า|เล่น|แต่|เกม|สิ|หา|อะไร|ทำ|อย่าง|อ่าน|บ้าง|ไม่|ดี|กว่า|หรอ '
   character: akari
 - msg: >-
@@ -22,8 +25,14 @@
   character: minato
 - msg: ให้|ตาย|สิ|พี่|นี้ล|ะก|็…
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: 'อะ|จริง|ด้วย|พี่|หนู|มี|เรื่อง|อยาก|ให้|ช่วย|หน่อย '
   character: akari
+- character: minato
+  position: left
+  act: Surprised
 - msg: 'มี|อะไร|งั้น|หรอ '
   character: minato
 - msg: >-
@@ -34,8 +43,14 @@
   character: minato
 - msg: ใช่|ค่ะ|แนะนำ|ให้|หนู|หน่อย|น่าาา|~
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: งั้น|พี|่ขอขึ้|นไ|ปห|ยิบมัง|งะ|ที่|พี่|คิด|ว่า|เหมาะ|มา|ให้|ก่อน|นะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ได้|ค่ะ|หนู|รอ|ได้
   character: akari
 - msg: รอ|พี่|แปบ|นะ * ขึ้น|ห้อ|งไ|ปห|ยิบมัง|งะ *
@@ -46,12 +61,21 @@
   character: akari
 - msg: เวลา|ผ่าน|ไป|ไม่|นาน
   character: narrator
+- character: minato
+  position: left
+  act: Normal
 - msg: Akari พี่|เอามัง|งะ|ที่|คิด|ว่า|เหมาะ|กับ|น้อง|มา|ให้|เลือ|กล|ะน|ะ–
   character: minato
 - msg: อู|้ววว|! ร้าน|นี้|ต้อง|ไป|กิน|ให้|ได้|เลย|ต้อง|ให้|พี่|พา|ไป|ซะ|แล้ว|~
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: Akari|!|!
   character: minato
+- character: akari
+  position: center
+  act: Haru
 - msg: อะ|.|.|เอ๋…|พี่|เอง|หรอ
   character: akari
 - msg: พี่|เอา|หนังสือ|มา|ให้|ละ|นะ|ลอง|ดู|ว่า|มี|เรื่อง|ไหน|น่า|สนใจ|บ้าง|ไหม
@@ -61,9 +85,12 @@
 - goto:
     - EP3.0_v3(MA)_lb_0 if var_minato >= 8
     - EP3.0_v3(MA)_lb_4
+- character: minato
+  position: left
+  act: Surprised
+  label: EP3.0_v3(MA)_lb_0
 - msg: เอา|เรื่อง|นี้|แล้วกัน
   character: minato
-  label: EP3.0_v3(MA)_lb_0
 - choice:
     - msg: .
       msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
@@ -77,12 +104,21 @@
   state: EP3.0_v3(MA)_st_0
 - msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: >-
     เรื่อง|นี้|ถ้า|หนู|จำ|ไม่|ผิด ตัว|เอก|หลัง|มา|เกิด|ใหม่|ก็|เหมือน|จะ|เล่น
     แม่|เลย|นิ|เห็น|ทำ|หน้า|ยิ้ม|น่า|กลัวๆ ด้วยๆ 
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: 'แปลก|ดี|ไห|มละ '
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: >-
     แต่|เดี๋ยว|ก่อ|น…|ทำไม|แนะนำ|เล่น|นี้|ให้|หนู|ละ|คะ|!|!|.|.|.
     แล้ว|พี่|อ่าน|เรื่อง|นี้|จริงๆหรอ|!|!
@@ -95,10 +131,19 @@
 - msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
   character: minato
   label: EP3.0_v3(MA)_lb_1
+- character: akari
+  position: center
+  act: Normal
 - msg: ถ้า|จำ|ไม่|ผิด|หนู|จำ|ได้|ว่า|เรื่อง|ผู้ชาย|เรื่อง|นี้เ|เม่ง|หน้า|หล่อ|มาก
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: นี้|ก็|เป็น|เรื่อง|ที่|พี่|ชอบ|อ่าน|ตอน|ว่างๆเห|มื่อน|กัน|นะ|มัน|ฮีล|ใจ|ดี
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ไม่|คิด|เลย|นะ|ว่า|พี่|ก็|อยาก|มี|โม|เม้น|ฮีล|ใจ|กับ|เขา|ด้วย
   character: akari
 - msg: 'เงีย|บห|น่าาาา '
@@ -107,21 +152,36 @@
 - msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
   character: minato
   label: EP3.0_v3(MA)_lb_2
+- character: akari
+  position: center
+  act: Shy
 - msg: >-
     พี่|ค่ะ เรื่อง|นี้|มัน|แปลกๆ นะ
     มัน|มี|คน|แต่ง|เรื่อง|นี้|อยู่|บน|โลก|ด้วย|หรอ
   character: akari
+- character: minato
+  position: left
+  act: Shocked
 - msg: เอ|อ…|สงสัย|พี่|หยิบ|ผิด|เรื่อง|มา…|.|.
   character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: หนู|ว่า|.|.|ลืม|มัน|ไป|เถอะ|ค่ะ…
   character: akari
+- character: minato
+  position: left
+  act: Thinking
 - msg: 'อืม.|. '
   character: minato
 - goto: EP3.0_v3(MA)_lb_7
   label: EP3.0_v3(MA)_lb_3
+- character: akari
+  position: center
+  act: surprised
+  label: EP3.0_v3(MA)_lb_4
 - msg: เอา|เรื่อง|นี้|แล้วกัน
   character: akari
-  label: EP3.0_v3(MA)_lb_4
 - choice:
     - msg: .
       msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
@@ -135,16 +195,28 @@
   state: EP3.0_v3(MA)_st_1
 - msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: >-
     เรื่อง|นี้|ถ้า|หนู|จำ|ไม่|ผิด ตัว|เอก|หลัง|มา|เกิด|ใหม่|ก็|เหมือน|จะ|เล่น
     แม่|เลย|นิ|เห็น|ทำ|หน้า|ยิ้ม|น่า|กลัวๆ ด้วยๆ 
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: 'แปลก|ดี|ไห|มละ '
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: >-
     แต่|เดี๋ยว|ก่อ|น…|ทำไม|แนะนำ|เล่น|นี้|ให้|หนู|ละ|คะ|!|!|.|.|.
     แล้ว|พี่|อ่าน|เรื่อง|นี้|จริงๆหรอ|!|!
   character: akari
+- character: minato
+  position: left
+  act: Thinking
 - msg: >-
     ฮ่าาๆๆ.|.|นิดๆหน่อย|เอ|งห|น่าา
     แต่|เนื้อหา|จริง|ดี|มาก|เลย|นะ|ถ้า|ตัด|เรื่อง|แย่ๆออก|ไป|นะ
@@ -153,10 +225,19 @@
 - msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
   character: akari
   label: EP3.0_v3(MA)_lb_5
+- character: akari
+  position: center
+  act: Normal
 - msg: ถ้า|จำ|ไม่|ผิด|หนู|จำ|ได้|ว่า|เรื่อง|ผู้ชาย|เรื่อง|นี้เ|เม่ง|หน้า|หล่อ|มาก
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: นี้|ก็|เป็น|เรื่อง|ที่|พี่|ชอบ|อ่าน|ตอน|ว่างๆเห|มื่อน|กัน|นะ|มัน|ฮีล|ใจ|ดี
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ไม่|คิด|เลย|นะ|ว่า|พี่|ก็|อยาก|มี|โม|เม้น|ฮีล|ใจ|กับ|เขา|ด้วย
   character: akari
 - msg: 'เงีย|บห|น่าาาา '
@@ -165,25 +246,43 @@
 - msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
   character: akari
   label: EP3.0_v3(MA)_lb_6
+- character: akari
+  position: center
+  act: Shy
 - msg: >-
     พี่|ค่ะ เรื่อง|นี้|มัน|แปลกๆ นะ
     มัน|มี|คน|แต่ง|เรื่อง|นี้|อยู่|บน|โลก|ด้วย|หรอ
   character: akari
+- character: minato
+  position: left
+  act: Shocked
 - msg: เอ|อ…|สงสัย|พี่|หยิบ|ผิด|เรื่อง|มา…|.|.
   character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: หนู|ว่า|.|.|ลืม|มัน|ไป|เถอะ|ค่ะ…
   character: akari
+- character: minato
+  position: left
+  act: Thinking
 - msg: 'อืม.|. '
   character: minato
 - msg: มัง|งะ|สมัย|นี้|แปลกๆ นะ|พี่ เขา|ผ่าน สำนักพิมพ์|มา|ได้|ยังไง|?
   character: narrator
   label: EP3.0_v3(MA)_lb_7
+- character: minato
+  position: left
+  act: Normal
 - msg: >-
     พี่ ว่า|มัน|ก็|สนุก|ดี|นะ|พี่|คิด|ว่า มัง|งะ|สมัย|นี้|ผู้|สร้าง|มี|ไอเดีย
     และ จิตร|นา|การ|ล้ำเลิศ|ดี|นะ
   character: minato
 - msg: ถึง|แม้|บาง|อัน|จะ|แปลกๆก็|เถอะ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: อืมม น้อง|ว่า|ก็|อย่าง|นั้น|น้าาาา|~|~ * พูด|ด้วย|น้ำเสียง|ฉอเลาะ *
   character: akari
 - msg: >-
@@ -234,7 +333,7 @@
   character: akari
 - msg: หาย|โกรธ|แล้ว|หรอ|~
   character: minato
-- msg: ม่ได้|โกรธ|ค่ะ แค่|หมั่น|เขี้ยว|พี่|ชาย|นิดหน่อย
+- msg: ไม่|ได้|โกรธ|ค่ะ แค่|หมั่น|เขี้ยว|พี่|ชาย|นิดหน่อย
   character: akari
 - msg: 'หมั่น|เขี้ยว|หรอ นึก|ว่า|บริการ|นวด|ฟรี '
   character: minato
@@ -257,7 +356,6 @@
 - msg: >-
     หลัง|จาก|นั้น|ก็|กลับ|ไป|มอง|หน้า|จอ|เกม|พร้อม|แสดง|สีหน้า|ตกใจ|แบบ|สุด|แรง|เกิด
   character: narrator
-- sound: sv_Censor
 - msg: อ่าว|!|@#$|@#$|@# ลืม|กด|หยุด|เกม นึก|ว่าก|ดห|ยุ|ดไ|ปเ|เล้ว…|เวรกรรม|!
   character: minato
 - msg: ว้ายๆๆๆ  เพราะ|พี|่มั|วเ|เต่เ|เนะ|เรื่อ|งเ|เปลกๆอะไร|ก็|ไม่|รู้|ให้|ไป|อ่าน

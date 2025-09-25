@@ -6,22 +6,31 @@
   character: narrator
 - character: akari
   position: center
-  act: idle
+  act: Normal
 - msg: พี่จ๋า  หนูกลับมาแล้ว~ พี่ทำอะไรอยู่หรือ
   character: akari
 - character: minato
   position: left
-  act: idle
+  act: Normal
 - msg: 'อ่อนั่งอยู่… ก็นั่งเล่นเกมปกติผ่อนคล้ายๆ ไม่รู้จะทำอะไรดีนะ '
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: 'แหม่พี่อย่าเล่นแต่เกมสิหาอะไรทำอย่างอ่านบ้างไม่ดีกว่าหรอ '
   character: akari
 - msg: จะให้พี่อ่านอะไรละไลท์โนเวล กับ มังงะก็อ่านหมดทุกเล่มแล้วด้วย
   character: minato
 - msg: ให้ตายสิพี่นี้ละก็…
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: 'อะจริงด้วยพี่หนูมีเรื่องอยากให้ช่วยหน่อย '
   character: akari
+- character: minato
+  position: left
+  act: Surprised
 - msg: 'มีอะไรงั้นหรอ '
   character: minato
 - msg: >-
@@ -32,8 +41,14 @@
   character: minato
 - msg: ใช่ค่ะแนะนำให้หนูหน่อยน่าาา~
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: งั้นพี่ขอขึ้นไปหยิบมังงะที่พี่คิดว่าเหมาะมาให้ก่อนนะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ได้ค่ะหนูรอได้
   character: akari
 - msg: รอพี่แปบนะ * ขึ้นห้องไปหยิบมังงะ *
@@ -44,12 +59,21 @@
   character: akari
 - msg: เวลาผ่านไปไม่นาน
   character: narrator
+- character: minato
+  position: left
+  act: Normal
 - msg: Akari พี่เอามังงะที่คิดว่าเหมาะกับน้องมาให้เลือกละนะ–
   character: minato
 - msg: อู้ววว! ร้านนี้ต้องไปกินให้ได้เลยต้องให้พี่พาไปซะแล้ว~
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: Akari!!
   character: minato
+- character: akari
+  position: center
+  act: Haru
 - msg: อะ..เอ๋…พี่เองหรอ
   character: akari
 - msg: พี่เอาหนังสือมาให้ละนะลองดูว่ามีเรื่องไหนน่าสนใจบ้างไหม
@@ -59,9 +83,12 @@
 - goto:
     - EP3.0_v3(MA)_lb_0 if var_minato >= 8
     - EP3.0_v3(MA)_lb_4
+- character: minato
+  position: left
+  act: Surprised
+  label: EP3.0_v3(MA)_lb_0
 - msg: เอาเรื่องนี้แล้วกัน
   character: minato
-  label: EP3.0_v3(MA)_lb_0
 - choice:
     - msg: .
       msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
@@ -75,12 +102,21 @@
   state: EP3.0_v3(MA)_st_0
 - msg: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: >-
     เรื่องนี้ถ้าหนูจำไม่ผิด ตัวเอกหลังมาเกิดใหม่ก็เหมือนจะเล่น
     แม่เลยนิเห็นทำหน้ายิ้มน่ากลัวๆ ด้วยๆ 
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: 'แปลกดีไหมละ '
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: แต่เดี๋ยวก่อน…ทำไมแนะนำเล่นนี้ให้หนูละคะ!!... แล้วพี่อ่านเรื่องนี้จริงๆหรอ!!
   character: akari
 - msg: ฮ่าาๆๆ..นิดๆหน่อยเองหน่าา แต่เนื้อหาจริงดีมากเลยนะถ้าตัดเรื่องแย่ๆออกไปนะ
@@ -89,10 +125,19 @@
 - msg: สาวเเกลกับนายคอสเพลย์
   character: minato
   label: EP3.0_v3(MA)_lb_1
+- character: akari
+  position: center
+  act: Normal
 - msg: ถ้าจำไม่ผิดหนูจำได้ว่าเรื่องผู้ชายเรื่องนี้เเม่งหน้าหล่อมาก
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: นี้ก็เป็นเรื่องที่พี่ชอบอ่านตอนว่างๆเหมื่อนกันนะมันฮีลใจดี
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ไม่คิดเลยนะว่าพี่ก็อยากมีโมเม้นฮีลใจกับเขาด้วย
   character: akari
 - msg: 'เงียบหน่าาาา '
@@ -101,19 +146,34 @@
 - msg: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
   character: minato
   label: EP3.0_v3(MA)_lb_2
+- character: akari
+  position: center
+  act: Shy
 - msg: พี่ค่ะ เรื่องนี้มันแปลกๆ นะ มันมีคนแต่งเรื่องนี้อยู่บนโลกด้วยหรอ
   character: akari
+- character: minato
+  position: left
+  act: Shocked
 - msg: เออ…สงสัยพี่หยิบผิดเรื่องมา…..
   character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: หนูว่า..ลืมมันไปเถอะค่ะ…
   character: akari
+- character: minato
+  position: left
+  act: Thinking
 - msg: 'อืม.. '
   character: minato
 - goto: EP3.0_v3(MA)_lb_7
   label: EP3.0_v3(MA)_lb_3
+- character: akari
+  position: center
+  act: surprised
+  label: EP3.0_v3(MA)_lb_4
 - msg: เอาเรื่องนี้แล้วกัน
   character: akari
-  label: EP3.0_v3(MA)_lb_4
 - choice:
     - msg: .
       msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
@@ -127,24 +187,45 @@
   state: EP3.0_v3(MA)_st_1
 - msg: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: >-
     เรื่องนี้ถ้าหนูจำไม่ผิด ตัวเอกหลังมาเกิดใหม่ก็เหมือนจะเล่น
     แม่เลยนิเห็นทำหน้ายิ้มน่ากลัวๆ ด้วยๆ 
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: 'แปลกดีไหมละ '
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: แต่เดี๋ยวก่อน…ทำไมแนะนำเล่นนี้ให้หนูละคะ!!... แล้วพี่อ่านเรื่องนี้จริงๆหรอ!!
   character: akari
+- character: minato
+  position: left
+  act: Thinking
 - msg: ฮ่าาๆๆ..นิดๆหน่อยเองหน่าา แต่เนื้อหาจริงดีมากเลยนะถ้าตัดเรื่องแย่ๆออกไปนะ
   character: minato
 - goto: EP3.0_v3(MA)_lb_7
 - msg: สาวเเกลกับนายคอสเพลย์
   character: akari
   label: EP3.0_v3(MA)_lb_5
+- character: akari
+  position: center
+  act: Normal
 - msg: ถ้าจำไม่ผิดหนูจำได้ว่าเรื่องผู้ชายเรื่องนี้เเม่งหน้าหล่อมาก
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: นี้ก็เป็นเรื่องที่พี่ชอบอ่านตอนว่างๆเหมื่อนกันนะมันฮีลใจดี
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ไม่คิดเลยนะว่าพี่ก็อยากมีโมเม้นฮีลใจกับเขาด้วย
   character: akari
 - msg: 'เงียบหน่าาาา '
@@ -153,23 +234,41 @@
 - msg: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
   character: akari
   label: EP3.0_v3(MA)_lb_6
+- character: akari
+  position: center
+  act: Shy
 - msg: พี่ค่ะ เรื่องนี้มันแปลกๆ นะ มันมีคนแต่งเรื่องนี้อยู่บนโลกด้วยหรอ
   character: akari
+- character: minato
+  position: left
+  act: Shocked
 - msg: เออ…สงสัยพี่หยิบผิดเรื่องมา…..
   character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: หนูว่า..ลืมมันไปเถอะค่ะ…
   character: akari
+- character: minato
+  position: left
+  act: Thinking
 - msg: 'อืม.. '
   character: minato
 - msg: มังงะสมัยนี้แปลกๆ นะพี่ เขาผ่าน สำนักพิมพ์มาได้ยังไง?
   character: narrator
   label: EP3.0_v3(MA)_lb_7
+- character: minato
+  position: left
+  act: Normal
 - msg: >-
     พี่ ว่ามันก็สนุกดีนะพี่คิดว่า มังงะสมัยนี้ผู้สร้างมีไอเดีย และ
     จิตรนาการล้ำเลิศดีนะ
   character: minato
 - msg: ถึงแม้บางอันจะแปลกๆก็เถอะ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: อืมม น้องว่าก็อย่างนั้นน้าาาา~~ * พูดด้วยน้ำเสียงฉอเลาะ *
   character: akari
 - msg: >-
@@ -220,7 +319,7 @@
   character: akari
 - msg: หายโกรธแล้วหรอ~
   character: minato
-- msg: ม่ได้โกรธค่ะ แค่หมั่นเขี้ยวพี่ชายนิดหน่อย
+- msg: ไม่ได้โกรธค่ะ แค่หมั่นเขี้ยวพี่ชายนิดหน่อย
   character: akari
 - msg: 'หมั่นเขี้ยวหรอ นึกว่าบริการนวดฟรี '
   character: minato
@@ -240,7 +339,6 @@
   character: minato
 - msg: หลังจากนั้นก็กลับไปมองหน้าจอเกมพร้อมแสดงสีหน้าตกใจแบบสุดแรงเกิด
   character: narrator
-- sound: sv_Censor
 - msg: อ่าว!@#$@#$@# ลืมกดหยุดเกม นึกว่ากดหยุดไปเเล้ว…เวรกรรม!
   character: minato
 - msg: ว้ายๆๆๆ  เพราะพี่มัวเเต่เเนะเรื่องเเปลกๆอะไรก็ไม่รู้ให้ไปอ่าน
