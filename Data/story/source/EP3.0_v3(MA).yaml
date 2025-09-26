@@ -420,6 +420,7 @@
   character: narrator
   label: EP3.0_v3(MA)_lb_10
 - background: bg_nifront_wut
+- music: bgm_LoFi HipHop
 - msg: 'พี่คะ.. '
   character: akari
 - msg: หืม?มีอะไรหรอ Akari
@@ -455,7 +456,7 @@
     ตรงนั้นเองหรอ งั้น Akari
     มาวิ่งแข่งกันไหมถ้าน้องชนะพี่จะให้หยิบอะไรก็ได้ตามที่น้องต้องการเลยนะ~~
   character: minato
-- sound: sv_Fast run meme
+- sound: sv_SWWalking
 - msg: อ่าววอย่างงี้ก็สวยสิ~! งั้นหนูไปก่อนละ!! *ชิ่งไปก่อนเลย*
   character: akari
 - msg: อ่าวเห้ยย!! รอก่อนนยังไม่เริ่มนับเลยย!! *วิ่งตาม*
@@ -980,6 +981,7 @@
   character: tan
 - msg: ในระหว่างที่พูดคุยกันก็มีกลุ่มวันรุ่นคนนึงเดินเข้ามา
   character: narrator
+- music: bgm_Epic_Gym_Rock_Take2
 - msg: พวกวันนี้กินไรดีวะ
   character: man02
   override_name: อัลตพาล 1
@@ -1087,6 +1089,7 @@
   character: narrator
 - msg: หัดใช้กำลังในทางที่ถูกละ และ ก็เลิกนิสัยปากเสียนั้นด้วย (สีหน้าโกรธ)
   character: tan
+- music: bgm_Your_Love_Is_Home
 - msg: กะ..เกิดอะไรขึ้นนะ…พี่แทนหน้าเป็นไรไหมคะ?!?
   character: akari
 - msg: '* วิ่งเข้ามาดูอาการ *'

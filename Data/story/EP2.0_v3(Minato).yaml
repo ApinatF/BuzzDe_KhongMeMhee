@@ -31,6 +31,7 @@
   act: Normal
 - msg: …
   character: minato
+- sound: sv_Heavy Knock door
 - msg: พี่|คะ|! ตื่น|ได้|แล้ว|!|! *|เคาะ|ประตู|แรง|กว่า|เดิม*
   character: akari
 - msg: อือ…|ผม|ขอ|นอน|อีก|สัก 5 นาที|นะ|ครับ|แม่|~
@@ -39,6 +40,7 @@
     หนู|ไม่|ใช่|แม่|สัก|หน่อย|!
     แล้ว|ช่วย|ตื่น|มา|เปิด|ประตู|ได้|แล้ว|เจ้า|พี่|ขี้เซา|!|-
   character: akari
+- sound: sv_Pop Door
 - msg: ประตู|ห้อง|เปิด|ไม่|ได้|ล็อค
   character: narrator
 - msg: อ้า|วไ|ม่ไ|ด้ล็อ|คห|นิ…|ถ้า|งั้น|ก็|ขอ|ใช้|วิธี|รุนแรง|ให้|พี่|ตื่น|ละ|นะ
@@ -51,6 +53,7 @@
   character: minato
 - msg: '*|จ้อง|มอง|ไป|ที่ Minat|o*'
   character: akari
+- sound: sv_Idea
 - msg: >-
     ถ้า|ยัง|หลับ|ลึก|ขนาด|นี้|ละ|ก็|วัน|นี้|ต้อง|จัด|หนัก|กว่า|เมื่อ|วาน|ซะ|แล้ว|~
     (|สีหน้า|อมยิ้ม|) 
@@ -103,12 +106,14 @@
     อ้า|!|!|! *|โดน|จับ|โยก|ตัว|ไป|มา* โอเคๆๆ
     พี่|ขอ|เวลา|เตรียม|ตัว|ก่อน|แปป|นึง (|สีหน้า|มึนงง|)
   character: minato
+- sound: sv_Get up on Bed
 - msg: โอ้|ยย|~|.|.|.|โยก|พี่|ซะ|จุก|เลย *|ลุก|จาก|เตีย|ง*
   character: minato
 - msg: >-
     ให้|ตาย|สิ ยัย|นี้|ตื่นเต้น|เรื่อง|วิชา|ทำ|อาหาร|สุดๆไป|เลย|นะ
     (|สีหน้า|ยิ้ม|)
   character: minato
+- sound: sv_Walking Concrete Fast
 - msg: >-
     เลิก|บ่น|ได้|แล้ว|รีบๆไป|เตรียม|ตัว|ได้|แล้ว|ค่ะ|!|!|! *|ดัน|ตัว Minato
     ให้|เดินไ|ป* (|สีหน้า|โกรธ|พูด|)
@@ -116,6 +121,7 @@
 - background: BG_in_University
 - msg: แฮ่ก…ๆ นึก|ว่า|.|.|.|จะ|สาย|กว่า|นี้|แล้ว|นะ|เนี่ย (|สีหน้า|กังวล|)
   character: minato
+- sound: sv_Bubble pop
 - msg: >-
     ถือ|ว่า…|แฮ่ก… ยั|งทั|นอ|ยู่|นะ|คะ นี้|พึ่ง|จะ 7 โมง 27 เอง|นะ|คะ
     *|มอง|ที่|นา|ฬิกา* (|สีหน้า|ปกติ|ตอน|พูด|)
@@ -136,6 +142,7 @@
     ก็|พี่|ขี้เกียจ|หยิบ|โทรศัพท์|ขึ้น|มา|นี้|นา Akari
     ถือ|โทรศัพท์|อยู่|ตลอด|เลย|นิ|ใช่|ไหม|ล่ะ
   character: minato
+- sound: sv_Open_App
 - msg: >-
     เฮ้อ|~|.|.|ก็|ได้|ค่ะ|เดี๋ยว|หนู|เช็ค|ให้|นะ|คะ *|Akari
     เปิด|แอพ|มหา|ลัย|เพื่อ|เช็ค|ตาราง|ของ|วัน|นี้*
@@ -172,6 +179,7 @@
 - msg: ได้|เลย|!|!
   character: akari
 - background: bg_restaurant02
+- sound: sv_SWWalking
 - msg: จาก|นั้น|ทั้ง|คู่|ก็|ได้|ไป|ร้าน|คา|เฟ้เปิด|ใหม่|เพื่อ|รอ|เวลา|เรียน
   character: narrator
 - msg: สวัสดี|ค่ะ|คุณ|ลูกค้า ไม่|ทราบ|ว่า|จะ|รับ|อะไร|หรอ|คะ|?
@@ -198,6 +206,7 @@
   character: minato
 - msg: ทราบ|แล้ว|ค่ะ|เชิญ|รอ|ที่|โต๊ะ|สัก|ครู่|แล้ว|เดี๋ยว|เรา|จะ|เรียก|นะ|คะ
   character: man03
+- sound: sv_Walking Concrete Fast
 - msg: >-
     จาก|นั้น Akari กับ Minato
     ก็|เดิน|ผ่าน|เคาน์เตอร์|ไป|รอ|ที|่โ|ต๊แล้ว|ก็|คุย|อะไร|กัน|นิดหน่อย
@@ -548,10 +557,12 @@
   character: akari
 - msg: ครับๆ
   character: minato
+- sound: sv_Walking Concrete Fast
 - msg: >-
     หลัง|จาก|นั้น|ทั้ง|คู่|ก็|ได้|เข้า|ไป|ใน|ห้อง|คหกรรม|ซึ่ง|มี|บาง|คน|ได้|มา|เตรียม|ตัว|ไว้|ก่อน|แล้ว
   character: narrator
 - background: bg_cooking_classroom
+- music: bgm_Education
 - msg: ที่|นี้|คือ|ห้อง|คหกรรม|สิ|นะ|ใหญ่|ใช่|เล่น|เลย|นะ|เนี้ย ว่า|ไหม|คะ|พี่
   character: akari
 - msg: …
@@ -591,6 +602,7 @@
   character: nightrose
 - msg: คุณ Minato คะ|.|.|คือ|ว่า|!|!
   character: nightrose
+- sound: sv_School bell tone
 - msg: >-
     ใน|ขณะ|ที่ Nightrose
     จะ|พูด|อะไร|สัก|อย่าง|เสียง|ระฆัง|ก็|ดัง|ขึ้น|พร้อม|กับ|มี|อา|จา|รณ์ค|หะ|กรรม|เข้า|มา
@@ -709,6 +721,7 @@
   act: idle
 - msg: ได้|เลย|ค่า|จา|รย์~
   character: lín
+- music: bgm_Epic_Gym_Rock_Take1
 - msg: >-
     เอา|ละ ใน|วัน|นี้|ครู|จะ|ขอ|ทดสอบ|ฝีมือ|ของ|นักเรียน|ก่อน
     เพราะ|ฉะนั้น|จาน|แรก|ใน|วัน|นี้
@@ -761,6 +774,7 @@
   character: nightrose
 - msg: เอา|ละ|อาจารย์|จะ|ประกาศ|เมนู|แรก|ให้|ละ|นะ|เมนู|แรก|คือ…|.
   character: professor
+- sound: sv_Idea2
 - msg: …|.|.|ข้าว|ผัด|ไง|หละ|!
   character: professor
 - msg: เมื่อ|ทุก|คน|ใน|ห้อง|ได้|ยินชื่|เมนู|ที่|จะ|ทำ ก็|ต่าง|ทำ|หน้า|งงงวย|กัน|หมด
@@ -976,6 +990,7 @@
     ใส่|ต้น|หอม|ผัด|พอ|เข้า|กัน|อีก|สัก|หน่อย แล|ะก|็… ปิด|เตา|ได้|~
     *|ตัก|ใส่|จาน|และ|จัด|เรียง|ให้|ดู|เรียบ|ร้อ|ย*
   character: nightrose
+- sound: sv_Look someone
 - msg: >-
     ดู|หน้า|กิน|จริงๆเลย|นะ|เนี่ย แล้|ว… ของ|พวก|รุ่น|พี่ Minato ล่ะ
     *|ชำเลือง|มอง|ไป|ที่ Minato กับ Akar|i*
@@ -986,6 +1001,7 @@
   character: minato
 - msg: สะ|-|สุด|ยอด|! อย่าง|กับ|เซฟ|มือ|อาชีพ|เลย|ละ
   character: nightrose
+- sound: sv_Look someone
 - msg: แล้|ว… ของ Akari จัง|ละ|? *|ชำเลือง|มอง|ไป|ที่ Akari ต่อ*
   character: nightrose
 - msg: อ้าาา|!|!|! ไฟ|แรง|ไป|แล้ว|!|!|! *|จับ|ตัว|ปรับ|ไฟ|เตา|ไป|มา*
@@ -1047,6 +1063,7 @@
     เมื่อกี้|อาจารย์|เขา|ให้|แลก|กัน|ชิม|กับ|คน|ข้างๆนะ|คะ
     *|ยก|จาน|ตัวเอง|มา|วา|งตร|งห|น้า*
   character: nightrose
+- sound: sv_Look someone
 - msg: เอา|สิ เพราะ|ฉัน|คง|ไม่|กล้า|ชิม|ของ Akari แน่ๆ *|ชำเลือง|มอง|ไป|ที่ Akar|i*
   character: minato
 - image: mcg_DarkMatterFriedRice
@@ -1161,6 +1178,7 @@
 - msg: เห|วอ|!|? เธอ|คน|นั้น|กิน|ข้าว|ผัด Dark Matter ลง|ไป|ได้|ไง|ละ|น่ะ|!|?
   character: man02
   override_name: คนในห้อง
+- sound: sv_Look someone
 - msg: ห๊ะ|? *|หัน|กลับ|ไป|มอง|ตาม|ต้น|เสีย|ง*
   character: minato
 - msg: Akari จัง|!|? (|สีหน้า|ตกใจ|)
@@ -1185,11 +1203,13 @@
 - msg: นี่|พวก|เธอ 2 คน รีบ|พา|เธอ|คน|นั้น|ไป|ที่|ตึก|พยาบาล|เร็ว|เข้า|!
   character: professor
   override_name: อาจารย์ (ครัว)
+- sound: sv_cloth_hard_take_away
 - msg: ครับ|! Akari ทำใจ|ดีๆนะ|! *|แบก Akari ไป|ที่|ตึ|กพ|ยา|บา|ล*
   character: minato
 - character: nightrose
   position: left
   act: idle
+- sound: sv_cloth_hard_take_away
 - msg: >-
     Akari จัง|ทน|หน่อย|นะ|! *|ช่วย Minato แบก Akari ไป|ที่|ตึ|กพ|ยา|บา|ล*
     (|สีหน้า|เป็นห่วง|)
@@ -1216,6 +1236,7 @@
     หลัง|จาก|นั้น Minato กับ Nightrose ก็|รีบ|พา Akari
     ออก|จาก|ห้อง|ไป|ที่|ตึก|พยาบาล|อย่าง|เร่งรีบ โดย|มี Lí|n มอง|ตาม|หลัง|ไป
   character: narrator
+- sound: sv_Look someone
 - msg: >-
     คาด|ไม่|ถึง|เลย|แหะ|ว่า|จะ|มี|คน|ทำ|อาหาร|แบบ|นี้|ได้|จริงๆด้วย|น่ะ
     นี่|มัน|อาหาร|จาก|มิติ|มืด|ชัดๆ *|มอง|ลง|ไป|ที่|ข้าง|ผัด Dark Matter ของ
@@ -1228,6 +1249,7 @@
 - msg: —|ผ่าน|ไป 20 นาที ยาว|จน|หมด|คาบ|ทำ|อา|หา|ร—
   character: narrator
 - background: bg_nurse's_room
+- music: bgm_Your_Love_Is_Home
 - msg: '*|เดิน|ออก|มา|จาก|ห้อ|งตรว|จ*'
   character: man03
   override_name: หมอ
@@ -1386,8 +1408,10 @@
   character: akari
 - msg: พี|่ค|ะ… ไป|เรียน|ต่อ|กัน|เถอะ คาบ|ต่อไ|ปอ|ยู่|อีก|ตึก|นะ|คะ
   character: akari
+- sound: sv_Look someone
 - msg: อืม โอ|เครๆ *|หัน|กลับ|มา|หา Nightros|e*
   character: minato
+- sound: sv_Walking Fade out
 - msg: >-
     งั้น|ฉัน|ก็|ขอ|ตัว|ไป|ก่อน|ละ|กัน|นะ
     แล้ว|ถ้า|เจอ|กัน|อีก|ก็|ค่อย|บอก|เรื่อง|ข้าว|ผัด|ว่า|อร่อย|มั้ย|ก็|ได้|นะ
@@ -1432,6 +1456,7 @@
   position: left
 - character: empty
   position: center
+- sound: sv_Walking Fade out
 - msg: ทั้ง Minato และ Akari ทั้ง|2|พี่น้อง|ได้|เดิน|จาก|ไป
   character: narrator
 - msg: หืม… *|จ้อง|มอง|ไป|ที่|โทรศัพท์|ตัว|เอ|ง* (|สีหน้า|ยิ้ม|)

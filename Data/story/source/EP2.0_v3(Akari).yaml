@@ -31,12 +31,14 @@
   act: Normal
 - msg: …
   character: minato
+- sound: sv_Heavy Knock door
 - msg: พี่คะ! ตื่นได้แล้ว!! *เคาะประตูแรงกว่าเดิม*
   character: akari
 - msg: อือ…ผมขอนอนอีกสัก 5 นาทีนะครับแม่~
   character: minato
 - msg: หนูไม่ใช่แม่สักหน่อย! แล้วช่วยตื่นมาเปิดประตูได้แล้วเจ้าพี่ขี้เซา!-
   character: akari
+- sound: sv_Pop Door
 - msg: ประตูห้องเปิดไม่ได้ล็อค
   character: narrator
 - msg: อ้าวไม่ได้ล็อคหนิ…ถ้างั้นก็ขอใช้วิธีรุนแรงให้พี่ตื่นละนะ
@@ -49,6 +51,7 @@
   character: minato
 - msg: '*จ้องมองไปที่ Minato*'
   character: akari
+- sound: sv_Idea
 - msg: 'ถ้ายังหลับลึกขนาดนี้ละก็วันนี้ต้องจัดหนักกว่าเมื่อวานซะแล้ว~ (สีหน้าอมยิ้ม) '
   character: akari
 - msg: '*ทำท่าเตรียมพุ่งตัว*'
@@ -91,10 +94,12 @@
   character: akari
 - msg: อ้า!!! *โดนจับโยกตัวไปมา* โอเคๆๆ พี่ขอเวลาเตรียมตัวก่อนแปปนึง (สีหน้ามึนงง)
   character: minato
+- sound: sv_Get up on Bed
 - msg: โอ้ยย~...โยกพี่ซะจุกเลย *ลุกจากเตียง*
   character: minato
 - msg: ให้ตายสิ ยัยนี้ตื่นเต้นเรื่องวิชาทำอาหารสุดๆไปเลยนะ (สีหน้ายิ้ม)
   character: minato
+- sound: sv_Walking Concrete Fast
 - msg: >-
     เลิกบ่นได้แล้วรีบๆไปเตรียมตัวได้แล้วค่ะ!!! *ดันตัว Minato ให้เดินไป*
     (สีหน้าโกรธพูด)
@@ -102,6 +107,7 @@
 - background: BG_in_University
 - msg: แฮ่ก…ๆ นึกว่า...จะสายกว่านี้แล้วนะเนี่ย (สีหน้ากังวล)
   character: minato
+- sound: sv_Bubble pop
 - msg: >-
     ถือว่า…แฮ่ก… ยังทันอยู่นะคะ นี้พึ่งจะ 7 โมง 27 เองนะคะ *มองที่นาฬิกา*
     (สีหน้าปกติตอนพูด)
@@ -118,6 +124,7 @@
   character: akari
 - msg: ก็พี่ขี้เกียจหยิบโทรศัพท์ขึ้นมานี้นา Akari ถือโทรศัพท์อยู่ตลอดเลยนิใช่ไหมล่ะ
   character: minato
+- sound: sv_Open_App
 - msg: >-
     เฮ้อ~..ก็ได้ค่ะเดี๋ยวหนูเช็คให้นะคะ *Akari
     เปิดแอพมหาลัยเพื่อเช็คตารางของวันนี้*
@@ -154,6 +161,7 @@
 - msg: ได้เลย!!
   character: akari
 - background: bg_restaurant02
+- sound: sv_SWWalking
 - msg: จากนั้นทั้งคู่ก็ได้ไปร้านคาเฟ้เปิดใหม่เพื่อรอเวลาเรียน
   character: narrator
 - msg: สวัสดีค่ะคุณลูกค้า ไม่ทราบว่าจะรับอะไรหรอคะ?
@@ -182,6 +190,7 @@
   character: minato
 - msg: ทราบแล้วค่ะเชิญรอที่โต๊ะสักครู่แล้วเดี๋ยวเราจะเรียกนะคะ
   character: man03
+- sound: sv_Walking Concrete Fast
 - msg: >-
     จากนั้น Akari กับ Minato
     ก็เดินผ่านเคาน์เตอร์ไปรอที่โต๊แล้วก็คุยอะไรกันนิดหน่อย
@@ -499,10 +508,12 @@
   character: akari
 - msg: ครับๆ
   character: minato
+- sound: sv_Walking Concrete Fast
 - msg: >-
     หลังจากนั้นทั้งคู่ก็ได้เข้าไปในห้องคหกรรมซึ่งมีบางคนได้มาเตรียมตัวไว้ก่อนแล้ว
   character: narrator
 - background: bg_cooking_classroom
+- music: bgm_Education
 - msg: ที่นี้คือห้องคหกรรมสินะใหญ่ใช่เล่นเลยนะเนี้ย ว่าไหมคะพี่
   character: akari
 - msg: …
@@ -536,6 +547,7 @@
   character: nightrose
 - msg: คุณ Minato คะ..คือว่า!!
   character: nightrose
+- sound: sv_School bell tone
 - msg: >-
     ในขณะที่ Nightrose
     จะพูดอะไรสักอย่างเสียงระฆังก็ดังขึ้นพร้อมกับมีอาจารณ์คหะกรรมเข้ามา
@@ -642,6 +654,7 @@
   act: idle
 - msg: ได้เลยค่าจารย์~
   character: lín
+- music: bgm_Epic_Gym_Rock_Take1
 - msg: >-
     เอาละ ในวันนี้ครูจะขอทดสอบฝีมือของนักเรียนก่อน เพราะฉะนั้นจานแรกในวันนี้
     จะเป็นการให้ทำด้วยตัวคนเดียวเองนะคะ
@@ -691,6 +704,7 @@
   character: nightrose
 - msg: เอาละอาจารย์จะประกาศเมนูแรกให้ละนะเมนูแรกคือ….
   character: professor
+- sound: sv_Idea2
 - msg: …..ข้าวผัดไงหละ!
   character: professor
 - msg: เมื่อทุกคนในห้องได้ยินชื่เมนูที่จะทำ ก็ต่างทำหน้างงงวยกันหมด
@@ -879,6 +893,7 @@
     ใส่ต้นหอมผัดพอเข้ากันอีกสักหน่อย และก็… ปิดเตาได้~
     *ตักใส่จานและจัดเรียงให้ดูเรียบร้อย*
   character: nightrose
+- sound: sv_Look someone
 - msg: >-
     ดูหน้ากินจริงๆเลยนะเนี่ย แล้ว… ของพวกรุ่นพี่ Minato ล่ะ *ชำเลืองมองไปที่
     Minato กับ Akari*
@@ -887,6 +902,7 @@
   character: minato
 - msg: สะ-สุดยอด! อย่างกับเซฟมืออาชีพเลยละ
   character: nightrose
+- sound: sv_Look someone
 - msg: แล้ว… ของ Akari จังละ? *ชำเลืองมองไปที่ Akari ต่อ*
   character: nightrose
 - msg: อ้าาา!!! ไฟแรงไปแล้ว!!! *จับตัวปรับไฟเตาไปมา*
@@ -947,6 +963,7 @@
     งั้นลองชิมของหนูสิคะ เมื่อกี้อาจารย์เขาให้แลกกันชิมกับคนข้างๆนะคะ
     *ยกจานตัวเองมาวางตรงหน้า*
   character: nightrose
+- sound: sv_Look someone
 - msg: เอาสิ เพราะฉันคงไม่กล้าชิมของ Akari แน่ๆ *ชำเลืองมองไปที่ Akari*
   character: minato
 - image: mcg_DarkMatterFriedRice
@@ -1051,6 +1068,7 @@
 - msg: เหวอ!? เธอคนนั้นกินข้าวผัด Dark Matter ลงไปได้ไงละน่ะ!?
   character: man02
   override_name: คนในห้อง
+- sound: sv_Look someone
 - msg: ห๊ะ? *หันกลับไปมองตามต้นเสียง*
   character: minato
 - msg: Akari จัง!? (สีหน้าตกใจ)
@@ -1079,11 +1097,13 @@
 - msg: นี่พวกเธอ 2 คน รีบพาเธอคนนั้นไปที่ตึกพยาบาลเร็วเข้า!
   character: professor
   override_name: อาจารย์ (ครัว)
+- sound: sv_cloth_hard_take_away
 - msg: ครับ! Akari ทำใจดีๆนะ! *แบก Akari ไปที่ตึกพยาบาล*
   character: minato
 - character: nightrose
   position: left
   act: idle
+- sound: sv_cloth_hard_take_away
 - msg: Akari จังทนหน่อยนะ! *ช่วย Minato แบก Akari ไปที่ตึกพยาบาล* (สีหน้าเป็นห่วง)
   character: nightrose
 - msg: ทำไมเหมือนเห็นยมโลกเลยนะ รู้สึกข้างหน้าทำไมมันร้อนๆ
@@ -1106,6 +1126,7 @@
     หลังจากนั้น Minato กับ Nightrose ก็รีบพา Akari
     ออกจากห้องไปที่ตึกพยาบาลอย่างเร่งรีบ โดยมี Lín มองตามหลังไป
   character: narrator
+- sound: sv_Look someone
 - msg: >-
     คาดไม่ถึงเลยแหะว่าจะมีคนทำอาหารแบบนี้ได้จริงๆด้วยน่ะ
     นี่มันอาหารจากมิติมืดชัดๆ *มองลงไปที่ข้างผัด Dark Matter ของ Akari*
@@ -1115,11 +1136,12 @@
 - msg: —ผ่านไป 20 นาที ยาวจนหมดคาบทำอาหาร—
   character: narrator
 - background: bg_nurse's_room
+- music: bgm_Your_Love_Is_Home
 - msg: '*เดินออกมาจากห้องตรวจ*'
   character: man03
   override_name: หมอ
 - character: minato
-  position: select position
+  position: center
   act: Normal
 - msg: หมอครับน้องสาวผมเป็นอะไรมากไหมครับ..
   character: minato
@@ -1269,8 +1291,10 @@
   character: akari
 - msg: พี่คะ… ไปเรียนต่อกันเถอะ คาบต่อไปอยู่อีกตึกนะคะ
   character: akari
+- sound: sv_Look someone
 - msg: อืม โอเครๆ *หันกลับมาหา Nightrose*
   character: minato
+- sound: sv_Walking Fade out
 - msg: >-
     งั้นฉันก็ขอตัวไปก่อนละกันนะ
     แล้วถ้าเจอกันอีกก็ค่อยบอกเรื่องข้าวผัดว่าอร่อยมั้ยก็ได้นะ
@@ -1316,6 +1340,7 @@
   position: left
 - character: empty
   position: center
+- sound: sv_Walking Fade out
 - msg: ทั้ง Minato และ Akari ทั้ง2พี่น้องได้เดินจากไป
   character: narrator
 - msg: หืม… *จ้องมองไปที่โทรศัพท์ตัวเอง* (สีหน้ายิ้ม)

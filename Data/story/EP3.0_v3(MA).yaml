@@ -439,6 +439,7 @@
   character: narrator
   label: EP3.0_v3(MA)_lb_10
 - background: bg_nifront_wut
+- music: bgm_LoFi HipHop
 - msg: 'พี่|คะ|.|. '
   character: akari
 - msg: หืม?|มี|อะไร|หรอ Akari
@@ -477,7 +478,7 @@
     ตรง|นั้น|เอง|หรอ งั้น Akari
     มา|วิ่ง|แข่ง|กัน|ไหม|ถ้า|น้อง|ชนะ|พี่|จะ|ให้|หยิบ|อะไร|ก็|ได้|ตาม|ที่|น้อง|ต้องการ|เลย|นะ|~|~
   character: minato
-- sound: sv_Fast run meme
+- sound: sv_SWWalking
 - msg: อ่าว|วอ|ย่าง|งี้|ก็|สวย|สิ|~|! งั้น|หนู|ไป|ก่อน|ละ|!|! *|ชิ่ง|ไป|ก่อน|เลย*
   character: akari
 - msg: อ่าว|เห้ยย|!|! รอ|ก่อ|นน|ยัง|ไม่|เริ่ม|นับ|เลยย|!|! *|วิ่ง|ตา|ม*
@@ -1023,6 +1024,7 @@
   character: tan
 - msg: ใน|ระหว่าง|ที่|พูด|คุย|กัน|ก็|มี|กลุ่ม|วัน|รุ่น|คน|นึง|เดิน|เข้า|มา
   character: narrator
+- music: bgm_Epic_Gym_Rock_Take2
 - msg: พวก|วัน|นี้|กิน|ไร|ดี|วะ
   character: man02
   override_name: อัลตพาล 1
@@ -1140,6 +1142,7 @@
     หัด|ใช้|กำลัง|ใน|ทาง|ที่|ถูก|ละ และ ก็|เลิก|นิสัย|ปาก|เสีย|นั้น|ด้วย
     (|สีหน้า|โกรธ|)
   character: tan
+- music: bgm_Your_Love_Is_Home
 - msg: กะ|.|.|เกิดอ|ะไรขึ้|นน|ะ…|พี่|แทน|หน้า|เป็นไร|ไหม|คะ|?|!|?
   character: akari
 - msg: '* วิ่ง|เข้า|มา|ดู|อาการ *'

@@ -1,5 +1,5 @@
 - background: bg_university_infront
-- music: bgm_Cozy
+- music: bgm_LoFi HipHop
 - character: akari
   position: center
   act: happy
@@ -131,6 +131,7 @@
   character: akari
 - msg: ใน|ตอน|นั้น|เอง|รถ|เมย์ก็|ได้|มา|ถึง|แล้ว
   character: narrator
+- music: bgm_PublicBus_V1
 - msg: รถ|เมย์ได้|มา|ถึง|แล้ว|ประตู|เปิด|ภายใน 3 วินะ
   character: man03
   override_name: คนขับรถเมย์
@@ -217,6 +218,7 @@
   character: tan
 - msg: จาก|นั้น Akari ก็|ลง|จาก|รถ|บัส|แล้ว|กลับ|มา|ที่|บ้าน
   character: narrator
+- music: bgm_Your_Love_Is_Home
 - character: empty
   position: right
 - background: bg_nifront_wut
