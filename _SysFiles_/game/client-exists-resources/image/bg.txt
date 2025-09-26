@@ -2,7 +2,13 @@ bathroom
 bedroom
 bg_1030
 bg_Blackscreen
+bg_bus8
+bg_convenience_store_cashier
+bg_convenience_store_infront
+bg_convenience_store_shelf
 bg_cooking_classroom
+bg_garden
+bg_garden_evening
 BG_in_University
 bg_living_room_yamada
 bg_nifront_wut

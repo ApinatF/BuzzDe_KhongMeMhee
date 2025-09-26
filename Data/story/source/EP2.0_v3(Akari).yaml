@@ -261,6 +261,9 @@
   character: minato
 - msg: อืมม!
   character: akari
+- character: lín
+  position: center
+  act: idle
 - msg: >-
     (Ni hao) <b><size=40>你好</size></b>! สวัสดี!
     คุณพนักงานวันนี้ฉันขอเหมื่อนเดิมนะ~
@@ -331,6 +334,8 @@
       goto: EP2.0_v3(Akari)_lb_5
   character: me
   state: EP2.0_v3(Akari)_st_4
+- character: empty
+  position: center
 - msg: บอกพี่พนักงานดีกว่า
   character: akari
 - msg: พี่พนักงานคะรุ่นพี่ Lín ทำกระเป๋าสตางค์ตกช่วยเอาไปคืนให้หน่อยได้ไหมคะ?
@@ -349,6 +354,10 @@
   character: minato
 - msg: อืมม!
   character: akari
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: >-
     หลังจากนั้น Akari กับ Minato
     ก็ได้ดื่มด่ำกับเครื่องดื่มแล้วก็พูดคุยอะไรกันนิดหน่อย
@@ -369,6 +378,8 @@
   character: akari
 - msg: อ๋อพี่ต้องไปเตรียมตัวอะไรก่อนหนะเอาเป็นว่าไว้เจอกันนะ Akari!!
   character: lín
+- character: empty
+  position: center
 - msg: ค..ค่ะ
   character: akari
 - msg: จริงด้วย!..มาแล้วค่ะพี่กาแฟของพี่
@@ -381,6 +392,10 @@
   character: minato
 - msg: อืมม!
   character: akari
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: >-
     หลังจากนั้น Akari กับ Minato
     ก็ได้ดื่มด่ำกับเครื่องดื่มแล้วก็พูดคุยอะไรกันนิดหน่อย
@@ -393,6 +408,10 @@
   character: lín
 - msg: คือว่ารุ่นพี่ลืมกระเป๋าสตางค์น่ะค่ะ
   character: akari
+- cg: cg_EP2_Lin_Akari
+- hide_msg: true
+- delay: 5
+- cg: empty
 - msg: เอ๋!?..จริงด้วยขอบใจนะ Akari ช่วยได้มากเลย
   character: lín
 - msg: ไม่เป็นไรค่ะรุ่นพี่  Lín
@@ -407,16 +426,15 @@
   character: akari
 - msg: '*จากนั้น Lín ก็สั่งน้ำอีกแก้วตามที่ Akari อยากได้ *'
   character: lín
-- image: mcg_Blackscreen
 - msg: แก้วนี้ราคา 130 บาทนะคะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
-- msg: <size=28>พะ..แพงเวอร์!!</size>
+- msg: <size=80>พะ..แพงเวอร์!!</size>
   character: akari
-- delay: 2
-- image: empty
 - msg: สบายมาก~ๆ ตายละใกล้ถึงเวลาแล้วหนิ!?..พี่ต้องไปแล้วล่ะ Akari ไว้เจอกันนะ!
   character: lín
+- character: empty
+  position: center
 - msg: ค...ค่ะ
   character: akari
 - msg: รุ่นพี่ Lín เขารีบไปไหนกันนะ…พี่คะนี้กาแฟของพี่ค่ะ
@@ -431,14 +449,24 @@
   character: akari
 - msg: เอาเป็นว่า พวกเรามากินกันดีกว่า
   character: minato
+- character: empty
+  position: right
+- character: empty
+  position: left
 - msg: >-
     หลังจากนั้น Akari กับ Minato
     ก็ได้ดื่มด่ำกับเครื่องดื่มแล้วก็พูดคุยอะไรกันนิดหน่อย
   character: narrator
 - background: BG_in_University
   label: EP2.0_v3(Akari)_lb_6
+- character: minato
+  position: left
+  act: Normal
 - msg: ยังเหลือเวลาอีกนิดหน่อยก่อนที่จะเข้าเรียนคาบแรกนะ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: ถ้างั้นพวกเราก็เตรียมตัวกันเลยดีกว่า
   character: akari
 - msg: >-
@@ -487,6 +515,9 @@
   character: minato
 - msg: ขะ..ขนาดนั้นเลยหรอเนี้ยไม่เคยเห็นพี่ทำหน้าแบบนี้มาก่อนเลยแหะ
   character: akari
+- character: nightrose
+  position: right
+  act: idle
 - msg: เอ๋?! คุณ Minato กับ Akari จังงั้นหรอ!? (สีหน้าตกใจ)
   character: nightrose
 - msg: >-
@@ -528,6 +559,9 @@
   override_name: อาจารย์ (ครัว)
 - msg: จู่ๆในตอนนั้นเอง ก็ได้มีนักศึกษาสาวคนนึงเดินเข้ามาแบบไม่มีปี่มีขลุ่ย
   character: narrator
+- character: lín
+  position: right
+  act: idle
 - msg: >-
     ขอโทษนะคะที่มาช้า~ 
     อรุณสวัสดิ์นะคะครูเจน~พอดีว่าหนูติดธุระของคณะนิดหน่อยน่ะค่ะ~
@@ -543,6 +577,9 @@
     อืมใช่แล้วล่ะ แต่เห็นว่าเป็นรุ่นพี่ไม่ใช่หรอทำไมถึงมาอยู่ห้องเรียนของเด็กปี
     1 ได้ล่ะ!?
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: คุณ Minato รู้จัก ผญ คนนั้นหรอคะ?
   character: nightrose
 - msg: อืม.. พี่กับAkariเจอกับรุ่นพี่คนนั้นที่คาเฟ่เมื่อเช้าน่ะ
@@ -550,6 +587,9 @@
 - msg: Lín...วันนี้เธอต้องไปเรียนที่ห้องคณะไม่ใช่หรือไง
   character: professor
   override_name: อาจารย์ (ครัว)
+- character: lín
+  position: right
+  act: idle
 - msg: >-
     ก็หนูเบื่อห้องครัวในคณะแล้วหนิคะ อีกอย่างหนูเป็นถึงหัวหน้าคณะคหกรรม
     หนูจะใช้ห้องเองหรือไปเข้าคลาสอื่นแทนก็ไม่ใช่ปัญหาหรอกคะ 
@@ -573,6 +613,9 @@
   character: narrator
 - msg: ดูเป็นคนที่น่าจะรักการทำอาหารสุดๆเลยนะ
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: >-
     ก็จากชื่อเสียงที่ได้ยินมา
     เธอเป็นไม่กี่คนที่เคยถูกขอตัวไปเป็นเซฟทำอาหารในงานระดับชาติมาแล้วด้วยละคะ 
@@ -594,6 +637,9 @@
     ครูก็ขอฝากให้คำปรึกษารุ่นน้องในห้องด้วยละกันนะ
   character: professor
   override_name: อาจารย์ (ครัว)
+- character: lín
+  position: right
+  act: idle
 - msg: ได้เลยค่าจารย์~
   character: lín
 - msg: >-
@@ -616,6 +662,9 @@
   character: akari
 - msg: ให้ตายสิ…ยัยคนนี้ (สีหน้าเป็นห่วง)
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: Akari จังทำอาหารไม่เป็นงั้นหรอคะรุ่นพี่ Minato? *หน้าสงสัย*
   character: nightrose
 - msg: อืม ใช่แล้วละปกติพี่ก็จะเป็นคนทำให้น้องกินนะ (สีหน้าปกติ)
@@ -653,6 +702,9 @@
     อย่าพูดแบบนั้นสินักเรียนถึงแม้จะเป็นจานที่ง่ายแต่ก็มีเชฟชั้นนำหลายคนพลาดมาแล้วแม้แต่กับ
     Lín คนเก่งของคณะเองก็ตามก็เคยพลาดมาแล้วเช่นกัน
   character: professor
+- character: lín
+  position: right
+  act: idle
 - msg: >-
     โธ่จารย์ อย่าเอาเรื่องตอนปีหนึ่งมาเล่าสิคะ
     ถ้างั้นเดี๋ยวพี่จะเล่าที่มาของข้าวพัดให้ฟังนะ
@@ -690,6 +742,9 @@
     จะเริ่มตรงไหนก่อนดีละเนี่ย คิดไว้แค่ว่าถ้าอยู่กับพี่ ก็จะได้ให้พี่แบกแท้ๆ
     (สีหน้ามึนงง)
   character: akari
+- character: nightrose
+  position: right
+  act: idle
 - msg: >-
     อันนี้… และก็อันนี้ โอ๊ะ! อันนี้ด้วย~~ *หยิบวัตถุดิบมาตามที่ต้องการ*
     (สีหน้าปกติพูด)
@@ -840,6 +895,9 @@
   character: minato
 - msg: เอ่อ… แตกต่างจากพี่ชายลิบลับเลยแฮะ *ยิ่มพร้อมขำแห้ง*
   character: nightrose
+- character: lín
+  position: right
+  act: idle
 - msg: เสร็จแล้วค่า~~
   character: lín
 - msg: >-
@@ -878,6 +936,9 @@
     เป็นข้าวที่ดูมีทั้งความกรอบนิดหน่อยและความนุ่มในเวลาเดียวกัน
     ดูไม่แฉะจนเกินไปเพราะผัดในไฟแรงและมีกลิ่นที่หอมสุดๆ
   character: narrator
+- character: nightrose
+  position: right
+  act: idle
 - msg: ว้าว~~ น่ากินจังเลยนะคะรุ่นพี่ กลิ่นก็หอมมากด้วย
   character: nightrose
 - msg: งั้นหรอ… ของเธอก็ดูดีเลยนะ
@@ -888,9 +949,10 @@
   character: nightrose
 - msg: เอาสิ เพราะฉันคงไม่กล้าชิมของ Akari แน่ๆ *ชำเลืองมองไปที่ Akari*
   character: minato
-- image: mcg_Blackscreen
+- image: mcg_DarkMatterFriedRice
 - msg: '*ข้าวผัดในกระทะดำมืดราวกับ Dark Matter ไม่ก็หลุดมาจากมิติ Lovecraft*'
   character: narrator
+- image: empty
 - msg: ทำไม… มันมืดมิดเหมือนอนาคตหนูเลยละเนี่ย…พูดแล้วก็เศร้า
   character: akari
 - msg: นั่นอะไรน่ะเห้ย!? ดำมืดจัดๆเลยอะ!?
@@ -934,12 +996,18 @@
   character: nightrose
 - msg: งั้นก็ได้เลย เดียวตักให้อีกคำนะ
   character: minato
+- character: lín
+  position: center
+  act: idle
 - msg: นี่ ของพวกเธอเองก็น่ากินดีนะเนี่ย
   character: lín
 - msg: >-
     ทันใดนั้นเอง Lín ก็ได้เดินเข้ามาหา Minato และ Nightrose
     ด้วยความสนใจในข้าวผัดของทั้งคู่
   character: narrator
+- character: nightrose
+  position: right
+  act: idle
 - msg: 'อะ-เอ๊ะ!? รุ่นพี่ Lín '
   character: nightrose
 - msg: เรียกแค่คุณ Lín เฉยๆก็ได้จ้า นี่ถ้าไม่ว่าอะไร ขอชิมในช้อนนั่นได้มัย?
@@ -987,14 +1055,23 @@
   character: minato
 - msg: Akari จัง!? (สีหน้าตกใจ)
   character: nightrose
-- image: mcg_Blackscreen
+- image: mcg_DarkMatterFriedRice
+- character: akari
+  position: center
+  act: Haru
 - msg: >-
     *ชิมข้าวผัดตัวเองแล้วหน้าฟุบโต๊ะไปเลย* เอ่อ…
     รู้สึกว่าท้องฉันมันเริ่มร้องไงก็รู้อ่า…
   character: akari
 - image: empty
+- character: lín
+  position: left
+  act: idle
 - msg: อาจารย์ค่า! มีคนกำลังจะตายเพราะข้าวผัดสูตร Lovecraft แล้วละคะ!!!
   character: lín
+- character: minato
+  position: right
+  act: Normal
 - msg: แย่ละสิ! Akari ไหวหรือป่าว!! (สีหน้าตกใจ)
   character: minato
 - msg: 'เห็นสภาพงี้คงไหวมั้งพี่…จะอ้วกแล้ว '
@@ -1004,6 +1081,9 @@
   override_name: อาจารย์ (ครัว)
 - msg: ครับ! Akari ทำใจดีๆนะ! *แบก Akari ไปที่ตึกพยาบาล*
   character: minato
+- character: nightrose
+  position: left
+  act: idle
 - msg: Akari จังทนหน่อยนะ! *ช่วย Minato แบก Akari ไปที่ตึกพยาบาล* (สีหน้าเป็นห่วง)
   character: nightrose
 - msg: ทำไมเหมือนเห็นยมโลกเลยนะ รู้สึกข้างหน้าทำไมมันร้อนๆ
@@ -1017,6 +1097,9 @@
 - msg: คุณ Lín เดียวผมกลับมานะครับ!/รุ่นพี่ Lín เดี๋ยวพวกหนูกลับมานะคะ!
   character: me
   override_name: Minato/Nightrose
+- character: lín
+  position: left
+  act: idle
 - msg: ได้เลยจ้ะ ขอให้ไม่เป็นไรมากนะ
   character: lín
 - msg: >-
@@ -1027,12 +1110,17 @@
     คาดไม่ถึงเลยแหะว่าจะมีคนทำอาหารแบบนี้ได้จริงๆด้วยน่ะ
     นี่มันอาหารจากมิติมืดชัดๆ *มองลงไปที่ข้างผัด Dark Matter ของ Akari*
   character: lín
+- character: empty
+  position: left
 - msg: —ผ่านไป 20 นาที ยาวจนหมดคาบทำอาหาร—
   character: narrator
 - background: bg_nurse's_room
 - msg: '*เดินออกมาจากห้องตรวจ*'
   character: man03
   override_name: หมอ
+- character: minato
+  position: select position
+  act: Normal
 - msg: หมอครับน้องสาวผมเป็นอะไรมากไหมครับ..
   character: minato
 - msg: >-
@@ -1042,6 +1130,9 @@
   override_name: หมอ
 - msg: โล่งอกไปที~
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: ดีจังเลยนะคะที่ Akari จังปลอดภัยดี (สีหน้ายิ้ม)
   character: nightrose
 - msg: 'ชอบทำให้เป็นห่วงอยู่เรื่อยเลยยัยน้องคนนี้เนี้ย… '
@@ -1108,6 +1199,9 @@
   character: nightrose
 - msg: ตอนนั้นเองที่ก็มีคนเดินมาหาพวกเขา
   character: narrator
+- character: lín
+  position: left
+  act: idle
 - msg: คุยกันสนุกเลยนะ ทั้งสองคน~
   character: lín
 - msg: เอ๊ะ คุณ Lín?
@@ -1146,6 +1240,9 @@
   character: nightrose
 - msg: (จู่ๆ ประตูห้องพยาบาลก็เปิดออกมา)
   character: narrator
+- character: akari
+  position: left
+  act: Normal
 - msg: พี่คะ… ยังอยู่ใช่มั้ยค่า…
   character: akari
 - msg: เหวอ!? Akari เธอหายดีแล้วเหรอ?
@@ -1156,6 +1253,9 @@
   character: akari
 - msg: มะ– ไม่เป็นไรจ้ะ Akari จังไม่เป็นไรมากก็ดีแล้วละ
   character: nightrose
+- character: lín
+  position: left
+  act: idle
 - msg: สภาพดูยังไม่ค่อยดีเลยน่ะนั่น แน่ใจหรอว่าไหวน่ะ?
   character: lín
 - msg: ก็พอ… ไหวอยู่นะคะ
@@ -1180,6 +1280,12 @@
   override_name: Minato/Akari/Nightrose
 - msg: ' Lín ได้เดินจากพวกเขาไปในที่สุด'
   character: narrator
+- character: minato
+  position: left
+  act: Normal
+- character: akari
+  position: center
+  act: Normal
 - msg: จากนี้ เธอก็คงมีเรียนต่อเหมือนกันสินะ
   character: minato
 - msg: ค่ะ แต่… ไม่ได้เป็นวิชาเดียวกับรุ่นพี่นะคะ (สีหน้าปกติ)
@@ -1206,6 +1312,10 @@
   character: akari
 - msg: อันนี้คือการปลุกพี่ชายจริงๆ ใช่ไหมเนี้ยทำไมมันดูโหดร้ายอย่างงี้
   character: minato
+- character: empty
+  position: left
+- character: empty
+  position: center
 - msg: ทั้ง Minato และ Akari ทั้ง2พี่น้องได้เดินจากไป
   character: narrator
 - msg: หืม… *จ้องมองไปที่โทรศัพท์ตัวเอง* (สีหน้ายิ้ม)

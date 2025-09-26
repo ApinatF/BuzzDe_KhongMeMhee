@@ -5,6 +5,7 @@ akari
 default-default
 grandfather-idle
 lucien-idle
+lín-idle
 man01-idle
 man01_v01-idle - Copy
 man02-idle

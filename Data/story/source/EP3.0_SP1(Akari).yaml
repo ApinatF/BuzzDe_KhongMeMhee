@@ -150,6 +150,7 @@
   character: akari
 - msg: ประตูรถเมย์ได้เปิดขึ้นทุกคนเข้าไปกันอย่างแออัด
   character: narrator
+- background: bg_bus8
 - msg: ในตอนนี้ประตูกำลังจะปิดภายใน 5 วินาทีครับ
   character: man03
   override_name: คนขับรถเมย์
@@ -166,6 +167,7 @@
   character: akari
 - msg: ในตอนนั้นมือของแทนก็ดึงตัวของ Akari เข้ามาหาตัวเองทำให้ Akari ไม่ตกรถ
   character: narrator
+- music: bgm_Your_Love_Is_Home
 - msg: 'เกือบได้ตกรถแล้วนะ Akari '
   character: tan
 - character: akari
@@ -209,6 +211,7 @@
   character: narrator
 - character: empty
   position: right
+- background: bg_nifront_wut
 - msg: '*จากนั้น Akari ก็ลงจากรถบัสแล้วกลับมาที่บ้าน*'
   character: akari
 - msg: จบบทพิเศษสำหรับคนเล่น Akari

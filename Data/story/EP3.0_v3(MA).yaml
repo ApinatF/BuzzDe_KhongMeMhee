@@ -356,6 +356,7 @@
 - msg: >-
     หลัง|จาก|นั้น|ก็|กลับ|ไป|มอง|หน้า|จอ|เกม|พร้อม|แสดง|สีหน้า|ตกใจ|แบบ|สุด|แรง|เกิด
   character: narrator
+- sound: sv_Censor
 - msg: อ่าว|!|@#$|@#$|@# ลืม|กด|หยุด|เกม นึก|ว่าก|ดห|ยุ|ดไ|ปเ|เล้ว…|เวรกรรม|!
   character: minato
 - msg: ว้ายๆๆๆ  เพราะ|พี|่มั|วเ|เต่เ|เนะ|เรื่อ|งเ|เปลกๆอะไร|ก็|ไม่|รู้|ให้|ไป|อ่าน
@@ -437,6 +438,7 @@
     (|นอก|บ้าน|ซัก|ซอย|)
   character: narrator
   label: EP3.0_v3(MA)_lb_10
+- background: bg_nifront_wut
 - msg: 'พี่|คะ|.|. '
   character: akari
 - msg: หืม?|มี|อะไร|หรอ Akari
@@ -482,7 +484,7 @@
   character: minato
 - msg: Minato กับ Akari วิ่ง|แข่ง|จน|มา|ถึง|หน้า|ร้าน|สะดวก|ซื้อ|และ|ผล|คือ…
   character: narrator
-- background: bg_Blackscreen
+- background: bg_convenience_store_infront
 - sound: sv_Ding
 - msg: เสียง|ประตู|อัตโนมัติ
   character: narrator
@@ -504,6 +506,7 @@
 - sound: sv_Ding
 - msg: เสียง ต้อนรับ|คน|เข้า|ร้าน ดัง|ขึ้น|เมื่อ|ทั้ง|คู่|เข้า|ไป
   character: narrator
+- background: bg_convenience_store_shelf
 - msg: นี้|นะ|หรอ|ร้าน|สะดวก|ซื้อ|ของ|ประเทศ|ไทย *|มอง|รอบๆ*
   character: minato
 - msg: ดู|ดี|มาก|เลย|นะ|คะ|พี่ *|มอ|งไปทั่|ว*
@@ -565,6 +568,7 @@
   character: akari
 - msg: '*|เดิน|ไป|ที่|เคาน์|เตอร์* พี่|ครับ|คิด|เงิน|ด้วย'
   character: minato
+- background: bg_convenience_store_cashier
 - msg: ได้|ครับ|รอ|สัก|ครู่|นะ|ครับ *รั|บตร|ะก|ร้า|มา|คิดตั|ง*
   character: man03
   override_name: 'พนักงานคิดตัง '
@@ -600,6 +604,9 @@
   character: minato
 - msg: เสียง|จาก|พนักงาน|คน|นั้น|ดัง|ขึ้น|พร้อม|เงย|หน้า|ขึ้น
   character: narrator
+- character: tan
+  position: right
+  act: idle
 - msg: เออ พี่|ครับ|เอา|ของ|ไว้|ตรง|นี้|ใช่|ไหม|ครับ
   character: tan
 - msg: 'อา|.|.|แล้ว|ก็|อย่า|ให้|สินค้า|เสียหาย|ละ|ไม่|งั้น|ผู้จัดการ|เอา|เรื่อง|แน่ '
@@ -616,19 +623,11 @@
   character: akari
 - msg: อ่าา…|.|ใช่|แหละ มั้ง|หน้า|เอ๋อๆ มี|คน|เดียว|นะ|Akari
   character: minato
-- goto:
-    - EP3.0_v3(MA)_lb_11 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_12
-- msg: 'นั้น|มัน|ไอ|แทน|นี้|หว่า|!|! '
-  character: minato
-  label: EP3.0_v3(MA)_lb_11
-- goto: EP3.0_v3(MA)_lb_13
-- msg: นั้น|พี่|แทน|นี้|นา|!|!
-  character: akari
-  label: EP3.0_v3(MA)_lb_12
+- msg: นั้น|มัน|ไอ|แทน|นี้|หว่า|!|!|/|นั้น|พี่|แทน|นี้|นา|!|!
+  character: me
+  override_name: Minato/Akari
 - msg: เอ๋|?
   character: tan
-  label: EP3.0_v3(MA)_lb_13
 - msg: เสียง|นั้น  Akari จัง|กับ Minato ห|นิ|?|!
   character: tan
 - msg: พี่|แทน|มา|ทำ|อะไร|ที่|นี้|เนี้ย *|วิ่ง|ไป|หา*
@@ -651,7 +650,7 @@
   character: minato
 - msg: แล้ว|จะ|รอ|นะ|คะ|พี่|แทน *|เดิน|ตาม Minat|o*
   character: akari
-- background: garden
+- background: bg_garden
 - msg: หลัง|จาก|นั้น|แทน|ก็|ทำงาน|เสร็จ|แล้ว|ออก|มา|เจอ|กับ Minato และ Akari
   character: narrator
 - msg: มา|แล้วๆรอ|นาน|หรือ|เปล่า งาน|วัน|นี้|หนัก|สุดๆไป|เลย
@@ -687,6 +686,8 @@
   character: akari
 - msg: '* รี|บวื่ง|ไป|ทันที *'
   character: minato
+- character: empty
+  position: left
 - msg: จะ|เป็น|อะไร|ไหม|นะ|พี่|เนี้ย
   character: akari
 - msg: ไม่|เป็นไร|หรอ|กห|น่า|เชื่อ|พี่|สิ (|หน้า|อธิบาย|)
@@ -702,11 +703,18 @@
 - msg: ฮึ|~
   character: akari
 - goto:
-    - EP3.0_v3(MA)_lb_14 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_15
+    - EP3.0_v3(MA)_lb_11 if var_minato >= 8
+    - EP3.0_v3(MA)_lb_12
+- character: empty
+  position: center
+  label: EP3.0_v3(MA)_lb_11
+- character: empty
+  position: right
+- character: minato
+  position: left
+  act: Bemused
 - msg: สวน|อยู่|ตรง|ไหน|น่าาๆ
   character: minato
-  label: EP3.0_v3(MA)_lb_14
 - msg: ใช่|ตรง|นั้น|ป่าว|นะ *|เห็น|เครื่องเล่น|เด็ก|และ|ห้อง|เล็กๆที่|มี|ไฟ|ติ|ด*
   character: minato
 - msg: นั้น|ไง|!|!
@@ -729,10 +737,16 @@
   character: narrator
 - msg: 'Akari พี่|กลับ|มา|แล้|วว '
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
   character: akari
 - msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
   character: minato
+- character: minato
+  position: right
+  act: Normal
 - msg: ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o*  (|สีหน้า|ปกติ|พูด|)
   character: tan
 - msg: >-
@@ -760,14 +774,16 @@
   character: akari
 - msg: อืมม|เจอ|กัน|นะ|ทั้ง 2 คน (|สีหน้า|ยิ้ม|)
   character: tan
+- character: empty
+  position: right
 - msg: '*|หัน|หลัง|เดิน|กลับ|บ้าน|พร้อม|จูง|มือ Akari ด้ว|ย*'
   character: minato
 - msg: '*|ตาม Minato ไป|พร้อม|หัน|มา|ยิ้ม|ใส่|แทน|แล้|วหั|นก|ลั|บ*'
   character: akari
-- goto: EP3.0_v3(MA)_lb_18
+- goto: EP3.0_v3(MA)_lb_14
 - msg: เหนื่อย|แย่|เลย|นะ|คะ|พี่|แทน
   character: akari
-  label: EP3.0_v3(MA)_lb_15
+  label: EP3.0_v3(MA)_lb_12
 - msg: โอ้|ยย|แค่|นี้|เอง|ไม่|มี|ปัญหา|หรอก (|หน้า|ปกติ|)
   character: tan
 - msg: พี่|แทน|เหงื่อ|พี่|เยอะ|มาก|เลย|นะ|คะ *|สังเกต|เห็น|เหงื่|อ*
@@ -793,7 +809,7 @@
       msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
       update:
         - rp_tan_akari += 10
-      goto: EP3.0_v3(MA)_lb_16
+      goto: EP3.0_v3(MA)_lb_13
   character: me
   state: EP3.0_v3(MA)_st_2
 - msg: พี่|แทน|คะ
@@ -913,10 +929,60 @@
   character: akari
 - msg: อ|ะ…|อืม (|สีหน้า|ปกติ|)
   character: tan
-- goto: EP3.0_v3(MA)_lb_17
+- msg: เวลา|ผ่าน|ไป|ไม่|นาน
+  character: narrator
+- character: minato
+  position: left
+  act: Normal
+- msg: 'Akari พี่|กลับ|มา|แล้|วว '
+  character: minato
+- character: akari
+  position: center
+  act: happy
+- msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
+  character: akari
+- msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
+  character: minato
+- character: minato
+  position: right
+  act: Normal
+- msg: ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o*  (|สีหน้า|ปกติ|พูด|)
+  character: tan
+- msg: >-
+    เป็น|อย่าง|งี้|นี้|เอง|ขอบใจ|นะ|ไอ|แทน|ที่|ช่วย|น้อง|สาว|ของ|ฉัน|ไว้|คน|เป็น|พี่|อย่าง|ฉัน|ขอ|ขอบคุณ|สุด|ใจ|เลย
+    *|ก้ม|ตัว|ขอบคุณ|แทน*
+  character: minato
+- msg: ไม่|เอาห|น่า Minato ฉัน|เกร็ง|ไป|หมด|แล้ว|นะ
+  character: tan
+- msg: >-
+    พี่|แทน|ช่วย|หนู|ไว้|นะ|คะ|รับ|คำ|ขอบคุณ|จาก|พี่|เถอะ|ค่ะ|ถ้า|พี่|แทน|รับ|คำ|ขอบคุณ|หนู|ก็|สบายใจ|แล้ว
+  character: akari
+- msg: >-
+    อะ|.|.|อา|เค|ก็|ได้|ฉัน|จะ|รับ|คำ|ขอบคุณ|นั้น|ไว้|ละ|กัน|ว่า|แต่|ไม่|ใช่|ว่า|พวก|เธอ
+    2
+    คน|ต้อง|รีบ|กลับ|หรอก|หรอ|นี้|ก็|ดึก|มาก|แล้ว|นะ|พรุ่งนี้|มี|คาบ|ทำ|อาหาร|ด้ว|ยห|นิ
+    (|สีหน้า|ยิ้ม|)
+  character: tan
+- msg: อะ|!|?|! จริง|ด้วย Akari เรา|รีบ|กลับ|กัน|ดี|กว่า
+  character: minato
+- msg: ได้|ค่ะ|พี่
+  character: akari
+- msg: ถ้า|งั้น|แทน|เจอ|กัน|พรุ่งนี้|นะ
+  character: minato
+- msg: เจอ|กัน|นะ|คะ|พี่|แทน
+  character: akari
+- msg: อืมม|เจอ|กัน|นะ|ทั้ง 2 คน (|สีหน้า|ยิ้ม|)
+  character: tan
+- character: empty
+  position: right
+- msg: '*|หัน|หลัง|เดิน|กลับ|บ้าน|พร้อม|จูง|มือ Akari ด้ว|ย*'
+  character: minato
+- msg: '*|ตาม Minato ไป|พร้อม|หัน|มา|ยิ้ม|ใส่|แทน|แล้|วหั|นก|ลั|บ*'
+  character: akari
+- goto: EP3.0_v3(MA)_lb_14
 - msg: พี่|แทน|คะ
   character: akari
-  label: EP3.0_v3(MA)_lb_16
+  label: EP3.0_v3(MA)_lb_13
 - msg: มี|ไร|หรอ Akari (|สีหน้า|ปกติ|)
   character: tan
 - msg: พี่|แทน|ช่วย|ยื่น|หน้า|มา|หน่อย|ได้|ไหม|ครับ
@@ -957,7 +1023,6 @@
   character: tan
 - msg: ใน|ระหว่าง|ที่|พูด|คุย|กัน|ก็|มี|กลุ่ม|วัน|รุ่น|คน|นึง|เดิน|เข้า|มา
   character: narrator
-  label: EP3.0_v3(MA)_lb_17
 - msg: พวก|วัน|นี้|กิน|ไร|ดี|วะ
   character: man02
   override_name: อัลตพาล 1
@@ -1191,8 +1256,12 @@
   character: akari
 - msg: เจอ|กัน|นะ Akari Minato (|สีหน้า|ยิ้ม|)
   character: tan
-- msg: 'อาา|เจอ|กัน|แทน *|Minato กับ Akari เดิน|กลับ|บ้าน|อย่าง|ปลอดภัย '
+- msg: อาา|เจอ|กัน|แทน *|Minato กับ Akari เดิน|กลับ|บ้าน|อย่า|งปลอ|ดภั|ย*
   character: minato
+- character: empty
+  position: left
+- character: empty
+  position: center
 - msg: >-
     ว่า|แต่|ให้|ไร|มานะ * แบ|มือ|ออก|มา|เป็น|ผ้าเช็ดหน้า|ของ Akari *
     (|สีหน้า|สงสัย|)
@@ -1214,12 +1283,20 @@
     ใส่|กระเป๋า|เสื้อ|คู่|กับ|ผ้า|ของ|ตัว|เอ|ง* (|สีหน้า|ยิ้ม|)
   character: tan
 - music: bgm_Your_Love_Is_Home
-  label: EP3.0_v3(MA)_lb_18
+  label: EP3.0_v3(MA)_lb_14
 - background: bg_living_room_yamada
+- character: empty
+  position: right
 - msg: หลัง|จาก|กลับ|มา|จาก|ไป|ซื้อ|ของ|เสร็จ|แล้ว ก็|กลับ|บ้าน|มา
   character: narrator
+- character: akari
+  position: center
+  act: Normal
 - msg: พี่|ค่ะ น้อง|ขอ|น้ำส้ม หน่อ|ยยยยย
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: เอา|นี้ๆๆ น้ำส้มๆ
   character: minato
 - msg: >-

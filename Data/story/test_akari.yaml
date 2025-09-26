@@ -5,45 +5,33 @@
 - msg: idle
   character: akari
 - delay: 1
-- character: akari
+- character: lín
   position: center
-  act: angry
-- msg: angry
-  character: akari
-- delay: 1
-- character: akari
+  act: idle
+- character: grandfather
+  position: left
+  act: idle
+- character: lucien
+  position: right
+  act: idle
+- msg: "你好|\t|nǐ hǎ|o|\t|หนี|ห่าว"
+  character: lín
+- delay: 3
+- character: man01
   position: center
-  act: happy
-- msg: happy
-  character: akari
-- delay: 1
-- character: akari
-  position: center
-  act: Haru
-- msg: Haru
-  character: akari
-- delay: 1
-- character: akari
-  position: center
-  act: Normal
-- msg: Normal
-  character: akari
-- delay: 1
-- character: akari
-  position: center
-  act: sad
-- msg: sad
-  character: akari
-- delay: 1
-- character: akari
-  position: center
-  act: Shy
-- msg: Shy
-  character: akari
-- delay: 1
-- character: akari
-  position: center
-  act: surprised
-- msg: surprised
-  character: akari
-- delay: 1
+  act: gangster
+- character: man02
+  position: left
+  act: gangster
+- character: man03
+  position: right
+  act: gangster
+- msg: เหนือ|ฟ้า
+  character: man03
+  override_name: อัลตพาล 2
+- msg: ใต้|หล้า
+  character: man02
+  override_name: อัลตพาล 1
+- msg: ข้า|นอน|น้อย|สุด
+  character: man01
+  override_name: หัวหน้าอัลตพาล

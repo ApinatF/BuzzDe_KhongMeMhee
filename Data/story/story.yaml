@@ -3,7 +3,7 @@
   title: EP1 วันแรกในมหาลัย
   prologue: true
 - goto:
-    - EP2.0_v3(Minato) if var_minato >= 1
+    - EP2.0_v3(Minato) if var_minato >= 5
     - EP2.0_v3(Akari)
 - novel: EP2.0_v3(Minato)
   label: EP2.0_v3(Minato)
@@ -22,7 +22,7 @@
     type: ticket
     value: 1
 - goto:
-    - test_minato if var_minato >= 1
+    - test_minato if var_minato >= 5
     - test_akari
 - novel: test_minato
   label: test_minato

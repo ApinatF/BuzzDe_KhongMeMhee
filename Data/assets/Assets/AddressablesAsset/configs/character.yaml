@@ -73,6 +73,7 @@
   name: man03
   action:
     - idle
+    - gangster
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: man02
@@ -80,6 +81,7 @@
   name: คนรอบข้าง
   action:
     - idle
+    - gangster
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: man01
@@ -87,6 +89,7 @@
   name: พี่ปฐมนิเทศ
   action:
     - idle
+    - gangster
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: professor

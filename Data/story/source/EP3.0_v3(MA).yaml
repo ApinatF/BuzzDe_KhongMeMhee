@@ -339,6 +339,7 @@
   character: minato
 - msg: หลังจากนั้นก็กลับไปมองหน้าจอเกมพร้อมแสดงสีหน้าตกใจแบบสุดแรงเกิด
   character: narrator
+- sound: sv_Censor
 - msg: อ่าว!@#$@#$@# ลืมกดหยุดเกม นึกว่ากดหยุดไปเเล้ว…เวรกรรม!
   character: minato
 - msg: ว้ายๆๆๆ  เพราะพี่มัวเเต่เเนะเรื่องเเปลกๆอะไรก็ไม่รู้ให้ไปอ่าน
@@ -418,6 +419,7 @@
     (นอกบ้านซักซอย)
   character: narrator
   label: EP3.0_v3(MA)_lb_10
+- background: bg_nifront_wut
 - msg: 'พี่คะ.. '
   character: akari
 - msg: หืม?มีอะไรหรอ Akari
@@ -460,7 +462,7 @@
   character: minato
 - msg: Minato กับ Akari วิ่งแข่งจนมาถึงหน้าร้านสะดวกซื้อและผลคือ…
   character: narrator
-- background: bg_Blackscreen
+- background: bg_convenience_store_infront
 - sound: sv_Ding
 - msg: เสียงประตูอัตโนมัติ
   character: narrator
@@ -481,6 +483,7 @@
 - sound: sv_Ding
 - msg: เสียง ต้อนรับคนเข้าร้าน ดังขึ้นเมื่อทั้งคู่เข้าไป
   character: narrator
+- background: bg_convenience_store_shelf
 - msg: นี้นะหรอร้านสะดวกซื้อของประเทศไทย *มองรอบๆ*
   character: minato
 - msg: ดูดีมากเลยนะคะพี่ *มองไปทั่ว*
@@ -539,6 +542,7 @@
   character: akari
 - msg: '*เดินไปที่เคาน์เตอร์* พี่ครับคิดเงินด้วย'
   character: minato
+- background: bg_convenience_store_cashier
 - msg: ได้ครับรอสักครู่นะครับ *รับตระกร้ามาคิดตัง*
   character: man03
   override_name: 'พนักงานคิดตัง '
@@ -572,6 +576,9 @@
   character: minato
 - msg: เสียงจากพนักงานคนนั้นดังขึ้นพร้อมเงยหน้าขึ้น
   character: narrator
+- character: tan
+  position: right
+  act: idle
 - msg: เออ พี่ครับเอาของไว้ตรงนี้ใช่ไหมครับ
   character: tan
 - msg: 'อา..แล้วก็อย่าให้สินค้าเสียหายละไม่งั้นผู้จัดการเอาเรื่องแน่ '
@@ -588,19 +595,11 @@
   character: akari
 - msg: อ่าา….ใช่แหละ มั้งหน้าเอ๋อๆ มีคนเดียวนะAkari
   character: minato
-- goto:
-    - EP3.0_v3(MA)_lb_11 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_12
-- msg: 'นั้นมันไอแทนนี้หว่า!! '
-  character: minato
-  label: EP3.0_v3(MA)_lb_11
-- goto: EP3.0_v3(MA)_lb_13
-- msg: นั้นพี่แทนนี้นา!!
-  character: akari
-  label: EP3.0_v3(MA)_lb_12
+- msg: นั้นมันไอแทนนี้หว่า!!/นั้นพี่แทนนี้นา!!
+  character: me
+  override_name: Minato/Akari
 - msg: เอ๋?
   character: tan
-  label: EP3.0_v3(MA)_lb_13
 - msg: เสียงนั้น  Akari จังกับ Minato หนิ?!
   character: tan
 - msg: พี่แทนมาทำอะไรที่นี้เนี้ย *วิ่งไปหา*
@@ -623,7 +622,7 @@
   character: minato
 - msg: แล้วจะรอนะคะพี่แทน *เดินตาม Minato*
   character: akari
-- background: garden
+- background: bg_garden
 - msg: หลังจากนั้นแทนก็ทำงานเสร็จแล้วออกมาเจอกับ Minato และ Akari
   character: narrator
 - msg: มาแล้วๆรอนานหรือเปล่า งานวันนี้หนักสุดๆไปเลย
@@ -659,6 +658,8 @@
   character: akari
 - msg: '* รีบวื่งไปทันที *'
   character: minato
+- character: empty
+  position: left
 - msg: จะเป็นอะไรไหมนะพี่เนี้ย
   character: akari
 - msg: ไม่เป็นไรหรอกหน่าเชื่อพี่สิ (หน้าอธิบาย)
@@ -674,11 +675,18 @@
 - msg: ฮึ~
   character: akari
 - goto:
-    - EP3.0_v3(MA)_lb_14 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_15
+    - EP3.0_v3(MA)_lb_11 if var_minato >= 8
+    - EP3.0_v3(MA)_lb_12
+- character: empty
+  position: center
+  label: EP3.0_v3(MA)_lb_11
+- character: empty
+  position: right
+- character: minato
+  position: left
+  act: Bemused
 - msg: สวนอยู่ตรงไหนน่าาๆ
   character: minato
-  label: EP3.0_v3(MA)_lb_14
 - msg: ใช่ตรงนั้นป่าวนะ *เห็นเครื่องเล่นเด็กและห้องเล็กๆที่มีไฟติด*
   character: minato
 - msg: นั้นไง!!
@@ -701,10 +709,16 @@
   character: narrator
 - msg: 'Akari พี่กลับมาแล้วว '
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: พี่คะ!! * วิ่งเข้าไปกอดทันที *
   character: akari
 - msg: A..Akari นี้แทนมันเกิดอะไรขึ้นนะตอนฉันไม่อยู่
   character: minato
+- character: minato
+  position: right
+  act: Normal
 - msg: ก็แบบว่า… *แทนเล่าเรื่องที่เกิดให้ Minato*  (สีหน้าปกติพูด)
   character: tan
 - msg: >-
@@ -731,14 +745,16 @@
   character: akari
 - msg: อืมมเจอกันนะทั้ง 2 คน (สีหน้ายิ้ม)
   character: tan
+- character: empty
+  position: right
 - msg: '*หันหลังเดินกลับบ้านพร้อมจูงมือ Akari ด้วย*'
   character: minato
 - msg: '*ตาม Minato ไปพร้อมหันมายิ้มใส่แทนแล้วหันกลับ*'
   character: akari
-- goto: EP3.0_v3(MA)_lb_18
+- goto: EP3.0_v3(MA)_lb_14
 - msg: เหนื่อยแย่เลยนะคะพี่แทน
   character: akari
-  label: EP3.0_v3(MA)_lb_15
+  label: EP3.0_v3(MA)_lb_12
 - msg: โอ้ยยแค่นี้เองไม่มีปัญหาหรอก (หน้าปกติ)
   character: tan
 - msg: พี่แทนเหงื่อพี่เยอะมากเลยนะคะ *สังเกตเห็นเหงื่อ*
@@ -762,7 +778,7 @@
       msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
       update:
         - rp_tan_akari += 10
-      goto: EP3.0_v3(MA)_lb_16
+      goto: EP3.0_v3(MA)_lb_13
   character: me
   state: EP3.0_v3(MA)_st_2
 - msg: พี่แทนคะ
@@ -871,10 +887,59 @@
   character: akari
 - msg: อะ…อืม (สีหน้าปกติ)
   character: tan
-- goto: EP3.0_v3(MA)_lb_17
+- msg: เวลาผ่านไปไม่นาน
+  character: narrator
+- character: minato
+  position: left
+  act: Normal
+- msg: 'Akari พี่กลับมาแล้วว '
+  character: minato
+- character: akari
+  position: center
+  act: happy
+- msg: พี่คะ!! * วิ่งเข้าไปกอดทันที *
+  character: akari
+- msg: A..Akari นี้แทนมันเกิดอะไรขึ้นนะตอนฉันไม่อยู่
+  character: minato
+- character: minato
+  position: right
+  act: Normal
+- msg: ก็แบบว่า… *แทนเล่าเรื่องที่เกิดให้ Minato*  (สีหน้าปกติพูด)
+  character: tan
+- msg: >-
+    เป็นอย่างงี้นี้เองขอบใจนะไอแทนที่ช่วยน้องสาวของฉันไว้คนเป็นพี่อย่างฉันขอขอบคุณสุดใจเลย
+    *ก้มตัวขอบคุณแทน*
+  character: minato
+- msg: ไม่เอาหน่า Minato ฉันเกร็งไปหมดแล้วนะ
+  character: tan
+- msg: >-
+    พี่แทนช่วยหนูไว้นะคะรับคำขอบคุณจากพี่เถอะค่ะถ้าพี่แทนรับคำขอบคุณหนูก็สบายใจแล้ว
+  character: akari
+- msg: >-
+    อะ..อาเคก็ได้ฉันจะรับคำขอบคุณนั้นไว้ละกันว่าแต่ไม่ใช่ว่าพวกเธอ 2
+    คนต้องรีบกลับหรอกหรอนี้ก็ดึกมากแล้วนะพรุ่งนี้มีคาบทำอาหารด้วยหนิ
+    (สีหน้ายิ้ม)
+  character: tan
+- msg: อะ!?! จริงด้วย Akari เรารีบกลับกันดีกว่า
+  character: minato
+- msg: ได้ค่ะพี่
+  character: akari
+- msg: ถ้างั้นแทนเจอกันพรุ่งนี้นะ
+  character: minato
+- msg: เจอกันนะคะพี่แทน
+  character: akari
+- msg: อืมมเจอกันนะทั้ง 2 คน (สีหน้ายิ้ม)
+  character: tan
+- character: empty
+  position: right
+- msg: '*หันหลังเดินกลับบ้านพร้อมจูงมือ Akari ด้วย*'
+  character: minato
+- msg: '*ตาม Minato ไปพร้อมหันมายิ้มใส่แทนแล้วหันกลับ*'
+  character: akari
+- goto: EP3.0_v3(MA)_lb_14
 - msg: พี่แทนคะ
   character: akari
-  label: EP3.0_v3(MA)_lb_16
+  label: EP3.0_v3(MA)_lb_13
 - msg: มีไรหรอ Akari (สีหน้าปกติ)
   character: tan
 - msg: พี่แทนช่วยยื่นหน้ามาหน่อยได้ไหมครับ
@@ -915,7 +980,6 @@
   character: tan
 - msg: ในระหว่างที่พูดคุยกันก็มีกลุ่มวันรุ่นคนนึงเดินเข้ามา
   character: narrator
-  label: EP3.0_v3(MA)_lb_17
 - msg: พวกวันนี้กินไรดีวะ
   character: man02
   override_name: อัลตพาล 1
@@ -1126,8 +1190,12 @@
   character: akari
 - msg: เจอกันนะ Akari Minato (สีหน้ายิ้ม)
   character: tan
-- msg: 'อาาเจอกันแทน *Minato กับ Akari เดินกลับบ้านอย่างปลอดภัย '
+- msg: อาาเจอกันแทน *Minato กับ Akari เดินกลับบ้านอย่างปลอดภัย*
   character: minato
+- character: empty
+  position: left
+- character: empty
+  position: center
 - msg: ว่าแต่ให้ไรมานะ * แบมือออกมาเป็นผ้าเช็ดหน้าของ Akari * (สีหน้าสงสัย)
   character: tan
 - msg: ผ้าเช็ดหน้าของ Akari หนิหืมม??มีไรเขียนไว้ด้วยแหะ (สีหน้าสงสัย)
@@ -1145,12 +1213,20 @@
     ใส่กระเป๋าเสื้อคู่กับผ้าของตัวเอง* (สีหน้ายิ้ม)
   character: tan
 - music: bgm_Your_Love_Is_Home
-  label: EP3.0_v3(MA)_lb_18
+  label: EP3.0_v3(MA)_lb_14
 - background: bg_living_room_yamada
+- character: empty
+  position: right
 - msg: หลังจากกลับมาจากไปซื้อของเสร็จแล้ว ก็กลับบ้านมา
   character: narrator
+- character: akari
+  position: center
+  act: Normal
 - msg: พี่ค่ะ น้องขอน้ำส้ม หน่อยยยยย
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: เอานี้ๆๆ น้ำส้มๆ
   character: minato
 - msg: >-

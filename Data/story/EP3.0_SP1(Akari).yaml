@@ -155,6 +155,7 @@
   character: akari
 - msg: ประตู|รถ|เมย์ได้|เปิด|ขึ้น|ทุก|คน|เข้า|ไป|กัน|อย่าง|แออัด
   character: narrator
+- background: bg_bus8
 - msg: ใน|ตอน|นี้|ประตู|กำลัง|จะ|ปิด|ภายใน 5 วินาที|ครับ
   character: man03
   override_name: คนขับรถเมย์
@@ -173,6 +174,7 @@
     ใน|ตอน|นั้น|มือ|ของ|แทน|ก็|ดึง|ตัว|ของ Akari เข้า|มา|หา|ตัวเอง|ทำให้ Akari
     ไม่|ตก|รถ
   character: narrator
+- music: bgm_Your_Love_Is_Home
 - msg: 'เกือบ|ได้|ตก|รถ|แล้ว|นะ Akari '
   character: tan
 - character: akari
@@ -217,6 +219,7 @@
   character: narrator
 - character: empty
   position: right
+- background: bg_nifront_wut
 - msg: '*|จาก|นั้น Akari ก็|ลง|จาก|รถ|บัส|แล้ว|กลับ|มา|ที่|บ้า|น*'
   character: akari
 - msg: จบ|บท|พิเศษ|สำหรับ|คน|เล่น Akari

@@ -22,6 +22,7 @@ sv_Footsteps
 sv_Grab Chip
 sv_Head Hit Low End Wallop
 sv_Lays leg
+sv_Open_App
 sv_Phone Ring
 sv_Ping
 sv_Pop1

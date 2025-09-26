@@ -124,6 +124,7 @@
 - msg: 'ลุ|ยย|~|~ '
   character: akari
 - music: bgm_Walking On Gravel Road Near Stream
+- background: bg_nifront_wut
 - msg: >-
     minato กับ akari
     ได้|เดิน|ไป|ที่|ป้าย|รถ|เมย์และ|รอ|รถ|ที่|ไป|มหา|ลัย|ของ|ทั้ง 2
@@ -156,7 +157,7 @@
   act: Normal
 - msg: อา|เค
   character: minato
-- background: bg_nifront_wut
+- background: bg_bus8
 - music: bgm_PublicBus_V1
 - msg: >-
     ทั้ง|คู่|ขึ้น|รถ|ของ|มหา|ลัย|แล้ว|ปรากฏ|ว่า|มี|แต่|คน|ที่|แต่ง|ตัว|ใน|เครื่องแบบ|นักศึกษา|ทั้งนั้น 
@@ -340,12 +341,6 @@
 - msg: >-
     นี้|จะ|เป็น|ตัว|เลือก|ใน|การ|เลือก|ตัว|ละคร|หลัก|ที่|คูณ|จะ|ใช้|ดำเนิน|เรื่องราว|ที่|ต่าง|ไป|ตาม|ตัว|ละคร|ที่|เลือก
   character: narrator
-- character: empty
-  position: center
-- character: empty
-  position: left
-- character: empty
-  position: right
 - delay: 3
 - choice:
     - msg: เลือก|เล่น|เป็น minato
@@ -360,15 +355,6 @@
   character: me
   state: EP1.0_v3(MA)_st_0
 - music: bgm_Epic_Gym_Rock_Take2
-- character: minato
-  position: center
-  act: Smile
-- msg: >-
-    คือ|ว่า|นะ|ครับ|รุ่น|พี่|พวก|ผม|คิด|ว่า|จะ|ไป|ตึก|ปฐมนิเทศ|ก่อน|แล้ว|ค่อย|ตัดสิน|ใจ|ครับ|รบกวน|ช่วย|ถอย|ไป|หน่อย|จะ|ได้|ไหม|ครับ
-  character: minato
-- character: man01
-  position: right
-  act: idle
 - goto: EP1.0_v3(MA)_lb_3
 - character: akari
   position: center
@@ -384,9 +370,21 @@
     - EP1.0_v3(MA)_lb_4 if var_minato >= 5
     - EP1.0_v3(MA)_lb_5
   label: EP1.0_v3(MA)_lb_3
+- character: akari
+  position: left
+  act: sad
+  label: EP1.0_v3(MA)_lb_4
+- character: minato
+  position: center
+  act: Smile
+- msg: >-
+    คือ|ว่า|นะ|ครับ|รุ่น|พี่|พวก|ผม|คิด|ว่า|จะ|ไป|ตึก|ปฐมนิเทศ|ก่อน|แล้ว|ค่อย|ตัดสิน|ใจ|ครับ|รบกวน|ช่วย|ถอย|ไป|หน่อย|จะ|ได้|ไหม|ครับ
+  character: minato
+- character: man01
+  position: right
+  act: idle
 - msg: ตะ|.|.|แต่ว่า|ถ้า|น้อง|เข้า|คณะ|นี้|น้อ|งจ|ะ…
   character: man01
-  label: EP1.0_v3(MA)_lb_4
 - character: minato
   position: center
   act: Bemused
@@ -478,16 +476,20 @@
   character: akari
 - msg: ไว้|เจอ|กัน|นะ|~
   character: lucien
-- character: empty
-  position: left
-- character: empty
-  position: right
-- character: empty
-  position: center
+- delay: 2
 - goto: EP1.0_v3(MA)_lb_6
+- character: akari
+  position: center
+  act: happy
+  label: EP1.0_v3(MA)_lb_5
+- msg: >-
+    ขะ|.|.|ขอโทษ|นะ|คะ|รุ่น|พี่|แต่|พวก|หนู|มี|กำหนด|ว่า|ต้อง|ไป|ที่|ตึก|ปฐมนิเทศ|ก่อน|ค่ะ|พวก|เรา|คง|ไม่|มี|เวลา…
+  character: akari
+- character: man01
+  position: right
+  act: idle
 - msg: แต่ว่า|ถ้า|น้อง|ได้|เข้า|คณะ|ของ|พี่|แล้ว|เชื่อ|ว่า|น้อง|ต้อง|ชอบ|แน่ๆครับ|~
   character: man01
-  label: EP1.0_v3(MA)_lb_5
 - character: akari
   position: center
   act: Normal
@@ -593,14 +595,16 @@
   character: minato
 - msg: ไว้|เจอ|กัน|นะ|~
   character: lucien
+- delay: 2
 - character: empty
   position: center
+  label: EP1.0_v3(MA)_lb_6
 - character: empty
   position: left
 - character: empty
   position: right
+- delay: 1
 - music: bgm_Walking On Gravel Road Near Stream
-  label: EP1.0_v3(MA)_lb_6
 - msg: หลัง|จาก|นั้น|ไม่|นาน|ขณะ|ที่|ทั้ง|คู่|กำลัง|รีบ|ไป|ที่|ตึก|ปฐมนิเทศ
   character: narrator
 - character: akari
@@ -1256,8 +1260,6 @@
   character: narrator
 - sound: sv_Bandage
 - cg: cg_EP1_Tan_Akari1
-- msg: (*|MINI C|G* แทน|เอา|ผ้า|พัน|ให้ Akari|)
-  character: narrator
 - hide_msg: true
 - delay: 3
 - cg: empty
