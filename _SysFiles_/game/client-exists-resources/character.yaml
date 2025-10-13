@@ -51,16 +51,27 @@
   name: Nightrose
   action:
     - idle
+    - Angry
+    - Happy
+    - Norma
+    - Surprised
+    - Smlie
   msg_color: ffffff
   name_bgcolor: FFFACD
+  have_animation: true
 - character: tan
   model: tan
   name: Tan
   action:
     - idle
     - enigma
+    - Angry
+    - Happy
+    - Norma
+    - Surprised
   msg_color: ffffff
   name_bgcolor: D2B48C
+  have_animation: true
 - character: grandfather
   model: grandfather
   name: ปู่
@@ -101,7 +112,7 @@
   name_bgcolor: ffffff
 - character: lucien
   model: lucien
-  name: lucien
+  name: Lucien
   action:
     - idle
   msg_color: ffffff

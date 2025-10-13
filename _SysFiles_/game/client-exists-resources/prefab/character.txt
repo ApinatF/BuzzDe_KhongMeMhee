@@ -13,10 +13,14 @@ man03-idle
 minato
 minato-idle
 minato
+nightrose
 nightrose-idle
+nightrose
 professor-aa
 raw
+tan
 tan-enigma
 tan-idle
+tan
 test
 test
