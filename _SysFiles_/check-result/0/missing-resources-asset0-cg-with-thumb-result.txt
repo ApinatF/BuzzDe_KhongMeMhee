@@ -1,3 +1,0 @@
-cg missing thumb [
-  "cg_Blackscreen_thumb"
-]
