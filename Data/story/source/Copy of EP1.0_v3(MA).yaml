@@ -27,12 +27,12 @@
 - msg: 'ฮึบ..! '
   character: akari
 - sound: sv_drag a chair
-- msg: '*akari ลากเก้าอี้มาตัวนึงแล้วยืนบนนั้น*'
+- msg: '*Akari ลากเก้าอี้มาตัวนึงแล้วยืนบนนั้น*'
   character: akari
 - character: akari
   position: right
   act: angry
-- msg: 'ประมาณนี้แหละเล็งให้ดีแล้วก็…. '
+- msg: ประมาณนี้แหละเล็งให้ดีแล้วก็….
   character: akari
 - msg: '!?! '
   character: akari
@@ -44,13 +44,14 @@
     ตื่นได้แล้วเจ้าพี่บ้า!!! 
   character: akari
 - msg: >-
-    *akari ได้กระโดดถีบขาคู่ ใส่ minato ที่กำลังนอนอยู่แต่หัว akari
+    *Akari ได้กระโดดถีบขาคู่ ใส่ Minato ที่กำลังนอนอยู่แต่หัว Akari
     ดันไปชนเพดานด้วย*
   character: akari
 - sound: sv_Head Hit Low End Wallop
 - character: akari
   position: right
   act: Haru
+- shake: right
 - msg: 'โอ้ย!! '
   character: akari
 - delay: 1
@@ -58,6 +59,7 @@
 - character: minato
   position: left
   act: Shocked
+- shake: left
 - msg: 'อะเฮื่อก!! '
   character: minato
 - delay: 1
@@ -70,7 +72,7 @@
   character: minato
 - msg: 'เจ็บหัวอ่า~ '
   character: akari
-- msg: 'ก็เพราะเล่นอะไรไม่รู้เรื่องกรรมเลยตามทันเลยเนี้ย '
+- msg: ก็เพราะเล่นอะไรไม่รู้เรื่องกรรมเลยตามทันเลยเนี้ย
   character: minato
 - character: akari
   position: right
@@ -92,7 +94,7 @@
 - character: minato
   position: left
   act: Normal
-- msg: 'อะ..อา akari ก็รีบแต่งตัวด้วยนะยังอยู่ในชุดนอนอยู่เลยไม่ใช่หรือไง '
+- msg: 'อะ..อา Akari ก็รีบแต่งตัวด้วยนะยังอยู่ในชุดนอนอยู่เลยไม่ใช่หรือไง '
   character: minato
 - character: akari
   position: right
@@ -121,6 +123,7 @@
 - msg: 'ลุยย~~ '
   character: akari
 - music: bgm_Walking On Gravel Road Near Stream
+- background: bg_nifront_wut
 - msg: minato กับ akari ได้เดินไปที่ป้ายรถเมย์และรอรถที่ไปมหาลัยของทั้ง 2
   character: narrator
 - character: akari
@@ -149,7 +152,7 @@
   act: Normal
 - msg: อาเค
   character: minato
-- background: bg_nifront_wut
+- background: bg_bus8
 - music: bgm_PublicBus_V1
 - msg: >-
     ทั้งคู่ขึ้นรถของมหาลัยแล้วปรากฏว่ามีแต่คนที่แต่งตัวในเครื่องแบบนักศึกษาทั้งนั้น 
@@ -318,12 +321,6 @@
 - msg: >-
     นี้จะเป็นตัวเลือกในการเลือกตัวละครหลักที่คูณจะใช้ดำเนินเรื่องราวที่ต่างไปตามตัวละครที่เลือก
   character: narrator
-- character: empty
-  position: center
-- character: empty
-  position: left
-- character: empty
-  position: right
 - delay: 3
 - choice:
     - msg: เลือกเล่นเป็น minato
@@ -338,15 +335,6 @@
   character: me
   state: Copy of EP1.0_v3(MA)_st_0
 - music: bgm_Epic_Gym_Rock_Take2
-- character: minato
-  position: center
-  act: Smile
-- msg: >-
-    คือว่านะครับรุ่นพี่พวกผมคิดว่าจะไปตึกปฐมนิเทศก่อนแล้วค่อยตัดสินใจครับรบกวนช่วยถอยไปหน่อยจะได้ไหมครับ
-  character: minato
-- character: man01
-  position: right
-  act: idle
 - goto: Copy of EP1.0_v3(MA)_lb_3
 - character: akari
   position: center
@@ -362,9 +350,21 @@
     - Copy of EP1.0_v3(MA)_lb_4 if var_minato >= 5
     - Copy of EP1.0_v3(MA)_lb_5
   label: Copy of EP1.0_v3(MA)_lb_3
+- character: akari
+  position: left
+  act: sad
+  label: Copy of EP1.0_v3(MA)_lb_4
+- character: minato
+  position: center
+  act: Smile
+- msg: >-
+    คือว่านะครับรุ่นพี่พวกผมคิดว่าจะไปตึกปฐมนิเทศก่อนแล้วค่อยตัดสินใจครับรบกวนช่วยถอยไปหน่อยจะได้ไหมครับ
+  character: minato
+- character: man01
+  position: right
+  act: idle
 - msg: ตะ..แต่ว่าถ้าน้องเข้าคณะนี้น้องจะ…
   character: man01
-  label: Copy of EP1.0_v3(MA)_lb_4
 - character: minato
   position: center
   act: Bemused
@@ -450,16 +450,20 @@
   character: akari
 - msg: ไว้เจอกันนะ~
   character: lucien
-- character: empty
-  position: left
-- character: empty
-  position: right
-- character: empty
-  position: center
+- delay: 2
 - goto: Copy of EP1.0_v3(MA)_lb_6
+- character: akari
+  position: center
+  act: happy
+  label: Copy of EP1.0_v3(MA)_lb_5
+- msg: >-
+    ขะ..ขอโทษนะคะรุ่นพี่แต่พวกหนูมีกำหนดว่าต้องไปที่ตึกปฐมนิเทศก่อนค่ะพวกเราคงไม่มีเวลา…
+  character: akari
+- character: man01
+  position: right
+  act: idle
 - msg: แต่ว่าถ้าน้องได้เข้าคณะของพี่แล้วเชื่อว่าน้องต้องชอบแน่ๆครับ~
   character: man01
-  label: Copy of EP1.0_v3(MA)_lb_5
 - character: akari
   position: center
   act: Normal
@@ -561,14 +565,16 @@
   character: minato
 - msg: ไว้เจอกันนะ~
   character: lucien
+- delay: 2
 - character: empty
   position: center
+  label: Copy of EP1.0_v3(MA)_lb_6
 - character: empty
   position: left
 - character: empty
   position: right
+- delay: 1
 - music: bgm_Walking On Gravel Road Near Stream
-  label: Copy of EP1.0_v3(MA)_lb_6
 - msg: หลังจากนั้นไม่นานขณะที่ทั้งคู่กำลังรีบไปที่ตึกปฐมนิเทศ
   character: narrator
 - character: akari
@@ -1185,8 +1191,6 @@
   character: narrator
 - sound: sv_Bandage
 - cg: cg_EP1_Tan_Akari1
-- msg: (*MINI CG* แทนเอาผ้าพันให้ Akari)
-  character: narrator
 - hide_msg: true
 - delay: 3
 - cg: empty

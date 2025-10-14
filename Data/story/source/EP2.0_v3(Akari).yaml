@@ -1,4 +1,4 @@
-- background: bedroom
+- background: bg_bedroom_akari
 - music: bgm_Cozy
 - msg: >-
     หลังจากวันปฐมนิเทศ Akari กับ Minato
@@ -270,18 +270,18 @@
   character: minato
 - msg: อืมม!
   character: akari
-- character: lín
+- character: lin
   position: center
   act: idle
 - msg: >-
     (Ni hao) <b><size=40>你好</size></b>! สวัสดี!
     คุณพนักงานวันนี้ฉันขอเหมื่อนเดิมนะ~
-  character: lín
-- msg: มิส Lín เองสินะคะวันนี้ก็เอา คาปูชิโน่หวานน้อยใส่นมเยอะๆสินะคะ
+  character: lin
+- msg: มิส lin เองสินะคะวันนี้ก็เอา คาปูชิโน่หวานน้อยใส่นมเยอะๆสินะคะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
 - msg: ถูกต้องแล้วละ!! ขอแก้วใหญ่ด้วยนะ~
-  character: lín
+  character: lin
 - msg: ทราบแล้วค่ะ...แล้วก็เครื่องดื่มของคุณทั้ง 2 คนได้แล้วนะคะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
@@ -292,33 +292,33 @@
 - msg: '*ระหว่างนั้น Akari ก็เดินไปหยิบเครื่องดื่มที่สั่ง*'
   character: akari
 - msg: หืมม~นี้เธอน่ะ
-  character: lín
+  character: lin
 - msg: คะ..ค่ะ?!
   character: akari
 - msg: เธอชื่ออะไรงั้นหรอ~
-  character: lín
+  character: lin
 - msg: เอ๋-?  นะ..หนูชื่อ Akari ค่ะ
   character: akari
 - msg: Akari จังงั้นหรออืมม~~เธอเป็นเด็กไหม่สินะ
-  character: lín
+  character: lin
 - msg: ค..ค่ะ แล้วคุณพี่สาวชื่ออะไรหรอคะ?
   character: akari
-- msg: ฉันมีชื่อว่า Lín Pēngyún อยู่ปี 3จ๊ะ~
-  character: lín
+- msg: ฉันมีชื่อว่า lin Pēngyún อยู่ปี 3จ๊ะ~
+  character: lin
 - msg: ดะ..ดูจากชื่อแล้วรุ่นพี่เป็นคนจีนสินะคะ มีอะไรหรือป่าวคะ?
   character: akari
 - msg: >-
     ใช่แล้วจ้าาพี่เป็นคนจีนเองแล้วก็ไม่มีอะไรหรอกแค่เห็นรุ่นน้องที่น่ารักเลยอยากทักแค่นั้นเอง~
-  character: lín
+  character: lin
 - msg: นะ..น่ารักหรอคะ?!
   character: akari
 - msg: มิส Lin คะทั้งหมด 85 บาทค่ะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
 - msg: โอ้~ ได้แล้วเหรอ ♪ รอสักครู่นะ~
-  character: lín
+  character: lin
 - msg: นี้ค่ะ ถึงเวลาต้องไปแล้วล่ะ Akari ไว้เจอกันนะ~
-  character: lín
+  character: lin
 - msg: >-
     หลังจากที่ Lin
     จ่ายตังเสร็จก็กำลังจะเดินออกจากร้านแต่เหมื่อนนางจะรีบไปหน่อยเลยทำกระเป๋าสตางค์ตก
@@ -347,11 +347,11 @@
   position: center
 - msg: บอกพี่พนักงานดีกว่า
   character: akari
-- msg: พี่พนักงานคะรุ่นพี่ Lín ทำกระเป๋าสตางค์ตกช่วยเอาไปคืนให้หน่อยได้ไหมคะ?
+- msg: พี่พนักงานคะรุ่นพี่ lin ทำกระเป๋าสตางค์ตกช่วยเอาไปคืนให้หน่อยได้ไหมคะ?
   character: akari
 - msg: ได้ค่ะเดี๋ยวจะเอาไปคืนให้นะคะ คุณลูกค้าหยิบแก้วกาแฟไปที่โต๊ะได้เลยค่ะ
   character: man03
-- msg: มิส  Lín คะ!!
+- msg: มิส  lin คะ!!
   character: man03
 - msg: มาแล้วค่ะพี่กาแฟของพี่
   character: akari
@@ -375,18 +375,18 @@
 - msg: (ต้องเรียกพี่ Lin ก่อน!)
   character: akari
   label: EP2.0_v3(Akari)_lb_4
-- msg: พี่ Lín คะ!
+- msg: พี่ lin คะ!
   character: akari
 - msg: '!?!...ตกใจหมดเลยมีไรหรอ Akari'
-  character: lín
+  character: lin
 - msg: กระเป๋าสตางค์พี่ตกอยู่ค่ะ
   character: akari
 - msg: เอ๋!?..จริงด้วยขอบใจนะ Akari
-  character: lín
-- msg: ไม่เป็นไรค่ะ แล้วพี่ Lín ทำไมถึงรีบร้อนขนาดนั้นหรอคะ?
+  character: lin
+- msg: ไม่เป็นไรค่ะ แล้วพี่ lin ทำไมถึงรีบร้อนขนาดนั้นหรอคะ?
   character: akari
 - msg: อ๋อพี่ต้องไปเตรียมตัวอะไรก่อนหนะเอาเป็นว่าไว้เจอกันนะ Akari!!
-  character: lín
+  character: lin
 - character: empty
   position: center
 - msg: ค..ค่ะ
@@ -410,11 +410,11 @@
     ก็ได้ดื่มด่ำกับเครื่องดื่มแล้วก็พูดคุยอะไรกันนิดหน่อย
   character: narrator
 - goto: EP2.0_v3(Akari)_lb_6
-- msg: '*เก็บกระเป๋าสตางค์ขึ้นมา* รุ่นพี่ Lín คะ!!'
+- msg: '*เก็บกระเป๋าสตางค์ขึ้นมา* รุ่นพี่ lin คะ!!'
   character: akari
   label: EP2.0_v3(Akari)_lb_5
 - msg: '!?!...ตกใจหมดเลยมีไรหรอ Akari'
-  character: lín
+  character: lin
 - msg: คือว่ารุ่นพี่ลืมกระเป๋าสตางค์น่ะค่ะ
   character: akari
 - cg: cg_EP2_Lin_Akari
@@ -422,31 +422,31 @@
 - delay: 5
 - cg: empty
 - msg: เอ๋!?..จริงด้วยขอบใจนะ Akari ช่วยได้มากเลย
-  character: lín
-- msg: ไม่เป็นไรค่ะรุ่นพี่  Lín
+  character: lin
+- msg: ไม่เป็นไรค่ะรุ่นพี่  lin
   character: akari
 - msg: จะตอบแทนยังไงดีล่ะเนี้ย…คิดออกแล้ว!!งั้นเดี๋ยวรุ่นพี่เลี้ยงน้ำให้แก้วนึง!!
-  character: lín
-- msg: มะ..ไม่เป็นไรหรอกค่ะรุ่นพี่ Lín พวกหนูสั่งเครื่องดื่มกันมาแล้วค่ะ
+  character: lin
+- msg: มะ..ไม่เป็นไรหรอกค่ะรุ่นพี่ lin พวกหนูสั่งเครื่องดื่มกันมาแล้วค่ะ
   character: akari
 - msg: เถอะหน่า~สั่งอีกแก้วไม่เป็นไรหรอก~
-  character: lín
+  character: lin
 - msg: เอ~...ถ้าอย่างงั้นหนูขอรับน้ำใจไว้นะคะ
   character: akari
-- msg: '*จากนั้น Lín ก็สั่งน้ำอีกแก้วตามที่ Akari อยากได้ *'
-  character: lín
+- msg: '*จากนั้น lin ก็สั่งน้ำอีกแก้วตามที่ Akari อยากได้ *'
+  character: lin
 - msg: แก้วนี้ราคา 130 บาทนะคะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
 - msg: <size=80>พะ..แพงเวอร์!!</size>
   character: akari
 - msg: สบายมาก~ๆ ตายละใกล้ถึงเวลาแล้วหนิ!?..พี่ต้องไปแล้วล่ะ Akari ไว้เจอกันนะ!
-  character: lín
+  character: lin
 - character: empty
   position: center
 - msg: ค...ค่ะ
   character: akari
-- msg: รุ่นพี่ Lín เขารีบไปไหนกันนะ…พี่คะนี้กาแฟของพี่ค่ะ
+- msg: รุ่นพี่ lin เขารีบไปไหนกันนะ…พี่คะนี้กาแฟของพี่ค่ะ
   character: akari
 - msg: ขอบใจนะ Akari เมื่อกี้ผู้หญิงคนนั้นซื้อให้น้องอีกแก้วด้วยหนิใช่มะ
   character: minato
@@ -571,13 +571,13 @@
   override_name: อาจารย์ (ครัว)
 - msg: จู่ๆในตอนนั้นเอง ก็ได้มีนักศึกษาสาวคนนึงเดินเข้ามาแบบไม่มีปี่มีขลุ่ย
   character: narrator
-- character: lín
+- character: lin
   position: right
   act: idle
 - msg: >-
     ขอโทษนะคะที่มาช้า~ 
     อรุณสวัสดิ์นะคะครูเจน~พอดีว่าหนูติดธุระของคณะนิดหน่อยน่ะค่ะ~
-  character: lín
+  character: lin
 - msg: >-
     เอ๊ะ…หญิงคนนั้นใครน่ะ!? แถมเครื่องแบบนั่นมันอะไรกัน…
     ต่างจากของเราริบลับเลยนะ!?
@@ -596,20 +596,20 @@
   character: nightrose
 - msg: อืม.. พี่กับAkariเจอกับรุ่นพี่คนนั้นที่คาเฟ่เมื่อเช้าน่ะ
   character: minato
-- msg: Lín...วันนี้เธอต้องไปเรียนที่ห้องคณะไม่ใช่หรือไง
+- msg: lin...วันนี้เธอต้องไปเรียนที่ห้องคณะไม่ใช่หรือไง
   character: professor
   override_name: อาจารย์ (ครัว)
-- character: lín
+- character: lin
   position: right
   act: idle
 - msg: >-
     ก็หนูเบื่อห้องครัวในคณะแล้วหนิคะ อีกอย่างหนูเป็นถึงหัวหน้าคณะคหกรรม
     หนูจะใช้ห้องเองหรือไปเข้าคลาสอื่นแทนก็ไม่ใช่ปัญหาหรอกคะ 
-  character: lín
+  character: lin
 - msg: >-
     แถมเป็นการดีด้วย
     เพราะจะได้มาดูว่า…ใครจะเป็นคนที่น่าจะมีแว่วในการทำอาหารที่แบบที่จะทำให้ชื่อเสียงของคณะยิ่งโด่งดังขึ้นไปไงละคะ~~
-  character: lín
+  character: lin
 - msg: >-
     ทุกคนในห้องต่างตะลึงที่รู้ว่า หลิน
     คือหัวหน้าของคณะคหกรรมที่มีชื่อเสียงอันดับต้นๆของมหาลัยแห่งนี้
@@ -620,8 +620,8 @@
 - msg: ไม่น่าเชื่อเลยแหะ
   character: man02
 - msg: อ้าทุกคน!! ไม่ต้องเกรงใจนะ! จัดการทำเมนูวันนี้ให้เต็มที่สุดฝีมือไปเลยนะ!!!
-  character: lín
-- msg: Lín ตะโกนบอกกับคนทั้งห้องอย่างมั่นใจก่อนจะไปที่โต๊ะด้านหลังสุดของห้อง
+  character: lin
+- msg: lin ตะโกนบอกกับคนทั้งห้องอย่างมั่นใจก่อนจะไปที่โต๊ะด้านหลังสุดของห้อง
   character: narrator
 - msg: ดูเป็นคนที่น่าจะรักการทำอาหารสุดๆเลยนะ
   character: minato
@@ -645,15 +645,15 @@
 - msg: คะ…ค่าา (สีหน้าปกติ)
   character: akari
 - msg: >-
-    งั้น… ในเมื่อวันนี้ก็จะมี Lín เข้าเรียนด้วย
+    งั้น… ในเมื่อวันนี้ก็จะมี lin เข้าเรียนด้วย
     ครูก็ขอฝากให้คำปรึกษารุ่นน้องในห้องด้วยละกันนะ
   character: professor
   override_name: อาจารย์ (ครัว)
-- character: lín
+- character: lin
   position: right
   act: idle
 - msg: ได้เลยค่าจารย์~
-  character: lín
+  character: lin
 - music: bgm_Epic_Gym_Rock_Take1
 - msg: >-
     เอาละ ในวันนี้ครูจะขอทดสอบฝีมือของนักเรียนก่อน เพราะฉะนั้นจานแรกในวันนี้
@@ -714,25 +714,25 @@
   override_name: คนในห้อง
 - msg: >-
     อย่าพูดแบบนั้นสินักเรียนถึงแม้จะเป็นจานที่ง่ายแต่ก็มีเชฟชั้นนำหลายคนพลาดมาแล้วแม้แต่กับ
-    Lín คนเก่งของคณะเองก็ตามก็เคยพลาดมาแล้วเช่นกัน
+    lin คนเก่งของคณะเองก็ตามก็เคยพลาดมาแล้วเช่นกัน
   character: professor
-- character: lín
+- character: lin
   position: right
   act: idle
 - msg: >-
     โธ่จารย์ อย่าเอาเรื่องตอนปีหนึ่งมาเล่าสิคะ
     ถ้างั้นเดี๋ยวพี่จะเล่าที่มาของข้าวพัดให้ฟังนะ
-  character: lín
+  character: lin
 - msg: >-
     ข้าวผัดน่ะถูกคิดค้นขึ้นในสมัยราชวงศ์สุย ช่วงประมาณปี ค.ศ. 589–618
     ที่เมืองหยางโจว
-  character: lín
+  character: lin
 - msg: >-
     ซึ่งเกิดขึ้นมาได้เพราะที่จีนมีวัฒนธรรม ไม่นิยมทิ้งอาหารเหลือ
     จึงนำของเหลือค้างคืนเอามาผัดเข้ากับข้าวจนเกิดมาเป็นข้าวผัด
-  character: lín
+  character: lin
 - msg: จนถึงทุกวันนี้ต่างประเทศก็มีหลากหลายแบบด้วย
-  character: lín
+  character: lin
 - msg: >-
     ถูกต้องแล้ว
     ข้าวผัดน่ะเป็นอาหารที่ถึงจะง่ายแต่ก็มีประวิติศาสตร์มายาวนานมากทุกคนก็จำไว้ด้วยนะ
@@ -764,7 +764,7 @@
     (สีหน้าปกติพูด)
   character: nightrose
 - msg: >-
-    ขณะที่ทุกคนกำลังไปเลือกวัตถุที่จะนำมาทำข้าวผัดกัน Lín
+    ขณะที่ทุกคนกำลังไปเลือกวัตถุที่จะนำมาทำข้าวผัดกัน lin
     ก็ได้เดินเข้ามาร่วมวงและหยิบสิ่งที่ต้องการไปอย่างรวดเร็ว
   character: narrator
 - msg: ระ-เร็วสุดๆเลย!!!
@@ -774,7 +774,7 @@
   character: man02
   override_name: คนในห้อง
 - msg: >-
-    แต่ตอนที่ทุกคนตกใจกับสิ่งที่ Lín ทำนั้นเอง Minato กับ Nightrose
+    แต่ตอนที่ทุกคนตกใจกับสิ่งที่ lin ทำนั้นเอง Minato กับ Nightrose
     ก็ได้ยืนเลือกวัตถุไปอย่างสบายๆ ไม่มีคนแย่ง
   character: narrator
 - msg: >-
@@ -863,10 +863,10 @@
 - msg: ขะ-ขอโทษทีนะ/โทษทีจ้ะ Nightrose
   character: me
   override_name: Minato/Akari
-- msg: โอ๊ะ! นี่ๆ หันไปดูรุ่นพี่ Lín ทำข้าวผัดสิ!
+- msg: โอ๊ะ! นี่ๆ หันไปดูรุ่นพี่ lin ทำข้าวผัดสิ!
   character: man02
 - msg: >-
-    ตอนนั้นเอง ฝั่งของ Lín ก็ได้เริ่มทำข้าวผัดใรฉบับของเธอเองอย่างพิถีพิถันสุดๆ
+    ตอนนั้นเอง ฝั่งของ lin ก็ได้เริ่มทำข้าวผัดใรฉบับของเธอเองอย่างพิถีพิถันสุดๆ
     จนทำเอาทุกคนในห้องละสายตาไม่ได้เลยทีเดียว
   character: narrator
 - msg: ' สมกับเป็นหัวหน้าคณะ ทำอย่างกับเป็นมืออาชีพสุดๆเลย'
@@ -911,13 +911,13 @@
   character: minato
 - msg: เอ่อ… แตกต่างจากพี่ชายลิบลับเลยแฮะ *ยิ่มพร้อมขำแห้ง*
   character: nightrose
-- character: lín
+- character: lin
   position: right
   act: idle
 - msg: เสร็จแล้วค่า~~
-  character: lín
+  character: lin
 - msg: >-
-    ทุกคนในห้องต่างรีบพากันหันไปมองที่ Lín กัน
+    ทุกคนในห้องต่างรีบพากันหันไปมองที่ lin กัน
     ก่อนได้กลิ่นข้าวผัดฝีมือของเธอจะฟลุ๊งไปทั่วห้องนั้นและหน้าตาของข้าวผัดที่จัดวางอย่างสวยงาม
   character: narrator
 - msg: นั่น! หอมสุดๆเลย
@@ -930,7 +930,7 @@
   character: me
   override_name: Minato/Nightrose
 - msg: >-
-    โอเคร Lín
+    โอเคร lin
     ไม่ต้องขิงหรอกเอาละนักเรียนทุกคนสำหรับที่ทำเสร็จก็ให้แลกกันชิมกับเพื่อนข้างๆหรือใครในห้องก็ได้เลยนะแล้วเอามาให้จารย์ชิมต่อด้วยละ
   character: professor
   override_name: อาจารย์ (ครัว)
@@ -1013,44 +1013,44 @@
   character: nightrose
 - msg: งั้นก็ได้เลย เดียวตักให้อีกคำนะ
   character: minato
-- character: lín
+- character: lin
   position: center
   act: idle
 - msg: นี่ ของพวกเธอเองก็น่ากินดีนะเนี่ย
-  character: lín
+  character: lin
 - msg: >-
-    ทันใดนั้นเอง Lín ก็ได้เดินเข้ามาหา Minato และ Nightrose
+    ทันใดนั้นเอง lin ก็ได้เดินเข้ามาหา Minato และ Nightrose
     ด้วยความสนใจในข้าวผัดของทั้งคู่
   character: narrator
 - character: nightrose
   position: right
   act: idle
-- msg: 'อะ-เอ๊ะ!? รุ่นพี่ Lín '
+- msg: 'อะ-เอ๊ะ!? รุ่นพี่ lin '
   character: nightrose
-- msg: เรียกแค่คุณ Lín เฉยๆก็ได้จ้า นี่ถ้าไม่ว่าอะไร ขอชิมในช้อนนั่นได้มัย?
-  character: lín
+- msg: เรียกแค่คุณ lin เฉยๆก็ได้จ้า นี่ถ้าไม่ว่าอะไร ขอชิมในช้อนนั่นได้มัย?
+  character: lin
 - msg: 'อะ-อือ ได้ครับ '
   character: minato
 - msg: งั้น ขอทานแล้วนะคะ อามมม~ *กินเข้าไปอย่างเอร็ดอร่อย*
-  character: lín
+  character: lin
 - msg: เป็นไงบ้างเหรอครับ?
   character: minato
 - msg: >-
     อื้ม! อร่อยกว่าที่คิดอีกนะเนี่ย! หน้าตาอาจจะไม่ได้สวยหรู
     แต่มันอร่อยในแบบที่ไม่ว่าใครก็ต้องชอบเลยละ
-  character: lín
+  character: lin
 - msg: งั้นช่วยชิมของให้หนูด้วยได้มั้ยคะ!?
   character: nightrose
 - msg: ได้สิจ้ะ *รับป้อนจาก Nightrose* อื้ม~ ฝีมือน่าจะยังไม่ถึงนะ แต่ก็ไม่เลว
-  character: lín
+  character: lin
 - msg: ระ-หรอคะ
   character: nightrose
-- msg: แต่…แล้วของคุณ Lín ละครับ? ไม่มีให้พวกเราลองชิมบ้างหรอครับ
+- msg: แต่…แล้วของคุณ lin ละครับ? ไม่มีให้พวกเราลองชิมบ้างหรอครับ
   character: minato
 - msg: ก็อยากนะ แต่พอดีว่าเหมือนคนครึ่งห้องจะเอาไปกินกันเองแล้วน่ะสิ
-  character: lín
+  character: lin
 - msg: >-
-    ทั้งสามคนหันไปดูที่โต๊ะของ Lín
+    ทั้งสามคนหันไปดูที่โต๊ะของ lin
     ที่มีนักศึกษาครึ่งห้องไปล้อมรอบเพื่อจะลองชิมข้าวผัดของเธอ
     จนคาดว่าจะหมดในอีกไม่นาน
   character: narrator
@@ -1062,7 +1062,7 @@
     ไม่ต้องห่วงๆ ฉันทำไว้เยอะกว่าที่เห็นน่ะ
     และอาจารย์เองก็ชิมของฉันไปหลายครั้งจนเบื่อแล้วละ แต่ถ้าเป็นของเธอสองคน
     ฉันว่าแค่นี้ก็ผ่านแล้วละ
-  character: lín
+  character: lin
 - msg: งั้นหรอครับ-
   character: minato
 - msg: เหวอ!? เธอคนนั้นกินข้าวผัด Dark Matter ลงไปได้ไงละน่ะ!?
@@ -1082,11 +1082,11 @@
     รู้สึกว่าท้องฉันมันเริ่มร้องไงก็รู้อ่า…
   character: akari
 - image: empty
-- character: lín
+- character: lin
   position: left
   act: idle
 - msg: อาจารย์ค่า! มีคนกำลังจะตายเพราะข้าวผัดสูตร Lovecraft แล้วละคะ!!!
-  character: lín
+  character: lin
 - character: minato
   position: right
   act: Normal
@@ -1114,23 +1114,23 @@
     รุ่นพี่ Minato รีบไปเร็วก่อนที่ Akari จังจะเป็นอะไรแปลกๆ ไปมากกว่านี้
     (สีหน้าห่วง)
   character: nightrose
-- msg: คุณ Lín เดียวผมกลับมานะครับ!/รุ่นพี่ Lín เดี๋ยวพวกหนูกลับมานะคะ!
+- msg: คุณ lin เดียวผมกลับมานะครับ!/รุ่นพี่ lin เดี๋ยวพวกหนูกลับมานะคะ!
   character: me
   override_name: Minato/Nightrose
-- character: lín
+- character: lin
   position: left
   act: idle
 - msg: ได้เลยจ้ะ ขอให้ไม่เป็นไรมากนะ
-  character: lín
+  character: lin
 - msg: >-
     หลังจากนั้น Minato กับ Nightrose ก็รีบพา Akari
-    ออกจากห้องไปที่ตึกพยาบาลอย่างเร่งรีบ โดยมี Lín มองตามหลังไป
+    ออกจากห้องไปที่ตึกพยาบาลอย่างเร่งรีบ โดยมี lin มองตามหลังไป
   character: narrator
 - sound: sv_Look someone
 - msg: >-
     คาดไม่ถึงเลยแหะว่าจะมีคนทำอาหารแบบนี้ได้จริงๆด้วยน่ะ
     นี่มันอาหารจากมิติมืดชัดๆ *มองลงไปที่ข้างผัด Dark Matter ของ Akari*
-  character: lín
+  character: lin
 - character: empty
   position: left
 - msg: —ผ่านไป 20 นาที ยาวจนหมดคาบทำอาหาร—
@@ -1221,43 +1221,43 @@
   character: nightrose
 - msg: ตอนนั้นเองที่ก็มีคนเดินมาหาพวกเขา
   character: narrator
-- character: lín
+- character: lin
   position: left
   act: idle
 - msg: คุยกันสนุกเลยนะ ทั้งสองคน~
-  character: lín
-- msg: เอ๊ะ คุณ Lín?
+  character: lin
+- msg: เอ๊ะ คุณ lin?
   character: minato
 - msg: ไหงถึงมานี่ละคะ?
   character: nightrose
 - msg: >-
     ก็บอกแล้วนิว่าฉันไม่ได้จำเป็นจะเข้าเรียนคาบนั้นนี่นา
     แค่อยากมาดูพวกร่นน้องแบบเธอสองคนมาทำอาหารกันแค่นั้น 
-  character: lín
+  character: lin
 - msg: แล้วน้องสาวคนนั้นอาการเป็นไงบ้างละ?
-  character: lín
+  character: lin
 - msg: ไม่เป็นไรมากหรอกครับ แค่กินของผิดสำแดงไปหน่อยน่ะ
   character: minato
 - msg: อีกสักพักก็กลับไปเรียนได้แล้วละคะ
   character: nightrose
 - msg: >-
-    งั้นหรอก็ดีแล้วละ อ่อจริงด้วย! รอแปปนะ *Lín
+    งั้นหรอก็ดีแล้วละ อ่อจริงด้วย! รอแปปนะ *lin
     ได้หยิบถ้วยพร้อมฝาปิดออกมาแล้วยื่นให้ทั้งสอง*
-  character: lín
+  character: lin
 - msg: เอ๊ะ นี่มัน?
   character: nightrose
 - msg: >-
     ก็ข้าวผัดที่ฉันทำไงละ ฉันตักใส่ถ้วยมาให้เธอสองคนลองเอาชิมกันน่ะ
     แค่แปปเดียวคนครึ่งห้องกินแบบกวาดซะเรียบไปจนจะเกลี้ยงแล้วน่ะสิ 
-  character: lín
+  character: lin
 - msg: โชคดีที่ฉันตักมาให้พวกเธอนะ
-  character: lín
+  character: lin
 - msg: ไม่จำเป็นต้องลงทุนแบ่งมาให้พวกเราเลยนะครับ
   character: minato
 - msg: >-
     ไม่เป็นไรหรอกน่า ถ้าไม่ได้ความเห็นจากทุกคนที่อยู่ในห้องนั้น
     อาหารนี่ก็ยังไม่สามารถพูดได้เต็มปากว่ามันอร่อยหรอกนะ รับไปเถอะน่า
-  character: lín
+  character: lin
 - msg: งั้นขอบคุณมากนะคะ
   character: nightrose
 - msg: (จู่ๆ ประตูห้องพยาบาลก็เปิดออกมา)
@@ -1275,11 +1275,11 @@
   character: akari
 - msg: มะ– ไม่เป็นไรจ้ะ Akari จังไม่เป็นไรมากก็ดีแล้วละ
   character: nightrose
-- character: lín
+- character: lin
   position: left
   act: idle
 - msg: สภาพดูยังไม่ค่อยดีเลยน่ะนั่น แน่ใจหรอว่าไหวน่ะ?
-  character: lín
+  character: lin
 - msg: ก็พอ… ไหวอยู่นะคะ
   character: akari
 - msg: >-
@@ -1298,11 +1298,11 @@
 - msg: >-
     งั้นฉันก็ขอตัวไปก่อนละกันนะ
     แล้วถ้าเจอกันอีกก็ค่อยบอกเรื่องข้าวผัดว่าอร่อยมั้ยก็ได้นะ
-  character: lín
+  character: lin
 - msg: ครับ/ค่า
   character: me
   override_name: Minato/Akari/Nightrose
-- msg: ' Lín ได้เดินจากพวกเขาไปในที่สุด'
+- msg: ' lin ได้เดินจากพวกเขาไปในที่สุด'
   character: narrator
 - character: minato
   position: left

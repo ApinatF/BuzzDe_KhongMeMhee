@@ -1,4 +1,4 @@
-- background: bedroom
+- background: bg_bedroom_minato
 - music: bgm_Cozy
 - character: minato
   position: left
@@ -13,7 +13,7 @@
   character: minato
 - sound: sv_33905 Cartoon wake up yawn 2-full
 - delay: 1
-- msg: 'เสียงประตูห้องเปิดออกพร้อมมีผู้หญิงคนนึงเดินเข้ามาในห้อง '
+- msg: เสียงประตูห้องเปิดออกพร้อมมีผู้หญิงคนนึงเดินเข้ามาในห้อง
   character: narrator
 - sound: sv_Walking_Footsteps_on_Woods_but_Fast
 - delay: 3
@@ -27,12 +27,12 @@
 - msg: 'ฮึบ..! '
   character: akari
 - sound: sv_drag a chair
-- msg: '*akari ลากเก้าอี้มาตัวนึงแล้วยืนบนนั้น*'
+- msg: '*Akari ลากเก้าอี้มาตัวนึงแล้วยืนบนนั้น*'
   character: akari
 - character: akari
   position: right
   act: angry
-- msg: 'ประมาณนี้แหละเล็งให้ดีแล้วก็…. '
+- msg: ประมาณนี้แหละเล็งให้ดีแล้วก็….
   character: akari
 - msg: '!?! '
   character: akari
@@ -44,13 +44,14 @@
     ตื่นได้แล้วเจ้าพี่บ้า!!! 
   character: akari
 - msg: >-
-    *akari ได้กระโดดถีบขาคู่ ใส่ minato ที่กำลังนอนอยู่แต่หัว akari
+    *Akari ได้กระโดดถีบขาคู่ ใส่ Minato ที่กำลังนอนอยู่แต่หัว Akari
     ดันไปชนเพดานด้วย*
   character: akari
 - sound: sv_Head Hit Low End Wallop
 - character: akari
   position: right
   act: Haru
+- shake: right
 - msg: 'โอ้ย!! '
   character: akari
 - delay: 1
@@ -58,6 +59,7 @@
 - character: minato
   position: left
   act: Shocked
+- shake: left
 - msg: 'อะเฮื่อก!! '
   character: minato
 - delay: 1
@@ -70,7 +72,7 @@
   character: minato
 - msg: 'เจ็บหัวอ่า~ '
   character: akari
-- msg: 'ก็เพราะเล่นอะไรไม่รู้เรื่องกรรมเลยตามทันเลยเนี้ย '
+- msg: ก็เพราะเล่นอะไรไม่รู้เรื่องกรรมเลยตามทันเลยเนี้ย
   character: minato
 - character: akari
   position: right
@@ -92,7 +94,7 @@
 - character: minato
   position: left
   act: Normal
-- msg: 'อะ..อา akari ก็รีบแต่งตัวด้วยนะยังอยู่ในชุดนอนอยู่เลยไม่ใช่หรือไง '
+- msg: 'อะ..อา Akari ก็รีบแต่งตัวด้วยนะยังอยู่ในชุดนอนอยู่เลยไม่ใช่หรือไง '
   character: minato
 - character: akari
   position: right
@@ -329,29 +331,26 @@
       update:
         - var_akari += 10
         - var_minato -= 10
-      goto: EP1.0_v3(MA)_lb_2
   character: me
   state: EP1.0_v3(MA)_st_0
-- music: bgm_Epic_Gym_Rock_Take2
-- goto: EP1.0_v3(MA)_lb_3
-- character: akari
+- character: empty
   position: center
-  act: happy
-  label: EP1.0_v3(MA)_lb_2
-- msg: >-
-    ขะ..ขอโทษนะคะรุ่นพี่แต่พวกหนูมีกำหนดว่าต้องไปที่ตึกปฐมนิเทศก่อนค่ะพวกเราคงไม่มีเวลา…
-  character: akari
-- character: man01
+- character: empty
   position: right
-  act: idle
+- character: empty
+  position: left
+- delay: 1
+- msg: ...
+  character: narrator
+- hide_msg: true
 - goto:
-    - EP1.0_v3(MA)_lb_4 if var_minato >= 5
-    - EP1.0_v3(MA)_lb_5
-  label: EP1.0_v3(MA)_lb_3
+    - EP1.0_v3(MA)_lb_0 if var_minato >= 5
+    - EP1.0_v3(MA)_lb_1
+- music: bgm_Epic_Gym_Rock_Take2
+  label: EP1.0_v3(MA)_lb_0
 - character: akari
   position: left
   act: sad
-  label: EP1.0_v3(MA)_lb_4
 - character: minato
   position: center
   act: Smile
@@ -443,17 +442,17 @@
   character: minato
 - character: akari
   position: right
-  act: idle
+  act: Normal
 - msg: คะ..ค่ะ!
   character: akari
 - msg: ไว้เจอกันนะ~
   character: lucien
 - delay: 2
-- goto: EP1.0_v3(MA)_lb_6
+- goto: EP1.0_v3(MA)_lb_2
 - character: akari
   position: center
   act: happy
-  label: EP1.0_v3(MA)_lb_5
+  label: EP1.0_v3(MA)_lb_1
 - msg: >-
     ขะ..ขอโทษนะคะรุ่นพี่แต่พวกหนูมีกำหนดว่าต้องไปที่ตึกปฐมนิเทศก่อนค่ะพวกเราคงไม่มีเวลา…
   character: akari
@@ -566,7 +565,7 @@
 - delay: 2
 - character: empty
   position: center
-  label: EP1.0_v3(MA)_lb_6
+  label: EP1.0_v3(MA)_lb_2
 - character: empty
   position: left
 - character: empty
@@ -1068,11 +1067,11 @@
     ก็โทรหาคณะกรรมการวินัยและเล่าสิ่งที่เกิดขึ้น*
   character: minato
 - goto:
-    - EP1.0_v3(MA)_lb_7 if var_akari >= 6
-    - EP1.0_v3(MA)_lb_11
+    - EP1.0_v3(MA)_lb_3 if var_akari >= 6
+    - EP1.0_v3(MA)_lb_7
 - character: empty
   position: left
-  label: EP1.0_v3(MA)_lb_7
+  label: EP1.0_v3(MA)_lb_3
 - music: bgm_Your_Love_Is_Home
 - msg: —---------ในสายของแทน—-------
   character: tan
@@ -1113,12 +1112,12 @@
     - msg: ฝากด้วยนะพี่แทน
       update:
         - rp_tan_akari += 5
-      goto: EP1.0_v3(MA)_lb_8
+      goto: EP1.0_v3(MA)_lb_4
     - msg: ช่วย...อ่อนโยนด้วยนะคะ...
       cost: 8
       update:
         - rp_tan_akari += 10
-      goto: EP1.0_v3(MA)_lb_9
+      goto: EP1.0_v3(MA)_lb_5
   character: me
   state: EP1.0_v3(MA)_st_1
 - character: akari
@@ -1142,11 +1141,11 @@
 - sound: sv_Bandage
 - msg: '*หลังจากนั้น Akari ก็ผันผ้าที่ต้นขาตัวเองไว้*'
   character: akari
-- goto: EP1.0_v3(MA)_lb_10
+- goto: EP1.0_v3(MA)_lb_6
 - character: akari
   position: center
   act: happy
-  label: EP1.0_v3(MA)_lb_8
+  label: EP1.0_v3(MA)_lb_4
 - msg: 'ฝากด้วยนะพี่แทน '
   character: akari
 - msg: ไว้ใจพี่ได้เลย!
@@ -1177,10 +1176,10 @@
   character: akari
 - msg: ไม่เป็นไรหรอกไม่ต้องคิดมากแต่ตอนนี้น่าจะใกล้ถึงเวลาแล้วนะ
   character: tan
-- goto: EP1.0_v3(MA)_lb_10
+- goto: EP1.0_v3(MA)_lb_6
 - msg: ช่วย...อ่อนโยนด้วยนะคะ... *หน้าหลบตาเขินๆนิดหน่อย*
   character: akari
-  label: EP1.0_v3(MA)_lb_9
+  label: EP1.0_v3(MA)_lb_5
 - msg: '*ยื่นขาที่เจ็บออกไป*'
   character: akari
 - msg: อะ…อืมม..
@@ -1222,17 +1221,17 @@
 - msg: ไม่เป็นไรหรอกไม่ต้องคิดมากแต่ตอนนี้น่าจะใกล้ถึงเวลาแล้วนะ
   character: tan
 - music: empty
-  label: EP1.0_v3(MA)_lb_10
-- goto: EP1.0_v3(MA)_lb_12
+  label: EP1.0_v3(MA)_lb_6
+- goto: EP1.0_v3(MA)_lb_8
 - character: minato
   position: left
   act: Angry
-  label: EP1.0_v3(MA)_lb_11
+  label: EP1.0_v3(MA)_lb_7
 - msg: (รอก่อนนะAkariพี่จะรีบกลับมาให้เร็วที่สุด)
   character: minato
 - msg: ไม่กีนาทีต่อมา
   character: narrator
-  label: EP1.0_v3(MA)_lb_12
+  label: EP1.0_v3(MA)_lb_8
 - music: bgm_Your_Love_Is_Home
 - character: minato
   position: left
@@ -1381,12 +1380,12 @@
 - msg: ' ได้อยู่แล้วสิคะ! หนูมีหลายอย่างที่อยากกินเลยนะ!'
   character: akari
 - goto:
-    - EP1.0_v3(MA)_lb_13 if var_minato >= 6
-    - EP1.0_v3(MA)_lb_14
+    - EP1.0_v3(MA)_lb_9 if var_minato >= 6
+    - EP1.0_v3(MA)_lb_10
 - character: akari
   position: left
   act: Normal
-  label: EP1.0_v3(MA)_lb_13
+  label: EP1.0_v3(MA)_lb_9
 - character: minato
   position: center
   act: Normal
@@ -1419,11 +1418,11 @@
   character: akari
 - msg: จ้าๆ พี่ไม่รับความเห็นต่างเกี่ยวกับอาหารที่พี่ชอบหรอกนะ~
   character: minato
-- goto: EP1.0_v3(MA)_lb_15
+- goto: EP1.0_v3(MA)_lb_11
 - character: akari
   position: center
   act: Normal
-  label: EP1.0_v3(MA)_lb_14
+  label: EP1.0_v3(MA)_lb_10
 - character: minato
   position: left
   act: Normal
@@ -1454,16 +1453,17 @@
   character: minato
 - msg: ร่างกายหนูนี้หนูก็ต้องมีสิทธ์สิพี่อีกอย่างหนูขนาดนั้นก็ยังไม่อ้วนเลยนะ
   character: akari
-- character: akari
-  position: right
-  act: Normal
-  label: EP1.0_v3(MA)_lb_15
+- delay: 1
+  label: EP1.0_v3(MA)_lb_11
 - character: minato
   position: left
   act: Normal
 - character: tan
   position: center
   act: idle
+- character: akari
+  position: right
+  act: Normal
 - msg: ต่างคนก็มีความเห็นเรื่องอาหารเป็นของตัวเองแหละเนอะ
   character: minato
 - msg: อยู่ดีๆก็พูดอะไรไม่รู้เรื่องนะพี่ช่างเถอะฝากเรื่องของกินของหนูด้วยนะพี่
@@ -1661,10 +1661,10 @@
 - choice:
     - msg: Akari ช่วยสอน Nightrose ให้หน่อยสิ
     - msg: งั้นผมพอบอกเคล็ดลับการใช่ตะเกียบให้นะครับ
-      goto: EP1.0_v3(MA)_lb_16
+      goto: EP1.0_v3(MA)_lb_12
     - msg: ถ้าอย่างงั้นให้ผมสอนการใช่ตะเกียบให้ไหมครับ
       cost: 8
-      goto: EP1.0_v3(MA)_lb_18
+      goto: EP1.0_v3(MA)_lb_14
   character: me
   state: EP1.0_v3(MA)_st_4
 - sound: sv_Ping
@@ -1747,9 +1747,9 @@
   character: minato
 - msg: ได้เลย!
   character: akari
-- goto: EP1.0_v3(MA)_lb_20
+- goto: EP1.0_v3(MA)_lb_16
 - sound: sv_Ping
-  label: EP1.0_v3(MA)_lb_16
+  label: EP1.0_v3(MA)_lb_12
 - character: minato
   position: left
   act: Happy
@@ -1820,9 +1820,9 @@
   character: minato
 - msg: ได้เลย!
   character: akari
-- goto: EP1.0_v3(MA)_lb_20
+- goto: EP1.0_v3(MA)_lb_16
 - sound: sv_Ping
-  label: EP1.0_v3(MA)_lb_18
+  label: EP1.0_v3(MA)_lb_14
 - character: minato
   position: left
   act: Smile
@@ -1994,7 +1994,7 @@
   character: akari
 - character: empty
   position: left
-  label: EP1.0_v3(MA)_lb_20
+  label: EP1.0_v3(MA)_lb_16
 - character: empty
   position: right
 - music: bgm_LoFi HipHop
@@ -2006,10 +2006,10 @@
 - msg: เห้ยตามฉันมาทำไมเนี้ย (หน้าตกใจ)
   character: tan
 - goto:
-    - EP1.0_v3(MA)_lb_21 if var_minato >= 9
-    - EP1.0_v3(MA)_lb_24
+    - EP1.0_v3(MA)_lb_17 if var_minato >= 9
+    - EP1.0_v3(MA)_lb_20
 - music: bgm_Cozy
-  label: EP1.0_v3(MA)_lb_21
+  label: EP1.0_v3(MA)_lb_17
 - character: minato
   position: left
   act: Normal
@@ -2043,7 +2043,7 @@
 - choice:
     - msg: เฮ้ยจ่ายมาด้วยไม่ได้ซื้อฟรีๆนะเว้ย
     - msg: ไม่ได้เจอตั้งนานเดี๋ยวเลี้ยงเอง
-      goto: EP1.0_v3(MA)_lb_22
+      goto: EP1.0_v3(MA)_lb_18
   character: me
   state: EP1.0_v3(MA)_st_5
 - character: minato
@@ -2053,11 +2053,11 @@
   character: minato
 - msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย (หน้าโกรธพูด)
   character: tan
-- goto: EP1.0_v3(MA)_lb_23
+- goto: EP1.0_v3(MA)_lb_19
 - character: minato
   position: left
   act: Smile
-  label: EP1.0_v3(MA)_lb_22
+  label: EP1.0_v3(MA)_lb_18
 - msg: ไม่ได้เจอตั้งนานเดี๋ยวเลี้ยงเอง
   character: minato
 - msg: >-
@@ -2077,7 +2077,7 @@
 - msg: อ่อออแล้วไป (หน้าปกตื)
   character: minato
 - sound: sv_Grab Chip
-  label: EP1.0_v3(MA)_lb_23
+  label: EP1.0_v3(MA)_lb_19
 - character: minato
   position: left
   act: Happy
@@ -2085,9 +2085,9 @@
   character: tan
 - msg: เออไว้เจอกัน (หน้ายิ้ม)
   character: minato
-- goto: EP1.0_v3(MA)_lb_27
+- goto: EP1.0_v3(MA)_lb_23
 - music: bgm_Cozy
-  label: EP1.0_v3(MA)_lb_24
+  label: EP1.0_v3(MA)_lb_20
 - character: akari
   position: right
   act: Normal
@@ -2126,7 +2126,7 @@
     - msg: อะนี้หนูเลี้ยง
       update:
         - rp_tan_akari += 5
-      goto: EP1.0_v3(MA)_lb_25
+      goto: EP1.0_v3(MA)_lb_21
   character: me
   state: EP1.0_v3(MA)_st_6
 - character: akari
@@ -2136,11 +2136,11 @@
   character: akari
 - msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย (หน้าโกรธพูด)
   character: tan
-- goto: EP1.0_v3(MA)_lb_26
+- goto: EP1.0_v3(MA)_lb_22
 - character: akari
   position: right
   act: Shy
-  label: EP1.0_v3(MA)_lb_25
+  label: EP1.0_v3(MA)_lb_21
 - msg: อะนี้หนูเลี้ยง
   character: akari
 - msg: >-
@@ -2157,7 +2157,7 @@
 - msg: อ่อออแล้วไป
   character: akari
 - sound: sv_Grab Chip
-  label: EP1.0_v3(MA)_lb_26
+  label: EP1.0_v3(MA)_lb_22
 - msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม* (หน้ายิ้ม)
   character: tan
 - character: akari
@@ -2167,7 +2167,7 @@
   character: akari
 - character: empty
   position: center
-  label: EP1.0_v3(MA)_lb_27
+  label: EP1.0_v3(MA)_lb_23
 - music: bgm_Your_Love_Is_Home
 - msg: จบตอนที่1 "วันแรกในมหาลัย"
   character: narrator

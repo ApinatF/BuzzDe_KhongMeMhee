@@ -31,6 +31,7 @@
   act: Normal
 - msg: …
   character: minato
+- sound: sv_Heavy Knock door
 - msg: พี่|คะ|! ตื่น|ได้|แล้ว|!|! *|เคาะ|ประตู|แรง|กว่า|เดิม*
   character: akari
 - msg: อือ…|ผม|ขอ|นอน|อีก|สัก 5 นาที|นะ|ครับ|แม่|~
@@ -39,6 +40,7 @@
     หนู|ไม่|ใช่|แม่|สัก|หน่อย|!
     แล้ว|ช่วย|ตื่น|มา|เปิด|ประตู|ได้|แล้ว|เจ้า|พี่|ขี้เซา|!|-
   character: akari
+- sound: sv_Pop Door
 - msg: ประตู|ห้อง|เปิด|ไม่|ได้|ล็อค
   character: narrator
 - msg: อ้า|วไ|ม่ไ|ด้ล็อ|คห|นิ…|ถ้า|งั้น|ก็|ขอ|ใช้|วิธี|รุนแรง|ให้|พี่|ตื่น|ละ|นะ
@@ -51,6 +53,7 @@
   character: minato
 - msg: '*|จ้อง|มอง|ไป|ที่ Minat|o*'
   character: akari
+- sound: sv_Idea
 - msg: >-
     ถ้า|ยัง|หลับ|ลึก|ขนาด|นี้|ละ|ก็|วัน|นี้|ต้อง|จัด|หนัก|กว่า|เมื่อ|วาน|ซะ|แล้ว|~
     (|สีหน้า|อมยิ้ม|) 
@@ -103,12 +106,14 @@
     อ้า|!|!|! *|โดน|จับ|โยก|ตัว|ไป|มา* โอเคๆๆ
     พี่|ขอ|เวลา|เตรียม|ตัว|ก่อน|แปป|นึง (|สีหน้า|มึนงง|)
   character: minato
+- sound: sv_Get up on Bed
 - msg: โอ้|ยย|~|.|.|.|โยก|พี่|ซะ|จุก|เลย *|ลุก|จาก|เตีย|ง*
   character: minato
 - msg: >-
     ให้|ตาย|สิ ยัย|นี้|ตื่นเต้น|เรื่อง|วิชา|ทำ|อาหาร|สุดๆไป|เลย|นะ
     (|สีหน้า|ยิ้ม|)
   character: minato
+- sound: sv_Walking Concrete Fast
 - msg: >-
     เลิก|บ่น|ได้|แล้ว|รีบๆไป|เตรียม|ตัว|ได้|แล้ว|ค่ะ|!|!|! *|ดัน|ตัว Minato
     ให้|เดินไ|ป* (|สีหน้า|โกรธ|พูด|)
@@ -116,6 +121,7 @@
 - background: BG_in_University
 - msg: แฮ่ก…ๆ นึก|ว่า|.|.|.|จะ|สาย|กว่า|นี้|แล้ว|นะ|เนี่ย (|สีหน้า|กังวล|)
   character: minato
+- sound: sv_Bubble pop
 - msg: >-
     ถือ|ว่า…|แฮ่ก… ยั|งทั|นอ|ยู่|นะ|คะ นี้|พึ่ง|จะ 7 โมง 27 เอง|นะ|คะ
     *|มอง|ที่|นา|ฬิกา* (|สีหน้า|ปกติ|ตอน|พูด|)
@@ -136,6 +142,7 @@
     ก็|พี่|ขี้เกียจ|หยิบ|โทรศัพท์|ขึ้น|มา|นี้|นา Akari
     ถือ|โทรศัพท์|อยู่|ตลอด|เลย|นิ|ใช่|ไหม|ล่ะ
   character: minato
+- sound: sv_Open_App
 - msg: >-
     เฮ้อ|~|.|.|ก็|ได้|ค่ะ|เดี๋ยว|หนู|เช็ค|ให้|นะ|คะ *|Akari
     เปิด|แอพ|มหา|ลัย|เพื่อ|เช็ค|ตาราง|ของ|วัน|นี้*
@@ -172,6 +179,7 @@
 - msg: ได้|เลย|!|!
   character: akari
 - background: bg_restaurant02
+- sound: sv_SWWalking
 - msg: จาก|นั้น|ทั้ง|คู่|ก็|ได้|ไป|ร้าน|คา|เฟ้เปิด|ใหม่|เพื่อ|รอ|เวลา|เรียน
   character: narrator
 - msg: สวัสดี|ค่ะ|คุณ|ลูกค้า ไม่|ทราบ|ว่า|จะ|รับ|อะไร|หรอ|คะ|?
@@ -182,7 +190,7 @@
     - msg: ผม|เอา คา|ปู|ชิโ|น่
     - msg: ผม|เอา ลาเต้
   character: me
-  state: Copy of ep2.0_v3(Minato)_st_0
+  state: Copy of EP2.0_v3(Minato)_st_0
 - msg: กิน|กาแฟ|แต่|เช้า|เลย|หรอ|พี่
   character: akari
 - msg: ก็|โดน|บังคับ|ให้|ตื่น|เช้า|นี้|นา|ก็|ช่วย|ไม่|ได้|หรอก|นะ
@@ -198,6 +206,7 @@
   character: minato
 - msg: ทราบ|แล้ว|ค่ะ|เชิญ|รอ|ที่|โต๊ะ|สัก|ครู่|แล้ว|เดี๋ยว|เรา|จะ|เรียก|นะ|คะ
   character: man03
+- sound: sv_Walking Concrete Fast
 - msg: >-
     จาก|นั้น Akari กับ Minato
     ก็|เดิน|ผ่าน|เคาน์เตอร์|ไป|รอ|ที|่โ|ต๊แล้ว|ก็|คุย|อะไร|กัน|นิดหน่อย
@@ -238,58 +247,61 @@
         - var_faculty += 0
         - rp_nightrose_minato += 5
   character: me
-  state: Copy of ep2.0_v3(Minato)_st_1
+  state: Copy of EP2.0_v3(Minato)_st_1
 - goto:
-    - Copy of ep2.0_v3(Minato)_lb_0 if var_faculty >= 1
-    - Copy of ep2.0_v3(Minato)_lb_2
+    - Copy of EP2.0_v3(Minato)_lb_0 if var_faculty >= 1
+    - Copy of EP2.0_v3(Minato)_lb_2
 - msg: จะ|เอา|คณะ|นี้|จริง|หรอ|คะ|พี่
   character: akari
-  label: Copy of ep2.0_v3(Minato)_lb_0
+  label: Copy of EP2.0_v3(Minato)_lb_0
 - msg: '(|ยืนยัน|คำ|ตอบ|ไหม *|คำ|เตือน|ไม่|สามารถ|กลับ|ไป|เลือก|ได้|แล้|ว*|) '
   character: minato
 - choice:
     - msg: 'อืมมม…|.    '
       msg_override: 'Yes'
-      goto: Copy of ep2.0_v3(Minato)_lb_1
+      goto: Copy of EP2.0_v3(Minato)_lb_1
     - msg: 'NO'
   character: me
-  state: Copy of ep2.0_v3(Minato)_st_2
+  state: Copy of EP2.0_v3(Minato)_st_2
 - msg: ค่อย|คิด|ทีหลัง|ก็|แล้วกัน|นะ|พี่
   character: minato
-- goto: Copy of ep2.0_v3(Minato)_lb_3
-  label: Copy of ep2.0_v3(Minato)_lb_1
+- goto: Copy of EP2.0_v3(Minato)_lb_3
+  label: Copy of EP2.0_v3(Minato)_lb_1
 - msg: ยัง|คิด|ไม่|ออก|หรอ|คะ|?
   character: akari
-  label: Copy of ep2.0_v3(Minato)_lb_2
+  label: Copy of EP2.0_v3(Minato)_lb_2
 - msg: '(|ยืนยัน|คำ|ตอบ|ไหม *|คำ|เตือน|ไม่|สามารถ|กลับ|ไป|เลือก|ได้|แล้|ว*|) '
   character: minato
 - choice:
     - msg: 'อืมมม…|.    '
       msg_override: 'Yes'
-      goto: Copy of ep2.0_v3(Minato)_lb_3
+      goto: Copy of EP2.0_v3(Minato)_lb_3
     - msg: 'NO'
   character: me
-  state: Copy of ep2.0_v3(Minato)_st_3
+  state: Copy of EP2.0_v3(Minato)_st_3
 - msg: ค่อย|คิด|ทีหลัง|ก็|แล้วกัน|นะ|พี่
   character: minato
 - msg: พี่|คิด|เอา|ไว้|ประมาณ|นี้|น่ะ
   character: minato
-  label: Copy of ep2.0_v3(Minato)_lb_3
+  label: Copy of EP2.0_v3(Minato)_lb_3
 - msg: อย่าง|งั้น|หรอ|คะ|ฟัง|ดู|ดี|อยู่|นะ|สำหรับ|ตอน|นี้|อะ
   character: akari
 - msg: อืมม|!
   character: minato
+- character: lin
+  position: center
+  act: idle
 - msg: >-
     (|Ni hao|) <b><size=40>你好</size></b>|! สวัสดี|!
     คุณ|พนักงาน|วัน|นี้|ฉัน|ขอ|เห|มื่อน|เดิม|นะ|~
-  character: lín
+  character: lin
 - msg: >-
-    มิส Lí|n เอง|สิ|นะ|คะ|วัน|นี้|ก็|เอา
+    มิส lin เอง|สิ|นะ|คะ|วัน|นี้|ก็|เอา
     คา|ปู|ชิโ|น่ห|วาน|น้อย|ใส่|นม|เยอะๆสิ|นะ|คะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
 - msg: ถูกต้อง|แล้ว|ละ|!|! ขอ|แก้ว|ใหญ่|ด้วย|นะ|~
-  character: lín
+  character: lin
 - msg: ทราบ|แล้ว|ค่ะ|.|.|.|แล้ว|ก็|เครื่อง|ดื่ม|ของ|คุณ|ทั้ง 2 คน|ได้|แล้ว|นะ|คะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
@@ -300,33 +312,33 @@
 - msg: '*|ระหว่าง|นั้น Minato|ก็|เดิน|ไป|หยิบ|เครื่อง|ดื่ม|ที่สั่|ง*'
   character: minato
 - msg: หืมม|~|นี้|นาย|น่ะ
-  character: lín
+  character: lin
 - msg: คะ|.|.|ครับ
   character: minato
 - msg: นาย|ชื่อ|อะไร|งั้น|หรอ|~
-  character: lín
+  character: lin
 - msg: ผม|ชื่อ Minato ครับ
   character: minato
 - msg: Minato งั้น|หรอ|อืมม|~|~|นาย|เป็น|เด็ก|ไห|ม่สิ|นะ
-  character: lín
+  character: lin
 - msg: ครับ|.|. แล้ว|คุณ|ชื่อ|อะไร|หรอ|ครับ|?
   character: minato
-- msg: ฉัน|มี|ชื่อ|ว่า Lí|n Pē|ng|yú|n อยู่|ปี 3|จ๊ะ|~
-  character: lín
+- msg: ฉัน|มี|ชื่อ|ว่า lin Pē|ng|yú|n อยู่|ปี 3|จ๊ะ|~
+  character: lin
 - msg: จาก|ชื่อ|แล้ว|รุ่น|พี่|เป็น|คน|จีน|สิ|นะ|.|.|.|มี|อะไร|หรือ|ป่าว|ครับ|?
   character: minato
 - msg: >-
     ช่แล้ว|จ้าา|พี่|เป็น|คน|จีน|เอง|แล้ว|ก็|ไม่|มี|อะไร|หรอก|แค่|เห็น|รุ่น|น้อง|ที่|น่า|รัก|เลย|อยาก|ทัก|แค่|นั้น|เอง|~
-  character: lín
+  character: lin
 - msg: คำ|ว่า|น่า|รัก|เนี้ย|.|.|ไม่|เหมาะ|กับ|ผม|เลย|นะ|ครับ|?|!
   character: minato
 - msg: มิส Lin คะ|ทั้งหมด 85 บาท|ค่ะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
 - msg: โอ้|~ ได้|แล้ว|เหรอ ♪ รอ|สัก|ครู่|นะ|~
-  character: lín
+  character: lin
 - msg: นี้|ค่ะ ถึง|เวลา|ต้อง|ไป|แล้ว|ล่ะ Akari ไว้|เจอ|กัน|นะ|~
-  character: lín
+  character: lin
 - msg: >-
     หลัง|จาก|ที่ Lin
     จ่าย|ตัง|เสร็จ|ก็|กำลัง|จะ|เดิน|ออก|จา|กร้าน|แต่|เห|มื่อน|นาง|จะ|รีบ|ไป|หน่อย|เลย|ทำ|กระเป๋า|สตางค์|ตก
@@ -342,26 +354,28 @@
       msg_override: ต้องเรียกรุ่นพี่ Lin ก่อน!
       update:
         - rp_lin += 5
-      goto: Copy of ep2.0_v3(Minato)_lb_4
+      goto: Copy of EP2.0_v3(Minato)_lb_4
     - msg: .|.|.
       msg_override: '*เก็บกระเป๋าสตางค์ขึ้นมา* เรียกรุ่นพี่'
       cost: 8
       update:
         - rp_lin += 10
-      goto: Copy of ep2.0_v3(Minato)_lb_5
+      goto: Copy of EP2.0_v3(Minato)_lb_5
   character: me
-  state: Copy of ep2.0_v3(Minato)_st_4
+  state: Copy of EP2.0_v3(Minato)_st_4
+- character: empty
+  position: center
 - msg: บอก|พี่|พนักงาน|ดี|กว่า
   character: minato
 - msg: >-
-    พี่|พนักงาน|คะ|รุ่น|พี่ Lí|n
+    พี่|พนักงาน|คะ|รุ่น|พี่ lin
     ทำ|กระเป๋า|สตางค์|ตก|ช่วย|เอา|ไป|คืน|ให้|หน่อย|ได้|ไหม|คะ|?
   character: minato
 - msg: >-
     ได้|ค่ะ|เดี๋ยว|จะ|เอา|ไป|คืน|ให้|นะ|คะ
     คุณ|ลูกค้า|หยิบ|แก้ว|กาแฟ|ไป|ที่|โต๊ะ|ได้|เลย|ค่ะ
   character: man03
-- msg: มิส  Lí|n คะ|!|!
+- msg: มิส  lin คะ|!|!
   character: man03
 - msg: นี้ Akari ของ|ที่|น้อง|สั่ง|ได้|แล้ว|นะ
   character: minato
@@ -375,28 +389,34 @@
   character: akari
 - msg: จะ|ทาน|แล้ว|นะ|ครับ|.|.
   character: minato
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: >-
     หลัง|จาก|นั้น Akari กับ Minato
     ก็|ได้|ดื่มด่ำ|กับ|เครื่อง|ดื่ม|แล้ว|ก็|พูด|คุย|อะไร|กัน|นิดหน่อย
   character: narrator
-- goto: Copy of ep2.0_v3(Minato)_lb_6
+- goto: Copy of EP2.0_v3(Minato)_lb_6
 - msg: (|ต้อง|เรียก|รุ่น|พี่ Lin ก่อน|!|)
   character: minato
-  label: Copy of ep2.0_v3(Minato)_lb_4
-- msg: รุ่น|พี่ Lí|n ครับ|!
+  label: Copy of EP2.0_v3(Minato)_lb_4
+- msg: รุ่น|พี่ lin ครับ|!
   character: minato
 - msg: '!|?|!|.|.|.|ตกใจ|หมด|เลย|มี|ไร|หรอ Minato|?'
-  character: lín
+  character: lin
 - msg: กระเป๋า|สตางค์|รุ่น|พี่|ตก|อยู่|ครับ
   character: minato
 - msg: เอ๋|!|?|.|.|จริง|ด้วย|ขอบใจ|นะ Minato
-  character: lín
-- msg: ไม่|เป็นไร|ครับ แล้ว|รุ่น|พี่ Lí|n ทำไม|ถึง|รีบร้อน|ขนาด|นั้น|หรอ|ครับ|?
+  character: lin
+- msg: ไม่|เป็นไร|ครับ แล้ว|รุ่น|พี่ lin ทำไม|ถึง|รีบร้อน|ขนาด|นั้น|หรอ|ครับ|?
   character: minato
 - msg: >-
     อ๋อ|พี่|ต้อง|ไป|เตรียม|ตัว|อะไร|ก่อ|นห|นะ|เอา|เป็น|ว่า|ไว้|เจอ|กัน|นะ
     Minato|!|!
-  character: lín
+  character: lin
+- character: empty
+  position: center
 - msg: ค|.|.|ครับ
   character: minato
 - msg: เกือบ|ลืม|เลย|!|.|.|มา|แล้วๆน้ำ|ที่ Akari สั่ง|ไว้
@@ -415,52 +435,59 @@
   character: akari
 - msg: จะ|ทาน|แล้ว|นะ|ครับ|.|.
   character: minato
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: >-
     หลัง|จาก|นั้น Akari กับ Minato
     ก็|ได้|ดื่มด่ำ|กับ|เครื่อง|ดื่ม|แล้ว|ก็|พูด|คุย|อะไร|กัน|นิดหน่อย
   character: narrator
-- goto: Copy of ep2.0_v3(Minato)_lb_6
-- msg: '*|เก็บ|กระเป๋า|สตางค์|ขึ้น|มา* รุ่น|พี่ Lí|n ครับ|!|!'
+- goto: Copy of EP2.0_v3(Minato)_lb_6
+- msg: '*|เก็บ|กระเป๋า|สตางค์|ขึ้น|มา* รุ่น|พี่ lin ครับ|!|!'
   character: minato
-  label: Copy of ep2.0_v3(Minato)_lb_5
+  label: Copy of EP2.0_v3(Minato)_lb_5
 - msg: '!|?|!|.|.|.|ตกใจ|หมด|เลย|มี|ไร|หรอ Minato'
-  character: lín
+  character: lin
 - msg: คือ|ว่า|รุ่น|พี่|ลืม|กระเป๋า|สตางค์|ครับ
   character: minato
+- cg: cg_EP2_Lin_Minato
+- hide_msg: true
+- delay: 5
+- cg: empty
 - msg: เอ๋|!|?|.|.|จริง|ด้วย|ขอบใจ|นะ Minato ช่วย|ได้|มาก|เลย
-  character: lín
-- msg: ไม่|เป็นไร|ครับ|รุ่น|พี่  Lí|n
+  character: lin
+- msg: ไม่|เป็นไร|ครับ|รุ่น|พี่  lin
   character: minato
 - msg: >-
     จะ|ตอบแทน|ยังไง|ดี|ล่ะ|เนี้ย…|คิด|ออก|แล้ว|!|!|งั้น|เดี๋ยว|รุ่น|พี่เลี้ยง|น้ำ|ให้|แก้ว|นึง|!|!
-  character: lín
-- msg: ม|ะ…|ไม่|เป็นไร|หรอก|ครับ รุ่น|พี่ Lí|n ผ|ม…|เกรงใจ|น่ะ|ครับ
+  character: lin
+- msg: ม|ะ…|ไม่|เป็นไร|หรอก|ครับ รุ่น|พี่ lin ผ|ม…|เกรงใจ|น่ะ|ครับ
   character: minato
 - msg: เอา|น่า|~ สั่ง|อีก|แก้ว|ไม่|เป็นไร|หรอก|~
-  character: lín
+  character: lin
 - msg: ถ้า|อย่าง|นั้น ผม|ขอ|รับ|น้ำใจ|ไว้|ก็|แล้วกัน|นะ|ครับ
   character: minato
 - msg: >-
-    จาก|นั้น Lí|n ก็|สั่ง|น้ำ|อีก|แก้ว|โดย Minato เลือก|เมนู|ตาม|ที่ Akari
+    จาก|นั้น lin ก็|สั่ง|น้ำ|อีก|แก้ว|โดย Minato เลือก|เมนู|ตาม|ที่ Akari
     อยาก|ได้
-  character: lín
-- image: mcg_Blackscreen
+  character: lin
 - msg: แก้ว|นี้|ราคา 130 บาท|นะ|คะ
   character: man03
   override_name: พนักงานร้านคาเฟ่
 - msg: >-
-    <size=28>พะ</size>|<size=28>.</size>|<size=28>.</size>|<size=28>แพง</size>|<size=28>เวอร์</size>|<size=28>!</size>|<size=28>!</size>
+    <size=80>พะ</size>|<size=80>.</size>|<size=80>.</size>|<size=80>แพง</size>|<size=80>เวอร์</size>|<size=80>!</size>|<size=80>!</size>
   character: minato
-- delay: 2
-- image: empty
 - msg: >-
     สบาย|มาก|~ๆ ตาย|ละ|ใกล้|ถึง|เวลา|แล้|วห|นิ|!|?|.|.|พี่|ต้อง|ไป|แล้ว|ล่ะ
     Minato ไว้|เจอ|กัน|นะ|!
-  character: lín
+  character: lin
+- character: empty
+  position: center
 - msg: ครับ
   character: minato
 - msg: >-
-    รุ่น|พี่ Lí|n เขา|รีบ|ไป|ไหน|กั|นน|ะ…|เกือบ|ลืม|เลย|.|.|!|นี้|น้ำ|ที่ Akari
+    รุ่น|พี่ lin เขา|รีบ|ไป|ไหน|กั|นน|ะ…|เกือบ|ลืม|เลย|.|.|!|นี้|น้ำ|ที่ Akari
     สั่ง|ไว้
   character: minato
 - msg: >-
@@ -479,14 +506,24 @@
   character: minato
 - msg: ค่าาาา|~
   character: akari
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: >-
     หลัง|จาก|นั้น Akari กับ Minato
     ก็|ได้|ดื่มด่ำ|กับ|เครื่อง|ดื่ม|แล้ว|ก็|พูด|คุย|อะไร|กัน|นิดหน่อย
   character: narrator
 - background: BG_in_University
-  label: Copy of ep2.0_v3(Minato)_lb_6
+  label: Copy of EP2.0_v3(Minato)_lb_6
+- character: minato
+  position: center
+  act: Normal
 - msg: ยัง|เหลือ|เวลา|อีก|นิดหน่อย|ก่อน|ที่|จะ|เข้า|เรียน|คาบ|แรก|นะ
   character: minato
+- character: akari
+  position: left
+  act: Normal
 - msg: ถ้า|งั้น|พวก|เรา|ก็|เตรียม|ตัว|กัน|เลย|ดี|กว่า
   character: akari
 - msg: >-
@@ -520,10 +557,12 @@
   character: akari
 - msg: ครับๆ
   character: minato
+- sound: sv_Walking Concrete Fast
 - msg: >-
     หลัง|จาก|นั้น|ทั้ง|คู่|ก็|ได้|เข้า|ไป|ใน|ห้อง|คหกรรม|ซึ่ง|มี|บาง|คน|ได้|มา|เตรียม|ตัว|ไว้|ก่อน|แล้ว
   character: narrator
 - background: bg_cooking_classroom
+- music: bgm_Education
 - msg: ที่|นี้|คือ|ห้อง|คหกรรม|สิ|นะ|ใหญ่|ใช่|เล่น|เลย|นะ|เนี้ย ว่า|ไหม|คะ|พี่
   character: akari
 - msg: …
@@ -537,6 +576,9 @@
 - msg: >-
     ขะ|.|.|ขนาด|นั้น|เลย|หรอ|เนี้ย|ไม่|เคย|เห็น|พี่|ทำ|หน้า|แบบ|นี้|มา|ก่อน|เลย|แหะ
   character: akari
+- character: nightrose
+  position: right
+  act: idle
 - msg: เอ๋|?|! คุณ Minato กับ Akari จัง|งั้น|หรอ|!|? (|สีหน้า|ตกใจ|)
   character: nightrose
 - msg: >-
@@ -560,6 +602,7 @@
   character: nightrose
 - msg: คุณ Minato คะ|.|.|คือ|ว่า|!|!
   character: nightrose
+- sound: sv_School bell tone
 - msg: >-
     ใน|ขณะ|ที่ Nightrose
     จะ|พูด|อะไร|สัก|อย่าง|เสียง|ระฆัง|ก็|ดัง|ขึ้น|พร้อม|กับ|มี|อา|จา|รณ์ค|หะ|กรรม|เข้า|มา
@@ -587,10 +630,13 @@
     จู่ๆใน|ตอน|นั้น|เอง
     ก็|ได้|มี|นักศึกษา|สาว|คน|นึง|เดิน|เข้า|มา|แบบ|ไม่|มี|ปี่|มีข|ลุ่ย
   character: narrator
+- character: lin
+  position: right
+  act: idle
 - msg: >-
     ขอโทษ|นะ|คะ|ที่|มา|ช้า|~ 
     อรุณ|สวัสดิ์|นะ|คะ|ครู|เจน|~|พอดี|ว่า|หนู|ติด|ธุระ|ของ|คณะ|นิดหน่อย|น่ะ|ค่ะ|~
-  character: lín
+  character: lin
 - msg: >-
     เอ๊|ะ…|หญิง|คน|นั้น|ใคร|น่ะ|!|? แถม|เครื่องแบบ|นั่น|มัน|อะไร|กั|น…
     ต่าง|จาก|ของ|เรา|ริบ|ลับ|เลย|นะ|!|?
@@ -603,22 +649,28 @@
     แต่|เห็น|ว่า|เป็น|รุ่น|พี่|ไม่|ใช่|หรอ|ทำไม|ถึง|มา|อยู่|ห้อง|เรียน|ของ|เด็ก|ปี
     1 ได้|ล่ะ|!|?
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: คุณ Minato รู้จัก ผญ คน|นั้น|หรอ|คะ|?
   character: nightrose
 - msg: อืม.|. พี่|กับ|Akari|เจอ|กับ|รุ่น|พี่|คน|นั้น|ที่|คาเฟ่|เมื่อ|เช้า|น่ะ
   character: minato
-- msg: Lí|n|.|.|.|วัน|นี้|เธอ|ต้อง|ไป|เรียน|ที่|ห้อง|คณะ|ไม่|ใช่|หรือ|ไง
+- msg: lin|.|.|.|วัน|นี้|เธอ|ต้อง|ไป|เรียน|ที่|ห้อง|คณะ|ไม่|ใช่|หรือ|ไง
   character: professor
   override_name: อาจารย์ (ครัว)
+- character: lin
+  position: right
+  act: idle
 - msg: >-
     ก็|หนู|เบื่อ|ห้อง|ครัว|ใน|คณะ|แล้|วห|นิ|คะ
     อีก|อย่าง|หนู|เป็น|ถึง|หัวหน้า|คณะ|คหกรรม
     หนู|จะ|ใช้|ห้อง|เอง|หรือ|ไป|เข้า|คลาส|อื่น|แทน|ก็|ไม่|ใช่|ปัญหา|หรอก|คะ 
-  character: lín
+  character: lin
 - msg: >-
     แถม|เป็น|กา|รดี|ด้วย
     เพราะ|จะ|ได้|มา|ดู|ว่า…|ใคร|จะ|เป็น|คน|ที่|น่า|จะ|มี|แว่ว|ใน|การ|ทำ|อาหาร|ที่|แบบ|ที่|จะ|ทำให้|ชื่อเสียง|ของ|คณะ|ยิ่ง|โด่งดัง|ขึ้น|ไป|ไง|ละ|คะ|~|~
-  character: lín
+  character: lin
 - msg: >-
     ทุก|คน|ใน|ห้อง|ต่าง|ตะลึง|ที่|รู้|ว่า หลิน
     คือ|หัวหน้า|ของ|คณะ|คหกรรม|ที่|มี|ชื่อเสียง|อันดับ|ต้นๆของ|มหา|ลัย|แห่ง|นี้
@@ -631,13 +683,16 @@
 - msg: >-
     อ้า|ทุก|คน|!|! ไม่|ต้อง|เกรงใจ|นะ|!
     จัดการ|ทำ|เมนู|วัน|นี้|ให้|เต็ม|ที่สุด|ฝีมือ|ไป|เลย|นะ|!|!|!
-  character: lín
+  character: lin
 - msg: >-
-    Lí|n
+    lin
     ตะโกน|บอก|กับ|คน|ทั้ง|ห้อง|อย่าง|มั่นใจ|ก่อน|จะ|ไป|ที่|โต๊ะ|ด้าน|หลัง|สุด|ของ|ห้อง
   character: narrator
 - msg: ดู|เป็น|คน|ที่|น่า|จะ|รัก|การ|ทำ|อาหาร|สุดๆเลย|นะ
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: >-
     ก็|จาก|ชื่อเสียง|ที่|ได้ยิน|มา
     เธอ|เป็น|ไม่|กี่|คน|ที่|เคย|ถูก|ขอ|ตัว|ไป|เป็น|เซฟ|ทำ|อาหาร|ใน|งาน|ระดับ|ชาติ|มา|แล้ว|ด้วย|ละ|คะ 
@@ -657,12 +712,16 @@
 - msg: ค|ะ…|ค่าา (|สีหน้า|ปกติ|)
   character: akari
 - msg: >-
-    งั้|น… ใน|เมื่อ|วัน|นี้|ก็|จะ|มี Lí|n เข้า|เรียน|ด้วย
+    งั้|น… ใน|เมื่อ|วัน|นี้|ก็|จะ|มี lin เข้า|เรียน|ด้วย
     ครู|ก็|ขอ|ฝาก|ให้|คำ|ปรึกษา|รุ่น|น้อง|ใน|ห้อง|ด้วย|ละ|กัน|นะ
   character: professor
   override_name: อาจารย์ (ครัว)
+- character: lin
+  position: right
+  act: idle
 - msg: ได้|เลย|ค่า|จา|รย์~
-  character: lín
+  character: lin
+- music: bgm_Epic_Gym_Rock_Take1
 - msg: >-
     เอา|ละ ใน|วัน|นี้|ครู|จะ|ขอ|ทดสอบ|ฝีมือ|ของ|นักเรียน|ก่อน
     เพราะ|ฉะนั้น|จาน|แรก|ใน|วัน|นี้
@@ -684,6 +743,9 @@
   character: akari
 - msg: ให้|ตาย|สิ…ยัย|คน|นี้ (|สีหน้า|เป็นห่วง|)
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: Akari จัง|ทำ|อาหาร|ไม่|เป็น|งั้น|หรอ|คะ|รุ่น|พี่ Minato|? *ห|น้าส|งสั|ย*
   character: nightrose
 - msg: อืม ใช่|แล้ว|ละ|ปกติ|พี่|ก็|จะ|เป็น|คน|ทำให้|น้อง|กิน|นะ (|สีหน้า|ปกติ|)
@@ -712,6 +774,7 @@
   character: nightrose
 - msg: เอา|ละ|อาจารย์|จะ|ประกาศ|เมนู|แรก|ให้|ละ|นะ|เมนู|แรก|คือ…|.
   character: professor
+- sound: sv_Idea2
 - msg: …|.|.|ข้าว|ผัด|ไง|หละ|!
   character: professor
 - msg: เมื่อ|ทุก|คน|ใน|ห้อง|ได้|ยินชื่|เมนู|ที่|จะ|ทำ ก็|ต่าง|ทำ|หน้า|งงงวย|กัน|หมด
@@ -721,22 +784,25 @@
   override_name: คนในห้อง
 - msg: >-
     อย่า|พูด|แบบ|นั้น|สิ|นักเรียน|ถึง|แม้|จะ|เป็น|จาน|ที่|ง่าย|แต่|ก็|มี|เชฟ|ชั้น|นำ|หลาย|คน|พลาด|มา|แล้ว|แม้|แต่|กับ
-    Lí|n คน|เก่ง|ของ|คณะ|เอง|ก็|ตาม|ก็|เคย|พลาด|มา|แล้ว|เช่น|กัน
+    lin คน|เก่ง|ของ|คณะ|เอง|ก็|ตาม|ก็|เคย|พลาด|มา|แล้ว|เช่น|กัน
   character: professor
+- character: lin
+  position: right
+  act: idle
 - msg: >-
     โธ่|จา|รย์ อย่า|เอา|เรื่อง|ตอน|ปี|หนึ่ง|มา|เล่า|สิ|คะ
     ถ้า|งั้น|เดี๋ยว|พี่|จะ|เล่า|ที่|มา|ของ|ข้าว|พัด|ให้|ฟัง|นะ
-  character: lín
+  character: lin
 - msg: >-
     ข้าว|ผัด|น่ะ|ถูก|คิดค้น|ขึ้น|ใน|สมัย|รา|ชว|งศ์ส|ุย ช่วง|ประมาณ|ปี ค.ศ.
     58|9–|618 ที่|เมือ|งห|ยาง|โจว
-  character: lín
+  character: lin
 - msg: >-
     ซึ่ง|เกิด|ขึ้น|มา|ได้|เพราะ|ที่|จีน|มี|วัฒนธรรม ไม่|นิยม|ทิ้ง|อาหาร|เหลือ
     จึง|นำ|ของ|เหลือ|ค้างคืน|เอา|มา|ผัด|เข้า|กับข้าว|จน|เกิด|มา|เป็น|ข้าว|ผัด
-  character: lín
+  character: lin
 - msg: จน|ถึง|ทุก|วัน|นี้|ต่าง|ประเทศ|ก็|มี|หลากหลาย|แบบ|ด้วย
-  character: lín
+  character: lin
 - msg: >-
     ถูกต้อง|แล้ว
     ข้าว|ผัด|น่ะ|เป็น|อาหาร|ที่|ถึง|จะ|ง่าย|แต่|ก็|มี|ประ|วิติ|ศาสตร์|มา|ยาว|นาน|มาก|ทุก|คน|ก็|จำ|ไว้|ด้วย|นะ
@@ -762,12 +828,15 @@
     จะ|เริ่ม|ตรง|ไหน|ก่อน|ดี|ละ|เนี่ย คิด|ไว้|แค่|ว่า|ถ้าอ|ยู่|กับ|พี่
     ก็|จะ|ได้|ให้|พี่|แบก|แท้ๆ (|สีหน้า|มึนงง|)
   character: akari
+- character: nightrose
+  position: right
+  act: idle
 - msg: >-
     อัน|นี้… และ|ก็|อัน|นี้ โ|อ๊ะ|! อัน|นี้|ด้วย|~|~
     *|หยิบ|วัตถุ|ดิบ|มา|ตาม|ที่|ต้อง|กา|ร* (|สีหน้า|ปกติ|พูด|)
   character: nightrose
 - msg: >-
-    ขณะ|ที่|ทุก|คน|กำลัง|ไป|เลือก|วัตถุ|ที่|จะ|นำ|มา|ทำ|ข้าว|ผัด|กัน Lí|n
+    ขณะ|ที่|ทุก|คน|กำลัง|ไป|เลือก|วัตถุ|ที่|จะ|นำ|มา|ทำ|ข้าว|ผัด|กัน lin
     ก็|ได้|เดิน|เข้า|มา|ร่วม|วง|และ|หยิบ|สิ่ง|ที่|ต้องการ|ไป|อย่าง|รวดเร็ว
   character: narrator
 - msg: ระ|-|เร็ว|สุดๆเลย|!|!|!
@@ -777,7 +846,7 @@
   character: man02
   override_name: คนในห้อง
 - msg: >-
-    แต่|ตอน|ที่|ทุก|คน|ตกใจ|กับ|สิ่ง|ที่ Lí|n ทำ|นั้น|เอง Minato กับ Nightrose
+    แต่|ตอน|ที่|ทุก|คน|ตกใจ|กับ|สิ่ง|ที่ lin ทำ|นั้น|เอง Minato กับ Nightrose
     ก็|ได้|ยืน|เลือก|วัตถุ|ไป|อย่าง|สบายๆ ไม่|มี|คน|แย่ง
   character: narrator
 - msg: >-
@@ -884,10 +953,10 @@
 - msg: ขะ|-|ขอโทษ|ที|นะ|/|โทษ|ที|จ้ะ Nightrose
   character: me
   override_name: Minato/Akari
-- msg: โ|อ๊ะ|! นี่ๆ หัน|ไป|ดู|รุ่น|พี่ Lí|n ทำ|ข้าว|ผัด|สิ|!
+- msg: โ|อ๊ะ|! นี่ๆ หัน|ไป|ดู|รุ่น|พี่ lin ทำ|ข้าว|ผัด|สิ|!
   character: man02
 - msg: >-
-    ตอน|นั้น|เอง ฝั่ง|ของ Lí|n
+    ตอน|นั้น|เอง ฝั่ง|ของ lin
     ก็|ได้|เริ่ม|ทำ|ข้า|วผั|ดใร|ฉบับ|ของ|เธอ|เอง|อย่าง|พิถีพิถัน|สุดๆ
     จน|ทำ|เอา|ทุก|คน|ใน|ห้อง|ละ|สายตา|ไม่|ได้|เลย|ที|เดียว
   character: narrator
@@ -921,6 +990,7 @@
     ใส่|ต้น|หอม|ผัด|พอ|เข้า|กัน|อีก|สัก|หน่อย แล|ะก|็… ปิด|เตา|ได้|~
     *|ตัก|ใส่|จาน|และ|จัด|เรียง|ให้|ดู|เรียบ|ร้อ|ย*
   character: nightrose
+- sound: sv_Look someone
 - msg: >-
     ดู|หน้า|กิน|จริงๆเลย|นะ|เนี่ย แล้|ว… ของ|พวก|รุ่น|พี่ Minato ล่ะ
     *|ชำเลือง|มอง|ไป|ที่ Minato กับ Akar|i*
@@ -931,6 +1001,7 @@
   character: minato
 - msg: สะ|-|สุด|ยอด|! อย่าง|กับ|เซฟ|มือ|อาชีพ|เลย|ละ
   character: nightrose
+- sound: sv_Look someone
 - msg: แล้|ว… ของ Akari จัง|ละ|? *|ชำเลือง|มอง|ไป|ที่ Akari ต่อ*
   character: nightrose
 - msg: อ้าาา|!|!|! ไฟ|แรง|ไป|แล้ว|!|!|! *|จับ|ตัว|ปรับ|ไฟ|เตา|ไป|มา*
@@ -939,10 +1010,13 @@
   character: minato
 - msg: เอ่อ… แตก|ต่าง|จาก|พี่|ชาย|ลิบลับ|เลย|แฮะ *|ยิ่ม|พร้อม|ขำ|แห้|ง*
   character: nightrose
+- character: lin
+  position: right
+  act: idle
 - msg: เสร็จ|แล้ว|ค่า|~|~
-  character: lín
+  character: lin
 - msg: >-
-    ทุก|คน|ใน|ห้อง|ต่าง|รีบ|พา|กัน|หัน|ไป|มอง|ที่ Lí|n กัน
+    ทุก|คน|ใน|ห้อง|ต่าง|รีบ|พา|กัน|หัน|ไป|มอง|ที่ lin กัน
     ก่อน|ได้|กลิ่น|ข้าว|ผัด|ฝีมือ|ของ|เธอจ|ะฟล|ุ๊ง|ไป|ทั่ว|ห้อง|นั้น|และ|หน้าตา|ของ|ข้าว|ผัด|ที่|จัด|วาง|อย่าง|สวย|งาม
   character: narrator
 - msg: นั่น|! หอม|สุดๆเลย
@@ -955,7 +1029,7 @@
   character: me
   override_name: Minato/Nightrose
 - msg: >-
-    โอ|เคร Lí|n
+    โอ|เคร lin
     ไม่|ต้อง|ขิง|หรอก|เอา|ละ|นักเรียน|ทุก|คน|สำหรับ|ที่|ทำ|เสร็จ|ก็|ให้|แลก|กัน|ชิม|กับ|เพื่อน|ข้างๆหรือ|ใคร|ใน|ห้อง|ก็|ได้|เลย|นะ|แล้ว|เอา|มา|ให้|จา|รย์ชิม|ต่อ|ด้วย|ละ
   character: professor
   override_name: อาจารย์ (ครัว)
@@ -977,6 +1051,9 @@
     เป็น|ข้าว|ที่|ดู|มี|ทั้ง|ความ|กรอบ|นิดหน่อย|และ|ความ|นุ่ม|ใน|เวลา|เดียวกัน
     ดู|ไม่|แฉะ|จน|เกิน|ไป|เพราะ|ผัด|ใน|ไฟ|แรง|และ|มี|กลิ่น|ที่|หอม|สุดๆ
   character: narrator
+- character: nightrose
+  position: right
+  act: idle
 - msg: ว้าว|~|~ น่า|กิน|จัง|เลย|นะ|คะ|รุ่น|พี่ กลิ่น|ก็|หอม|มาก|ด้วย
   character: nightrose
 - msg: งั้|นหร|อ… ของ|เธอ|ก็|ดู|ดี|เลย|นะ
@@ -986,13 +1063,15 @@
     เมื่อกี้|อาจารย์|เขา|ให้|แลก|กัน|ชิม|กับ|คน|ข้างๆนะ|คะ
     *|ยก|จาน|ตัวเอง|มา|วา|งตร|งห|น้า*
   character: nightrose
+- sound: sv_Look someone
 - msg: เอา|สิ เพราะ|ฉัน|คง|ไม่|กล้า|ชิม|ของ Akari แน่ๆ *|ชำเลือง|มอง|ไป|ที่ Akar|i*
   character: minato
-- image: mcg_Blackscreen
+- image: mcg_DarkMatterFriedRice
 - msg: >-
     *|ข้าว|ผัด|ใน|กระทะ|ดำ|มืด|ราว|กับ Dark Matter ไม่|ก็|หลุด|มา|จาก|มิติ
     Lovecraf|t*
   character: narrator
+- image: empty
 - msg: ท|ำไ|ม… มัน|มืด|มิด|เหมือน|อนาคต|หนู|เลย|ละ|เนี่ย…|พูด|แล้ว|ก็|เศร้า
   character: akari
 - msg: นั่น|อะไร|น่ะ|เห้ย|!|? ดำ|มืด|จัดๆเลย|อะ|!|?
@@ -1038,44 +1117,50 @@
   character: nightrose
 - msg: งั้น|ก็|ได้|เลย เดียว|ตัก|ให้|อีก|คำ|นะ
   character: minato
+- character: lin
+  position: left
+  act: idle
 - msg: นี่ ของ|พวก|เธอ|เอง|ก็|น่า|กิน|ดี|นะ|เนี่ย
-  character: lín
+  character: lin
 - msg: >-
-    ทันใด|นั้น|เอง Lí|n ก็|ได้|เดิน|เข้า|มา|หา Minato และ Nightrose
+    ทันใด|นั้น|เอง lin ก็|ได้|เดิน|เข้า|มา|หา Minato และ Nightrose
     ด้วย|ความ|สนใจ|ใน|ข้าว|ผัด|ของ|ทั้ง|คู่
   character: narrator
-- msg: 'อะ|-|เอ๊ะ|!|? รุ่น|พี่ Lí|n '
+- character: nightrose
+  position: right
+  act: idle
+- msg: 'อะ|-|เอ๊ะ|!|? รุ่น|พี่ lin '
   character: nightrose
 - msg: >-
-    เรียก|แค่|คุณ Lí|n เฉยๆก็|ได้|จ้า นี่|ถ้า|ไม่|ว่า|อะไร
+    เรียก|แค่|คุณ lin เฉยๆก็|ได้|จ้า นี่|ถ้า|ไม่|ว่า|อะไร
     ขอ|ชิม|ใน|ช้อน|นั่น|ได้|มัย|?
-  character: lín
+  character: lin
 - msg: 'อะ|-|อือ ได้|ครับ '
   character: minato
 - msg: งั้น ขอทาน|แล้ว|นะ|คะ อามมม|~ *|กิน|เข้า|ไป|อย่าง|เอ|ร็ดอ|ร่อ|ย*
-  character: lín
+  character: lin
 - msg: เป็นไง|บ้าง|เหรอ|ครับ|?
   character: minato
 - msg: >-
     อื้ม|! อร่อย|กว่า|ที่|คิด|อีก|นะ|เนี่ย|! หน้าตา|อาจ|จะ|ไม่|ได้|สวย|หรู
     แต่|มัน|อร่อย|ใน|แบบ|ที่|ไม่|ว่า|ใคร|ก็|ต้อง|ชอบ|เลย|ละ
-  character: lín
+  character: lin
 - msg: งั้น|ช่วย|ชิม|ของ|ให้|หนู|ด้วย|ได้|มั้ย|คะ|!|?
   character: nightrose
 - msg: >-
     ได้|สิ|จ้ะ *|รับ|ป้อน|จาก Nightros|e* อื้ม|~ ฝีมือ|น่า|จะ|ยัง|ไม่|ถึง|นะ
     แต่|ก็|ไม่|เลว
-  character: lín
+  character: lin
 - msg: ระ|-|หรอ|คะ
   character: nightrose
-- msg: แต่…|แล้ว|ของ|คุณ Lí|n ละ|ครับ|? ไม่|มี|ให้|พวก|เรา|ลอง|ชิม|บ้าง|หรอ|ครับ
+- msg: แต่…|แล้ว|ของ|คุณ lin ละ|ครับ|? ไม่|มี|ให้|พวก|เรา|ลอง|ชิม|บ้าง|หรอ|ครับ
   character: minato
 - msg: >-
     ก็|อยาก|นะ
     แต่|พอดี|ว่า|เหมือน|คน|ครึ่ง|ห้อง|จะ|เอา|ไป|กิน|กันเอง|แล้ว|น่ะ|สิ
-  character: lín
+  character: lin
 - msg: >-
-    ทั้ง|สาม|คน|หัน|ไป|ดู|ที่|โต๊ะ|ของ Lí|n
+    ทั้ง|สาม|คน|หัน|ไป|ดู|ที่|โต๊ะ|ของ lin
     ที่|มี|นักศึกษา|ครึ่ง|ห้อง|ไป|ล้อม|รอบ|เพื่อ|จะ|ลอง|ชิม|ข้าว|ผัด|ของ|เธอ
     จน|คาด|ว่า|จะ|หมด|ใน|อีก|ไม่|นาน
   character: narrator
@@ -1087,17 +1172,21 @@
     ไม่|ต้อง|ห่วงๆ ฉัน|ทำ|ไว้|เยอะ|กว่า|ที่|เห็น|น่ะ
     และ|อาจารย์|เอง|ก็|ชิม|ของ|ฉัน|ไป|หลาย|ครั้ง|จน|เบื่อ|แล้ว|ละ
     แต่|ถ้า|เป็น|ของ|เธอ|สอง|คน ฉัน|ว่า|แค่|นี้|ก็|ผ่าน|แล้ว|ละ
-  character: lín
+  character: lin
 - msg: งั้น|หรอ|ครับ|-
   character: minato
 - msg: เห|วอ|!|? เธอ|คน|นั้น|กิน|ข้าว|ผัด Dark Matter ลง|ไป|ได้|ไง|ละ|น่ะ|!|?
   character: man02
   override_name: คนในห้อง
+- sound: sv_Look someone
 - msg: ห๊ะ|? *|หัน|กลับ|ไป|มอง|ตาม|ต้น|เสีย|ง*
   character: minato
 - msg: Akari จัง|!|? (|สีหน้า|ตกใจ|)
   character: nightrose
-- image: mcg_Blackscreen
+- image: mcg_DarkMatterFriedRice
+- character: akari
+  position: right
+  act: Haru
 - msg: >-
     *|ชิม|ข้าว|ผัด|ตัวเอง|แล้ว|หน้า|ฟุบ|โต๊ะ|ไป|เลย* เอ่อ…
     รู้สึ|กว่า|ท้อง|ฉัน|มัน|เริ่ม|ร้อง|ไง|ก็|รู้|อ่า…
@@ -1106,7 +1195,7 @@
 - msg: >-
     อาจารย์|ค่า|! มี|คน|กำลัง|จะ|ตาย|เพราะ|ข้าว|ผัด|สูตร Lovecraft
     แล้ว|ละ|คะ|!|!|!
-  character: lín
+  character: lin
 - msg: แย่|ละ|สิ|! Akari ไหว|หรือ|ป่าว|!|! (|สีหน้า|ตกใจ|)
   character: minato
 - msg: 'เห็น|สภาพ|งี้|คง|ไหว|มั้ง|พี|่…|จะ|อ้วก|แล้ว '
@@ -1114,8 +1203,13 @@
 - msg: นี่|พวก|เธอ 2 คน รีบ|พา|เธอ|คน|นั้น|ไป|ที่|ตึก|พยาบาล|เร็ว|เข้า|!
   character: professor
   override_name: อาจารย์ (ครัว)
+- sound: sv_cloth_hard_take_away
 - msg: ครับ|! Akari ทำใจ|ดีๆนะ|! *|แบก Akari ไป|ที่|ตึ|กพ|ยา|บา|ล*
   character: minato
+- character: nightrose
+  position: left
+  act: idle
+- sound: sv_cloth_hard_take_away
 - msg: >-
     Akari จัง|ทน|หน่อย|นะ|! *|ช่วย Minato แบก Akari ไป|ที่|ตึ|กพ|ยา|บา|ล*
     (|สีหน้า|เป็นห่วง|)
@@ -1129,24 +1223,33 @@
     ไป|มาก|กว่า|นี้ (|สีหน้า|ห่วง|)
   character: nightrose
 - msg: >-
-    คุณ Lí|n เดียว|ผม|กลับ|มานะ|ครับ|!|/|รุ่น|พี่ Lí|n
+    คุณ lin เดียว|ผม|กลับ|มานะ|ครับ|!|/|รุ่น|พี่ lin
     เดี๋ยว|พวก|หนู|กลับ|มานะ|คะ|!
   character: me
   override_name: Minato/Nightrose
+- character: lin
+  position: left
+  act: idle
 - msg: ได้|เลย|จ้ะ ขอ|ให้|ไม่|เป็นไร|มาก|นะ
-  character: lín
+  character: lin
 - msg: >-
     หลัง|จาก|นั้น Minato กับ Nightrose ก็|รีบ|พา Akari
-    ออก|จาก|ห้อง|ไป|ที่|ตึก|พยาบาล|อย่าง|เร่งรีบ โดย|มี Lí|n มอง|ตาม|หลัง|ไป
+    ออก|จาก|ห้อง|ไป|ที่|ตึก|พยาบาล|อย่าง|เร่งรีบ โดย|มี lin มอง|ตาม|หลัง|ไป
   character: narrator
+- sound: sv_Look someone
 - msg: >-
     คาด|ไม่|ถึง|เลย|แหะ|ว่า|จะ|มี|คน|ทำ|อาหาร|แบบ|นี้|ได้|จริงๆด้วย|น่ะ
     นี่|มัน|อาหาร|จาก|มิติ|มืด|ชัดๆ *|มอง|ลง|ไป|ที่|ข้าง|ผัด Dark Matter ของ
     Akar|i*
-  character: lín
+  character: lin
+- character: empty
+  position: right
+- character: empty
+  position: left
 - msg: —|ผ่าน|ไป 20 นาที ยาว|จน|หมด|คาบ|ทำ|อา|หา|ร—
   character: narrator
 - background: bg_nurse's_room
+- music: bgm_Your_Love_Is_Home
 - msg: '*|เดิน|ออก|มา|จาก|ห้อ|งตรว|จ*'
   character: man03
   override_name: หมอ
@@ -1159,6 +1262,9 @@
   override_name: หมอ
 - msg: โล่งอก|ไป|ที|~
   character: minato
+- character: nightrose
+  position: right
+  act: idle
 - msg: ดี|จัง|เลย|นะ|คะ|ที่ Akari จัง|ปลอดภัย|ดี (|สีหน้า|ยิ้ม|)
   character: nightrose
 - msg: 'ชอบ|ทำให้|เป็นห่วง|อยู่|เรื่อย|เลยยัย|น้อง|คน|นี้|เนี้ย… '
@@ -1230,46 +1336,52 @@
   character: nightrose
 - msg: ตอน|นั้น|เอง|ที่|ก็|มี|คน|เดิน|มา|หา|พวก|เขา
   character: narrator
+- character: lin
+  position: left
+  act: idle
 - msg: คุย|กัน|สนุก|เลย|นะ ทั้ง|สอง|คน|~
-  character: lín
-- msg: เอ๊ะ คุณ Lí|n|?
+  character: lin
+- msg: เอ๊ะ คุณ lin|?
   character: minato
 - msg: ไหง|ถึง|มา|นี่|ละ|คะ|?
   character: nightrose
 - msg: >-
     ก็|บอก|แล้ว|นิ|ว่า|ฉัน|ไม่|ได้|จำเป็น|จะ|เข้า|เรียน|คาบ|นั้น|นี่|นา
     แค่|อยาก|มา|ดู|พวก|ร่น|น้อง|แบบ|เธอ|สอง|คน|มา|ทำ|อาหาร|กัน|แค่|นั้น 
-  character: lín
+  character: lin
 - msg: แล้ว|น้อง|สาว|คน|นั้น|อาการ|เป็นไง|บ้าง|ละ|?
-  character: lín
+  character: lin
 - msg: ไม่|เป็นไร|มาก|หรอก|ครับ แค่|กิน|ของ|ผิด|สำแดง|ไป|หน่อย|น่ะ
   character: minato
 - msg: อีก|สัก|พัก|ก็|กลับ|ไป|เรียน|ได้|แล้ว|ละ|คะ
   character: nightrose
 - msg: >-
-    งั้น|หรอ|ก็|ดี|แล้ว|ละ อ่อ|จริง|ด้วย|! รอ|แปป|นะ *|Lí|n
+    งั้น|หรอ|ก็|ดี|แล้ว|ละ อ่อ|จริง|ด้วย|! รอ|แปป|นะ *|lin
     ได้|หยิบ|ถ้วย|พร้อม|ฝา|ปิด|ออก|มา|แล้ว|ยื่น|ให้|ทั้ง|สอ|ง*
-  character: lín
+  character: lin
 - msg: เอ๊ะ นี่|มัน|?
   character: nightrose
 - msg: >-
     ก็|ข้าว|ผัด|ที่|ฉัน|ทำ|ไง|ละ
     ฉัน|ตัก|ใส่|ถ้วย|มา|ให้|เธอ|สอง|คน|ลอง|เอา|ชิม|กัน|น่ะ
     แค่|แปป|เดียว|คน|ครึ่ง|ห้อง|กิน|แบบ|กวาด|ซะ|เรียบ|ไป|จน|จะ|เกลี้ยง|แล้ว|น่ะ|สิ 
-  character: lín
+  character: lin
 - msg: โชค|ดี|ที่|ฉัน|ตัก|มา|ให้|พวก|เธอ|นะ
-  character: lín
+  character: lin
 - msg: ไม่|จำเป็น|ต้อง|ลงทุน|แบ่ง|มา|ให้|พวก|เรา|เลย|นะ|ครับ
   character: minato
 - msg: >-
     ไม่|เป็นไร|หรอก|น่า ถ้า|ไม่|ได้|ความเห็น|จาก|ทุก|คนที|่อ|ยู่|ใน|ห้อง|นั้น
     อาหาร|นี่|ก็|ยัง|ไม่|สามารถ|พูด|ได้|เต็ม|ปา|กว่า|มัน|อร่อย|หรอก|นะ
     รับ|ไป|เถอะ|น่า
-  character: lín
+  character: lin
 - msg: งั้น|ขอบคุณ|มาก|นะ|คะ
   character: nightrose
 - msg: (|จู่ๆ ประตู|ห้อง|พยาบาล|ก็|เปิด|ออก|มา|)
   character: narrator
+- character: akari
+  position: left
+  act: Normal
 - msg: พี|่ค|ะ… ยั|งอ|ยู่|ใช่|มั้ย|ค่า…
   character: akari
 - msg: เห|วอ|!|? Akari เธอ|หาย|ดี|แล้ว|เหรอ|?
@@ -1280,8 +1392,11 @@
   character: akari
 - msg: ม|ะ– ไม่|เป็นไร|จ้ะ Akari จัง|ไม่|เป็นไร|มาก|ก็|ดี|แล้ว|ละ
   character: nightrose
+- character: lin
+  position: left
+  act: idle
 - msg: สภาพ|ดู|ยัง|ไม่|ค่อย|ดี|เลย|น่ะ|นั่น แน่ใจ|หรอ|ว่า|ไหว|น่ะ|?
-  character: lín
+  character: lin
 - msg: ก|็พ|อ… ไห|วอ|ยู่|นะ|คะ
   character: akari
 - msg: >-
@@ -1293,17 +1408,22 @@
   character: akari
 - msg: พี|่ค|ะ… ไป|เรียน|ต่อ|กัน|เถอะ คาบ|ต่อไ|ปอ|ยู่|อีก|ตึก|นะ|คะ
   character: akari
+- sound: sv_Look someone
 - msg: อืม โอ|เครๆ *|หัน|กลับ|มา|หา Nightros|e*
   character: minato
+- sound: sv_Walking Fade out
 - msg: >-
     งั้น|ฉัน|ก็|ขอ|ตัว|ไป|ก่อน|ละ|กัน|นะ
     แล้ว|ถ้า|เจอ|กัน|อีก|ก็|ค่อย|บอก|เรื่อง|ข้าว|ผัด|ว่า|อร่อย|มั้ย|ก็|ได้|นะ
-  character: lín
+  character: lin
 - msg: ครับ|/|ค่า
   character: me
   override_name: Minato/Akari/Nightrose
-- msg: ' Lí|n ได้|เดิน|จาก|พวก|เขา|ไป|ใน|ที่สุด'
+- msg: ' lin ได้|เดิน|จาก|พวก|เขา|ไป|ใน|ที่สุด'
   character: narrator
+- character: akari
+  position: left
+  act: Normal
 - msg: จาก|นี้ เธอ|ก็|คง|มี|เรียน|ต่อ|เหมือน|กัน|สิ|นะ
   character: minato
 - msg: ค่ะ แต่… ไม่|ได้|เป็น|วิชา|เดียว|กับ|รุ่น|พี่|นะ|คะ (|สีหน้า|ปกติ|)
@@ -1332,6 +1452,11 @@
     อัน|นี้|คือ|การ|ปลุก|พี่|ชาย|จริงๆ
     ใช่|ไหม|เนี้ย|ทำไม|มัน|ดู|โหดร้าย|อย่าง|งี้
   character: minato
+- character: empty
+  position: left
+- character: empty
+  position: center
+- sound: sv_Walking Fade out
 - msg: ทั้ง Minato และ Akari ทั้ง|2|พี่น้อง|ได้|เดิน|จาก|ไป
   character: narrator
 - msg: หืม… *|จ้อง|มอง|ไป|ที่|โทรศัพท์|ตัว|เอ|ง* (|สีหน้า|ยิ้ม|)

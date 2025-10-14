@@ -5,7 +5,7 @@
 - msg: idle
   character: akari
 - delay: 1
-- character: lín
+- character: lin
   position: center
   act: idle
 - character: grandfather
@@ -15,7 +15,7 @@
   position: right
   act: idle
 - msg: "你好|\t|nǐ hǎ|o|\t|หนี|ห่าว"
-  character: lín
+  character: lin
 - delay: 3
 - character: man01
   position: center
