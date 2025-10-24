@@ -18,7 +18,7 @@
   character: akari
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: สวัสดี|ตอน|เย็น|นะ Akari จัง
   character: tan
 - character: akari
@@ -87,7 +87,7 @@
   character: akari
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     เป็น|อย่าง|งี้|นี้|เอง|สิน|ะ…|จะ|ว่า|ไป Akari อาทิตย์|ที่|แล้ว Minato
     บอ|กว่า Akari ป่วย|เกิด|อะไร|ขึ้น|?

@@ -607,7 +607,7 @@
   character: narrator
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: เออ พี่|ครับ|เอา|ของ|ไว้|ตรง|นี้|ใช่|ไหม|ครับ
   character: tan
 - msg: 'อา|.|.|แล้ว|ก็|อย่า|ให้|สินค้า|เสียหาย|ละ|ไม่|งั้น|ผู้จัดการ|เอา|เรื่อง|แน่ '

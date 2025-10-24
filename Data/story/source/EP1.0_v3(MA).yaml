@@ -187,7 +187,7 @@
   character: minato
 - character: grandfather
   position: center
-  act: idle
+  act: Normal
 - msg: 'นี่ปู่เองหลานเอ๋ย เป็นไงมั่งเรียนมหาลัยวันเเรก '
   character: grandfather
 - character: minato
@@ -277,7 +277,7 @@
   character: narrator
 - character: man01
   position: center
-  act: idle
+  act: Normal
 - msg: นี้~ ไม่เคยเห็นหน้ามาก่อนเลยเด็กใหม่งั้นหรอ~
   character: man01
 - character: akari
@@ -317,6 +317,12 @@
   act: sad
 - msg: (ทำไงถึงจะผ่านไปได้นะ)
   character: akari
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
 - delay: 1
 - msg: >-
     นี้จะเป็นตัวเลือกในการเลือกตัวละครหลักที่คูณจะใช้ดำเนินเรื่องราวที่ต่างไปตามตัวละครที่เลือก
@@ -333,64 +339,65 @@
         - var_minato -= 10
   character: me
   state: EP1.0_v3(MA)_st_0
-- character: empty
-  position: center
-- character: empty
-  position: right
-- character: empty
-  position: left
-- delay: 1
-- msg: ...
-  character: narrator
-- hide_msg: true
 - goto:
     - EP1.0_v3(MA)_lb_0 if var_minato >= 5
     - EP1.0_v3(MA)_lb_1
 - music: bgm_Epic_Gym_Rock_Take2
   label: EP1.0_v3(MA)_lb_0
-- character: akari
-  position: left
-  act: sad
-- character: minato
+- character: empty
   position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
+- character: minato
+  position: right
   act: Smile
 - msg: >-
     คือว่านะครับรุ่นพี่พวกผมคิดว่าจะไปตึกปฐมนิเทศก่อนแล้วค่อยตัดสินใจครับรบกวนช่วยถอยไปหน่อยจะได้ไหมครับ
   character: minato
 - character: man01
-  position: right
-  act: idle
+  position: center
+  act: Normal
 - msg: ตะ..แต่ว่าถ้าน้องเข้าคณะนี้น้องจะ…
   character: man01
 - character: minato
-  position: center
+  position: right
   act: Bemused
 - msg: >-
     <b><size=40>やかましい</size></b>！ (Yakamashi!!) พูดมากจริงๆเลย!
     ผมบอกแล้วไงว่าผมยังไม่สน! 
   character: minato
+- character: akari
+  position: left
+  act: sad
+- character: empty
+  position: left
 - msg: แต่พี่ว่ายังไงน้องก็ต้องเขาคณะนี้นะ!!
   character: man01
 - msg: ในขณะที่ minato สงบสติไม่ได้อยู่นั้นเองก็มีเสียงหนึ่งดังขึ้นมา
   character: narrator
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: ไม่ทราบว่า เกิดอะไรขึ้นงั้นหรอ ผมขอทราบสถานการณ์หน่อยสิครับ~
   character: lucien
   override_name: ห.กรรมการวินัย
 - character: minato
-  position: center
+  position: right
   act: TopView
 - msg: 'หืมม…นั้นใครนะ? '
   character: minato
 - msg: ซะ..ซวยแล้ว หัวหน้ากรรมการวินัยมา
   character: man01
 - character: minato
-  position: center
+  position: right
   act: Normal
 - msg: อะไรนะ… คุณคือหัวหน้าคณะกรรมการวินัยหรือครับ?!
   character: minato
+- character: nightrose
+  position: left
+  act: Smlie
 - msg: ถูกต้องแล้วครับผมคือหัวหน้ากรรมการวินัยชื่อว่า lucien ครับ
   character: lucien
   override_name: ห.กรรมการวินัย
@@ -458,7 +465,7 @@
   character: akari
 - character: man01
   position: right
-  act: idle
+  act: Normal
 - msg: แต่ว่าถ้าน้องได้เข้าคณะของพี่แล้วเชื่อว่าน้องต้องชอบแน่ๆครับ~
   character: man01
 - character: akari
@@ -487,7 +494,7 @@
   character: akari
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: เห้ย ตรงนั้นนะหยุดเดี๋ยวนี้เลยนะ!!
   character: lucien
   override_name: ห.กรรมการวินัย
@@ -683,7 +690,7 @@
 - delay: 3
 - character: grandfather
   position: center
-  act: idle
+  act: Normal
 - msg: >-
     ปู่เชื้อว่าหลานทั้ง 2
     จะต้องผ่านไปได่แน่ด้วยทักษะของหลานที่ปู่ขัดเกลาให้เองกับมือ
@@ -803,7 +810,7 @@
   character: narrator
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - msg: นี้ๆพวกเธอ 2 คนก็มาเรียนที่นี้ด้วยหรอเนี้ยย
   character: tan
   override_name: บุคคลปริศนา
@@ -820,6 +827,9 @@
   act: Surprised
 - msg: เสียงแบบนี้หรือว่า!?
   character: minato
+- character: tan
+  position: center
+  act: Happy
 - msg: ไม่ได้เจอกันนานเลยนะ Minato
   character: tan
   override_name: บุคคลปริศนา
@@ -832,8 +842,12 @@
   act: Bemused
 - msg: เป็นใครวะ?
   character: minato
+- delay: 2
+- character: tan
+  position: center
+  act: Surprised
 - msg: >-
-    แป้ว— เห้ยเดี๋ยวสิลืมกันงี้ได้ไงเนี้ย!! Minato ฉันอุตสาห์มองนายตั้งแต่หน้า
+    แป้ว—  เห้ยเดี๋ยวสิลืมกันงี้ได้ไงเนี้ย!! Minato ฉันอุตสาห์มองนายตั้งแต่หน้า
     มหาลัยเลยนะรู้ไหม!!
   character: tan
   override_name: บุคคลปริศนา
@@ -848,6 +862,9 @@
 - msg: >-
     ตะกี้ยังพูดเหมื่อนพึ่งรู้ว่าพวกฉันมาเรียนแต่สักพักก็บอกรู้อยู่แล้วว่าจะมาเรียนจะเอาแบบไหนกันแน่ห๊ะ!!
   character: minato
+- character: tan
+  position: center
+  act: Angry
 - msg: ฮึ่ย!! ช่างฉันเถอะน่า!!
   character: tan
   override_name: บุคคลปริศนา
@@ -867,6 +884,9 @@
   act: Normal
 - msg: ก็ว่าใครเป็นรุ่นพี่ขี้แอ็กคนนั้นเองหรอคะเนี้ย (หน้าเข้าใจ)
   character: akari
+- character: tan
+  position: center
+  act: Happy
 - msg: ขี้แอ็ก อะไรละ Akari เธอนี้ก็ยังปากแซ่บไม่เปลี่ยนเลยนะ (หน้าขำ)
   character: tan
 - msg: ฮ่าๆๆ! พูดได้ถูกใจพี่มากเลยละ Akari ฮ่าๆๆ! โอ้ยๆไม่ไหวท้องจะแข็งแล้ว ฮ่าๆๆ
@@ -964,7 +984,7 @@
   act: Normal
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - character: akari
   position: center
   act: happy
@@ -1265,14 +1285,14 @@
   character: minato
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ขอรับค่าขอบคุณเป็นข้าวมื้อนึงได้ป่าวละ~
   character: tan
 - msg: ได้งั้นเป็นอันตกลง
   character: minato
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: วันนี้วันเดียวมีหลายเหตุการณ์เกิดขึ้นเลยนะครับ
   character: lucien
 - msg: โอ๊~ คุณหัวหน้ากรรมการมาดูสถานการณ์ด้วยตัวเองเลยหรอครับ
@@ -1311,7 +1331,7 @@
   character: tan
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: อย่างงี้นี้เองถ้างั้นทุกคนเชิญไปทานข้าวกันก่อนได้เลยนะครับ
   character: lucien
 - character: minato
@@ -1325,7 +1345,7 @@
   character: tan
 - character: lucien
   position: right
-  act: idle
+  act: Normal
 - msg: ….
   character: lucien
 - msg: Buona fortuna.. ขอให้โชคดี.
@@ -1351,7 +1371,7 @@
   character: minato
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ได้เลยรอแปบนะ
   character: tan
 - msg: ผ่านไปไม่นานแทนก็เจอที่นั่งแล้ว
@@ -1391,7 +1411,7 @@
   act: Normal
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ว่าแต่พี่จะกินอะไรงั้นหรอ
   character: akari
 - msg: พี่ว่าอยากจะกิน...
@@ -1428,7 +1448,7 @@
   act: Normal
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ว่าแต่น้องจะกินอะไรงั้นหรอ
   character: minato
 - msg: หนูว่าอยากจะกิน...
@@ -1460,7 +1480,7 @@
   act: Normal
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - character: akari
   position: right
   act: Normal
@@ -1531,15 +1551,15 @@
   character: narrator
 - character: nightrose
   position: center
-  act: idle
+  act: Normal
 - msg: เออขอโทษนะค่า…
   character: nightrose
   override_name: '??? '
 - sound: sv_Whoosh
 - character: minato
   position: left
-  act: Happy
-- msg: ' ครับว่า * มองไปหาตามเสียง * (หน้าพูด)'
+  act: TopView
+- msg: ' ครับว่า * มองไปหาตามเสียง * '
   character: minato
 - msg: '?!?! '
   character: nightrose
@@ -1552,8 +1572,11 @@
 - character: minato
   position: left
   act: Shy
-- msg: อ๋อยังมีอยู่ครับเชิญนั่งได้เลย… (หน้าพูด)
+- msg: 'อ๋อยังมีอยู่ครับเชิญนั่งได้เลย… '
   character: minato
+- character: nightrose
+  position: center
+  act: Surprised
 - msg: ขอเสียมารยาทหน่อยนะคะ..
   character: nightrose
   override_name: '??? '
@@ -1568,7 +1591,7 @@
 - delay: 2
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: '*จ้องง*'
   character: tan
 - delay: 2
@@ -1585,6 +1608,9 @@
 - msg: วะ..ว่าแต่คุณชื่ออะไรหรอครับคุณผู้หญิง?
   character: minato
   override_name: '???'
+- character: nightrose
+  position: center
+  act: Surprised
 - msg: อะ!?
   character: nightrose
 - msg: ' ขอโทษนะคะที่ยังไม่ได้แนะนำตัวเลยหนูเป็นนักศึกษาใหม่อยู่ปี 1 ชื่อ Nightrose Roberts ค่ะ'
@@ -1610,10 +1636,16 @@
   character: minato
 - msg: อ๋อเมนูของหนูนะคือออ..
   character: nightrose
+- character: nightrose
+  position: center
+  act: Smlie
 - msg: ก๊วยจั๊บค่ะ!!
   character: nightrose
 - msg: หืมก๊วยจั๊บงั้นหรอครับ
   character: minato
+- character: nightrose
+  position: center
+  act: Happy
 - msg: >-
     ใช่แล้วค่าหนูเลิฟมากๆเลย น้ำซุบที่กลมกล่อม~ เส้นที่ซู้ดได้แบบเต็มที่
     แล้วก็หมูกรอบนี้อีก~ เป็นเมนูที่ดิฉันชอบตั้งแต่ก่อนเข้าเรียนเลยค่ะ!
@@ -1633,6 +1665,9 @@
   character: minato
 - msg: ฉันเห็นด้วยเลยนะ (หน้ายิ้ม)
   character: tan
+- character: nightrose
+  position: center
+  act: Smlie
 - msg: เอาละ!! Let's Eat!! (หน้ายิ้ม)
   character: nightrose
 - msg: 'อะตะเกียบมัน!! * เผลอทำตะเกียบตก * (หน้าตกใจ) '
@@ -1735,7 +1770,7 @@
   character: narrator
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - character: akari
   position: right
   act: Normal
@@ -1796,7 +1831,7 @@
   character: nightrose
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - character: minato
   position: left
   act: Happy
@@ -1832,7 +1867,7 @@
   character: nightrose
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     วิ้วว~~ Minato เปิดเทอมวันแรกมาก็มีสาวมาติดซะแล้วไม่ธรรมดาเลยจริง~ๆ
     (หน้าพูด)
@@ -1910,7 +1945,7 @@
 - sound: sv_Riser
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: '*จ้องง*'
   character: tan
 - delay: 3
@@ -1926,7 +1961,7 @@
   character: akari
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: นั้นสินะ Minato~ สอนคนที่พึ่งเจอกันได้อย่างไร้ที่ติเลยเนอะ~
   character: tan
 - msg: พอได้แล้วพวกเธอ 2 คนฉันขนลุกไปหมดแล้วเนี้ย
@@ -1970,7 +2005,7 @@
 - delay: 2
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - msg: ให้ตายสิ Minato นายหยอดเขาแรงไปแล้วนะ
   character: tan
 - character: minato
@@ -2051,6 +2086,9 @@
   act: Angry
 - msg: เฮ้ยจ่ายมาด้วยไม่ได้ซื้อฟรีๆนะเว้ย
   character: minato
+- character: tan
+  position: center
+  act: Angry
 - msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย (หน้าโกรธพูด)
   character: tan
 - goto: EP1.0_v3(MA)_lb_19
@@ -2060,6 +2098,9 @@
   label: EP1.0_v3(MA)_lb_18
 - msg: ไม่ได้เจอตั้งนานเดี๋ยวเลี้ยงเอง
   character: minato
+- character: tan
+  position: center
+  act: Surprised
 - msg: >-
     เห้ยแปลกดีนะอยู่ดีๆก็ เลี้ยงปกติไม่ค่อยเห็นเลี้ยงนิ แต่ก็ขอบคุณนะ (2)
     (หน้าว้าว)
@@ -2069,7 +2110,10 @@
   act: Angry
 - msg: พูดอย่างงี้สงสัยอยากโดนเก็บตังสิท่า
   character: minato
-- msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้ (หน้าฮารุ)
+- character: tan
+  position: center
+  act: Normal
+- msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้
   character: tan
 - character: minato
   position: left
@@ -2081,6 +2125,9 @@
 - character: minato
   position: left
   act: Happy
+- character: tan
+  position: center
+  act: Normal
 - msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม* (หน้ายิ้ม)
   character: tan
 - msg: เออไว้เจอกัน (หน้ายิ้ม)
@@ -2134,6 +2181,9 @@
   act: angry
 - msg: เงินนะพี่หนูไม่ได้ซื้อให้ฟรีๆนะคะ
   character: akari
+- character: tan
+  position: center
+  act: Angry
 - msg: เออรู้แล้วกำลังเอาเงินมาให้อยู่ในกระเป๋าเนี้ย (หน้าโกรธพูด)
   character: tan
 - goto: EP1.0_v3(MA)_lb_22
@@ -2143,6 +2193,9 @@
   label: EP1.0_v3(MA)_lb_21
 - msg: อะนี้หนูเลี้ยง
   character: akari
+- character: tan
+  position: center
+  act: Surprised
 - msg: >-
     เห้ยแปลกดีนะอยู่ดีๆก็ เลี้ยงปกติไม่ค่อยเห็นเลี้ยงนิ แต่ก็ขอบคุณนะ (2)
     (หน้าว้าว)
@@ -2152,12 +2205,18 @@
   act: happy
 - msg: พี่แทนพูดอย่างงี้แสดงว่าอยากจ่ายตังให้หนูหรอ~ (หน้ายิ้มมุมปาก)
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: เดี๋ยวๆ แค่ตกใจเฉยๆ อยู่ดีๆ ก็จะเลี้ยงขนมกันแบบนี้ (หน้าฮารุ)
   character: tan
 - msg: อ่อออแล้วไป
   character: akari
 - sound: sv_Grab Chip
   label: EP1.0_v3(MA)_lb_22
+- character: tan
+  position: center
+  act: Normal
 - msg: โอเคถ้างั้นไปละ ไว้เจอกันใหม่นะ *หยิบถุงขนม* (หน้ายิ้ม)
   character: tan
 - character: akari

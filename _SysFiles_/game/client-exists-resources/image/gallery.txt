@@ -1,5 +1,3 @@
 gallery_akari
-gallery_bear
-gallery_group
 gallery_minato
 gallery_prototype

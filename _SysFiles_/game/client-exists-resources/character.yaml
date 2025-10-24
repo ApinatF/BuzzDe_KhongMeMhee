@@ -16,7 +16,6 @@
   model: minato
   name: Minato
   action:
-    - idle
     - Angry
     - Bemused
     - Happy
@@ -35,7 +34,6 @@
   model: akari
   name: Akari
   action:
-    - idle
     - angry
     - happy
     - Haru
@@ -50,10 +48,9 @@
   model: nightrose
   name: Nightrose
   action:
-    - idle
     - Angry
     - Happy
-    - Norma
+    - Normal
     - Surprised
     - Smlie
   msg_color: ffffff
@@ -63,11 +60,9 @@
   model: tan
   name: Tan
   action:
-    - idle
-    - enigma
     - Angry
     - Happy
-    - Norma
+    - Normal
     - Surprised
   msg_color: ffffff
   name_bgcolor: D2B48C
@@ -76,14 +71,14 @@
   model: grandfather
   name: ปู่
   action:
-    - idle
+    - Normal
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: man03
   model: man03
   name: man03
   action:
-    - idle
+    - Normal
     - gangster
   msg_color: ffffff
   name_bgcolor: ffffff
@@ -91,7 +86,7 @@
   model: man02
   name: คนรอบข้าง
   action:
-    - idle
+    - Normal
     - gangster
   msg_color: ffffff
   name_bgcolor: ffffff
@@ -99,7 +94,7 @@
   model: man01
   name: พี่ปฐมนิเทศ
   action:
-    - idle
+    - Normal
     - gangster
   msg_color: ffffff
   name_bgcolor: ffffff
@@ -114,14 +109,14 @@
   model: lucien
   name: Lucien
   action:
-    - idle
+    - Normal
   msg_color: ffffff
   name_bgcolor: ffffff
 - character: test
   model: test
   name: Test
   action:
-    - idle
+    - Normal
     - do_flip
   msg_color: ffffff
   name_bgcolor: ffffff
@@ -129,7 +124,7 @@
   model: lin
   name: Lin
   action:
-    - idle
+    - Normal
     - happy
     - nervous
     - smile

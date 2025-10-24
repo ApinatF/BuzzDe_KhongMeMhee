@@ -2,7 +2,7 @@
 - music: bgm_startphone
 - character: bear
   position: center
-  act: idle
+  act: Normal
 - msg: วัน|ก่อน|ครับ
   character: bear
 - msg: ทำไม|ครับ
@@ -55,7 +55,7 @@
   character: bear
 - character: bear
   position: center
-  act: idle
+  act: Normal
   label: sample_vn_lb_4
 - msg: เอา|หล่ะ มา|ลอง|นำ|ภาพ cg ใส่|กัน|เถอะ
   character: bear
@@ -98,7 +98,7 @@
   override_name: select type of cg
 - character: raph
   position: center
-  act: idle
+  act: Normal
 - character: bear
   position: left
   act: Angry

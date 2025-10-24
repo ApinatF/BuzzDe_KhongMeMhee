@@ -1,8 +1,6 @@
 bg_bedroom_akari
 bg_bedroom_minato
-bg_Blackscreen - Copy
 bg_Blackscreen
-bg_Blackscreen.png-autosave
 bg_bus8
 bg_convenience_store_cashier
 bg_convenience_store_infront

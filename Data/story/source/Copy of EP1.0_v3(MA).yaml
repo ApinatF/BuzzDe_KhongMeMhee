@@ -187,7 +187,7 @@
   character: minato
 - character: grandfather
   position: center
-  act: idle
+  act: Normal
 - msg: 'นี่ปู่เองหลานเอ๋ย เป็นไงมั่งเรียนมหาลัยวันเเรก '
   character: grandfather
 - character: minato
@@ -277,7 +277,7 @@
   character: narrator
 - character: man01
   position: center
-  act: idle
+  act: Normal
 - msg: นี้~ ไม่เคยเห็นหน้ามาก่อนเลยเด็กใหม่งั้นหรอ~
   character: man01
 - character: akari
@@ -345,7 +345,7 @@
   character: akari
 - character: man01
   position: right
-  act: idle
+  act: Normal
 - goto:
     - Copy of EP1.0_v3(MA)_lb_4 if var_minato >= 5
     - Copy of EP1.0_v3(MA)_lb_5
@@ -362,7 +362,7 @@
   character: minato
 - character: man01
   position: right
-  act: idle
+  act: Normal
 - msg: ตะ..แต่ว่าถ้าน้องเข้าคณะนี้น้องจะ…
   character: man01
 - character: minato
@@ -378,7 +378,7 @@
   character: narrator
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: ไม่ทราบว่า เกิดอะไรขึ้นงั้นหรอ ผมขอทราบสถานการณ์หน่อยสิครับ~
   character: lucien
   override_name: ห.กรรมการวินัย
@@ -445,7 +445,7 @@
   character: minato
 - character: akari
   position: right
-  act: idle
+  act: Normal
 - msg: คะ..ค่ะ!
   character: akari
 - msg: ไว้เจอกันนะ~
@@ -461,7 +461,7 @@
   character: akari
 - character: man01
   position: right
-  act: idle
+  act: Normal
 - msg: แต่ว่าถ้าน้องได้เข้าคณะของพี่แล้วเชื่อว่าน้องต้องชอบแน่ๆครับ~
   character: man01
 - character: akari
@@ -490,7 +490,7 @@
   character: akari
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: เห้ย ตรงนั้นนะหยุดเดี๋ยวนี้เลยนะ!!
   character: lucien
   override_name: ห.กรรมการวินัย
@@ -686,7 +686,7 @@
 - delay: 3
 - character: grandfather
   position: center
-  act: idle
+  act: Normal
 - msg: >-
     ปู่เชื้อว่าหลานทั้ง 2
     จะต้องผ่านไปได่แน่ด้วยทักษะของหลานที่ปู่ขัดเกลาให้เองกับมือ
@@ -806,7 +806,7 @@
   character: narrator
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - msg: นี้ๆพวกเธอ 2 คนก็มาเรียนที่นี้ด้วยหรอเนี้ยย
   character: tan
   override_name: บุคคลปริศนา
@@ -967,7 +967,7 @@
   act: Normal
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - character: akari
   position: center
   act: happy
@@ -1268,14 +1268,14 @@
   character: minato
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ขอรับค่าขอบคุณเป็นข้าวมื้อนึงได้ป่าวละ~
   character: tan
 - msg: ได้งั้นเป็นอันตกลง
   character: minato
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: วันนี้วันเดียวมีหลายเหตุการณ์เกิดขึ้นเลยนะครับ
   character: lucien
 - msg: โอ๊~ คุณหัวหน้ากรรมการมาดูสถานการณ์ด้วยตัวเองเลยหรอครับ
@@ -1314,7 +1314,7 @@
   character: tan
 - character: lucien
   position: left
-  act: idle
+  act: Normal
 - msg: อย่างงี้นี้เองถ้างั้นทุกคนเชิญไปทานข้าวกันก่อนได้เลยนะครับ
   character: lucien
 - character: minato
@@ -1328,7 +1328,7 @@
   character: tan
 - character: lucien
   position: right
-  act: idle
+  act: Normal
 - msg: ….
   character: lucien
 - msg: Buona fortuna.. ขอให้โชคดี.
@@ -1354,7 +1354,7 @@
   character: minato
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ได้เลยรอแปบนะ
   character: tan
 - msg: ผ่านไปไม่นานแทนก็เจอที่นั่งแล้ว
@@ -1394,7 +1394,7 @@
   act: Normal
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ว่าแต่พี่จะกินอะไรงั้นหรอ
   character: akari
 - msg: พี่ว่าอยากจะกิน...
@@ -1431,7 +1431,7 @@
   act: Normal
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: ว่าแต่น้องจะกินอะไรงั้นหรอ
   character: minato
 - msg: หนูว่าอยากจะกิน...
@@ -1465,7 +1465,7 @@
   act: Normal
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - msg: ต่างคนก็มีความเห็นเรื่องอาหารเป็นของตัวเองแหละเนอะ
   character: minato
 - msg: อยู่ดีๆก็พูดอะไรไม่รู้เรื่องนะพี่ช่างเถอะฝากเรื่องของกินของหนูด้วยนะพี่
@@ -1533,7 +1533,7 @@
   character: narrator
 - character: nightrose
   position: center
-  act: idle
+  act: Normal
 - msg: เออขอโทษนะค่า…
   character: nightrose
   override_name: '??? '
@@ -1570,7 +1570,7 @@
 - delay: 2
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: '*จ้องง*'
   character: tan
 - delay: 2
@@ -1737,7 +1737,7 @@
   character: narrator
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - character: akari
   position: right
   act: Normal
@@ -1798,7 +1798,7 @@
   character: nightrose
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - character: minato
   position: left
   act: Happy
@@ -1834,7 +1834,7 @@
   character: nightrose
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     วิ้วว~~ Minato เปิดเทอมวันแรกมาก็มีสาวมาติดซะแล้วไม่ธรรมดาเลยจริง~ๆ
     (หน้าพูด)
@@ -1912,7 +1912,7 @@
 - sound: sv_Riser
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: '*จ้องง*'
   character: tan
 - delay: 3
@@ -1928,7 +1928,7 @@
   character: akari
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: นั้นสินะ Minato~ สอนคนที่พึ่งเจอกันได้อย่างไร้ที่ติเลยเนอะ~
   character: tan
 - msg: พอได้แล้วพวกเธอ 2 คนฉันขนลุกไปหมดแล้วเนี้ย
@@ -1972,7 +1972,7 @@
 - delay: 2
 - character: tan
   position: center
-  act: idle
+  act: Normal
 - msg: ให้ตายสิ Minato นายหยอดเขาแรงไปแล้วนะ
   character: tan
 - character: minato

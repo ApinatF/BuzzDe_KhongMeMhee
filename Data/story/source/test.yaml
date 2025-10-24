@@ -1,25 +1,8 @@
 - background: bg_living_room_yamada
 - delay: 1
-- character: test
-  position: center
-  act: idle
-- msg: idle
-  character: test
-- delay: 1
-- character: test
-  position: center
-  act: do_flip
-- msg: do_flip
-  character: test
-- delay: 1
-- character: test
-  position: right
-  act: idle
-- msg: zzzzz
-  character: test
 - character: minato
   position: center
-  act: idle
+  act: Happy
 - msg: >-
     起きてよ、このバカ兄貴！         (Okite yo, kono baka aniki!)  ตื่นได้แล้วเจ้าพี่บ้า!!!
     [หน้าจริงจัง]
@@ -45,41 +28,3 @@
 - character: minato
   position: right
   act: Normal
-- background: bg_living_room_yamada
-- music: bgm_Your_Love_Is_Home
-- character: akari
-  position: center
-  act: angry
-- cg: cg_EP1_Tan_Akari1
-- delay: 3
-- cg: empty
-- character: akari
-  position: left
-  act: sad
-- delay: 3
-- cg: cg_EP1_Ni_Mi1
-- character: minato
-  position: right
-  act: Shy
-- delay: 3
-- cg: empty
-- delay: 3
-- character: akari
-  position: center
-  act: Haru
-- delay: 3
-- cg: cg_EP2_Lin_Minato
-- cg: empty
-- delay: 3
-- msg: ฟหกฟหกฟหกกฟก
-  character: minato
-- cg: cg_EP2_Lin_Akari
-- cg: empty
-- delay: 3
-- msg: ฟหกฟหกฟหกกฟก
-  character: minato
-- image: mcg_minatopunch
-- image: mcg_Blackscreen
-- image: mcg_DarkMatterFriedRice
-- delay: 3
-- image: empty

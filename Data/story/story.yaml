@@ -21,12 +21,6 @@
   cost:
     type: ticket
     value: 1
-- novel: EP4.0_v3(MA)
-  label: EP4.0_v3(MA)
-  title: ใส่ชื่อตอน
-  cost:
-    type: ticket
-    value: 1
 - goto:
     - test_minato if var_minato >= 5
     - test_akari

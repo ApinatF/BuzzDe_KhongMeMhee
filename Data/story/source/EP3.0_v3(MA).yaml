@@ -579,7 +579,7 @@
   character: narrator
 - character: tan
   position: right
-  act: idle
+  act: Normal
 - msg: เออ พี่ครับเอาของไว้ตรงนี้ใช่ไหมครับ
   character: tan
 - msg: 'อา..แล้วก็อย่าให้สินค้าเสียหายละไม่งั้นผู้จัดการเอาเรื่องแน่ '

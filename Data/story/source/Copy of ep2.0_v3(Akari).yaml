@@ -272,7 +272,7 @@
   character: akari
 - character: lin
   position: center
-  act: idle
+  act: Normal
 - msg: >-
     (Ni hao) <b><size=40>你好</size></b>! สวัสดี!
     คุณพนักงานวันนี้ฉันขอเหมื่อนเดิมนะ~
@@ -528,7 +528,7 @@
   character: akari
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: เอ๋?! คุณ Minato กับ Akari จังงั้นหรอ!? (สีหน้าตกใจ)
   character: nightrose
 - msg: >-
@@ -573,7 +573,7 @@
   character: narrator
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     ขอโทษนะคะที่มาช้า~ 
     อรุณสวัสดิ์นะคะครูเจน~พอดีว่าหนูติดธุระของคณะนิดหน่อยน่ะค่ะ~
@@ -591,7 +591,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: คุณ Minato รู้จัก ผญ คนนั้นหรอคะ?
   character: nightrose
 - msg: อืม.. พี่กับAkariเจอกับรุ่นพี่คนนั้นที่คาเฟ่เมื่อเช้าน่ะ
@@ -601,7 +601,7 @@
   override_name: อาจารย์ (ครัว)
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     ก็หนูเบื่อห้องครัวในคณะแล้วหนิคะ อีกอย่างหนูเป็นถึงหัวหน้าคณะคหกรรม
     หนูจะใช้ห้องเองหรือไปเข้าคลาสอื่นแทนก็ไม่ใช่ปัญหาหรอกคะ 
@@ -627,7 +627,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     ก็จากชื่อเสียงที่ได้ยินมา
     เธอเป็นไม่กี่คนที่เคยถูกขอตัวไปเป็นเซฟทำอาหารในงานระดับชาติมาแล้วด้วยละคะ 
@@ -651,7 +651,7 @@
   override_name: อาจารย์ (ครัว)
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: ได้เลยค่าจารย์~
   character: lin
 - music: bgm_Epic_Gym_Rock_Take1
@@ -677,7 +677,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: Akari จังทำอาหารไม่เป็นงั้นหรอคะรุ่นพี่ Minato? *หน้าสงสัย*
   character: nightrose
 - msg: อืม ใช่แล้วละปกติพี่ก็จะเป็นคนทำให้น้องกินนะ (สีหน้าปกติ)
@@ -718,7 +718,7 @@
   character: professor
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     โธ่จารย์ อย่าเอาเรื่องตอนปีหนึ่งมาเล่าสิคะ
     ถ้างั้นเดี๋ยวพี่จะเล่าที่มาของข้าวพัดให้ฟังนะ
@@ -758,7 +758,7 @@
   character: akari
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     อันนี้… และก็อันนี้ โอ๊ะ! อันนี้ด้วย~~ *หยิบวัตถุดิบมาตามที่ต้องการ*
     (สีหน้าปกติพูด)
@@ -913,7 +913,7 @@
   character: nightrose
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: เสร็จแล้วค่า~~
   character: lin
 - msg: >-
@@ -954,7 +954,7 @@
   character: narrator
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: ว้าว~~ น่ากินจังเลยนะคะรุ่นพี่ กลิ่นก็หอมมากด้วย
   character: nightrose
 - msg: งั้นหรอ… ของเธอก็ดูดีเลยนะ
@@ -1015,7 +1015,7 @@
   character: minato
 - character: lin
   position: center
-  act: idle
+  act: Normal
 - msg: นี่ ของพวกเธอเองก็น่ากินดีนะเนี่ย
   character: lin
 - msg: >-
@@ -1024,7 +1024,7 @@
   character: narrator
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: 'อะ-เอ๊ะ!? รุ่นพี่ lin '
   character: nightrose
 - msg: เรียกแค่คุณ lin เฉยๆก็ได้จ้า นี่ถ้าไม่ว่าอะไร ขอชิมในช้อนนั่นได้มัย?
@@ -1084,7 +1084,7 @@
 - image: empty
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: อาจารย์ค่า! มีคนกำลังจะตายเพราะข้าวผัดสูตร Lovecraft แล้วละคะ!!!
   character: lin
 - character: minato
@@ -1102,7 +1102,7 @@
   character: minato
 - character: nightrose
   position: left
-  act: idle
+  act: Normal
 - sound: sv_cloth_hard_take_away
 - msg: Akari จังทนหน่อยนะ! *ช่วย Minato แบก Akari ไปที่ตึกพยาบาล* (สีหน้าเป็นห่วง)
   character: nightrose
@@ -1119,7 +1119,7 @@
   override_name: Minato/Nightrose
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: ได้เลยจ้ะ ขอให้ไม่เป็นไรมากนะ
   character: lin
 - msg: >-
@@ -1154,7 +1154,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: ดีจังเลยนะคะที่ Akari จังปลอดภัยดี (สีหน้ายิ้ม)
   character: nightrose
 - msg: 'ชอบทำให้เป็นห่วงอยู่เรื่อยเลยยัยน้องคนนี้เนี้ย… '
@@ -1223,7 +1223,7 @@
   character: narrator
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: คุยกันสนุกเลยนะ ทั้งสองคน~
   character: lin
 - msg: เอ๊ะ คุณ lin?
@@ -1277,7 +1277,7 @@
   character: nightrose
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: สภาพดูยังไม่ค่อยดีเลยน่ะนั่น แน่ใจหรอว่าไหวน่ะ?
   character: lin
 - msg: ก็พอ… ไหวอยู่นะคะ

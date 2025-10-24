@@ -6,12 +6,12 @@
   character: narrator
 - character: akari
   position: center
-  act: idle
+  act: Normal
 - msg: พี่|จ๋า  หนู|กลับ|มา|แล้ว|~ พี่|ทำ|อะไร|อยู่|หรือ
   character: akari
 - character: minato
   position: left
-  act: idle
+  act: Normal
 - msg: 'อ่อนั่|งอ|ยู|่… ก็|นั่ง|เล่น|เกม|ปกติ|ผ่อน|คล้ายๆ ไม่|รู้|จะ|ทำ|อะไร|ดี|นะ '
   character: minato
 - msg: 'แหม่|พี่|อย่า|เล่น|แต่|เกม|สิ|หา|อะไร|ทำ|อย่าง|อ่าน|บ้าง|ไม่|ดี|กว่า|หรอ '

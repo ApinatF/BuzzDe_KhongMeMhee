@@ -290,7 +290,7 @@
   character: minato
 - character: lin
   position: center
-  act: idle
+  act: Normal
 - msg: >-
     (|Ni hao|) <b><size=40>你好</size></b>|! สวัสดี|!
     คุณ|พนักงาน|วัน|นี้|ฉัน|ขอ|เห|มื่อน|เดิม|นะ|~
@@ -578,7 +578,7 @@
   character: akari
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: เอ๋|?|! คุณ Minato กับ Akari จัง|งั้น|หรอ|!|? (|สีหน้า|ตกใจ|)
   character: nightrose
 - msg: >-
@@ -632,7 +632,7 @@
   character: narrator
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     ขอโทษ|นะ|คะ|ที่|มา|ช้า|~ 
     อรุณ|สวัสดิ์|นะ|คะ|ครู|เจน|~|พอดี|ว่า|หนู|ติด|ธุระ|ของ|คณะ|นิดหน่อย|น่ะ|ค่ะ|~
@@ -651,7 +651,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: คุณ Minato รู้จัก ผญ คน|นั้น|หรอ|คะ|?
   character: nightrose
 - msg: อืม.|. พี่|กับ|Akari|เจอ|กับ|รุ่น|พี่|คน|นั้น|ที่|คาเฟ่|เมื่อ|เช้า|น่ะ
@@ -661,7 +661,7 @@
   override_name: อาจารย์ (ครัว)
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     ก็|หนู|เบื่อ|ห้อง|ครัว|ใน|คณะ|แล้|วห|นิ|คะ
     อีก|อย่าง|หนู|เป็น|ถึง|หัวหน้า|คณะ|คหกรรม
@@ -692,7 +692,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     ก็|จาก|ชื่อเสียง|ที่|ได้ยิน|มา
     เธอ|เป็น|ไม่|กี่|คน|ที่|เคย|ถูก|ขอ|ตัว|ไป|เป็น|เซฟ|ทำ|อาหาร|ใน|งาน|ระดับ|ชาติ|มา|แล้ว|ด้วย|ละ|คะ 
@@ -718,7 +718,7 @@
   override_name: อาจารย์ (ครัว)
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: ได้|เลย|ค่า|จา|รย์~
   character: lin
 - music: bgm_Epic_Gym_Rock_Take1
@@ -745,7 +745,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: Akari จัง|ทำ|อาหาร|ไม่|เป็น|งั้น|หรอ|คะ|รุ่น|พี่ Minato|? *ห|น้าส|งสั|ย*
   character: nightrose
 - msg: อืม ใช่|แล้ว|ละ|ปกติ|พี่|ก็|จะ|เป็น|คน|ทำให้|น้อง|กิน|นะ (|สีหน้า|ปกติ|)
@@ -788,7 +788,7 @@
   character: professor
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     โธ่|จา|รย์ อย่า|เอา|เรื่อง|ตอน|ปี|หนึ่ง|มา|เล่า|สิ|คะ
     ถ้า|งั้น|เดี๋ยว|พี่|จะ|เล่า|ที่|มา|ของ|ข้าว|พัด|ให้|ฟัง|นะ
@@ -830,7 +830,7 @@
   character: akari
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: >-
     อัน|นี้… และ|ก็|อัน|นี้ โ|อ๊ะ|! อัน|นี้|ด้วย|~|~
     *|หยิบ|วัตถุ|ดิบ|มา|ตาม|ที่|ต้อง|กา|ร* (|สีหน้า|ปกติ|พูด|)
@@ -1012,7 +1012,7 @@
   character: nightrose
 - character: lin
   position: right
-  act: idle
+  act: Normal
 - msg: เสร็จ|แล้ว|ค่า|~|~
   character: lin
 - msg: >-
@@ -1053,7 +1053,7 @@
   character: narrator
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: ว้าว|~|~ น่า|กิน|จัง|เลย|นะ|คะ|รุ่น|พี่ กลิ่น|ก็|หอม|มาก|ด้วย
   character: nightrose
 - msg: งั้|นหร|อ… ของ|เธอ|ก็|ดู|ดี|เลย|นะ
@@ -1119,7 +1119,7 @@
   character: minato
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: นี่ ของ|พวก|เธอ|เอง|ก็|น่า|กิน|ดี|นะ|เนี่ย
   character: lin
 - msg: >-
@@ -1128,7 +1128,7 @@
   character: narrator
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: 'อะ|-|เอ๊ะ|!|? รุ่น|พี่ lin '
   character: nightrose
 - msg: >-
@@ -1208,7 +1208,7 @@
   character: minato
 - character: nightrose
   position: left
-  act: idle
+  act: Normal
 - sound: sv_cloth_hard_take_away
 - msg: >-
     Akari จัง|ทน|หน่อย|นะ|! *|ช่วย Minato แบก Akari ไป|ที่|ตึ|กพ|ยา|บา|ล*
@@ -1229,7 +1229,7 @@
   override_name: Minato/Nightrose
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: ได้|เลย|จ้ะ ขอ|ให้|ไม่|เป็นไร|มาก|นะ
   character: lin
 - msg: >-
@@ -1264,7 +1264,7 @@
   character: minato
 - character: nightrose
   position: right
-  act: idle
+  act: Normal
 - msg: ดี|จัง|เลย|นะ|คะ|ที่ Akari จัง|ปลอดภัย|ดี (|สีหน้า|ยิ้ม|)
   character: nightrose
 - msg: 'ชอบ|ทำให้|เป็นห่วง|อยู่|เรื่อย|เลยยัย|น้อง|คน|นี้|เนี้ย… '
@@ -1338,7 +1338,7 @@
   character: narrator
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: คุย|กัน|สนุก|เลย|นะ ทั้ง|สอง|คน|~
   character: lin
 - msg: เอ๊ะ คุณ lin|?
@@ -1394,7 +1394,7 @@
   character: nightrose
 - character: lin
   position: left
-  act: idle
+  act: Normal
 - msg: สภาพ|ดู|ยัง|ไม่|ค่อย|ดี|เลย|น่ะ|นั่น แน่ใจ|หรอ|ว่า|ไหว|น่ะ|?
   character: lin
 - msg: ก|็พ|อ… ไห|วอ|ยู่|นะ|คะ
