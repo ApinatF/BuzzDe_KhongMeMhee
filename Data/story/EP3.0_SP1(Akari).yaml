@@ -1,5 +1,5 @@
 - background: bg_university_infront
-- music: bgm_LoFi HipHop
+- music: bgm_Jazz Calm
 - character: akari
   position: center
   act: happy
@@ -18,7 +18,7 @@
   character: akari
 - character: tan
   position: right
-  act: Normal
+  act: Happy
 - msg: สวัสดี|ตอน|เย็น|นะ Akari จัง
   character: tan
 - character: akari
@@ -26,6 +26,9 @@
   act: surprised
 - msg: สะ|.|.|สวัสดี|ค่ะ|! รุ่น|พี่|แทน|?|!
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: >-
     อะไร|กัน|ไม่|ต้อ|งต|กใ|จข|นาดนั้|นก|็ไ|ด้ห|นิ Akari
     พี่|ไม่|ใช่|ผี|สัก|หน่อย|นะ
@@ -38,10 +41,16 @@
   act: Normal
 - msg: ว่า|แต่|ทำไม|รุ่น|พี่|ถึง|อยู่|แถว|นี้|หรอ|คะ|?
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: พอดี|ว่า|พี่|มา|ทำ|ธุระ|อะไร|หน่อย|อะ|นะ
   character: tan
 - msg: หืมมมม…|เวลา|ป่านนี้|นะ|หรอ|คะ|?
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: อืมม|ใช่|แล้ว|ละ เอ๋|.|.|จะ|ว่า|ไป Minato ละ|หาย|ไป|ไหน|แล้ว|ละ
   character: tan
 - msg: ถ้า|เป็น|พี่|ละ|ก็|กลับ|ไป|ที่|บ้าน|แล้ว|ค่ะ|.|.|เขา|พูด|ว่า…
@@ -87,7 +96,7 @@
   character: akari
 - character: tan
   position: right
-  act: Normal
+  act: Surprised
 - msg: >-
     เป็น|อย่าง|งี้|นี้|เอง|สิน|ะ…|จะ|ว่า|ไป Akari อาทิตย์|ที่|แล้ว Minato
     บอ|กว่า Akari ป่วย|เกิด|อะไร|ขึ้น|?
@@ -101,6 +110,9 @@
     หลัง|จาก|นั้น Akari
     ก็|เล่า|สิ่ง|ที่|เกิด|ขึ้น|ใน|คาบ|ทำ|อาหาร|ของ|วัน|นั้น|ให้|พี่|แทน|ฟัง
   character: narrator
+- character: tan
+  position: right
+  act: Happy
 - msg: ฮ่าาาาๆๆ!|! ขอโทษ|ด้วย|นะ Akari จัง|แต่มั|น…|ฮ่าๆๆ!
   character: tan
 - character: akari
@@ -122,6 +134,9 @@
   act: Haru
 - msg: <b><size=40>バーカ</size></b>|(|baaka|) ตาา|บ้า|~
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: เมื่อกี้|พูด|ว่า|อะไร|หรือ|ป่าว|?
   character: tan
 - character: akari
@@ -160,6 +175,9 @@
 - msg: ใน|ตอน|นี้|ประตู|กำลัง|จะ|ปิด|ภายใน 5 วินาที|ครับ
   character: man03
   override_name: คนขับรถเมย์
+- character: tan
+  position: right
+  act: Angry
 - msg: คน|จะ|เยอะ|อะไร|อย่าง|งี้|เนี้ยย|!
   character: tan
 - msg: น|ะ…|แน่น|ไป|หมด|เลย *|พยายาม|เบียด|เข้า|แต่|ไม่|ไห|ว*
@@ -183,6 +201,9 @@
   act: happy
 - msg: ขอบคุณ|ค่ะ|พี่|แทน|แต่ว่า|คน|มัน|แน่น|ไป|ไห|มค|ะ…
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: นั้น|สิ|นะ|.|.|ขอโทษ|นะ Akari แต่|ช่วย|อยู่|แบบ|นี้|ไป|ก่อน|นะ
   character: tan
 - character: akari
@@ -199,6 +220,9 @@
   act: Haru
 - msg: นึก|ว่า|ตา|ยย|ซะ|แล้ว
   character: akari
+- character: tan
+  position: right
+  act: Angry
 - msg: เวอร์|ไป|แล้ว|.|.|ว่า|แต่ Akari จะ|ลง|ป้าย|ไหน|หรอ
   character: tan
 - character: akari
@@ -206,6 +230,9 @@
   act: Normal
 - msg: ก็|ป้าย|ข้าง|หน้า|นี้|แหละ|ค่ะ|แล้ว|พี่|แทน|ลง|ป้าย|ไหน|หรอ|คะ|?
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ของ|พี่|ต้อง|อีก 2 ป้าย|เลย|น่ะ|ถึง|จะ|ไป|ถึง|ที่หมาย
   character: tan
 - msg: รถ|เมย์ได้|มา|ถึง|ป้าย|แล้ว|ประตู|เปิด|ภายใน 3 วิ
@@ -214,6 +241,9 @@
 - msg: >-
     เอะ|ถึง|แล้ว|หรอ|เร็ว|ชะมัด|งั้น|หนู|ไป|ก่อน|นะ|คะ|พี่|แทน|ไว้|เจอ|กัน|นะ|คะ|!
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: อืมม|!
   character: tan
 - msg: จาก|นั้น Akari ก็|ลง|จาก|รถ|บัส|แล้ว|กลับ|มา|ที่|บ้าน

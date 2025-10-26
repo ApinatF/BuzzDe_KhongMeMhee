@@ -1,6 +1,7 @@
 bgm_Baguette
 bgm_Big Canteen Ambience
 bgm_Cozy
+bgm_dreamy mode
 bgm_Education
 bgm_Epic_Gym_Rock_Take1
 bgm_Epic_Gym_Rock_Take2

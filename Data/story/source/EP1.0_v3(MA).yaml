@@ -907,6 +907,9 @@
   act: Angry
 - msg: ให้ตายยังไงฉันก็ไม่เรียกโว้ย!!
   character: minato
+- character: tan
+  position: center
+  act: Angry
 - msg: ยังใจร้ายอยู่เหมื่อนเดิมเลยนะนายเนี้ย ฉันอดคิดถึงสมัยเก่าไม่ได้จริงเลย
   character: tan
 - msg: นายในตอนนั้นนะทำฉันอึ่งไปเลยนะกับความสามารถรอบด้านของนายนะฉันนับถือนายนะ~
@@ -916,6 +919,9 @@
   act: Sad
 - msg: พอได้แล้วยิ่งฟังยิ่งขนลุก
   character: minato
+- character: tan
+  position: center
+  act: Normal
 - msg: แค่นี้เองไม่เห็นเป็นไรเลย…ว่าแต่พวกเธอ 2 คนกำลังจะไปไหนงั้นหรอ
   character: tan
 - msg: อะพอดีว่าพวกเราหิวข้าวนะค่ะเลยกะว่าจะไปโรงอาหารกลางนะคะ
@@ -924,10 +930,19 @@
   character: tan
 - msg: เอ๋พี่จะตามพวกหนูมาหรอหรือว่าจริงๆแล้วพี่เป็น stalker จริงๆกันน่า~
   character: akari
+- character: tan
+  position: center
+  act: Angry
 - msg: ไม่ใช่โว้ยย!
   character: tan
+- character: akari
+  position: right
+  act: happy
 - msg: "ล้อเล่นหน่า~\r"
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: เฮอะ~พอรู้ว่าพวกเธอ 2 คนจะมาเรียนด้วยฉันรับประกันได้เลยว่าปีนี้สนุกแน่
   character: tan
 - msg: จะเป็นอย่างงั้นแน่หรอ
@@ -958,24 +973,39 @@
   character: tan
 - msg: อืมม!! สุดๆไปเลย!
   character: akari
+- character: minato
+  position: left
+  act: TopView
 - msg: โทษนะแทนที่ต้องให้นายมาด้วย
   character: minato
 - msg: ฉันไม่ถือหรอก Minato ยังไงคาบเรียนของฉันก็เริ่มประมาณบ่ายโมงครึ่ง
   character: tan
 - msg: เพราะฉนั่นนี้ก็เป็นเวลาที่ดีที่จะหาอะไรกินก่อนเข้าเรียนอะนะ
   character: tan
+- character: tan
+  position: left
+  act: Normal
 - msg: ขอบใจนะ
   character: minato
 - character: akari
   position: right
-  act: Normal
+  act: happy
 - msg: ขอบคุณที่ช่วยนำทางให้นะคะรุ่นพี่แทน
   character: akari
+- character: tan
+  position: center
+  act: Happy
 - msg: ไม่เป็นไรแต่ตอนนี้เราใกล้ถึงแล้วละอดทนหน่อยนะ Akari จัง
   character: tan
 - msg: ค่ะ!
   character: akari
 - music: empty
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: ทั้ง 3 คนได้เดินมาถึงโรงอาหารกลางได้ในที่สุด
   character: narrator
 - background: bg_restaurant01
@@ -999,6 +1029,9 @@
   act: Surprised
 - msg: ดะ..เดี๋ยวสิ Akari!
   character: minato
+- character: tan
+  position: right
+  act: Surprised
 - msg: อย่าดึงสิ?!?
   character: tan
 - character: akari
@@ -1093,22 +1126,36 @@
   position: left
   label: EP1.0_v3(MA)_lb_3
 - music: bgm_Your_Love_Is_Home
+- character: tan
+  position: right
+  act: Normal
 - msg: —---------ในสายของแทน—-------
   character: tan
 - msg: ครับ ตอนนี้คนเจ็บอยู่ที่ตึกพยาบาลแล้วครับ
   character: tan
 - msg: ส่วนอีกคนเป็นแค่แผลถลอกนิดหน่อยครับ
   character: tan
+- character: lucien
+  position: left
+  act: Normal
 - msg: อืมผมรับเรื่องไว้แล้วเดี๋ยวผมจะส่งคนของผมไปดูเหตุการณ์ให้นะครับ
   character: lucien
 - msg: ขอบคุณมากครับหัวหน้ากรรมการวินัย
   character: tan
+- character: empty
+  position: left
 - msg: —-------------วางสาย—--------------
   character: tan
 - msg: พี่แทนคะคือว่า…
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: อย่าพึ่งขยับนะ Akari ที่ต้นขาน้องยังมีแผลอยู่นะ
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: แค่แผลถลอกเองค่ะพี่
   character: akari
 - msg: ไม่ได้หรอกนะต้องหาไรมาผันแผลนี้ก่อน..เรามีอะไรติดตัวบ้างไหมนะ
@@ -1145,6 +1192,9 @@
   act: angry
 - msg: หนูทำเองได้ค่ะ
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: งะ..งั้นหรอถ้างั้นก็ไม่เป็นไรอะนี้ผ้านะ
   character: tan
 - character: akari
@@ -1168,6 +1218,9 @@
   label: EP1.0_v3(MA)_lb_4
 - msg: 'ฝากด้วยนะพี่แทน '
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ไว้ใจพี่ได้เลย!
   character: tan
 - sound: sv_Bandage
@@ -1185,6 +1238,9 @@
   act: Normal
 - msg: อืมม!
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: ซวยจริงๆเลยนะเธอเนี้ยเจออะไรแบบนั้นมานะ
   character: tan
 - msg: เอานะเสร็จแล้วนะ ลองขยับขาดูสิ
@@ -1194,6 +1250,9 @@
   character: akari
 - msg: ถึงจะยังเจ็บอยู่แต่ก็น้อยลงแล้วขอบคุณมากค่ะพี่แทน
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ไม่เป็นไรหรอกไม่ต้องคิดมากแต่ตอนนี้น่าจะใกล้ถึงเวลาแล้วนะ
   character: tan
 - goto: EP1.0_v3(MA)_lb_6
@@ -1202,6 +1261,9 @@
   label: EP1.0_v3(MA)_lb_5
 - msg: '*ยื่นขาที่เจ็บออกไป*'
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: อะ…อืมม..
   character: tan
 - msg: '*แทนก็ได้ผันแผลของ Akari ด้วยผ้าเช็ดหน้าอย่างระมัดระวัง*'
@@ -1211,16 +1273,28 @@
 - hide_msg: true
 - delay: 3
 - cg: empty
+- character: akari
+  position: center
+  act: Haru
 - msg: โอ้ย~ แสบอ่าา…
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: พี่ขอโทษนะ จะทำให้นุ่มนวลกว่านี้นะ
   character: tan
+- character: akari
+  position: center
+  act: Shy
 - msg: อะ..อืมม
   character: akari
 - msg: พี่แทนเป็นคนที่อ่อนโยนจังเลย..
   character: akari
 - msg: พอๆกับพี่หนูเลยค่ะ..
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: งั้นหรอ Minato คงจะดูแลเธอดีมากเลยสินะ
   character: tan
 - character: akari
@@ -1233,6 +1307,9 @@
 - msg: เอานะเสร็จแล้วนะ ลองขยับขาดูสิ
   character: tan
 - sound: sv_Lays leg
+- character: akari
+  position: center
+  act: Normal
 - msg: '*ลองขยับขาดู*'
   character: akari
 - msg: >-
@@ -1253,6 +1330,12 @@
   character: narrator
   label: EP1.0_v3(MA)_lb_8
 - music: bgm_Your_Love_Is_Home
+- character: akari
+  position: center
+  act: Normal
+- character: tan
+  position: right
+  act: Normal
 - character: minato
   position: left
   act: Happy
@@ -1475,14 +1558,14 @@
   character: akari
 - delay: 1
   label: EP1.0_v3(MA)_lb_11
+- character: akari
+  position: right
+  act: Normal
 - character: minato
   position: left
   act: Normal
 - character: tan
   position: center
-  act: Normal
-- character: akari
-  position: right
   act: Normal
 - msg: ต่างคนก็มีความเห็นเรื่องอาหารเป็นของตัวเองแหละเนอะ
   character: minato
@@ -1519,7 +1602,10 @@
   override_name: Minato/Akari/แทน
 - msg: นี้มันสุดยอดไปเลยนะเนี้ย!
   character: minato
-- msg: ใช่ไหมนะ~นี้เป็นโรงอาหารที่ฉันชอบสุดๆเลยนะ!! (หน้ายิ้มSmile)
+- character: tan
+  position: center
+  act: Happy
+- msg: ใช่ไหมนะ~นี้เป็นโรงอาหารที่ฉันชอบสุดๆเลยนะ!!
   character: tan
 - character: akari
   position: right
@@ -1531,6 +1617,9 @@
   act: TopView
 - msg: แต่ว่านะแทนสมัยนายยังเด็กนายก็กินอะไรไม่เลือกหน้าเลยไม่ใช่หรอ
   character: minato
+- character: tan
+  position: center
+  act: Normal
 - msg: อย่าพูดถึงอดีตแบบนั้นสิ Minato
   character: tan
 - msg: เอ๋กินไม่เลือกหรอคะ?
@@ -1539,16 +1628,23 @@
   character: minato
 - msg: ขนาดข้าวผัดใหม่ๆ แทน ก็ยังกินอย่างอร่อยเลยวันนั้นแกท้องเสียไป 3 รอบเลยหนิ
   character: minato
+- character: tan
+  position: center
+  act: Angry
 - msg: อ้าาาา!!! เลิกพูดเรื่องนี้ขอนะถือว่าขอเถอะนะ Minato!
   character: tan
 - msg: รุ่นพี่เป็นพวกลิ้นจระเข้สินะ เป็นแบบนี้เองสินะ
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: ดะ..เดี๋ยวสิ Akari ก็เอากับเขาด้วยหรอ!!
   character: tan
 - msg: >-
     ทั้ง 3 คนในระหว่างที่กินไปด้วยนั้นก็พูดคุยกันอย่างมีความสุขในตอนนั้นก็มี ผญ
     คนนึงปรากฏตัวขึ้นมา
   character: narrator
+- delay: 2
 - character: nightrose
   position: center
   act: Normal
@@ -1561,12 +1657,10 @@
   act: TopView
 - msg: ' ครับว่า * มองไปหาตามเสียง * '
   character: minato
-- msg: '?!?! '
-  character: nightrose
-  override_name: '??? '
-- msg: >-
-    คะ..คะ..คือว่า..ไม่ทราบว่าตรงนี้ยังมีที่ว่างไหมคะ!?
-    (พูดด้วยหน้าเขินอายออกไป)
+- character: nightrose
+  position: center
+  act: Normal
+- msg: 'คะ..คะ..คือว่า..ไม่ทราบว่าตรงนี้ยังมีที่ว่างไหมคะ!? '
   character: nightrose
   override_name: '??? '
 - character: minato
@@ -1714,6 +1808,9 @@
   character: minato
 - msg: เหอะ..ช่วยไม่ได้ถ้างั้นก็ Nightrose จังเราจะเป็นคนสอนเธอเอง!!
   character: akari
+- character: nightrose
+  position: center
+  act: Happy
 - msg: ค่ะ!!
   character: nightrose
 - msg: Akari ก็ฝึก Nightrose ในการจับตะเกียบ
@@ -1790,6 +1887,9 @@
   act: Happy
 - msg: งั้นผมพอบอกเคล็ดลับการใช่ตะเกียบให้นะครับ
   character: minato
+- character: nightrose
+  position: center
+  act: Happy
 - msg: จริงหรอคะ?
   character: nightrose
 - msg: อืมเดี๋ยวผมจะบอกการใช่ตะเกียบให้ง่ายเองรอผมสักครู่นะครับ
@@ -1812,6 +1912,9 @@
   character: minato
 - msg: ว้าวววไม่นึกเลยว่าจะเอามาทำแบบนี้ได้ด้วย ขอบคุณนะคะ
   character: nightrose
+- character: nightrose
+  position: center
+  act: Normal
 - msg: ไม่เป็นไรหรอก แต่ตอนนี้เรามากินกันต่อกันเถอะ
   character: minato
 - msg: ค่ะ!
@@ -1830,7 +1933,7 @@
     แล้วก็ทุกคนดิฉันขอตัวก่อนนะคะ
   character: nightrose
 - character: tan
-  position: center
+  position: right
   act: Normal
 - character: minato
   position: left
@@ -1846,6 +1949,9 @@
   act: Normal
 - msg: เออแล้วเราทำไรต่อดีหว่า
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: เอาเป็นว่าเราเองก็เอาถาดไปเก็บเถอะพวกนายต้องเตรียมตัวสำหรับการเรียนแล้วนะ
   character: tan
 - character: minato
@@ -1861,23 +1967,24 @@
 - character: minato
   position: left
   act: Smile
-- msg: ถ้าอย่างงั้นให้ผมสอนการใช่ตะเกียบให้ไหมครับ (หน้ายิ้ม)
+- msg: 'ถ้าอย่างงั้นให้ผมสอนการใช่ตะเกียบให้ไหมครับ '
   character: minato
+- character: nightrose
+  position: center
+  act: Normal
 - msg: มิสเตอร์ yamada จะสอนให้งั้นหรอคะ?
   character: nightrose
 - character: tan
   position: right
   act: Normal
-- msg: >-
-    วิ้วว~~ Minato เปิดเทอมวันแรกมาก็มีสาวมาติดซะแล้วไม่ธรรมดาเลยจริง~ๆ
-    (หน้าพูด)
+- msg: 'วิ้วว~~ Minato เปิดเทอมวันแรกมาก็มีสาวมาติดซะแล้วไม่ธรรมดาเลยจริง~ๆ '
   character: tan
 - character: minato
   position: left
   act: Bemused
-- msg: เงียบปากไปก่อนที่ฉันจะเอาตะเกียบเสียบรูจมูกทั้ง 2 ของแกซะไอแทน (หน้าโกรธพูด)
+- msg: 'เงียบปากไปก่อนที่ฉันจะเอาตะเกียบเสียบรูจมูกทั้ง 2 ของแกซะไอแทน '
   character: minato
-- msg: นะ…น่ากลัวจังเลยนะนายนี้ (หน้าตกใจ)
+- msg: นะ…น่ากลัวจังเลยนะนายนี้
   character: tan
 - character: minato
   position: left
@@ -1886,9 +1993,7 @@
   character: minato
 - msg: '*Minato สอน Nightrose ใช้ตะเกียบอย่างประณีต*'
   character: minato
-- msg: >-
-    มิสเตอร์ yamada ไม่ได้นะคะถ้าจับแบบนั้นละก็~* ขยับมือไปตามที่ Minato สอน*
-    (หน้าเชิน)
+- msg: 'มิสเตอร์ yamada ไม่ได้นะคะถ้าจับแบบนั้นละก็~* ขยับมือไปตามที่ Minato สอน* '
   character: nightrose
 - msg: เธอไปเรียนรู้ประโยคแบบนี้มาจากไหนน่ะมันฟังดูแปลกๆนะ
   character: minato
@@ -1902,7 +2007,10 @@
 - delay: 5
 - cg: empty
 - music: bgm_Big Canteen Ambience
-- msg: ไม่ไหวอ่าา~~ยากเกินไป ตะเกียบหลุดมืออีกแล้ว TT (หน้าเศร้า)
+- character: nightrose
+  position: center
+  act: Angry
+- msg: ไม่ไหวอ่าา~~ยากเกินไป ตะเกียบหลุดมืออีกแล้ว TT
   character: nightrose
 - msg: ลองอีกรอบนะครับ..เดี๋ยวรอบนี้ผมจะเอามือผมวางบนมือ Nightrose แล้วขยับนะ
   character: minato
@@ -1911,29 +2019,33 @@
   act: Happy
 - msg: ระหว่างนั้น Nightrose ก็ต้องขยับตามด้วยนะ
   character: minato
-- msg: เอ๋!?! (หน้าตกใจ)
+- character: nightrose
+  position: center
+  act: Surprised
+- msg: เอ๋!?!
   character: nightrose
-- msg: ขยับตามมือผมนะครับ แบบนี้นะครับ  (หน้าปกติพูด)
+- msg: 'ขยับตามมือผมนะครับ แบบนี้นะครับ '
   character: minato
-- msg: อะ..อ่าาา!?..คือว่าาา….. (หน้าเชิน)
+- msg: 'อะ..อ่าาา!?..คือว่าาา….. '
   character: nightrose
-- msg: (มือรุ่นพี่…อุ่นจังเลย..) (หน้าเชิน)
+- character: nightrose
+  position: center
+  act: Smlie
+- msg: (มือรุ่นพี่…อุ่นจังเลย..)
   character: nightrose
 - character: minato
   position: left
   act: Normal
-- msg: แล้วก็แบบนี้เรียบร้อยยละ….ทีนี้ลองขยับนิ้วขึ้นลงดูสิ (หน้าปกติพูด)
+- msg: 'แล้วก็แบบนี้เรียบร้อยยละ….ทีนี้ลองขยับนิ้วขึ้นลงดูสิ '
   character: minato
-- msg: ดะ..ได้ค่ะ *ขยับตะเกียบดู* (หน้าเชิน)
+- msg: 'ดะ..ได้ค่ะ *ขยับตะเกียบดู* '
   character: nightrose
-- msg: ทำได้แล้วค่ะรุ่นพี่! ขอบคุณมากๆเลยค่ะ! (หน้าเชิน)
+- msg: 'ทำได้แล้วค่ะรุ่นพี่! ขอบคุณมากๆเลยค่ะ! '
   character: nightrose
 - character: minato
   position: left
   act: Smile
-- msg: >-
-    ไม่เป็นไรหรอก ตอนนี้เรากินกันต่อดีกว่า *ปล่อยมือออกจากมือ Nightrose*
-    (หน้ายิ้ม)
+- msg: 'ไม่เป็นไรหรอก ตอนนี้เรากินกันต่อดีกว่า *ปล่อยมือออกจากมือ Nightrose* '
   character: minato
 - character: akari
   position: right
@@ -1968,6 +2080,9 @@
   character: minato
 - msg: นี้ Minato ตอนนายสอน Nightrose นายไม่ได้คิดอะไรเลยจริงๆหรอ~
   character: tan
+- character: nightrose
+  position: center
+  act: Surprised
 - msg: '!?! * สำลักน้ำก๊วยจั๊บ *'
   character: nightrose
 - msg: 'แค่กๆ! '
@@ -1979,6 +2094,9 @@
   character: minato
 - msg: ไม่เป็นไรค่ะ..พอดีสำลักนิดหน่อย...
   character: nightrose
+- character: nightrose
+  position: center
+  act: Normal
 - msg: ถะ..ถะ..ถ้างั้นหนูขอเอาจานไปเก็บก่อนนะคะ!
   character: nightrose
 - msg: ไว้เจอกันนะคะ! มิสเตอร์ Yamada!
@@ -2000,6 +2118,8 @@
 - msg: ขอขอบคุณสำหรับวันนี้นะค่าาาคุณ Minato!!
   character: nightrose
 - sound: sv_Footsteps Running Fade Away
+- character: empty
+  position: center
 - msg: จากนั้น Nightrose ก็รีบยกถาดอาหารไปเก็บแล้วก็ออกจากโรงอาหารไปเลย
   character: narrator
 - delay: 2

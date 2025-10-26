@@ -957,6 +957,9 @@
   act: Angry
 - msg: ให้|ตาย|ยังไง|ฉัน|ก็|ไม่|เรียก|โว้ย|!|!
   character: minato
+- character: tan
+  position: center
+  act: Angry
 - msg: >-
     ยัง|ใจ|ร้าย|อยู่|เห|มื่อน|เดิม|เลย|นะ|นาย|เนี้ย
     ฉัน|อด|คิด|ถึง|สมัย|เก่า|ไม่|ได้|จริง|เลย
@@ -969,6 +972,9 @@
   act: Sad
 - msg: พอ|ได้|แล้ว|ยิ่ง|ฟัง|ยิ่ง|ขน|ลุก
   character: minato
+- character: tan
+  position: center
+  act: Normal
 - msg: >-
     แค่|นี้|เอง|ไม่|เห็น|เป็นไร|เลย…|ว่า|แต่|พวก|เธอ 2
     คน|กำลัง|จะ|ไป|ไหน|งั้น|หรอ
@@ -981,10 +987,19 @@
     เอ๋|พี่|จะ|ตาม|พวก|หนู|มา|หรอ|หรือ|ว่า|จริงๆแล้ว|พี่|เป็น stalker
     จริงๆกัน|น่า|~
   character: akari
+- character: tan
+  position: center
+  act: Angry
 - msg: ไ|ม่ใ|ช่โ|ว้ยย|!
   character: tan
+- character: akari
+  position: right
+  act: happy
 - msg: "ล้อ|เล่นห|น่า|~\r"
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: >-
     เฮ|อะ|~|พอ|รู้|ว่า|พวก|เธอ 2
     คน|จะ|มา|เรียน|ด้วย|ฉัน|รับประกัน|ได้|เลย|ว่า|ปี|นี้|สนุก|แน่
@@ -1017,6 +1032,9 @@
   character: tan
 - msg: อืมม|!|! สุดๆไป|เลย|!
   character: akari
+- character: minato
+  position: left
+  act: TopView
 - msg: โทษ|นะ|แทน|ที่|ต้อง|ให้|นาย|มา|ด้วย
   character: minato
 - msg: >-
@@ -1026,18 +1044,30 @@
 - msg: >-
     เพรา|ะฉ|นั่น|นี้|ก็|เป็น|เวลา|ที่|ดี|ที่|จะ|หา|อะไร|กิน|ก่อน|เข้า|เรียน|อะ|นะ
   character: tan
+- character: tan
+  position: left
+  act: Normal
 - msg: ขอบใจ|นะ
   character: minato
 - character: akari
   position: right
-  act: Normal
+  act: happy
 - msg: ขอบคุณ|ที่|ช่วย|นำทาง|ให้|นะ|คะ|รุ่น|พี่|แทน
   character: akari
+- character: tan
+  position: center
+  act: Happy
 - msg: ไม่|เป็นไร|แต่|ตอน|นี้|เรา|ใกล้|ถึง|แล้ว|ละ|อดทน|หน่อย|นะ Akari จัง
   character: tan
 - msg: ค่ะ|!
   character: akari
 - music: empty
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
 - msg: ทั้ง 3 คน|ได้|เดิน|มา|ถึง|โรงอาหาร|กลาง|ได้|ใน|ที่สุด
   character: narrator
 - background: bg_restaurant01
@@ -1065,6 +1095,9 @@
   act: Surprised
 - msg: ดะ|.|.|เดี๋ยว|สิ Akari|!
   character: minato
+- character: tan
+  position: right
+  act: Surprised
 - msg: อย่า|ดึง|สิ|?|!|?
   character: tan
 - character: akari
@@ -1162,23 +1195,37 @@
   position: left
   label: EP1.0_v3(MA)_lb_3
 - music: bgm_Your_Love_Is_Home
+- character: tan
+  position: right
+  act: Normal
 - msg: —|-|-|-|-|-|-|-|-|-|ใน|สาย|ของ|แทน—|-|-|-|-|-|-|-
   character: tan
 - msg: ครับ ตอน|นี้|คน|เจ็บ|อยู่|ที่|ตึก|พยาบาล|แล้ว|ครับ
   character: tan
 - msg: ส่วน|อีก|คน|เป็น|แค่|แผล|ถลอก|นิดหน่อย|ครับ
   character: tan
+- character: lucien
+  position: left
+  act: Normal
 - msg: >-
     อืมผม|รับ|เรื่อง|ไว้|แล้ว|เดี๋ยว|ผม|จะ|ส่ง|คน|ของ|ผม|ไป|ดู|เหตุการณ์|ให้|นะ|ครับ
   character: lucien
 - msg: ขอบคุณ|มาก|ครับ|หัวหน้า|กรรมการ|วินัย
   character: tan
+- character: empty
+  position: left
 - msg: —|-|-|-|-|-|-|-|-|-|-|-|-|-|วาง|สา|ย—|-|-|-|-|-|-|-|-|-|-|-|-|-|-
   character: tan
 - msg: พี่|แทน|คะ|คือ|ว่า…
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: อย่า|พึ่ง|ขยับ|นะ Akari ที่|ต้น|ขา|น้อง|ยัง|มี|แผล|อยู่|นะ
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: แค่|แผล|ถลอก|เอง|ค่ะ|พี่
   character: akari
 - msg: >-
@@ -1216,6 +1263,9 @@
   act: angry
 - msg: หนู|ทำ|เอง|ได้|ค่ะ
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: งะ|.|.|งั้น|หรอ|ถ้า|งั้น|ก็|ไม่|เป็นไร|อะ|นี้|ผ้า|นะ
   character: tan
 - character: akari
@@ -1239,6 +1289,9 @@
   label: EP1.0_v3(MA)_lb_4
 - msg: 'ฝาก|ด้วย|นะ|พี่|แทน '
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ไว้ใจ|พี่|ได้|เลย|!
   character: tan
 - sound: sv_Bandage
@@ -1256,6 +1309,9 @@
   act: Normal
 - msg: อืมม|!
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: ซวย|จริงๆเลย|นะ|เธอ|เนี้ย|เจอ|อะไร|แบบ|นั้น|มานะ
   character: tan
 - msg: เอา|นะ|เสร็จ|แล้ว|นะ ลอง|ขยับ|ขา|ดู|สิ
@@ -1265,6 +1321,9 @@
   character: akari
 - msg: ถึง|จะ|ยัง|เจ็บ|อยู่|แต่|ก็|น้อย|ลง|แล้ว|ขอบคุณ|มาก|ค่ะ|พี่|แทน
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ไม่|เป็นไร|หรอก|ไม่|ต้อง|คิด|มาก|แต่|ตอน|นี้|น่า|จะ|ใกล้|ถึง|เวลา|แล้ว|นะ
   character: tan
 - goto: EP1.0_v3(MA)_lb_6
@@ -1273,6 +1332,9 @@
   label: EP1.0_v3(MA)_lb_5
 - msg: '*ยื่|นขา|ที่|เจ็บ|ออ|กไ|ป*'
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: อ|ะ…|อืมม|.|.
   character: tan
 - msg: '*|แทน|ก็|ได้|ผัน|แผล|ของ Akari ด้วย|ผ้าเช็ดหน้า|อย่า|งร|ะมั|ดร|ะวั|ง*'
@@ -1282,16 +1344,28 @@
 - hide_msg: true
 - delay: 3
 - cg: empty
+- character: akari
+  position: center
+  act: Haru
 - msg: โอ้ย|~ แสบ|อ่าา…
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: พี่|ขอโทษ|นะ จะ|ทำให้|นุ่มนวล|กว่า|นี้|นะ
   character: tan
+- character: akari
+  position: center
+  act: Shy
 - msg: อะ|.|.|อืมม
   character: akari
 - msg: พี่|แทน|เป็น|คน|ที่|อ่อนโยน|จัง|เลย|.|.
   character: akari
 - msg: พอๆกับ|พี่|หนู|เลย|ค่ะ|.|.
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: งั้น|หรอ Minato คง|จะ|ดูแล|เธอ|ดี|มาก|เลย|สิ|นะ
   character: tan
 - character: akari
@@ -1304,6 +1378,9 @@
 - msg: เอา|นะ|เสร็จ|แล้ว|นะ ลอง|ขยับ|ขา|ดู|สิ
   character: tan
 - sound: sv_Lays leg
+- character: akari
+  position: center
+  act: Normal
 - msg: '*|ลอง|ขยับ|ขาด|ู*'
   character: akari
 - msg: >-
@@ -1324,6 +1401,12 @@
   character: narrator
   label: EP1.0_v3(MA)_lb_8
 - music: bgm_Your_Love_Is_Home
+- character: akari
+  position: center
+  act: Normal
+- character: tan
+  position: right
+  act: Normal
 - character: minato
   position: left
   act: Happy
@@ -1554,14 +1637,14 @@
   character: akari
 - delay: 1
   label: EP1.0_v3(MA)_lb_11
+- character: akari
+  position: right
+  act: Normal
 - character: minato
   position: left
   act: Normal
 - character: tan
   position: center
-  act: Normal
-- character: akari
-  position: right
   act: Normal
 - msg: ต่าง|คน|ก็|มี|ความเห็น|เรื่อง|อาหาร|เป็น|ของ|ตัวเอง|แหละ|เนอะ
   character: minato
@@ -1599,9 +1682,10 @@
   override_name: Minato/Akari/แทน
 - msg: นี้|มัน|สุด|ยอด|ไป|เลย|นะ|เนี้ย|!
   character: minato
-- msg: >-
-    ใช่|ไหม|นะ|~|นี้|เป็น|โรงอาหาร|ที่|ฉัน|ชอบ|สุดๆเลย|นะ|!|!
-    (|หน้า|ยิ้ม|Smile|)
+- character: tan
+  position: center
+  act: Happy
+- msg: ใช่|ไหม|นะ|~|นี้|เป็น|โรงอาหาร|ที่|ฉัน|ชอบ|สุดๆเลย|นะ|!|!
   character: tan
 - character: akari
   position: right
@@ -1614,6 +1698,9 @@
 - msg: >-
     แต่ว่า|นะ|แทน|สมัย|นาย|ยัง|เด็ก|นาย|ก็|กิน|อะไร|ไม่|เลือก|หน้า|เลย|ไม่|ใช่|หรอ
   character: minato
+- character: tan
+  position: center
+  act: Normal
 - msg: อย่า|พูด|ถึง|อดีต|แบบ|นั้น|สิ Minato
   character: tan
 - msg: เอ๋|กิน|ไม่|เลือก|หรอ|คะ|?
@@ -1626,10 +1713,16 @@
     ขนาด|ข้าว|ผัด|ใหม่ๆ แทน ก็|ยัง|กิน|อย่าง|อร่อย|เลย|วัน|นั้น|แก|ท้อง|เสีย|ไป
     3 รอบ|เลยห|นิ
   character: minato
+- character: tan
+  position: center
+  act: Angry
 - msg: อ้าาาา|!|!|! เลิก|พูด|เรื่อง|นี้|ขอ|นะ|ถือ|ว่า|ขอ|เถอะ|นะ Minato|!
   character: tan
 - msg: รุ่น|พี่|เป็น|พวก|ลิ้น|จระเข้|สิ|นะ เป็น|แบบ|นี้|เอง|สิ|นะ
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: ดะ|.|.|เดี๋ยว|สิ Akari ก็|เอา|กับ|เขา|ด้วย|หรอ|!|!
   character: tan
 - msg: >-
@@ -1637,6 +1730,7 @@
     คน|ใน|ระหว่าง|ที่|กิน|ไป|ด้วย|นั้น|ก็|พูด|คุย|กัน|อย่าง|มี|ความ|สุข|ใน|ตอน|นั้น|ก็|มี
     ผญ คน|นึง|ปรากฏ|ตัว|ขึ้น|มา
   character: narrator
+- delay: 2
 - character: nightrose
   position: center
   act: Normal
@@ -1649,12 +1743,10 @@
   act: TopView
 - msg: ' ครับ|ว่า * มอง|ไป|หา|ตาม|เสียง * '
   character: minato
-- msg: '?|!|?|! '
-  character: nightrose
-  override_name: '??? '
-- msg: >-
-    คะ|.|.|คะ|.|.|คือ|ว่า|.|.|ไม่|ทราบ|ว่า|ตรง|นี้|ยัง|มี|ที่|ว่าง|ไหม|คะ|!|?
-    (|พูด|ด้วย|หน้า|เขิน|อาย|ออก|ไป|)
+- character: nightrose
+  position: center
+  act: Normal
+- msg: 'คะ|.|.|คะ|.|.|คือ|ว่า|.|.|ไม่|ทราบ|ว่า|ตรง|นี้|ยัง|มี|ที่|ว่าง|ไหม|คะ|!|? '
   character: nightrose
   override_name: '??? '
 - character: minato
@@ -1809,6 +1901,9 @@
     เหอะ|.|.|ช่วย|ไม่|ได้|ถ้า|งั้น|ก็ Nightrose
     จัง|เรา|จะ|เป็น|คน|สอน|เธอ|เอง|!|!
   character: akari
+- character: nightrose
+  position: center
+  act: Happy
 - msg: ค่ะ|!|!
   character: nightrose
 - msg: Akari ก็|ฝึก Nightrose ใน|การ|จับ|ตะเกียบ
@@ -1889,6 +1984,9 @@
   act: Happy
 - msg: งั้น|ผม|พอ|บอก|เคล็ด|ลับ|การ|ใช่|ตะเกียบ|ให้|นะ|ครับ
   character: minato
+- character: nightrose
+  position: center
+  act: Happy
 - msg: จริง|หรอ|คะ|?
   character: nightrose
 - msg: อืมเดี๋ยว|ผม|จะ|บอก|การ|ใช่|ตะเกียบ|ให้|ง่าย|เอง|รอ|ผม|สัก|ครู่|นะ|ครับ
@@ -1912,6 +2010,9 @@
   character: minato
 - msg: ว้า|ววว|ไม่|นึก|เลย|ว่า|จะ|เอา|มา|ทำ|แบบ|นี้|ได้|ด้วย ขอบคุณ|นะ|คะ
   character: nightrose
+- character: nightrose
+  position: center
+  act: Normal
 - msg: ไม่|เป็นไร|หรอก แต่|ตอน|นี้|เรา|มา|กิน|กัน|ต่อ|กัน|เถอะ
   character: minato
 - msg: ค่ะ|!
@@ -1930,7 +2031,7 @@
     Minato แล้ว|ก็|ทุก|คน|ดิฉัน|ขอ|ตัว|ก่อน|นะ|คะ
   character: nightrose
 - character: tan
-  position: center
+  position: right
   act: Normal
 - character: minato
   position: left
@@ -1948,6 +2049,9 @@
   act: Normal
 - msg: เออ|แล้ว|เรา|ทำ|ไร|ต่อ|ดี|หว่า
   character: akari
+- character: tan
+  position: center
+  act: Normal
 - msg: >-
     เอา|เป็น|ว่า|เรา|เอง|ก็|เอา|ถาด|ไป|เก็บ|เถอะ|พวก|นาย|ต้อง|เตรียม|ตัว|สำหรับ|การ|เรียน|แล้ว|นะ
   character: tan
@@ -1964,8 +2068,11 @@
 - character: minato
   position: left
   act: Smile
-- msg: ถ้า|อย่าง|งั้น|ให้|ผม|สอน|การ|ใช่|ตะเกียบ|ให้|ไหม|ครับ (|หน้า|ยิ้ม|)
+- msg: 'ถ้า|อย่าง|งั้น|ให้|ผม|สอน|การ|ใช่|ตะเกียบ|ให้|ไหม|ครับ '
   character: minato
+- character: nightrose
+  position: center
+  act: Normal
 - msg: มิสเตอร์ yamada จะ|สอน|ให้|งั้น|หรอ|คะ|?
   character: nightrose
 - character: tan
@@ -1973,17 +2080,16 @@
   act: Normal
 - msg: >-
     วิ้วว|~|~ Minato
-    เปิด|เทอม|วัน|แรก|มา|ก็|มี|สาว|มา|ติด|ซะ|แล้ว|ไม่|ธรรมดา|เลย|จริง|~ๆ
-    (|หน้า|พูด|)
+    เปิด|เทอม|วัน|แรก|มา|ก็|มี|สาว|มา|ติด|ซะ|แล้ว|ไม่|ธรรมดา|เลย|จริง|~ๆ 
   character: tan
 - character: minato
   position: left
   act: Bemused
 - msg: >-
     เงียบ|ปาก|ไป|ก่อน|ที่|ฉัน|จะ|เอา|ตะเกียบ|เสียบ|รู|จมูก|ทั้ง 2
-    ของ|แก|ซะ|ไอ|แทน (|หน้า|โกรธ|พูด|)
+    ของ|แก|ซะ|ไอ|แทน 
   character: minato
-- msg: น|ะ…|น่า|กลัว|จัง|เลย|นะ|นาย|นี้ (|หน้า|ตกใจ|)
+- msg: น|ะ…|น่า|กลัว|จัง|เลย|นะ|นาย|นี้
   character: tan
 - character: minato
   position: left
@@ -1994,7 +2100,7 @@
   character: minato
 - msg: >-
     มิสเตอร์ yamada ไม่|ได้|นะ|คะ|ถ้า|จับ|แบบ|นั้น|ละ|ก็|~* ขยับ|มือ|ไป|ตาม|ที่
-    Minato สอ|น* (|หน้า|เชิน|)
+    Minato สอ|น* 
   character: nightrose
 - msg: เธอ|ไป|เรียนรู้|ประโยค|แบบ|นี้|มา|จาก|ไหน|น่ะ|มัน|ฟัง|ดู|แปลกๆนะ
   character: minato
@@ -2008,7 +2114,10 @@
 - delay: 5
 - cg: empty
 - music: bgm_Big Canteen Ambience
-- msg: ไม่|ไหว|อ่าา|~|~|ยาก|เกิน|ไป ตะเกียบ|หลุด|มือ|อีก|แล้ว TT (|หน้า|เศร้า|)
+- character: nightrose
+  position: center
+  act: Angry
+- msg: ไม่|ไหว|อ่าา|~|~|ยาก|เกิน|ไป ตะเกียบ|หลุด|มือ|อีก|แล้ว TT
   character: nightrose
 - msg: >-
     ลอง|อี|กรอบ|นะ|ครับ|.|.|เดี๋ยว|รอบ|นี้|ผม|จะ|เอา|มือ|ผม|วาง|บน|มือ Nightrose
@@ -2019,31 +2128,35 @@
   act: Happy
 - msg: ระหว่าง|นั้น Nightrose ก็|ต้อง|ขยับ|ตาม|ด้วย|นะ
   character: minato
-- msg: เอ๋|!|?|! (|หน้า|ตกใจ|)
+- character: nightrose
+  position: center
+  act: Surprised
+- msg: เอ๋|!|?|!
   character: nightrose
-- msg: ขยับ|ตาม|มือ|ผม|นะ|ครับ แบบ|นี้|นะ|ครับ  (|หน้า|ปกติ|พูด|)
+- msg: 'ขยับ|ตาม|มือ|ผม|นะ|ครับ แบบ|นี้|นะ|ครับ '
   character: minato
-- msg: อะ|.|.|อ่าาา|!|?|.|.|คือ|ว่าาา…|.|. (|หน้า|เชิน|)
+- msg: 'อะ|.|.|อ่าาา|!|?|.|.|คือ|ว่าาา…|.|. '
   character: nightrose
-- msg: (|มือ|รุ่น|พี|่…|อุ่น|จัง|เลย|.|.|) (|หน้า|เชิน|)
+- character: nightrose
+  position: center
+  act: Smlie
+- msg: (|มือ|รุ่น|พี|่…|อุ่น|จัง|เลย|.|.|)
   character: nightrose
 - character: minato
   position: left
   act: Normal
-- msg: >-
-    แล้ว|ก็|แบบ|นี้|เรียบร้อย|ยล|ะ…|.|ทีนี้|ลอง|ขยับ|นิ้ว|ขึ้น|ลง|ดู|สิ
-    (|หน้า|ปกติ|พูด|)
+- msg: 'แล้ว|ก็|แบบ|นี้|เรียบร้อย|ยล|ะ…|.|ทีนี้|ลอง|ขยับ|นิ้ว|ขึ้น|ลง|ดู|สิ '
   character: minato
-- msg: ดะ|.|.|ได้|ค่ะ *|ขยับ|ตะ|เกีย|บด|ู* (|หน้า|เชิน|)
+- msg: 'ดะ|.|.|ได้|ค่ะ *|ขยับ|ตะ|เกีย|บด|ู* '
   character: nightrose
-- msg: ทำ|ได้|แล้ว|ค่ะ|รุ่น|พี่|! ขอบคุณ|มากๆเลย|ค่ะ|! (|หน้า|เชิน|)
+- msg: 'ทำ|ได้|แล้ว|ค่ะ|รุ่น|พี่|! ขอบคุณ|มากๆเลย|ค่ะ|! '
   character: nightrose
 - character: minato
   position: left
   act: Smile
 - msg: >-
     ไม่|เป็นไร|หรอก ตอน|นี้|เรา|กิน|กัน|ต่อ|ดี|กว่า *|ปล่อย|มือ|ออก|จาก|มือ
-    Nightros|e* (|หน้า|ยิ้ม|)
+    Nightros|e* 
   character: minato
 - character: akari
   position: right
@@ -2078,6 +2191,9 @@
   character: minato
 - msg: นี้ Minato ตอน|นาย|สอน Nightrose นาย|ไม่|ได้|คิด|อะไร|เลย|จริงๆหรอ|~
   character: tan
+- character: nightrose
+  position: center
+  act: Surprised
 - msg: '!|?|! * สำลัก|น้ำ|ก๊วยจั๊บ *'
   character: nightrose
 - msg: 'แค่กๆ! '
@@ -2089,6 +2205,9 @@
   character: minato
 - msg: ไม่|เป็นไร|ค่ะ|.|.|พอดี|สำลัก|นิดหน่อย|.|.|.
   character: nightrose
+- character: nightrose
+  position: center
+  act: Normal
 - msg: ถะ|.|.|ถะ|.|.|ถ้า|งั้น|หนู|ขอ|เอา|จาน|ไป|เก็บ|ก่อน|นะ|คะ|!
   character: nightrose
 - msg: ไว้|เจอ|กัน|นะ|คะ|! มิสเตอร์ Yamada|!
@@ -2110,6 +2229,8 @@
 - msg: ขอ|ขอบคุณ|สำหรับ|วัน|นี้|นะ|ค่าาา|คุณ Minato|!|!
   character: nightrose
 - sound: sv_Footsteps Running Fade Away
+- character: empty
+  position: center
 - msg: >-
     จาก|นั้น Nightrose
     ก็|รีบ|ยก|ถาด|อาหาร|ไป|เก็บ|แล้ว|ก็|ออก|จาก|โรงอาหาร|ไป|เลย

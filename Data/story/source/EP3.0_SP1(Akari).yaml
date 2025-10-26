@@ -1,5 +1,5 @@
 - background: bg_university_infront
-- music: bgm_LoFi HipHop
+- music: bgm_Jazz Calm
 - character: akari
   position: center
   act: happy
@@ -18,7 +18,7 @@
   character: akari
 - character: tan
   position: right
-  act: Normal
+  act: Happy
 - msg: สวัสดีตอนเย็นนะ Akari จัง
   character: tan
 - character: akari
@@ -26,6 +26,9 @@
   act: surprised
 - msg: สะ..สวัสดีค่ะ! รุ่นพี่แทน?!
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: อะไรกันไม่ต้องตกใจขนาดนั้นก็ได้หนิ Akari พี่ไม่ใช่ผีสักหน่อยนะ
   character: tan
 - msg: ขะ..ขอโทษค่ะจูุ่ๆก็มีคนเดินเข้ามาทักนึกว่าจะเป็นคนไม่รู้นะค่ะ!!
@@ -35,10 +38,16 @@
   act: Normal
 - msg: ว่าแต่ทำไมรุ่นพี่ถึงอยู่แถวนี้หรอคะ?
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: พอดีว่าพี่มาทำธุระอะไรหน่อยอะนะ
   character: tan
 - msg: หืมมมม…เวลาป่านนี้นะหรอคะ?
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: อืมมใช่แล้วละ เอ๋..จะว่าไป Minato ละหายไปไหนแล้วละ
   character: tan
 - msg: ถ้าเป็นพี่ละก็กลับไปที่บ้านแล้วค่ะ..เขาพูดว่า…
@@ -84,7 +93,7 @@
   character: akari
 - character: tan
   position: right
-  act: Normal
+  act: Surprised
 - msg: >-
     เป็นอย่างงี้นี้เองสินะ…จะว่าไป Akari อาทิตย์ที่แล้ว Minato บอกว่า Akari
     ป่วยเกิดอะไรขึ้น?
@@ -96,6 +105,9 @@
   character: akari
 - msg: หลังจากนั้น Akari ก็เล่าสิ่งที่เกิดขึ้นในคาบทำอาหารของวันนั้นให้พี่แทนฟัง
   character: narrator
+- character: tan
+  position: right
+  act: Happy
 - msg: ฮ่าาาาๆๆ!! ขอโทษด้วยนะ Akari จังแต่มัน…ฮ่าๆๆ!
   character: tan
 - character: akari
@@ -117,6 +129,9 @@
   act: Haru
 - msg: <b><size=40>バーカ</size></b>(baaka) ตาาบ้า~
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: เมื่อกี้พูดว่าอะไรหรือป่าว?
   character: tan
 - character: akari
@@ -155,6 +170,9 @@
 - msg: ในตอนนี้ประตูกำลังจะปิดภายใน 5 วินาทีครับ
   character: man03
   override_name: คนขับรถเมย์
+- character: tan
+  position: right
+  act: Angry
 - msg: คนจะเยอะอะไรอย่างงี้เนี้ยย!
   character: tan
 - msg: นะ…แน่นไปหมดเลย *พยายามเบียดเข้าแต่ไม่ไหว*
@@ -176,6 +194,9 @@
   act: happy
 - msg: ขอบคุณค่ะพี่แทนแต่ว่าคนมันแน่นไปไหมคะ…
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: นั้นสินะ..ขอโทษนะ Akari แต่ช่วยอยู่แบบนี้ไปก่อนนะ
   character: tan
 - character: akari
@@ -192,6 +213,9 @@
   act: Haru
 - msg: นึกว่าตายยซะแล้ว
   character: akari
+- character: tan
+  position: right
+  act: Angry
 - msg: เวอร์ไปแล้ว..ว่าแต่ Akari จะลงป้ายไหนหรอ
   character: tan
 - character: akari
@@ -199,6 +223,9 @@
   act: Normal
 - msg: ก็ป้ายข้างหน้านี้แหละค่ะแล้วพี่แทนลงป้ายไหนหรอคะ?
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ของพี่ต้องอีก 2 ป้ายเลยน่ะถึงจะไปถึงที่หมาย
   character: tan
 - msg: รถเมย์ได้มาถึงป้ายแล้วประตูเปิดภายใน 3 วิ
@@ -206,6 +233,9 @@
   override_name: คนขับรถเมย์
 - msg: เอะถึงแล้วหรอเร็วชะมัดงั้นหนูไปก่อนนะคะพี่แทนไว้เจอกันนะคะ!
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: อืมม!
   character: tan
 - msg: จากนั้น Akari ก็ลงจากรถบัสแล้วกลับมาที่บ้าน

@@ -7,7 +7,7 @@
 - character: akari
   position: right
   act: Normal
-- msg: Zzz~~ Zzz~~ (สีหน้าหลับตา)
+- msg: 'Zzz~~ Zzz~~ '
   character: akari
 - msg: 'หนูขอกินอีกจานน่าค่า แหะๆ~ *ละเมอ* '
   character: akari
