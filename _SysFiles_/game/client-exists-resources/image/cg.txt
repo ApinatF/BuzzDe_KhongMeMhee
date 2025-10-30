@@ -1,5 +1,0 @@
-cg_Blackscreen
-cg_EP1_Ni_Mi1
-cg_EP1_Tan_Akari1
-cg_EP2_Lin_Akari
-cg_EP2_Lin_Minato
