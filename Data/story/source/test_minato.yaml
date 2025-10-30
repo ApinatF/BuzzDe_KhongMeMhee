@@ -5,6 +5,11 @@
   act: Closeeye
 - msg: Closeeye
   character: minato
+- character: akari
+  position: right
+  act: Closeeye
+- msg: Closeeye
+  character: akari
 - character: minato
   position: center
   act: Angry

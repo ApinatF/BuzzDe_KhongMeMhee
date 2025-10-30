@@ -1,0 +1,3 @@
+gallery_akari
+gallery_minato
+gallery_prototype

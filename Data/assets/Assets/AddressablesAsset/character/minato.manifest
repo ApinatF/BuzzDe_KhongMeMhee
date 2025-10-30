@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 255089692
+CRC: 3850456603
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2a7b3e01e1ab8d6b237909a3e0d38550
+    Hash: a4c6383207ac8eb2ddf3e2cb971ecf01
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8bec59c1933b1f0ae26f5d4e1fc40a79
+    Hash: ba94fced9f694035722bae777920980d
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 2a7b3e01e1ab8d6b237909a3e0d38550
+    Hash: a4c6383207ac8eb2ddf3e2cb971ecf01
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,5 +46,5 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Unity.2D.IK.Runtime
   ClassName: UnityEngine.U2D.IK.IKManager2D/SolverEditorData
 Assets:
-- Assets/ExportPrefabs/Animation/Yamada_Minato.prefab
+- Assets/ExportPrefabs/Minato/minato.prefab
 Dependencies: []

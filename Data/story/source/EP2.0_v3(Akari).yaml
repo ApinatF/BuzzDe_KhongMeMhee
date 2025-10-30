@@ -6,7 +6,7 @@
   character: narrator
 - character: akari
   position: right
-  act: Normal
+  act: Closeeye
 - msg: 'Zzz~~ Zzz~~ '
   character: akari
 - msg: 'หนูขอกินอีกจานน่าค่า แหะๆ~ *ละเมอ* '

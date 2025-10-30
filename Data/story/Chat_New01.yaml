@@ -1,0 +1,11 @@
+- sys: แบร์ สร้างกลุ่ม
+- msg: ฮัลโหล ๆ
+  avatar: bear
+- msg: ทุก|คน|เข้า|มา|ยัง
+  avatar: bear
+- msg: message
+  avatar: select character
+- cg: cg_k305b01
+- delay: 0
+- avatar: khans
+  image: cg_010301
