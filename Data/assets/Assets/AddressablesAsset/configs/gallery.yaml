@@ -1,0 +1,21 @@
+- label: minato
+  title: มินาโตะ
+  image: gallery_minato
+  collect:
+    - cg: cg_EP1_Ni_Mi1
+    - cg: cg_EP2_Lin_Minato
+- label: akari
+  title: อคาริ
+  image: gallery_akari
+  collect:
+    - cg: cg_EP1_Tan_Akari1
+    - cg: cg_EP2_Lin_Akari
+    - mini_cg: mcg_AkariEatFriedriceK
+- label: Etc
+  title: อื่นๆ
+  image: gallery_prototype
+  collect:
+    - mini_cg: mcg_minatopunch
+    - mini_cg: mcg_DarkMatterFriedRice
+    - mini_cg: mcg_Coffee
+    - mini_cg: mcg_handkerchief

@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 3214829123
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 99bd81603f5e6cb93227e60628a4ed3c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5b9aae1bd8443ca41bdeaea9914734df
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 99bd81603f5e6cb93227e60628a4ed3c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 097b551f2844b054290f18a39bf892e9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.2D.IK.Runtime
+  ClassName: UnityEngine.U2D.IK.IKManager2D/SolverEditorData
+Assets:
+- Assets/ExportPrefabs/Nightrose/nightrose.prefab
+Dependencies: []

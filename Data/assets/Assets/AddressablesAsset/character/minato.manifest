@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 255089692
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2a7b3e01e1ab8d6b237909a3e0d38550
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8bec59c1933b1f0ae26f5d4e1fc40a79
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2a7b3e01e1ab8d6b237909a3e0d38550
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 097b551f2844b054290f18a39bf892e9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30ae93fb156fc6d4c828c64571fc3edd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.2D.IK.Runtime
+  ClassName: UnityEngine.U2D.IK.IKChain2D
+- AssemblyName: Unity.2D.IK.Runtime
+  ClassName: UnityEngine.U2D.IK.IKManager2D/SolverEditorData
+Assets:
+- Assets/ExportPrefabs/Animation/Yamada_Minato.prefab
+Dependencies: []

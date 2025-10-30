@@ -1,0 +1,137 @@
+- character: narrator
+  model: narrator
+  name: ''
+  action:
+    - default
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: me
+  model: me
+  name: me
+  action:
+    - default
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: minato
+  model: minato
+  name: Minato
+  action:
+    - Angry
+    - Bemused
+    - Happy
+    - Normal
+    - Sad
+    - Shocked
+    - Shy
+    - Smile
+    - Surprised
+    - Thinking
+    - TopView
+    - Closeeye
+  msg_color: ffffff
+  name_bgcolor: 6633FF
+- character: akari
+  model: akari
+  name: Akari
+  action:
+    - angry
+    - happy
+    - Haru
+    - Normal
+    - sad
+    - Shy
+    - surprised
+    - Closeeye
+  msg_color: ffffff
+  name_bgcolor: 33CC99
+- character: nightrose
+  model: nightrose
+  name: Nightrose
+  action:
+    - Angry
+    - Happy
+    - Normal
+    - Surprised
+    - Smlie
+  msg_color: ffffff
+  name_bgcolor: FFFACD
+- character: tan
+  model: tan
+  name: Tan
+  action:
+    - Angry
+    - Happy
+    - Normal
+    - Surprised
+  msg_color: ffffff
+  name_bgcolor: D2B48C
+- character: grandfather
+  model: grandfather
+  name: ปู่
+  action:
+    - Normal
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: man03
+  model: man03
+  name: man03
+  action:
+    - Normal
+    - gangster
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: man02
+  model: man02
+  name: คนรอบข้าง
+  action:
+    - Normal
+    - gangster
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: man01
+  model: man01
+  name: พี่ปฐมนิเทศ
+  action:
+    - Normal
+    - gangster
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: professor
+  model: professor
+  name: อาจารย์
+  action:
+    - aa
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: lucien
+  model: lucien
+  name: Lucien
+  action:
+    - Normal
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: mob_D.C
+  model: mob_D.C
+  name: คณะกรรมการวินัย
+  action:
+    - Normal
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: test
+  model: test
+  name: Test
+  action:
+    - Normal
+    - do_flip
+  msg_color: ffffff
+  name_bgcolor: ffffff
+- character: lin
+  model: lin
+  name: Lin
+  action:
+    - Normal
+    - happy
+    - nervous
+    - smile
+  msg_color: ffffff
+  name_bgcolor: ffffff
