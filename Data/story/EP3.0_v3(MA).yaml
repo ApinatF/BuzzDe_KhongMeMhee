@@ -302,6 +302,9 @@
   character: minato
 - sound: sv_Turning Book Pages
   label: EP3.0_v3(MA)_lb_7
+- character: akari
+  position: center
+  act: surprised
 - msg: มัง|งะ|สมัย|นี้|แปลกๆ นะ|พี่ เขา|ผ่าน สำนักพิมพ์|มา|ได้|ยังไง|?
   character: akari
 - character: minato
@@ -316,7 +319,7 @@
   character: minato
 - character: akari
   position: center
-  act: Normal
+  act: happy
 - msg: อืมม น้อง|ว่า|ก็|อย่าง|นั้น|น้าาาา|~|~ * พูด|ด้วย|น้ำเสียง|ฉอเลาะ *
   character: akari
 - msg: >-
@@ -327,32 +330,59 @@
 - msg: ไหนๆๆ หนู|อยาก|เห็นๆ
   character: akari
 - sound: sv_Level up
+- character: minato
+  position: left
+  act: Happy
 - msg: นี้|เลย|เล่ม|นี้|เกี่ยว|กับ|อาหาร|เกือบ|ทุก|อย่าง|เลย|นะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: อา|หา|รหร|ออ|!|! *|ตา|ประ|กา|ย*
   character: akari
 - sound: sv_EEnE Punch1
 - msg: ไหนๆ! *|ฉก|หนังสือ|ทัน|ที*
   character: akari
 - sound: sv_a10
+- character: minato
+  position: left
+  act: Bemused
 - msg: ดะ|.|.|เดี๋ยว|สิ
   character: minato
+- character: akari
+  position: center
+  act: surprised
 - msg: ว้า|ววว|~ ใน|เรื่อง|มี|แต่|เมนู|แปลก|ที่|หน้า|กิน|ทั้งนั้น|เลย|~
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: 'อะ|.|.|แฮ่ม|.|. '
   character: minato
 - sound: sv_Comical Struggle
 - msg: งะ…|ขอโทษ|ค่ะ|เผลอ|ตัว|ไป|หน่อย ขอบ|คุ|ณส|ำหรั|บมัง|งะ|ค่ะ
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: พอ|อ่าน|แล้ว|คิด|ว่า|ไง|บ้าง|อะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: >-
     ก็|ดี|สุดๆไป|เลย|ค่ะ…|. พี่|แนะน|ำมัง|งะ|ดีๆ
     ให้|น้อง|สาว|สุด|น่า|รัก|ของ|พี่|เป็น|นิ|หน้า|และ|ไอ|เรื่อง|ก่อนหน้า|มัน|คือ|อะไร|คะ|?
   character: akari
 - sound: sv_cd268
+- character: akari
+  position: center
+  act: sad
 - msg: 'แค่|เอา|มา|แกล้ง|หนู|งั้น|หรอ|คะ|พี่|~ '
   character: akari
+- character: minato
+  position: left
+  act: Bemused
 - msg: แฮะๆ พี่|แค่|อยาก|แกล้ง|น้อง|สาว|สุด|น่า|รัก|ของ|พี่|เฉยๆ
   character: minato
 - msg: พี่|นิ|น้าาา !|!|!|!
@@ -365,12 +395,18 @@
 - msg: อืมม|~ นี้|นวด|ไหล่|ให้|พี่|หรอ
   character: minato
 - sound: sv_Comical Struggle
+- character: akari
+  position: center
+  act: angry
 - msg: ใช่|ที่ไหน|ละ|ไอ|พี่|บ้า|!|!
   character: akari
 - msg: หลัง|ตี|ไป|สัก|พัก Akari ก็|สงบ|ลง|บ้าง|แล้ว|กลับ|ไป|นั่ง|ที่|โซ|ฟา
   character: narrator
 - msg: บ้าๆ พี่|บ้า|ที่สุด เฮ้อ
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: หาย|โกรธ|แล้ว|หรอ|~
   character: minato
 - msg: ไม่|ได้|โกรธ|ค่ะ แค่|หมั่น|เขี้ยว|พี่|ชาย|นิดหน่อย
@@ -391,6 +427,9 @@
   character: minato
 - msg: พี่|อ่า|!|!|.|.|.|เฮ้ออ|~
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: ขอบคุณ|นะ|พี่|ที่|แนะน|ำมัง|งะ|ให้|น้อง|เดียว|น้อง|จะ|อ่าน|เดียว|นี้|และ
   character: akari
 - msg: อืมดี|แล้ว|ที่|น้อง|ชอบ|นะ
@@ -399,11 +438,20 @@
     หลัง|จาก|นั้น|ก็|กลับ|ไป|มอง|หน้า|จอ|เกม|พร้อม|แสดง|สีหน้า|ตกใจ|แบบ|สุด|แรง|เกิด
   character: narrator
 - sound: sv_Critical Point
+- character: minato
+  position: left
+  act: Angry
 - msg: อ่าว|!|@#$|@#$|@# ลืม|กด|หยุด|เกม นึก|ว่าก|ดห|ยุ|ดไ|ปเ|เล้ว…|เวรกรรม|!
   character: minato
 - sound: sv_Dark Gleam
+- character: akari
+  position: center
+  act: happy
 - msg: ว้ายๆๆๆ  เพราะ|พี|่มั|วเ|เต่เ|เนะ|เรื่อ|งเ|เปลกๆอะไร|ก็|ไม่|รู้|ให้|ไป|อ่าน
   character: akari
+- character: minato
+  position: left
+  act: Sad
 - msg: 'ก็|เผื่อ|ออ|ยาก|อ่าน|เพื่อ|เปลี่ยน|บรรยากาศ|ไง|ครับ|น้อง โ|ถ่วววว '
   character: minato
 - sound: sv_Funny Xylophone
@@ -415,12 +463,18 @@
 - msg: '*|ท้อง|ร้อง|ทั้ง|คู|่*'
   character: me
   override_name: Akari/Minato
+- character: akari
+  position: center
+  act: sad
 - msg: ใช่|พลังงาน|เยอะ|ไป|หน่อย|หิว|ซะ|แล้|วว
   character: akari
 - sound: sv_Breast Twitch
 - msg: ใช่|เยอะ|ตรง|ไห|นไ|ม่ท|รา|บบบ|!
   character: minato
 - sound: sv_Comical Struggle
+- character: akari
+  position: center
+  act: angry
 - msg: เยอะ|สิ|!|! เพราะ|หนู|ขยับ|ร่างกาย|เยอะ|ไง|ละ|~|!
   character: akari
 - msg: >-
@@ -435,11 +489,14 @@
 - goto:
     - EP3.0_v3(MA)_lb_8 if var_minato >= 8
     - EP3.0_v3(MA)_lb_9
+- character: minato
+  position: left
+  act: Normal
+  label: EP3.0_v3(MA)_lb_8
 - msg: >-
     อืมมม…|พี่|ขอ|เช็ค|แปบ|นะ ไหน|ขอ|ดู|ซิ|ว่า|มี|ไร|กิน|บ้าง 
     ได้|เปิด|ตู้|เย็น|แล้ว|ก็|ได้|รู้|ว่า…|.|. *|เดิน|ไป|เปิด|ตู้|เย็|น*
   character: minato
-  label: EP3.0_v3(MA)_lb_8
 - sound: sv_Critical Point
 - character: minato
   position: left
@@ -477,11 +534,14 @@
 - msg: อืมม|ไม่|เลว|เลย|!|! ไป|กัน|เลยย
   character: akari
 - goto: EP3.0_v3(MA)_lb_10
+- character: akari
+  position: center
+  act: Normal
+  label: EP3.0_v3(MA)_lb_9
 - msg: >-
     อืมมม…|น้อง|ขอ|เช็ค|แปบ|นะ ไหน|ขอ|ดู|ซิ|ว่า|มี|ไร|กิน|บ้าง
     ได้|เปิด|ตู้|เย็น|แล้ว|ก็|ได้|รู้|ว่า…|.|. *|เดิน|ไป|เปิด|ตู้|เย็|น* 
   character: akari
-  label: EP3.0_v3(MA)_lb_9
 - sound: sv_Critical Point
 - character: akari
   position: center
@@ -526,13 +586,25 @@
 - background: bg_nifront_wut
 - music: bgm_LoFi HipHop
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: surprised
 - msg: 'พี่|คะ|.|. '
   character: akari
+- character: minato
+  position: left
+  act: TopView
 - msg: หืม?|มี|อะไร|หรอ Akari
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: >-
     เรา|ย้าย|มา|มหา|ลัย|แค่|วัน|แรก|เอง|แต่|ก็|มี|เรื่อง|เกิด|ขึ้น|เยอะ|เลย|นะ|คะ
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: ก็|นะ|วัน|แรก|ก็|อย่าง|งี้|แหละ
   character: minato
 - sound: sv_anxiety(piano)
@@ -551,13 +623,22 @@
     เรา|ต้อง|ยิ้มแย้ม|เข้า|ไว้|เพื่อ|ให้|เรา|ผ่าน|ช่วง|เวลา|นี้|ไป|ให้|ได้|นะ
   character: minato
 - sound: sv_Comical Creaking Sound
+- character: akari
+  position: center
+  act: angry
 - msg: เหห|~|~|พี่|พูด|อะไร|ดีๆกับ|เขา|เป็น|ด้วย|หรอ|เนี้ย
   character: akari
 - sound: sv_Grab Chip
+- character: akari
+  position: center
+  act: happy
 - msg: >-
     หนู|เชื่อ|ว่า|พี่|ต้อง|รักษา|ตระกูล|พวก|เรา|ไว้|ได้|แน่นอน|ค่ะ|! *|จับ|แขน
     Minato พ|ร้อ|มใ|ห้ก|ำลั|งใ|จ*
   character: akari
+- character: minato
+  position: left
+  act: Sad
 - msg: นี้|เรา|ก็|เดิน|มา|สัก|พัก|แล้ว|นะ|เมื่อไหร่|จะ|ถึง|หว่า
   character: minato
 - msg: อีก|นิดเดียว|เอง|พี่|นั้น|ไง *|ชี้|ที่|ร้า|นส|ะดวกซื้|อ*
@@ -619,7 +700,7 @@
   character: minato
 - character: akari
   position: center
-  act: Normal
+  act: happy
 - msg: ได้|เลย|!
   character: akari
 - sound: sv_Ding
@@ -628,25 +709,43 @@
 - background: bg_convenience_store_shelf
 - character: minato
   position: left
-  act: Normal
+  act: TopView
 - msg: นี้|นะ|หรอ|ร้าน|สะดวก|ซื้อ|ของ|ประเทศ|ไทย *|มอง|รอบๆ*
   character: minato
+- character: akari
+  position: center
+  act: surprised
 - msg: ดู|ดี|มาก|เลย|นะ|คะ|พี่ *|มอ|งไปทั่|ว*
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: เอา|ละ|อย่า|หยิบ|เยอะ|เกิน|ละ|เดี๋ยว|พี่|จ่าย|ไม่|ไหว
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ฮิ|ฮิ|~ ไม่|ต้อง|ห่วง|หรอก|นะ|พี่|~|~
   character: akari
 - sound: sv_anxiety(piano)
+- character: minato
+  position: left
+  act: Angry
 - msg: ยิ่ง|พู|ดงี่|ยิ่ง|น่า|สงสัย|เข้า|ไป|ไห|ญ๋!
   character: minato
 - msg: ไม่|หรอก|~|เอา|ละ|ไป|หา|ของ|กิน|กลับ|บ้าน|กัน|!|!
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: เฮ้ออ|~|~ จ้าๆ
   character: minato
 - msg: ผ่าน|ไป|สัก|พัก
   character: narrator
 - sound: sv_SWWalking
+- character: akari
+  position: center
+  act: surprised
 - msg: >-
     ว้า|ววว…|ของ|กิน|ใน|ไทย|มี|แต่|อะไร|น่า|กิน|เต็ม|ไป|หมด|เลย|~
     *|วิ่ง|ไป|รอบๆร้าน|ดู|ของ|กิน*
@@ -655,6 +754,9 @@
     มี|ข้าว|และ|กับข้าว|ให้|ซื้อ|แยก|กัน|ด้วย|สะดวก|ดี|จัง|เครื่อง|ดื่ม|ก็|เยอะ|ด้วย
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: พี่ๆ ซื้อ|นี้|ไป|ด้วย|สิ|~|~|~ *ห|ยิบใ|ส่ตร|ะก|ร้า*
   character: akari
 - sound: sv_Breast Twitch
@@ -663,21 +765,41 @@
 - sound: sv_Breast Twitch
 - msg: แล้ว|ก็|อัน|นี้ๆๆๆอัน|นั้นๆๆ *|หยิบ|ขอ|งใ|ส่ตร|ะก|ร้า|มัน|มือ*
   character: akari
+- character: minato
+  position: left
+  act: Angry
+- msg: พ|ะ…|พอ|ได้|แล้ว Akari เยอะ|ไป|แล้ว|!|! *|ยก|มือ|ห้าม|ใส่ Akar|i*
+  character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: โ|ถ่~ มี|ของ|ที่|อยาก|ได้|เยอะ|กว่า|นี้|อีก|ง่าา
   character: akari
-- msg: อ|ะ…|แฮ่้ม…*|หยิบ|ขอ|งชิ้|นนึ|งใ|นตร|ะก|ร้า|มา* ไอ|นี้|จะ|เอา|มา|ทำไม
+- msg: อ|ะ…|แฮ้ม…*|หยิบ|ขอ|งชิ้|นนึ|งใ|นตร|ะก|ร้า|มา* ไอ|นี้|จะ|เอา|มา|ทำไม
   character: minato
+- character: minato
+  position: left
+  act: Normal
 - msg: '*|หยิบ|ครีม|ซัก|อย่าง|มา*'
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: นี้|นะ|ครีม|บำรุง|ผม|ไง|ของ|น้อง|หมด|แล้ว|งะ
   character: akari
 - sound: sv_Breast Twitch
 - msg: พี่|จำ|ได้|ว่า|ตอน|แรก|จุด|ประสงค์|เรา|คือ|หา|ของ|เข้า|ตู้|เย็น|นะ
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: ถือ|ว่า|ซื้อ|ของ|ใช้|กลับ|ไป|บ้าน|ด้วย|เลย|ไง|!
   character: akari
 - msg: แล้ว|พี่|เถอะ นี้|คือ|อะไร|หรอ|คะ * หยิบ|ขอ|งใ|นตร|ะก|ร้า|มา *
   character: akari
+- character: akari
+  position: center
+  act: sad
 - msg: '*|หยิบ|หู|ฟัง|สาย|มา*'
   character: akari
 - sound: sv_question mark sound effect
@@ -711,6 +833,9 @@
 - msg: มี|ไร|หรอ|พี่|~|จ่าย|ไหว|ไหม|นะ|~
   character: akari
 - sound: sv_Epic Twinkle
+- character: minato
+  position: left
+  act: Happy
 - msg: ว|ะ…|ไหว|สิ…|รับ|สแกน|จ่าย|เงิน|ไหม|ครับ
   character: minato
 - msg: สแกน|ตรง|นี้|ได้|เลย|ครับ
@@ -722,6 +847,9 @@
   act: Sad
 - msg: '*|สแกน|จ่าย|เงิน* ไม่|น่า|เลย|เรา TT'
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: '*|มอง|ไป|รอบๆร้าน|เจอ|หนัก|งาน|ที่|หน้า|คุ้นๆ*'
   character: akari
 - sound: sv_question mark sound effect
@@ -765,9 +893,18 @@
 - msg: เฮ้ออ|~ งาน|จะ|เยอะ|เกิน|ไป|แล้ว|นะ *|ถอน|หา|ยใ|จ*
   character: tan
 - sound: sv_Epic Twinkle
+- character: akari
+  position: center
+  act: Normal
 - msg: พี|่ค|ะ…|..นั้|นใ|ช่…|คน|ที่|เรา|คิด|ไห|มค|ะ…
   character: akari
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: happy
+- character: minato
+  position: left
+  act: Smile
 - msg: อ่าา…|.|ใช่|แหละ มั้ง|หน้า|เอ๋อๆ มี|คน|เดียว|นะ|Akari
   character: minato
 - msg: นั้น|มัน|ไอ|แทน|นี้|หว่า|!|!|/|นั้น|พี่|แทน|นี้|นา|!|!
@@ -784,14 +921,20 @@
 - sound: sv_Walking Concrete Fast
 - msg: พี่|แทน|มา|ทำ|อะไร|ที่|นี้|เนี้ย *|วิ่ง|ไป|หา*
   character: akari
+- character: minato
+  position: left
+  act: Surprised
 - msg: นาย|ทำงาน|อยู่|ที่|นี้|งั้น|หรอ *|เดิน|ตาม|มาส|มท|บ*
   character: minato
 - sound: sv_Comical Turn Around 01
-- character: minato
-  position: left
+- character: tan
+  position: right
   act: Normal
 - msg: ใช่|แล้ว|ละ|พี่|ทำงาน|หนัก|เพื่อ|หา|เงิน|มา|จ่าย|ค่า|เทอม|นะ
   character: tan
+- character: tan
+  position: right
+  act: Surprised
 - msg: >-
     ว่า|แต่|พวก|เธอ 2 คน|มา|ซื้อ|ของ|งั้น|หรอ|เยอะ|เชียว|นะ *|มอง|ถุง|ใน|ใหญ่ 2
     ถุง|ที่ Minato ถือ*
@@ -806,6 +949,9 @@
 - msg: ฮ่าาา|~ๆๆ!|! เอาจริง|ดิ Minato แหม่|ลำบาก|แย่|เลย|นะ
   character: tan
 - sound: sv_Bubble pop
+- character: tan
+  position: right
+  act: Normal
 - msg: รอ|แป๊บ|นะ|ฉัน|ขอ|จัด|ของ|ให้|เสร็จ|ก่อน|แล้ว|เจอ|กัน|หน้า|ร้าน|นะ
   character: tan
 - sound: sv_Walking Concrete Fast
@@ -820,23 +966,29 @@
   act: Shy
 - msg: แล้ว|จะ|รอ|นะ|คะ|พี่|แทน *|เดิน|ตาม Minat|o*
   character: akari
-- background: bg_garden
+- background: bg_garden_evening
 - msg: หลัง|จาก|นั้น|แทน|ก็|ทำงาน|เสร็จ|แล้ว|ออก|มา|เจอ|กับ Minato และ Akari
   character: narrator
 - msg: มา|แล้วๆรอ|นาน|หรือ|เปล่า งาน|วัน|นี้|หนัก|สุดๆไป|เลย
   character: tan
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Smile
 - msg: ก็|ไม่|นาน|มาก|หรอ|กว่า|แต่|นาย|ดู|ชิ|วก|ว่าที่|ฉัน|คิด|นะ
   character: minato
 - character: akari
   position: center
-  act: Normal
+  act: happy
 - msg: จริง|ค่ะ|พี่|แทน|ดู|ชิว|มาก|เลย|นะ|คะ
   character: akari
 - msg: '*|ดื่ม|น้ำ|เปล่า|ที่|ซื้อ|มาครึ่|งนึ|ง*'
   character: akari
 - msg: ฉัน|ก็|ชิ|วอ|ย่าง|งี้|ตั้งแต่|เด็กๆแล้ว|ละ เลย|เป็น|นิสัย|ไป|แล้ว
   character: tan
+- character: minato
+  position: left
+  act: Normal
 - msg: ดี|จัง|เลย|นะ|นาย|เนี้ย|จะ|ลำบาก|แค่|ไหน|แต่|ก็|ยัง|ชิว|ได้|เนี้ย
   character: minato
 - msg: ไม่|เท่า|ไหร่|หรอ|กห|น่า
@@ -845,18 +997,29 @@
 - msg: โอ้|ยย…|! *|ปวด|ท้อ|ง*
   character: minato
 - sound: sv_anxiety(piano)
-- msg: เห้ยๆเพื่อน|เป็นไร|วะ (|หน้า|ตกใจ|)
+- character: tan
+  position: right
+  act: Surprised
+- msg: เห้ยๆเพื่อน|เป็นไร|วะ
   character: tan
+- character: minato
+  position: left
+  act: Sad
 - msg: ทะ|.|.|โทษ|ที|.|.|พอดี|ปวด|ห้อง|กร|ะทั|นหั|นน|ะ…|แถว|นี้|มี|ห้องน้ำ|ไหม|.|.
   character: minato
 - msg: >-
     ถ้า|ห้องน้ำ|วิ่ง|ไป|ทาง|ซ้าย|ตรง|นั้น|จะ|มี|สวน|สาธารณะ|เล็กๆตรง|นั้น|มี|ห้องน้ำ|อยู่
-    (|หน้า|ตกใจ|นิดหน่อย|)
   character: tan
 - msg: ขะ…|ขอบใจ|มาก|เพื่อ|น…*|สีหน้า|เริ่ม|ไม่|ไห|ว*
   character: minato
+- character: minato
+  position: left
+  act: Angry
 - msg: Akari พี่|ขอ|ไป|หา|ห้องน้ำ|แถว|นี้|หน่อย|นะ|อยู่|กับ|แทน|ไป|ก่อน|นะ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: ได้|ค่ะ|พี่
   character: akari
 - sound: sv_Walking Concrete Fast
@@ -866,15 +1029,30 @@
   position: left
 - msg: จะ|เป็น|อะไร|ไหม|นะ|พี่|เนี้ย
   character: akari
-- msg: ไม่|เป็นไร|หรอ|กห|น่า|เชื่อ|พี่|สิ (|หน้า|อธิบาย|)
+- character: tan
+  position: right
+  act: Happy
+- msg: 'ไม่|เป็นไร|หรอ|กห|น่า|เชื่อ|พี่|สิ '
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: ไม่|เชื่อ|ได้|ไหม|เนี้ย
   character: akari
-- msg: เอ้|าา|จบ|กัน (|หน้า|นิ่ง|)
+- character: tan
+  position: right
+  act: Angry
+- msg: 'เอ้|าา|จบ|กัน '
   character: tan
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: ล้อเล่น|ค่ะ
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: Akari นี้|ขี้|เล่น|จริงๆเลย|นะ
   character: tan
 - msg: ฮึ|~
@@ -902,13 +1080,19 @@
   character: minato
 - msg: …|.|. เมื่อ|ถึง|ห้องน้ำ|แล้ว Minato ก็|รีบ|ทำ|ธุระ|ทันที
   character: narrator
-- msg: ' อ่าา|~ สวรรค์'
+- character: minato
+  position: left
+  act: Smile
+- msg: อ่าา|~ สวรรค์
   character: minato
 - msg: Akari จะ|เป็น|อะไร|ไหม|นะ|อยู่|กับ|แทน|เนี้ย
   character: minato
 - sound: sv_Comical Turn Around 01
 - msg: คิด|มาก|ไป|ก็|ป่าว|ประโยชน์
   character: minato
+- character: minato
+  position: left
+  act: Normal
 - msg: รีบๆ ทำ|ธุระ|ให้|มัน|เสร็จ และ ไป|หา|น้อง|Akari ดี|กว่า
   character: minato
 - sound: sv_Walking Concrete Fast
@@ -928,6 +1112,9 @@
 - msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
   character: akari
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Surprised
 - msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
   character: minato
 - character: tan
@@ -935,6 +1122,9 @@
   act: Normal
 - msg: 'ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o* '
   character: tan
+- character: minato
+  position: left
+  act: Normal
 - msg: >-
     เป็น|อย่าง|งี้|นี้|เอง|ขอบใจ|นะ|ไอ|แทน|ที่|ช่วย|น้อง|สาว|ของ|ฉัน|ไว้|คน|เป็น|พี่|อย่าง|ฉัน|ขอ|ขอบคุณ|สุด|ใจ|เลย
     *|ก้ม|ตัว|ขอบคุณ|แทน*
@@ -945,6 +1135,9 @@
 - msg: >-
     พี่|แทน|ช่วย|หนู|ไว้|นะ|คะ|รับ|คำ|ขอบคุณ|จาก|พี่|เถอะ|ค่ะ|ถ้า|พี่|แทน|รับ|คำ|ขอบคุณ|หนู|ก็|สบายใจ|แล้ว
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: >-
     อะ|.|.|อา|เค|ก็|ได้|ฉัน|จะ|รับ|คำ|ขอบคุณ|นั้น|ไว้|ละ|กัน|ว่า|แต่|ไม่|ใช่|ว่า|พวก|เธอ
     2
@@ -953,6 +1146,9 @@
 - sound: sv_Breast Twitch
 - msg: อะ|!|?|! จริง|ด้วย Akari เรา|รีบ|กลับ|กัน|ดี|กว่า
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: ได้|ค่ะ|พี่
   character: akari
 - msg: ถ้า|งั้น|แทน|เจอ|กัน|พรุ่งนี้|นะ
@@ -983,6 +1179,9 @@
   act: Normal
 - msg: โอ้|ยย|แค่|นี้|เอง|ไม่|มี|ปัญหา|หรอก
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: พี่|แทน|เหงื่อ|พี่|เยอะ|มาก|เลย|นะ|คะ *|สังเกต|เห็น|เหงื่|อ*
   character: akari
 - sound: sv_Comical Turn Around 01
@@ -1002,6 +1201,7 @@
         - rp_tan_akari += 5
     - msg: .|.|.
       msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
+      cost: 8
       update:
         - rp_tan_akari += 10
       goto: EP3.0_v3(MA)_lb_13
@@ -1009,12 +1209,24 @@
   state: EP3.0_v3(MA)_st_2
 - music: bgm_Baguette
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: sad
 - msg: พี่|แทน|คะ
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: มี|ไร|หรอ Akari
   character: tan
+- character: akari
+  position: center
+  act: happy
 - msg: ถ้า|พี่|เหนื่อย|เอา|น้ำ|นี้|ไป|ดื่ม|สิ|คะ *|ยื่น|ขวด|น้ำใ|ห้*
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: 'น้ำ|งั้น|หรอ Akari ขอบใจ|นะ|ช่วย|ได้|มาก|เลย '
   character: tan
 - msg: >-
@@ -1022,12 +1234,21 @@
     ได้|สัมผัส|กัน|แบบ|ไม่|ตั้งใจ
   character: narrator
 - sound: sv_Blushing
+- character: akari
+  position: center
+  act: surprised
 - msg: อ่ะ !|?
   character: akari
 - sound: sv_Pop1
-- msg: ทะ|.|.|โทษ|ที (|หน้า|กังวล|)
+- character: tan
+  position: right
+  act: Normal
+- msg: 'ทะ|.|.|โทษ|ที '
   character: tan
 - sound: sv_SQUTWIST
+- character: akari
+  position: center
+  act: happy
 - msg: หนู|ไม่|ถือ|หรอก|ค่ะ|.…|. *|พูด|เบาๆ* ถ้า|เป็น|พี่|แทน|ไม่|เป็นไร|หรอก|.|.
   character: akari
 - sound: sv_question mark sound effect
@@ -1039,13 +1260,25 @@
   character: tan
 - msg: อึก|~ๆๆ *|กระดก|น้ำจ|นหม|ดขว|ด* อ่าาา|~|~|สด|ชื้น|จริงๆเลย
   character: tan
+- character: akari
+  position: center
+  act: surprised
 - msg: ดะ|.|.|เดี๋ยว|สิ|นี้|เล่น|ดื่ม|หมด|เลยหร|ออ|!
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: ขอโทษ|~ๆ พอดี|หิว|น้ำ|สุดๆไป|เลย|นะ
   character: tan
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: Shy
 - msg: ไม่|เป็นไร|ค่ะ|หนู|ดื่ม|ไป|แล้ว|ครึ่ง|นึง|ด้วย
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: >-
     !|?|!|?|.|.|.|.|.|เมื่อกี้|ว่า|ไง|นะ|น้ำ|ขวด|นี้|ไม่|ใช่|ของ Minato
     หรอก|หรอ|!|?
@@ -1059,6 +1292,9 @@
 - msg: '!|?|!|?'
   character: tan
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: surprised
 - msg: พี่|แทน|คะ|พี่|เป็น|อะไร|ไป|เนี้ย…|? ไม่|สบาย|ตรง|ไหน|หรือ|เปล่า
   character: akari
 - sound: sv_Comical Struggle
@@ -1078,6 +1314,9 @@
 - msg: 'A|.|.|Akari เดี๋ยว|สิพ|ะ…|พี่|เขิน|นะ '
   character: tan
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: Normal
 - msg: อืมม|ก็|ไม่|มี|ไข้|นี้|นา *|ไม่|ได้|ฟัง|ที่|แทน|พูด|โฟกัส|กับ|บาง|อย่า|ง*
   character: akari
 - msg: นี้|ได้ยิน|ที่|พูด|ไหม|เนี้ยย|!
@@ -1097,12 +1336,21 @@
     *|รับ|ขวด|น้ำ|มา|กำลัง|จะ|ไป|ที|่ทิ้|งขย|ะ*
     ได้ยิน|เสียง|เห|มื่อน|เครื่องยนต์   หืมม|?
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: 'Akari|!|! '
   character: tan
+- character: akari
+  position: center
+  act: surprised
 - msg: เอ๋|!|?
   character: akari
 - msg: รถ|ที่|พุ่ง|มา|ด้วย|ความ|เร็ว|สูง|กำลัง|จะ|ชน Akari
   character: narrator
+- character: tan
+  position: right
+  act: Angry
 - msg: 'ระวัง|!|! '
   character: tan
 - sound: sv_Body_Fall_Down_2
@@ -1114,13 +1362,25 @@
   character: tan
 - music: bgm_Baguette
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: Closeeye
 - msg: >-
     น|ะ…|หนู|ไม่|เป็นไร|ค่ะ|พี่|แทน…*|สั่น|ด้วย|ความ|กลัว|พร้อม|กอด|แทน|ไป|ด้ว|ย* 
   character: akari
+- character: akari
+  position: center
+  act: happy
 - msg: ขอบคุณ|มาก|เลย|ค่ะ|พี่|แทน
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ไม่|เป็นไรๆพี่|อยู่|นี้|แล้ว * ลูบ|หัว Akari เบาๆ*
   character: tan
+- character: akari
+  position: center
+  act: Shy
 - msg: นอกจาก|พี่ Minato แล้|ว…|ก็|มี|พี่|แทน|นะ|คะ|ที่|ได้|ลูบ|หัว|หน|ู…
   character: akari
 - msg: อย่าง|งั้น|หรอ *|กำลัง|จะ|ปล่อย|มือ|ออก|จาก Akar|i*
@@ -1131,13 +1391,22 @@
   character: tan
 - msg: หลัง|จาก|นั้น Akari ก็|สงบ|ลง|แล้ว|ปล่อย|กอด|จาก|แทน
   character: narrator
+- character: tan
+  position: right
+  act: Happy
 - msg: ใจ|เย็น|ขึ้น|มา|บ้าง|ยัง
   character: tan
+- character: akari
+  position: center
+  act: happy
 - msg: เยอะ|ขึ้น|มาก|เลย|ค่ะ…|ขอบคุณ|นะ|คะ|พี่|แทน|ไม่|ได้|พี่|หนู|คง|แย่|เลย|.|.
   character: akari
 - msg: 'ป่านนี้|แล้ว|เจ้า Minato ยัง|ไม่|กลับ|มา|อีก|หรอ '
   character: tan
 - sound: sv_anxiety(piano)
+- character: tan
+  position: right
+  act: Normal
 - msg: ต้อง|ออก|ไป|หา|ไหม|เนี้ย
   character: tan
 - msg: เดี๋ยว|พี่|เขา|ก็|กลับ|มา|แหละ|ค่ะ|ตอน|นี้|ช่วย|อยู่|กับ|หนู|ก่อน|นะ|คะ
@@ -1158,11 +1427,14 @@
 - msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
   character: akari
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Surprised
 - msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
   character: minato
-- character: minato
+- character: tan
   position: right
-  act: Normal
+  act: Happy
 - msg: 'ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o* '
   character: tan
 - msg: >-
@@ -1175,22 +1447,33 @@
 - msg: >-
     พี่|แทน|ช่วย|หนู|ไว้|นะ|คะ|รับ|คำ|ขอบคุณ|จาก|พี่|เถอะ|ค่ะ|ถ้า|พี่|แทน|รับ|คำ|ขอบคุณ|หนู|ก็|สบายใจ|แล้ว
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: >-
     อะ|.|.|อา|เค|ก็|ได้|ฉัน|จะ|รับ|คำ|ขอบคุณ|นั้น|ไว้|ละ|กัน|ว่า|แต่|ไม่|ใช่|ว่า|พวก|เธอ
     2
     คน|ต้อง|รีบ|กลับ|หรอก|หรอ|นี้|ก็|ดึก|มาก|แล้ว|นะ|พรุ่งนี้|มี|คาบ|ทำ|อาหาร|ด้ว|ยห|นิ
-    (|สีหน้า|ยิ้ม|)
   character: tan
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Normal
 - msg: อะ|!|?|! จริง|ด้วย Akari เรา|รีบ|กลับ|กัน|ดี|กว่า
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ได้|ค่ะ|พี่
   character: akari
 - msg: ถ้า|งั้น|แทน|เจอ|กัน|พรุ่งนี้|นะ
   character: minato
 - msg: เจอ|กัน|นะ|คะ|พี่|แทน
   character: akari
-- msg: อืมม|เจอ|กัน|นะ|ทั้ง 2 คน (|สีหน้า|ยิ้ม|)
+- character: tan
+  position: right
+  act: Happy
+- msg: 'อืมม|เจอ|กัน|นะ|ทั้ง 2 คน '
   character: tan
 - character: empty
   position: right
@@ -1216,6 +1499,9 @@
 - msg: พี่|แทน|ช่วย|ยื่น|หน้า|มา|หน่อย|ได้|ไหม|ครับ
   character: akari
 - sound: sv_question mark sound effect
+- character: tan
+  position: right
+  act: Surprised
 - msg: หืมได้|สิ|ทำไม|หรอ *|ก้ม|ตัว|แล้ว|ยื่น|หน้า|ไป|หา*
   character: tan
 - msg: ขอ|อนุญาต|นะ|คะ
@@ -1231,12 +1517,18 @@
 - sound: sv_Blushing
 - msg: ด|ะ…|เดี๋ยว|สิพ|ะ…|พี่|ยัง|ไม่|พร้อม|เลย|นะ|!|?|!
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: ยัง|ไม่|พร้อม|อะไร|หรอ|คะ *|ยื่น|หน้า|เข้า|ไป|ใกล้|อี|ก*
   character: akari
 - sound: sv_SQUTWIST
 - msg: คะ|.|.|คือ…|ไม่|มี|อะไร|หรอ|ก…|แต่|หน้า|จะ|ใกล้|เกิน|ไป|แล้ว
   character: tan
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: Normal
 - msg: ขอโทษ|ค่ะ อีก|สัก|ครู่|นะ|คะ|ใกล้|เสร็จ|แล้ว
   character: akari
 - msg: 'อืมม '
@@ -1244,9 +1536,15 @@
 - msg: '*|Akari ใช่|ผ้าเช็ดหน้า|เช็ด|หน้า|ของ|แทน*'
   character: akari
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: เสร็จ|แล้ว|ค่ะ
   character: akari
 - sound: sv_Bubble pop
+- character: tan
+  position: right
+  act: Normal
 - msg: 'ให้|ตาย|สิ|ทีหลัง|ก็|บอก|กัน|ก่อน|สิ '
   character: tan
 - msg: หนู|ก็|บอก|ไป|แล้ว|นะ|คะ|ว่า|จะ|เช็ด|หน้า|ให้
@@ -1294,14 +1592,17 @@
   override_name: หัวหน้าอัลตพาล
 - character: akari
   position: left
-  act: sad
+  act: surprised
 - msg: อ้าาา|~|!  *|ล้มล|งก|ำลั|งจ|ะถึงพื้|น*
   character: akari
 - character: tan
   position: left
-  act: Normal
+  act: Surprised
 - msg: Akari|! *|พุ่ง|มา|รับ|ตัว Akari ไ|ด้ทั|น*
   character: tan
+- character: tan
+  position: left
+  act: Angry
 - msg: >-
     นี้|! ชน|แล้ว|ก็|ขอโทษ|ด้วย|สิวะ|มารยาท|ไป|ไหน|หมด|เนี้ย
     *|พูด|น้ำเสียง|หนักแน่น|ใน|ขณะ|ประคอง Akari อ|ยู|่*
@@ -1327,7 +1628,7 @@
   character: akari
 - character: tan
   position: center
-  act: Normal
+  act: Angry
 - character: man01
   position: right
   act: gangster
@@ -1345,6 +1646,9 @@
   character: tan
 - delay: 1
 - sound: sv_anxiety(piano)
+- character: akari
+  position: left
+  act: surprised
 - msg: พี่|แทน|!|!
   character: akari
 - sound: sv_Breast Twitch
@@ -1430,6 +1734,9 @@
 - sound: sv_Walking Concrete Fast
 - msg: '* วิ่ง|เข้า|มา|ดู|อาการ *'
   character: akari
+- character: tan
+  position: center
+  act: Happy
 - msg: ไม่|เป็นไร|มาก|หรอก
   character: tan
 - msg: '*|แตะ|ที่|รอย|ที่|โดน|ต่อย|เล็ก|น้อ|ย*'
@@ -1444,6 +1751,10 @@
   character: me
   override_name: Akari/แทน
 - sound: sv_Breast Twitch
+- character: empty
+  position: center
+- character: empty
+  position: left
 - character: akari
   position: center
   act: Shy
@@ -1452,6 +1763,9 @@
   act: Happy
 - msg: พี่|แทน|ทำไม|ถึง|เอา|ผ้า|ออก|มา|หรอ|คะ
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: หน้า|น้อง|เปื่อน|นิดหน่อย|นะ|เลย|อยาก|เอา|คืน|ตะ|กี้|ซะ|หน่อย
   character: tan
 - msg: มัน|ก็|ได้|แหละ|ค่ะ|แต่|ขอ|เบาๆหน่อ|ยน|ะค|ะ…
@@ -1476,7 +1790,7 @@
 - sound: sv_Shine Sparking
 - msg: '…|. *|กำลัง|คิด|มาก|และ|เหม่อ|กับ|เรื่อง|ที|่อัลต|พาล|บอ|กว่า|เป็น|แฟน* '
   character: akari
-- background: bg_garden
+- background: bg_garden_evening
 - sound: sv_Breast Twitch
 - msg: ฮัลโหล Akari อยู่|ไหม Akari เหม่อ|ไร|อยู่|นะ *|เอา|หน้า|เข้|าไ|ปใก|ล้*
   character: tan
@@ -1487,6 +1801,9 @@
 - msg: 'มี|ไร|บอก|พี่|ได้|นะ '
   character: tan
 - sound: sv_Bubble pop
+- character: akari
+  position: center
+  act: happy
 - msg: 'มะ|.|.|ไม่|มี|ไร|แล้ว|ค่ะ|.|. '
   character: akari
 - msg: 'ถ้า|งั้น|ก็|มา|นั่ง|รอ|พี่|เธอ|กลับ|มา|ดี|กว่า|เห็นด้วย|ไหม '
@@ -1506,14 +1823,20 @@
 - msg: พี่|คะ|!|! * วิ่ง|เข้า|ไป|กอด|ทันที *
   character: akari
 - sound: sv_question mark sound effect
+- character: minato
+  position: left
+  act: Surprised
 - msg: A|.|.|Akari นี้|แทน|มัน|เกิด|อะไร|ขึ้น|นะ|ตอน|ฉัน|ไม่|อยู่
   character: minato
 - character: tan
   position: right
-  act: Normal
+  act: Happy
 - msg: 'ก็|แบบ|ว่า… *|แทน|เล่า|เรื่อง|ที่|เกิด|ให้ Minat|o*  '
   character: tan
 - sound: sv_Comical Turn Around 01
+- character: minato
+  position: left
+  act: Normal
 - msg: >-
     แบบ|นี้|เอง|สิ|นะ|สม|กับ|เป็น|นาย|จริงๆเลย|นะ|หมัด|นาย|ยัง|หนัก|เห|มื่อน|เดิม|เลย
   character: minato
@@ -1522,9 +1845,15 @@
 - msg: ตั้งแต่|งาน|แข่ง|แล้ว|นะ|นาย|แสดง|หมัด|แรงๆนั้น|ได้|โคตร|เคะ|ตา|คน|ดู|เลย
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: surprised
 - msg: เอ๋|การ|แข่ง|?
   character: akari
 - sound: sv_question mark sound effect
+- character: tan
+  position: right
+  act: Normal
 - msg: Akari ยัง|ไม่|รู้|อีก|หรอ Minato
   character: tan
 - sound: sv_Comical Turn Around 01
@@ -1543,6 +1872,9 @@
 - msg: เอาห|น่า|บอกๆไป|เถอะ
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: Normal
 - msg: >-
     ถึง|ว่า|ละ|พี่|แทน|เลย|ไม่|กลัว
     ขอ|คุณ|มาก|เลย|ค่ะ|พี่|แทน|ที่|ปกป้อง|หนู|ไว้
@@ -1566,10 +1898,19 @@
     *|เอา|ของ|บาง|อย่าง|ใส่|มือ|แทน|แล้ว|กลับ|ไป|หา Minat|o*
   character: akari
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: happy
 - msg: เจอ|กัน|พรุ่งนี้|นะ|คะ|พี่|แทน|~|~
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: เจอ|กัน|นะ Akari Minato
   character: tan
+- character: minato
+  position: left
+  act: Happy
 - msg: อาา|เจอ|กัน|แทน *|Minato กับ Akari เดิน|กลับ|บ้าน|อย่า|งปลอ|ดภั|ย*
   character: minato
 - character: empty
@@ -1595,7 +1936,7 @@
   act: Happy
 - msg: >-
     แหม่ Akari นี้ล|ะก|็…|จะ|เก็บ|ไว้|ให้|ดีๆเลย * เอา|ผ้าเช็ดหน้า|ของ Akari
-    ใส่|กระเป๋า|เสื้อ|คู่|กับ|ผ้า|ของ|ตัว|เอ|ง* (|สีหน้า|ยิ้ม|)
+    ใส่|กระเป๋า|เสื้อ|คู่|กับ|ผ้า|ของ|ตัว|เอ|ง* 
   character: tan
 - music: bgm_Your_Love_Is_Home
   label: EP3.0_v3(MA)_lb_14
@@ -1624,9 +1965,15 @@
     พี่|ชาย|ก็|เปิด|ประเด็น|แซว|น้อง|ตัวเอง
   character: narrator
 - sound: sv_Comical Turn Around 01
+- character: minato
+  position: left
+  act: Smile
 - msg: อย่า|กิน|เยอะ|นัก|ละ|เดียว|น้ำ|นัก|เพิ่มๆ
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: >-
     ไม่|ต้อง|ห่วง|น้อง|สาว|หรอก น้อง|มี|กระเพาะ|ที่|สอง กระเพาะ|เสริม
     สามารถ|รับ|สิ่ง|ที่|ชอบ|เข้า|ไป|กิน|ได้|อีก|หน่อย|นะ|พี่|กิน|ไม่|อ้วนๆ
@@ -1638,6 +1985,9 @@
     ไม่|รู้|สิ|เดียว|กิน|เสร็จ พรุ่งนี้|ก็|เอาไ|ปพ|ลาน|พลังงาน|ออก|ต่อ
     รับรอง|น้ำหนัก|เท่า|เมื่อ|วาน|แถม ตัว|เท่า|เดิม
   character: akari
+- character: minato
+  position: left
+  act: Angry
 - msg: จ้าๆ น้อง|คน|เก่ง|ของ|พี่
   character: minato
 - msg: >-
@@ -1649,8 +1999,14 @@
     หน้า|พี่|กับ|มือ|มัน|แปลกๆ
   character: narrator
 - sound: sv_Comical Struggle
+- character: akari
+  position: center
+  act: sad
 - msg: พะ พี่ !|!|! จะ|ทำ|อะไร|นะ ทำไม|หน้าตา|ดู|หน้า|กลัว
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: ป่าวๆ ไม่|มี|อะไร
   character: minato
 - msg: '*|หลัง|จาก|นั้น|ก็|จับ|แก้ม|น้อง และ หยิก|เบาๆ แบบ|เอ็นดู|น้อง|ตัว|เอ|ง*'
@@ -1668,9 +2024,15 @@
     ลูป|หัว|น้อง|นิด|ห่น่อย*
   character: minato
 - sound: sv_Awkward Pause
+- character: akari
+  position: center
+  act: Normal
 - msg: ใน|ที่สุด|นรก|ที่|พี่|จะ|แกล้ง|ก็|ได้|จบ|สัก|ที่
   character: akari
 - sound: sv_Epic Twinkle
+- character: minato
+  position: left
+  act: Angry
 - msg: อยาก|โดน|อีก|หรอ
   character: minato
 - msg: ไม่|ค่ะ พี่|หยุด|เลย
@@ -1682,6 +2044,9 @@
     เดียว|น้อง|ขึ้น|ห้อง|ละ|พี่|อย่า|ลืม|ส่ง
     ชื่อ|มัง|งะ|เรื่อง|นั้น|มา|ใน|แชท|น้อง|ด้วย
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: ได้ๆๆ เดียว|พี่|ลืม|ส่ง
   character: minato
 - sound: sv_Breast Twitch
@@ -1689,8 +2054,14 @@
   character: akari
 - msg: หยอกๆ เดียว|ส่ง|ให้
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ฝัน|ดี|ค่ะ|พี่ น้อง|ไป|นอน|อ่าน|หนังสือ|มัง|งะ|อีก|เรื่อง|ต่อ|ละๆ
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: ฝัน|ดีๆ พี่|ก็|ขึ้น|ห้อง|นอน|เหมือน|กัน|ละ|ไม่|มี|อะไร|ทำ|แล้ว
   character: minato
 - msg: จบ|ตอน|ที่ 3 "|ตู้|เย็น|ไม่|มี|อะไร|เลย|"

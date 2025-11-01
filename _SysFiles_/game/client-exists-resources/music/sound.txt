@@ -62,6 +62,7 @@ sv_Looting a toolbox
 sv_MGS ALERT
 sv_Office Chair Sit  Sound Effect
 sv_Open_App
+sv_Phone Pick up
 sv_Phone Ring
 sv_Ping
 sv_Plate placed table
@@ -73,6 +74,7 @@ sv_question mark sound effect
 sv_Riser
 sv_School bell tone
 sv_School Bell
+sv_Scooping
 sv_Scooter
 sv_Search
 sv_Shine Sparking

@@ -288,6 +288,9 @@
   character: minato
 - sound: sv_Turning Book Pages
   label: EP3.0_v3(MA)_lb_7
+- character: akari
+  position: center
+  act: surprised
 - msg: มังงะสมัยนี้แปลกๆ นะพี่ เขาผ่าน สำนักพิมพ์มาได้ยังไง?
   character: akari
 - character: minato
@@ -302,7 +305,7 @@
   character: minato
 - character: akari
   position: center
-  act: Normal
+  act: happy
 - msg: อืมม น้องว่าก็อย่างนั้นน้าาาา~~ * พูดด้วยน้ำเสียงฉอเลาะ *
   character: akari
 - msg: >-
@@ -313,32 +316,59 @@
 - msg: ไหนๆๆ หนูอยากเห็นๆ
   character: akari
 - sound: sv_Level up
+- character: minato
+  position: left
+  act: Happy
 - msg: นี้เลยเล่มนี้เกี่ยวกับอาหารเกือบทุกอย่างเลยนะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: อาหารหรออ!! *ตาประกาย*
   character: akari
 - sound: sv_EEnE Punch1
 - msg: ไหนๆ! *ฉกหนังสือทันที*
   character: akari
 - sound: sv_a10
+- character: minato
+  position: left
+  act: Bemused
 - msg: ดะ..เดี๋ยวสิ
   character: minato
+- character: akari
+  position: center
+  act: surprised
 - msg: ว้าววว~ ในเรื่องมีแต่เมนูแปลกที่หน้ากินทั้งนั้นเลย~
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: 'อะ..แฮ่ม.. '
   character: minato
 - sound: sv_Comical Struggle
 - msg: งะ…ขอโทษค่ะเผลอตัวไปหน่อย ขอบคุณสำหรับมังงะค่ะ
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: พออ่านแล้วคิดว่าไงบ้างอะ
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: >-
     ก็ดีสุดๆไปเลยค่ะ…. พี่แนะนำมังงะดีๆ
     ให้น้องสาวสุดน่ารักของพี่เป็นนิหน้าและไอเรื่องก่อนหน้ามันคืออะไรคะ?
   character: akari
 - sound: sv_cd268
+- character: akari
+  position: center
+  act: sad
 - msg: 'แค่เอามาแกล้งหนูงั้นหรอคะพี่~ '
   character: akari
+- character: minato
+  position: left
+  act: Bemused
 - msg: แฮะๆ พี่แค่อยากแกล้งน้องสาวสุดน่ารักของพี่เฉยๆ
   character: minato
 - msg: พี่นิน้าาา !!!!
@@ -351,12 +381,18 @@
 - msg: อืมม~ นี้นวดไหล่ให้พี่หรอ
   character: minato
 - sound: sv_Comical Struggle
+- character: akari
+  position: center
+  act: angry
 - msg: ใช่ที่ไหนละไอพี่บ้า!!
   character: akari
 - msg: หลังตีไปสักพัก Akari ก็สงบลงบ้างแล้วกลับไปนั่งที่โซฟา
   character: narrator
 - msg: บ้าๆ พี่บ้าที่สุด เฮ้อ
   character: akari
+- character: minato
+  position: left
+  act: Happy
 - msg: หายโกรธแล้วหรอ~
   character: minato
 - msg: ไม่ได้โกรธค่ะ แค่หมั่นเขี้ยวพี่ชายนิดหน่อย
@@ -375,6 +411,9 @@
   character: minato
 - msg: พี่อ่า!!...เฮ้ออ~
   character: akari
+- character: akari
+  position: center
+  act: Normal
 - msg: ขอบคุณนะพี่ที่แนะนำมังงะให้น้องเดียวน้องจะอ่านเดียวนี้และ
   character: akari
 - msg: อืมดีแล้วที่น้องชอบนะ
@@ -382,11 +421,20 @@
 - msg: หลังจากนั้นก็กลับไปมองหน้าจอเกมพร้อมแสดงสีหน้าตกใจแบบสุดแรงเกิด
   character: narrator
 - sound: sv_Critical Point
+- character: minato
+  position: left
+  act: Angry
 - msg: อ่าว!@#$@#$@# ลืมกดหยุดเกม นึกว่ากดหยุดไปเเล้ว…เวรกรรม!
   character: minato
 - sound: sv_Dark Gleam
+- character: akari
+  position: center
+  act: happy
 - msg: ว้ายๆๆๆ  เพราะพี่มัวเเต่เเนะเรื่องเเปลกๆอะไรก็ไม่รู้ให้ไปอ่าน
   character: akari
+- character: minato
+  position: left
+  act: Sad
 - msg: 'ก็เผื่อออยากอ่านเพื่อเปลี่ยนบรรยากาศไงครับน้อง โถ่วววว '
   character: minato
 - sound: sv_Funny Xylophone
@@ -398,12 +446,18 @@
 - msg: '*ท้องร้องทั้งคู่*'
   character: me
   override_name: Akari/Minato
+- character: akari
+  position: center
+  act: sad
 - msg: ใช่พลังงานเยอะไปหน่อยหิวซะแล้วว
   character: akari
 - sound: sv_Breast Twitch
 - msg: ใช่เยอะตรงไหนไม่ทราบบบ!
   character: minato
 - sound: sv_Comical Struggle
+- character: akari
+  position: center
+  act: angry
 - msg: เยอะสิ!! เพราะหนูขยับร่างกายเยอะไงละ~!
   character: akari
 - msg: >-
@@ -418,11 +472,14 @@
 - goto:
     - EP3.0_v3(MA)_lb_8 if var_minato >= 8
     - EP3.0_v3(MA)_lb_9
+- character: minato
+  position: left
+  act: Normal
+  label: EP3.0_v3(MA)_lb_8
 - msg: >-
     อืมมม…พี่ขอเช็คแปบนะ ไหนขอดูซิว่ามีไรกินบ้าง 
     ได้เปิดตู้เย็นแล้วก็ได้รู้ว่า….. *เดินไปเปิดตู้เย็น*
   character: minato
-  label: EP3.0_v3(MA)_lb_8
 - sound: sv_Critical Point
 - character: minato
   position: left
@@ -459,11 +516,14 @@
 - msg: อืมมไม่เลวเลย!! ไปกันเลยย
   character: akari
 - goto: EP3.0_v3(MA)_lb_10
+- character: akari
+  position: center
+  act: Normal
+  label: EP3.0_v3(MA)_lb_9
 - msg: >-
     อืมมม…น้องขอเช็คแปบนะ ไหนขอดูซิว่ามีไรกินบ้าง
     ได้เปิดตู้เย็นแล้วก็ได้รู้ว่า….. *เดินไปเปิดตู้เย็น* 
   character: akari
-  label: EP3.0_v3(MA)_lb_9
 - sound: sv_Critical Point
 - character: akari
   position: center
@@ -507,12 +567,24 @@
 - background: bg_nifront_wut
 - music: bgm_LoFi HipHop
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: surprised
 - msg: 'พี่คะ.. '
   character: akari
+- character: minato
+  position: left
+  act: TopView
 - msg: หืม?มีอะไรหรอ Akari
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: เราย้ายมามหาลัยแค่วันแรกเองแต่ก็มีเรื่องเกิดขึ้นเยอะเลยนะคะ
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: ก็นะวันแรกก็อย่างงี้แหละ
   character: minato
 - sound: sv_anxiety(piano)
@@ -529,13 +601,22 @@
     เราต้องยิ้มแย้มเข้าไว้เพื่อให้เราผ่านช่วงเวลานี้ไปให้ได้นะ
   character: minato
 - sound: sv_Comical Creaking Sound
+- character: akari
+  position: center
+  act: angry
 - msg: เหห~~พี่พูดอะไรดีๆกับเขาเป็นด้วยหรอเนี้ย
   character: akari
 - sound: sv_Grab Chip
+- character: akari
+  position: center
+  act: happy
 - msg: >-
     หนูเชื่อว่าพี่ต้องรักษาตระกูลพวกเราไว้ได้แน่นอนค่ะ! *จับแขน Minato
     พร้อมให้กำลังใจ*
   character: akari
+- character: minato
+  position: left
+  act: Sad
 - msg: นี้เราก็เดินมาสักพักแล้วนะเมื่อไหร่จะถึงหว่า
   character: minato
 - msg: อีกนิดเดียวเองพี่นั้นไง *ชี้ที่ร้านสะดวกซื้อ*
@@ -596,7 +677,7 @@
   character: minato
 - character: akari
   position: center
-  act: Normal
+  act: happy
 - msg: ได้เลย!
   character: akari
 - sound: sv_Ding
@@ -605,30 +686,51 @@
 - background: bg_convenience_store_shelf
 - character: minato
   position: left
-  act: Normal
+  act: TopView
 - msg: นี้นะหรอร้านสะดวกซื้อของประเทศไทย *มองรอบๆ*
   character: minato
+- character: akari
+  position: center
+  act: surprised
 - msg: ดูดีมากเลยนะคะพี่ *มองไปทั่ว*
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: เอาละอย่าหยิบเยอะเกินละเดี๋ยวพี่จ่ายไม่ไหว
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ฮิฮิ~ ไม่ต้องห่วงหรอกนะพี่~~
   character: akari
 - sound: sv_anxiety(piano)
+- character: minato
+  position: left
+  act: Angry
 - msg: ยิ่งพูดงี่ยิ่งน่าสงสัยเข้าไปไหญ๋!
   character: minato
 - msg: ไม่หรอก~เอาละไปหาของกินกลับบ้านกัน!!
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: เฮ้ออ~~ จ้าๆ
   character: minato
 - msg: ผ่านไปสักพัก
   character: narrator
 - sound: sv_SWWalking
+- character: akari
+  position: center
+  act: surprised
 - msg: ว้าววว…ของกินในไทยมีแต่อะไรน่ากินเต็มไปหมดเลย~ *วิ่งไปรอบๆร้านดูของกิน*
   character: akari
 - msg: มีข้าวและกับข้าวให้ซื้อแยกกันด้วยสะดวกดีจังเครื่องดื่มก็เยอะด้วย
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: พี่ๆ ซื้อนี้ไปด้วยสิ~~~ *หยิบใส่ตระกร้า*
   character: akari
 - sound: sv_Breast Twitch
@@ -637,21 +739,41 @@
 - sound: sv_Breast Twitch
 - msg: แล้วก็อันนี้ๆๆๆอันนั้นๆๆ *หยิบของใส่ตระกร้ามันมือ*
   character: akari
+- character: minato
+  position: left
+  act: Angry
+- msg: พะ…พอได้แล้ว Akari เยอะไปแล้ว!! *ยกมือห้ามใส่ Akari*
+  character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: โถ่~ มีของที่อยากได้เยอะกว่านี้อีกง่าา
   character: akari
-- msg: อะ…แฮ่้ม…*หยิบของชิ้นนึงในตระกร้ามา* ไอนี้จะเอามาทำไม
+- msg: อะ…แฮ้ม…*หยิบของชิ้นนึงในตระกร้ามา* ไอนี้จะเอามาทำไม
   character: minato
+- character: minato
+  position: left
+  act: Normal
 - msg: '*หยิบครีมซักอย่างมา*'
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: นี้นะครีมบำรุงผมไงของน้องหมดแล้วงะ
   character: akari
 - sound: sv_Breast Twitch
 - msg: พี่จำได้ว่าตอนแรกจุดประสงค์เราคือหาของเข้าตู้เย็นนะ
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: ถือว่าซื้อของใช้กลับไปบ้านด้วยเลยไง!
   character: akari
 - msg: แล้วพี่เถอะ นี้คืออะไรหรอคะ * หยิบของในตระกร้ามา *
   character: akari
+- character: akari
+  position: center
+  act: sad
 - msg: '*หยิบหูฟังสายมา*'
   character: akari
 - sound: sv_question mark sound effect
@@ -685,6 +807,9 @@
 - msg: มีไรหรอพี่~จ่ายไหวไหมนะ~
   character: akari
 - sound: sv_Epic Twinkle
+- character: minato
+  position: left
+  act: Happy
 - msg: วะ…ไหวสิ…รับสแกนจ่ายเงินไหมครับ
   character: minato
 - msg: สแกนตรงนี้ได้เลยครับ
@@ -696,6 +821,9 @@
   act: Sad
 - msg: '*สแกนจ่ายเงิน* ไม่น่าเลยเรา TT'
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: '*มองไปรอบๆร้านเจอหนักงานที่หน้าคุ้นๆ*'
   character: akari
 - sound: sv_question mark sound effect
@@ -737,9 +865,18 @@
 - msg: เฮ้ออ~ งานจะเยอะเกินไปแล้วนะ *ถอนหายใจ*
   character: tan
 - sound: sv_Epic Twinkle
+- character: akari
+  position: center
+  act: Normal
 - msg: พี่คะ…..นั้นใช่…คนที่เราคิดไหมคะ…
   character: akari
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: happy
+- character: minato
+  position: left
+  act: Smile
 - msg: อ่าา….ใช่แหละ มั้งหน้าเอ๋อๆ มีคนเดียวนะAkari
   character: minato
 - msg: นั้นมันไอแทนนี้หว่า!!/นั้นพี่แทนนี้นา!!
@@ -756,14 +893,20 @@
 - sound: sv_Walking Concrete Fast
 - msg: พี่แทนมาทำอะไรที่นี้เนี้ย *วิ่งไปหา*
   character: akari
+- character: minato
+  position: left
+  act: Surprised
 - msg: นายทำงานอยู่ที่นี้งั้นหรอ *เดินตามมาสมทบ*
   character: minato
 - sound: sv_Comical Turn Around 01
-- character: minato
-  position: left
+- character: tan
+  position: right
   act: Normal
 - msg: ใช่แล้วละพี่ทำงานหนักเพื่อหาเงินมาจ่ายค่าเทอมนะ
   character: tan
+- character: tan
+  position: right
+  act: Surprised
 - msg: >-
     ว่าแต่พวกเธอ 2 คนมาซื้อของงั้นหรอเยอะเชียวนะ *มองถุงในใหญ่ 2 ถุงที่ Minato
     ถือ*
@@ -778,6 +921,9 @@
 - msg: ฮ่าาา~ๆๆ!! เอาจริงดิ Minato แหม่ลำบากแย่เลยนะ
   character: tan
 - sound: sv_Bubble pop
+- character: tan
+  position: right
+  act: Normal
 - msg: รอแป๊บนะฉันขอจัดของให้เสร็จก่อนแล้วเจอกันหน้าร้านนะ
   character: tan
 - sound: sv_Walking Concrete Fast
@@ -792,23 +938,29 @@
   act: Shy
 - msg: แล้วจะรอนะคะพี่แทน *เดินตาม Minato*
   character: akari
-- background: bg_garden
+- background: bg_garden_evening
 - msg: หลังจากนั้นแทนก็ทำงานเสร็จแล้วออกมาเจอกับ Minato และ Akari
   character: narrator
 - msg: มาแล้วๆรอนานหรือเปล่า งานวันนี้หนักสุดๆไปเลย
   character: tan
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Smile
 - msg: ก็ไม่นานมากหรอกว่าแต่นายดูชิวกว่าที่ฉันคิดนะ
   character: minato
 - character: akari
   position: center
-  act: Normal
+  act: happy
 - msg: จริงค่ะพี่แทนดูชิวมากเลยนะคะ
   character: akari
 - msg: '*ดื่มน้ำเปล่าที่ซื้อมาครึ่งนึง*'
   character: akari
 - msg: ฉันก็ชิวอย่างงี้ตั้งแต่เด็กๆแล้วละ เลยเป็นนิสัยไปแล้ว
   character: tan
+- character: minato
+  position: left
+  act: Normal
 - msg: ดีจังเลยนะนายเนี้ยจะลำบากแค่ไหนแต่ก็ยังชิวได้เนี้ย
   character: minato
 - msg: ไม่เท่าไหร่หรอกหน่า
@@ -817,18 +969,28 @@
 - msg: โอ้ยย…! *ปวดท้อง*
   character: minato
 - sound: sv_anxiety(piano)
-- msg: เห้ยๆเพื่อนเป็นไรวะ (หน้าตกใจ)
+- character: tan
+  position: right
+  act: Surprised
+- msg: เห้ยๆเพื่อนเป็นไรวะ
   character: tan
+- character: minato
+  position: left
+  act: Sad
 - msg: ทะ..โทษที..พอดีปวดห้องกระทันหันนะ…แถวนี้มีห้องน้ำไหม..
   character: minato
-- msg: >-
-    ถ้าห้องน้ำวิ่งไปทางซ้ายตรงนั้นจะมีสวนสาธารณะเล็กๆตรงนั้นมีห้องน้ำอยู่
-    (หน้าตกใจนิดหน่อย)
+- msg: ถ้าห้องน้ำวิ่งไปทางซ้ายตรงนั้นจะมีสวนสาธารณะเล็กๆตรงนั้นมีห้องน้ำอยู่
   character: tan
 - msg: ขะ…ขอบใจมากเพื่อน…*สีหน้าเริ่มไม่ไหว*
   character: minato
+- character: minato
+  position: left
+  act: Angry
 - msg: Akari พี่ขอไปหาห้องน้ำแถวนี้หน่อยนะอยู่กับแทนไปก่อนนะ
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: ได้ค่ะพี่
   character: akari
 - sound: sv_Walking Concrete Fast
@@ -838,15 +1000,30 @@
   position: left
 - msg: จะเป็นอะไรไหมนะพี่เนี้ย
   character: akari
-- msg: ไม่เป็นไรหรอกหน่าเชื่อพี่สิ (หน้าอธิบาย)
+- character: tan
+  position: right
+  act: Happy
+- msg: 'ไม่เป็นไรหรอกหน่าเชื่อพี่สิ '
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: ไม่เชื่อได้ไหมเนี้ย
   character: akari
-- msg: เอ้าาจบกัน (หน้านิ่ง)
+- character: tan
+  position: right
+  act: Angry
+- msg: 'เอ้าาจบกัน '
   character: tan
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: ล้อเล่นค่ะ
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: Akari นี้ขี้เล่นจริงๆเลยนะ
   character: tan
 - msg: ฮึ~
@@ -874,13 +1051,19 @@
   character: minato
 - msg: ….. เมื่อถึงห้องน้ำแล้ว Minato ก็รีบทำธุระทันที
   character: narrator
-- msg: ' อ่าา~ สวรรค์'
+- character: minato
+  position: left
+  act: Smile
+- msg: อ่าา~ สวรรค์
   character: minato
 - msg: Akari จะเป็นอะไรไหมนะอยู่กับแทนเนี้ย
   character: minato
 - sound: sv_Comical Turn Around 01
 - msg: คิดมากไปก็ป่าวประโยชน์
   character: minato
+- character: minato
+  position: left
+  act: Normal
 - msg: รีบๆ ทำธุระให้มันเสร็จ และ ไปหาน้องAkari ดีกว่า
   character: minato
 - sound: sv_Walking Concrete Fast
@@ -900,6 +1083,9 @@
 - msg: พี่คะ!! * วิ่งเข้าไปกอดทันที *
   character: akari
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Surprised
 - msg: A..Akari นี้แทนมันเกิดอะไรขึ้นนะตอนฉันไม่อยู่
   character: minato
 - character: tan
@@ -907,6 +1093,9 @@
   act: Normal
 - msg: 'ก็แบบว่า… *แทนเล่าเรื่องที่เกิดให้ Minato* '
   character: tan
+- character: minato
+  position: left
+  act: Normal
 - msg: >-
     เป็นอย่างงี้นี้เองขอบใจนะไอแทนที่ช่วยน้องสาวของฉันไว้คนเป็นพี่อย่างฉันขอขอบคุณสุดใจเลย
     *ก้มตัวขอบคุณแทน*
@@ -917,6 +1106,9 @@
 - msg: >-
     พี่แทนช่วยหนูไว้นะคะรับคำขอบคุณจากพี่เถอะค่ะถ้าพี่แทนรับคำขอบคุณหนูก็สบายใจแล้ว
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: >-
     อะ..อาเคก็ได้ฉันจะรับคำขอบคุณนั้นไว้ละกันว่าแต่ไม่ใช่ว่าพวกเธอ 2
     คนต้องรีบกลับหรอกหรอนี้ก็ดึกมากแล้วนะพรุ่งนี้มีคาบทำอาหารด้วยหนิ
@@ -924,6 +1116,9 @@
 - sound: sv_Breast Twitch
 - msg: อะ!?! จริงด้วย Akari เรารีบกลับกันดีกว่า
   character: minato
+- character: akari
+  position: center
+  act: Normal
 - msg: ได้ค่ะพี่
   character: akari
 - msg: ถ้างั้นแทนเจอกันพรุ่งนี้นะ
@@ -954,6 +1149,9 @@
   act: Normal
 - msg: โอ้ยยแค่นี้เองไม่มีปัญหาหรอก
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: พี่แทนเหงื่อพี่เยอะมากเลยนะคะ *สังเกตเห็นเหงื่อ*
   character: akari
 - sound: sv_Comical Turn Around 01
@@ -972,6 +1170,7 @@
         - rp_tan_akari += 5
     - msg: ...
       msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
+      cost: 8
       update:
         - rp_tan_akari += 10
       goto: EP3.0_v3(MA)_lb_13
@@ -979,23 +1178,44 @@
   state: EP3.0_v3(MA)_st_2
 - music: bgm_Baguette
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: sad
 - msg: พี่แทนคะ
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: มีไรหรอ Akari
   character: tan
+- character: akari
+  position: center
+  act: happy
 - msg: ถ้าพี่เหนื่อยเอาน้ำนี้ไปดื่มสิคะ *ยื่นขวดน้ำให้*
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: 'น้ำงั้นหรอ Akari ขอบใจนะช่วยได้มากเลย '
   character: tan
 - msg: แทนหยิบขวดน้ำจาก Akari มือของแทนกับ Akari ได้สัมผัสกันแบบไม่ตั้งใจ
   character: narrator
 - sound: sv_Blushing
+- character: akari
+  position: center
+  act: surprised
 - msg: อ่ะ !?
   character: akari
 - sound: sv_Pop1
-- msg: ทะ..โทษที (หน้ากังวล)
+- character: tan
+  position: right
+  act: Normal
+- msg: 'ทะ..โทษที '
   character: tan
 - sound: sv_SQUTWIST
+- character: akari
+  position: center
+  act: happy
 - msg: หนูไม่ถือหรอกค่ะ.…. *พูดเบาๆ* ถ้าเป็นพี่แทนไม่เป็นไรหรอก..
   character: akari
 - sound: sv_question mark sound effect
@@ -1007,13 +1227,25 @@
   character: tan
 - msg: อึก~ๆๆ *กระดกน้ำจนหมดขวด* อ่าาา~~สดชื้นจริงๆเลย
   character: tan
+- character: akari
+  position: center
+  act: surprised
 - msg: ดะ..เดี๋ยวสินี้เล่นดื่มหมดเลยหรออ!
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: ขอโทษ~ๆ พอดีหิวน้ำสุดๆไปเลยนะ
   character: tan
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: Shy
 - msg: ไม่เป็นไรค่ะหนูดื่มไปแล้วครึ่งนึงด้วย
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: '!?!?.....เมื่อกี้ว่าไงนะน้ำขวดนี้ไม่ใช่ของ Minato หรอกหรอ!?'
   character: tan
 - sound: sv_Breast Twitch
@@ -1025,6 +1257,9 @@
 - msg: '!?!?'
   character: tan
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: surprised
 - msg: พี่แทนคะพี่เป็นอะไรไปเนี้ย…? ไม่สบายตรงไหนหรือเปล่า
   character: akari
 - sound: sv_Comical Struggle
@@ -1042,6 +1277,9 @@
 - msg: 'A..Akari เดี๋ยวสิพะ…พี่เขินนะ '
   character: tan
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: Normal
 - msg: อืมมก็ไม่มีไข้นี้นา *ไม่ได้ฟังที่แทนพูดโฟกัสกับบางอย่าง*
   character: akari
 - msg: นี้ได้ยินที่พูดไหมเนี้ยย!
@@ -1059,12 +1297,21 @@
 - music: empty
 - msg: '*รับขวดน้ำมากำลังจะไปที่ทิ้งขยะ* ได้ยินเสียงเหมื่อนเครื่องยนต์   หืมม?'
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: 'Akari!! '
   character: tan
+- character: akari
+  position: center
+  act: surprised
 - msg: เอ๋!?
   character: akari
 - msg: รถที่พุ่งมาด้วยความเร็วสูงกำลังจะชน Akari
   character: narrator
+- character: tan
+  position: right
+  act: Angry
 - msg: 'ระวัง!! '
   character: tan
 - sound: sv_Body_Fall_Down_2
@@ -1076,12 +1323,24 @@
   character: tan
 - music: bgm_Baguette
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: Closeeye
 - msg: 'นะ…หนูไม่เป็นไรค่ะพี่แทน…*สั่นด้วยความกลัวพร้อมกอดแทนไปด้วย* '
   character: akari
+- character: akari
+  position: center
+  act: happy
 - msg: ขอบคุณมากเลยค่ะพี่แทน
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: ไม่เป็นไรๆพี่อยู่นี้แล้ว * ลูบหัว Akari เบาๆ*
   character: tan
+- character: akari
+  position: center
+  act: Shy
 - msg: นอกจากพี่ Minato แล้ว…ก็มีพี่แทนนะคะที่ได้ลูบหัวหนู…
   character: akari
 - msg: อย่างงั้นหรอ *กำลังจะปล่อยมือออกจาก Akari*
@@ -1092,13 +1351,22 @@
   character: tan
 - msg: หลังจากนั้น Akari ก็สงบลงแล้วปล่อยกอดจากแทน
   character: narrator
+- character: tan
+  position: right
+  act: Happy
 - msg: ใจเย็นขึ้นมาบ้างยัง
   character: tan
+- character: akari
+  position: center
+  act: happy
 - msg: เยอะขึ้นมากเลยค่ะ…ขอบคุณนะคะพี่แทนไม่ได้พี่หนูคงแย่เลย..
   character: akari
 - msg: 'ป่านนี้แล้วเจ้า Minato ยังไม่กลับมาอีกหรอ '
   character: tan
 - sound: sv_anxiety(piano)
+- character: tan
+  position: right
+  act: Normal
 - msg: ต้องออกไปหาไหมเนี้ย
   character: tan
 - msg: เดี๋ยวพี่เขาก็กลับมาแหละค่ะตอนนี้ช่วยอยู่กับหนูก่อนนะคะ
@@ -1119,11 +1387,14 @@
 - msg: พี่คะ!! * วิ่งเข้าไปกอดทันที *
   character: akari
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Surprised
 - msg: A..Akari นี้แทนมันเกิดอะไรขึ้นนะตอนฉันไม่อยู่
   character: minato
-- character: minato
+- character: tan
   position: right
-  act: Normal
+  act: Happy
 - msg: 'ก็แบบว่า… *แทนเล่าเรื่องที่เกิดให้ Minato* '
   character: tan
 - msg: >-
@@ -1136,21 +1407,32 @@
 - msg: >-
     พี่แทนช่วยหนูไว้นะคะรับคำขอบคุณจากพี่เถอะค่ะถ้าพี่แทนรับคำขอบคุณหนูก็สบายใจแล้ว
   character: akari
+- character: tan
+  position: right
+  act: Normal
 - msg: >-
     อะ..อาเคก็ได้ฉันจะรับคำขอบคุณนั้นไว้ละกันว่าแต่ไม่ใช่ว่าพวกเธอ 2
     คนต้องรีบกลับหรอกหรอนี้ก็ดึกมากแล้วนะพรุ่งนี้มีคาบทำอาหารด้วยหนิ
-    (สีหน้ายิ้ม)
   character: tan
 - sound: sv_Breast Twitch
+- character: minato
+  position: left
+  act: Normal
 - msg: อะ!?! จริงด้วย Akari เรารีบกลับกันดีกว่า
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ได้ค่ะพี่
   character: akari
 - msg: ถ้างั้นแทนเจอกันพรุ่งนี้นะ
   character: minato
 - msg: เจอกันนะคะพี่แทน
   character: akari
-- msg: อืมมเจอกันนะทั้ง 2 คน (สีหน้ายิ้ม)
+- character: tan
+  position: right
+  act: Happy
+- msg: 'อืมมเจอกันนะทั้ง 2 คน '
   character: tan
 - character: empty
   position: right
@@ -1176,6 +1458,9 @@
 - msg: พี่แทนช่วยยื่นหน้ามาหน่อยได้ไหมครับ
   character: akari
 - sound: sv_question mark sound effect
+- character: tan
+  position: right
+  act: Surprised
 - msg: หืมได้สิทำไมหรอ *ก้มตัวแล้วยื่นหน้าไปหา*
   character: tan
 - msg: ขออนุญาตนะคะ
@@ -1191,12 +1476,18 @@
 - sound: sv_Blushing
 - msg: ดะ…เดี๋ยวสิพะ…พี่ยังไม่พร้อมเลยนะ!?!
   character: tan
+- character: akari
+  position: center
+  act: sad
 - msg: ยังไม่พร้อมอะไรหรอคะ *ยื่นหน้าเข้าไปใกล้อีก*
   character: akari
 - sound: sv_SQUTWIST
 - msg: คะ..คือ…ไม่มีอะไรหรอก…แต่หน้าจะใกล้เกินไปแล้ว
   character: tan
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: Normal
 - msg: ขอโทษค่ะ อีกสักครู่นะคะใกล้เสร็จแล้ว
   character: akari
 - msg: 'อืมม '
@@ -1204,9 +1495,15 @@
 - msg: '*Akari ใช่ผ้าเช็ดหน้าเช็ดหน้าของแทน*'
   character: akari
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: เสร็จแล้วค่ะ
   character: akari
 - sound: sv_Bubble pop
+- character: tan
+  position: right
+  act: Normal
 - msg: 'ให้ตายสิทีหลังก็บอกกันก่อนสิ '
   character: tan
 - msg: หนูก็บอกไปแล้วนะคะว่าจะเช็ดหน้าให้
@@ -1252,14 +1549,17 @@
   override_name: หัวหน้าอัลตพาล
 - character: akari
   position: left
-  act: sad
+  act: surprised
 - msg: อ้าาา~!  *ล้มลงกำลังจะถึงพื้น*
   character: akari
 - character: tan
   position: left
-  act: Normal
+  act: Surprised
 - msg: Akari! *พุ่งมารับตัว Akari ได้ทัน*
   character: tan
+- character: tan
+  position: left
+  act: Angry
 - msg: >-
     นี้! ชนแล้วก็ขอโทษด้วยสิวะมารยาทไปไหนหมดเนี้ย
     *พูดน้ำเสียงหนักแน่นในขณะประคอง Akari อยู่*
@@ -1283,7 +1583,7 @@
   character: akari
 - character: tan
   position: center
-  act: Normal
+  act: Angry
 - character: man01
   position: right
   act: gangster
@@ -1299,6 +1599,9 @@
   character: tan
 - delay: 1
 - sound: sv_anxiety(piano)
+- character: akari
+  position: left
+  act: surprised
 - msg: พี่แทน!!
   character: akari
 - sound: sv_Breast Twitch
@@ -1380,6 +1683,9 @@
 - sound: sv_Walking Concrete Fast
 - msg: '* วิ่งเข้ามาดูอาการ *'
   character: akari
+- character: tan
+  position: center
+  act: Happy
 - msg: ไม่เป็นไรมากหรอก
   character: tan
 - msg: '*แตะที่รอยที่โดนต่อยเล็กน้อย*'
@@ -1394,6 +1700,10 @@
   character: me
   override_name: Akari/แทน
 - sound: sv_Breast Twitch
+- character: empty
+  position: center
+- character: empty
+  position: left
 - character: akari
   position: center
   act: Shy
@@ -1402,6 +1712,9 @@
   act: Happy
 - msg: พี่แทนทำไมถึงเอาผ้าออกมาหรอคะ
   character: akari
+- character: tan
+  position: right
+  act: Surprised
 - msg: หน้าน้องเปื่อนนิดหน่อยนะเลยอยากเอาคืนตะกี้ซะหน่อย
   character: tan
 - msg: มันก็ได้แหละค่ะแต่ขอเบาๆหน่อยนะคะ…
@@ -1424,7 +1737,7 @@
 - sound: sv_Shine Sparking
 - msg: '…. *กำลังคิดมากและเหม่อกับเรื่องที่อัลตพาลบอกว่าเป็นแฟน* '
   character: akari
-- background: bg_garden
+- background: bg_garden_evening
 - sound: sv_Breast Twitch
 - msg: ฮัลโหล Akari อยู่ไหม Akari เหม่อไรอยู่นะ *เอาหน้าเข้าไปใกล้*
   character: tan
@@ -1435,6 +1748,9 @@
 - msg: 'มีไรบอกพี่ได้นะ '
   character: tan
 - sound: sv_Bubble pop
+- character: akari
+  position: center
+  act: happy
 - msg: 'มะ..ไม่มีไรแล้วค่ะ.. '
   character: akari
 - msg: 'ถ้างั้นก็มานั่งรอพี่เธอกลับมาดีกว่าเห็นด้วยไหม '
@@ -1454,14 +1770,20 @@
 - msg: พี่คะ!! * วิ่งเข้าไปกอดทันที *
   character: akari
 - sound: sv_question mark sound effect
+- character: minato
+  position: left
+  act: Surprised
 - msg: A..Akari นี้แทนมันเกิดอะไรขึ้นนะตอนฉันไม่อยู่
   character: minato
 - character: tan
   position: right
-  act: Normal
+  act: Happy
 - msg: 'ก็แบบว่า… *แทนเล่าเรื่องที่เกิดให้ Minato*  '
   character: tan
 - sound: sv_Comical Turn Around 01
+- character: minato
+  position: left
+  act: Normal
 - msg: แบบนี้เองสินะสมกับเป็นนายจริงๆเลยนะหมัดนายยังหนักเหมื่อนเดิมเลย
   character: minato
 - msg: 'อย่าชมกันแบบนั้นสิ '
@@ -1469,9 +1791,15 @@
 - msg: ตั้งแต่งานแข่งแล้วนะนายแสดงหมัดแรงๆนั้นได้โคตรเคะตาคนดูเลย
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: surprised
 - msg: เอ๋การแข่ง?
   character: akari
 - sound: sv_question mark sound effect
+- character: tan
+  position: right
+  act: Normal
 - msg: Akari ยังไม่รู้อีกหรอ Minato
   character: tan
 - sound: sv_Comical Turn Around 01
@@ -1490,6 +1818,9 @@
 - msg: เอาหน่าบอกๆไปเถอะ
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: Normal
 - msg: ถึงว่าละพี่แทนเลยไม่กลัว ขอคุณมากเลยค่ะพี่แทนที่ปกป้องหนูไว้
   character: akari
 - sound: sv_Comical Turn Around 01
@@ -1510,10 +1841,19 @@
     *เอาของบางอย่างใส่มือแทนแล้วกลับไปหา Minato*
   character: akari
 - sound: sv_Comical Turn Around 01
+- character: akari
+  position: center
+  act: happy
 - msg: เจอกันพรุ่งนี้นะคะพี่แทน~~
   character: akari
+- character: tan
+  position: right
+  act: Happy
 - msg: เจอกันนะ Akari Minato
   character: tan
+- character: minato
+  position: left
+  act: Happy
 - msg: อาาเจอกันแทน *Minato กับ Akari เดินกลับบ้านอย่างปลอดภัย*
   character: minato
 - character: empty
@@ -1539,7 +1879,7 @@
   act: Happy
 - msg: >-
     แหม่ Akari นี้ละก็…จะเก็บไว้ให้ดีๆเลย * เอาผ้าเช็ดหน้าของ Akari
-    ใส่กระเป๋าเสื้อคู่กับผ้าของตัวเอง* (สีหน้ายิ้ม)
+    ใส่กระเป๋าเสื้อคู่กับผ้าของตัวเอง* 
   character: tan
 - music: bgm_Your_Love_Is_Home
   label: EP3.0_v3(MA)_lb_14
@@ -1568,9 +1908,15 @@
     พี่ชายก็เปิดประเด็นแซวน้องตัวเอง
   character: narrator
 - sound: sv_Comical Turn Around 01
+- character: minato
+  position: left
+  act: Smile
 - msg: อย่ากินเยอะนักละเดียวน้ำนักเพิ่มๆ
   character: minato
 - sound: sv_Breast Twitch
+- character: akari
+  position: center
+  act: happy
 - msg: >-
     ไม่ต้องห่วงน้องสาวหรอก น้องมีกระเพาะที่สอง กระเพาะเสริม
     สามารถรับสิ่งที่ชอบเข้าไปกินได้อีกหน่อยนะพี่กินไม่อ้วนๆ
@@ -1582,6 +1928,9 @@
     ไม่รู้สิเดียวกินเสร็จ พรุ่งนี้ก็เอาไปพลานพลังงานออกต่อ
     รับรองน้ำหนักเท่าเมื่อวานแถม ตัวเท่าเดิม
   character: akari
+- character: minato
+  position: left
+  act: Angry
 - msg: จ้าๆ น้องคนเก่งของพี่
   character: minato
 - msg: 'หลังจากน้องสาวกำลังดื่มน้ำส้ม อยู่ Minato เห็นแก้มน้องก็นึกถึงกระรอกขึ้นมา '
@@ -1591,8 +1940,14 @@
     หน้าพี่กับมือมันแปลกๆ
   character: narrator
 - sound: sv_Comical Struggle
+- character: akari
+  position: center
+  act: sad
 - msg: พะ พี่ !!! จะทำอะไรนะ ทำไมหน้าตาดูหน้ากลัว
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: ป่าวๆ ไม่มีอะไร
   character: minato
 - msg: '*หลังจากนั้นก็จับแก้มน้อง และ หยิกเบาๆ แบบเอ็นดูน้องตัวเอง*'
@@ -1608,9 +1963,15 @@
 - msg: '*หลังจาก Minato หยิกแก้มได้สักพักหนึ่งก็เลยหยุดดิก และ ลูปหัวน้องนิดห่น่อย*'
   character: minato
 - sound: sv_Awkward Pause
+- character: akari
+  position: center
+  act: Normal
 - msg: ในที่สุดนรกที่พี่จะแกล้งก็ได้จบสักที่
   character: akari
 - sound: sv_Epic Twinkle
+- character: minato
+  position: left
+  act: Angry
 - msg: อยากโดนอีกหรอ
   character: minato
 - msg: ไม่ค่ะ พี่หยุดเลย
@@ -1620,6 +1981,9 @@
 - sound: sv_Comical Turn Around 01
 - msg: เดียวน้องขึ้นห้องละพี่อย่าลืมส่ง ชื่อมังงะเรื่องนั้นมาในแชทน้องด้วย
   character: akari
+- character: minato
+  position: left
+  act: Normal
 - msg: ได้ๆๆ เดียวพี่ลืมส่ง
   character: minato
 - sound: sv_Breast Twitch
@@ -1627,8 +1991,14 @@
   character: akari
 - msg: หยอกๆ เดียวส่งให้
   character: minato
+- character: akari
+  position: center
+  act: happy
 - msg: ฝันดีค่ะพี่ น้องไปนอนอ่านหนังสือมังงะอีกเรื่องต่อละๆ
   character: akari
+- character: minato
+  position: left
+  act: Smile
 - msg: ฝันดีๆ พี่ก็ขึ้นห้องนอนเหมือนกันละไม่มีอะไรทำแล้ว
   character: minato
 - msg: จบตอนที่ 3 "ตู้เย็นไม่มีอะไรเลย"

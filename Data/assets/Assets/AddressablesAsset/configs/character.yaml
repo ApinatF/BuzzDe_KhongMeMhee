@@ -10,8 +10,8 @@
   name: me
   action:
     - default
-  msg_color: ffffff
-  name_bgcolor: ffffff
+  msg_color: 00FFE1
+  name_bgcolor: 00FFE1
 - character: minato
   model: minato
   name: Minato
@@ -28,8 +28,8 @@
     - Thinking
     - TopView
     - Closeeye
-  msg_color: ffffff
-  name_bgcolor: 6633FF
+  msg_color: 29D0FF
+  name_bgcolor: 29D0FF
   have_animation: true
 - character: akari
   model: akari
@@ -43,7 +43,7 @@
     - Shy
     - surprised
     - Closeeye
-  msg_color: ffffff
+  msg_color: 33CC99
   name_bgcolor: 33CC99
   have_animation: true
 - character: nightrose
@@ -55,7 +55,7 @@
     - Normal
     - Surprised
     - Smlie
-  msg_color: ffffff
+  msg_color: FFFACD
   name_bgcolor: FFFACD
   have_animation: true
 - character: tan
@@ -66,7 +66,7 @@
     - Happy
     - Normal
     - Surprised
-  msg_color: ffffff
+  msg_color: D2B48C
   name_bgcolor: D2B48C
   have_animation: true
 - character: grandfather
@@ -112,8 +112,8 @@
   name: Lucien
   action:
     - Normal
-  msg_color: ffffff
-  name_bgcolor: ffffff
+  msg_color: B05A07
+  name_bgcolor: B05A07
 - character: mob_D.C
   model: mob_D.C
   name: คณะกรรมการวินัย
@@ -138,5 +138,5 @@
     - happy
     - nervous
     - smile
-  msg_color: ffffff
-  name_bgcolor: ffffff
+  msg_color: FF6969
+  name_bgcolor: FF6969

@@ -19,6 +19,7 @@
 - delay: 3
 - sound: sv_DoorOpen60259
 - delay: 1
+- sound: sv_Breast Twitch
 - character: akari
   position: right
   act: surprised
@@ -29,6 +30,7 @@
 - sound: sv_drag a chair
 - msg: '*Akari ลากเก้าอี้มาตัวนึงแล้วยืนบนนั้น*'
   character: akari
+- sound: sv_SQUTWIST
 - character: akari
   position: right
   act: angry
@@ -36,6 +38,7 @@
   character: akari
 - msg: '!?! '
   character: akari
+- sound: sv_Epic Twinkle
 - character: akari
   position: right
   act: happy
@@ -55,7 +58,7 @@
 - msg: โอ้ย!!
   character: akari
 - delay: 1
-- sound: sv_Head Hit Low End Wallop
+- sound: sv_Jump on Bed
 - character: minato
   position: left
   act: Shocked
@@ -63,6 +66,7 @@
 - msg: อะเฮื่อก!!
   character: minato
 - delay: 1
+- sound: sv_Breast Twitch
 - character: minato
   position: left
   act: Angry
@@ -70,8 +74,10 @@
     <b><size=40>一体何やってんだ、このアホ</size></b>!  (Ittai nani yatten da, kono aho!) 
     นี้เธอทำบ้าอะไรเนี้ย
   character: minato
+- sound: sv_Breast Twitch
 - msg: 'เจ็บหัวอ่า~ '
   character: akari
+- sound: sv_Bubble pop
 - msg: ' ก็เพราะเล่นอะไรไม่รู้เรื่องกรรมเลยตามทันเลยเนี้ย'
   character: minato
 - character: akari
@@ -79,8 +85,10 @@
   act: sad
 - msg: งื่อ~~
   character: akari
+- sound: sv_question mark sound effect
 - msg: แต่ว่านะพี่ๆลืมหรอว่าวันนี้ต้องไปมหาลัยนะ
   character: akari
+- sound: sv_a10
 - character: minato
   position: left
   act: Surprised
@@ -108,10 +116,12 @@
   character: narrator
 - background: bg_living_room_yamada
 - music: bgm_LoFi HipHop
+- sound: sv_Comical Turn Around 01
 - msg: ไม่ลืมอะไรแล้วนะ Akari
   character: minato
 - msg: อืม!! เตรียมพร้อมเรียบร้อย~
   character: akari
+- sound: sv_Breast Twitch
 - character: minato
   position: left
   act: Smile
@@ -126,25 +136,30 @@
 - background: bg_nifront_wut
 - msg: Minato กับ Akari ได้เดินไปที่ป้ายรถเมย์และรอรถที่ไปมหาลัยของทั้ง 2
   character: narrator
+- sound: sv_Awkward Pause
 - character: akari
   position: right
   act: Normal
 - msg: พี่คันนั้นไงๆ
   character: akari
+- sound: sv_Comical Turn Around 01
 - character: minato
   position: left
   act: Normal
 - msg: คันนี้หรอ Akari มั่นใจนะ
   character: minato
+- sound: sv_Breast Twitch
 - msg: แน่สิพี่
   character: akari
 - character: minato
   position: left
   act: TopView
+- sound: sv_Awkward Pause
 - msg: >-
     พี่ว่า…มันดูหรูกว่ารถของมหาลัยอีกนะ
     ที่ที่เราจะได้เรียนมันเป็นมหาลัยแบบไหนเนี้ย
   character: minato
+- sound: sv_Door Opening Sound Effect
 - msg: อย่าคิดมากเลยหน่าพี่ ขึ้นมาก่อนเถอะเดี๋ยวค่อยมาคิดที่หลังอีกที่
   character: akari
 - character: minato
@@ -152,13 +167,15 @@
   act: Normal
 - msg: อาเคๆ
   character: minato
-- background: bg_bus8
+- background: bg_university_bus
 - music: bgm_PublicBus_V1
 - msg: >-
     ทั้งคู่ขึ้นรถของมหาลัยแล้วปรากฏว่ามีแต่คนที่แต่งตัวในเครื่องแบบนักศึกษาทั้งนั้น
   character: narrator
+- sound: sv_Breast Twitch
 - msg: โอ้! คนเยอะกว่าที่คิดไว้อีกนะเนี้ย
   character: minato
+- sound: sv_Comical Turn Around 01
 - character: akari
   position: right
   act: sad
@@ -166,6 +183,7 @@
   character: akari
 - msg: เวลาผ่านไปสักพักหลังจากที่ออกจากป้ายมา
   character: narrator
+- sound: sv_Open_App
 - msg: จู่ๆก็มีคนโทรเข้าโทรศัพท์ของ Minato
   character: narrator
 - character: minato
@@ -179,7 +197,7 @@
 - delay: 10
 - msg: คู่สายในโทรศัพท์
   character: narrator
-- sound: sv_Ping
+- sound: sv_Phone Pick up
 - character: minato
   position: left
   act: Surprised
@@ -205,11 +223,11 @@
   character: grandfather
 - msg: อาหะ…แล้วมีอะไรอีกหรือเปล่าคงไม่ได้มีแค่นี้สินะ
   character: minato
+- sound: sv_Pop1
 - msg: >-
     ก็จริงอย่างที่หลานว่ายังมีอีกอย่างที่ปู่ยังไม่ได้บอก…งั้นเอาละฟังปู่ดีๆนะ
     Minato
   character: grandfather
-- sound: sv_Pop1
 - msg: เสียงลำโพงประกาศ
   character: narrator
 - msg: 'ขณะนี้รถของมหาลัยเราได้ถึงหน้ามหาลัยแล้วโปรดกรุณาลงจากรถด้วยค่ะ '
@@ -239,6 +257,7 @@
 - msg: โอเค! ถ้าไม่มีอะไรแล้วปู่วางสายละนะขอให้โชคดีกับชีวิตในรั่วมหาลัยละ
   character: grandfather
 - sound: sv_Whoosh
+- sound: sv_Phone Pick up
 - character: empty
   position: center
 - msg: >-
@@ -274,6 +293,7 @@
 - music: empty
 - background: BG_in_University
 - music: bgm_Education
+- sound: sv_Walking Fade out Duo
 - msg: ระหว่างที่ทั้งคู่กำลังเดินเข้าไปในมหาลัยนั้นเอง 2 พี่น้องก็ต้องเจอกับ
   character: narrator
 - character: man01
@@ -309,6 +329,7 @@
   character: akari
 - msg: เอ๋!? เดี๋ยวก่อนน้อง..! พี่ยังพูดไม่จบเลยนะ!
   character: man01
+- sound: sv_Walking Fade out Duo
 - msg: ทั้งคู่เดินผ่านพี่ปฐมนิเทศไปอย่างกับไม่มีอะไรเกิดขึ้น
   character: narrator
 - character: minato
@@ -372,11 +393,6 @@
     <b><size=40>やかましい</size></b>！ (Yakamashi!!) พูดมากจริงๆเลย!
     ผมบอกแล้วไงว่าผมยังไม่สน!
   character: minato
-- character: akari
-  position: left
-  act: sad
-- character: empty
-  position: left
 - msg: แต่พี่ว่ายังไงน้องก็ต้องเขาคณะนี้นะ!!
   character: man01
 - msg: ในขณะที่ Minato สงบสติไม่ได้อยู่นั้นเองก็มีเสียงหนึ่งดังขึ้นมา
@@ -419,6 +435,7 @@
   character: lucien
 - msg: อึก!?!
   character: man01
+- sound: sv_Walking Fade out
 - msg: '*หลังจากนั้นพี่ปฐมนิเทศก็เดินออกจากมหาลัยอย่างคับแค้น*'
   character: man01
 - sound: sv_FootSteps Fade away
@@ -441,6 +458,7 @@
   character: minato
 - msg: ยินดีที่ได้รู้จักนะ Minato แต่ตอนนี้นายต้องรีบแล้วนะพิธีกำลังจะเริ่มแล้ว
   character: lucien
+- sound: sv_Look someone
 - msg: '*Lucien ชี้ไปที่หอนาฬิกาให้ Minato เห็นว่ากำลังจะสาย*'
   character: lucien
 - character: minato
@@ -538,6 +556,7 @@
   character: man01
 - character: empty
   position: right
+- sound: sv_Walking Fade out
 - msg: หลังจากนั้นพี่ปฐมนิเทศก็เดินออกจากมหาลัยอย่างคับแค้น
   character: narrator
 - msg: ขอบคุณมากเลยค่ะคุณ Lucien ที่มาช่วยดิฉันไว้ถ้าคุณไม่มาดิฉันคงแย่แน่ๆเลยค่ะ
@@ -556,6 +575,7 @@
   character: akari
 - msg: แต่ตอนนี้ผมว่าพวกคุณต้องรีบหน่อยแล้วนะครับพิธีมันจะเริ่มแล้วนะครับ
   character: lucien
+- sound: sv_Look someone
 - msg: Lucien ชี้ไปที่หอนาฬิกาให้ Akariเห็นว่ากำลังจะสาย
   character: lucien
 - character: akari
@@ -616,6 +636,7 @@
   act: Normal
 - msg: เรารีบเข้าไปกับเถอะ
   character: minato
+- sound: sv_Fast run meme
 - character: akari
   position: right
   act: Normal
@@ -849,6 +870,7 @@
 - character: tan
   position: center
   act: Surprised
+- sound: sv_Awkward Pause
 - msg: >-
     แป้ว—  เห้ยเดี๋ยวสิลืมกันงี้ได้ไงเนี้ย!! Minato ฉันอุตสาห์มองนายตั้งแต่หน้า
     มหาลัยเลยนะรู้ไหม!!
@@ -1129,10 +1151,11 @@
 - character: empty
   position: left
   label: EP1.0_v3(MA)_lb_3
-- music: bgm_Your_Love_Is_Home
+- music: bgm_dreamy mode
 - character: tan
   position: right
   act: Normal
+- sound: sv_Flip Phone
 - msg: —---------ในสายของแทน—-------
   character: tan
 - msg: ครับ ตอนนี้คนเจ็บอยู่ที่ตึกพยาบาลแล้วครับ
@@ -1148,6 +1171,7 @@
   character: tan
 - character: empty
   position: left
+- sound: sv_Flip Phone
 - msg: —-------------วางสาย—--------------
   character: tan
 - msg: พี่แทนคะคือว่า…
@@ -1765,15 +1789,18 @@
   character: minato
 - msg: ฉันเห็นด้วยเลยนะ
   character: tan
+- music: bgm_Baguette
 - character: nightrose
   position: center
   act: Smlie
 - msg: เอาละ!! Let's Eat!!
   character: nightrose
+- sound: sv_Breast Twitch
 - msg: 'อะตะเกียบมัน!! * เผลอทำตะเกียบตก * '
   character: nightrose
 - msg: 'ไม่น่าาาา! แล้วฉันจะทำยังไงละทีนี้ TT '
   character: nightrose
+- sound: sv_Breast Twitch
 - msg: 'เออถ้าไม่ว่าอะไรเชิญเอาอันนี้ไปใช่สิครับ * ยื่นตะเกียบให้ * '
   character: minato
 - msg: อะขอบคุณมากเลยค่ะ มิสเตอร์~
@@ -2073,7 +2100,7 @@
 - character: akari
   position: right
   act: Normal
-- msg: เปล่านะ~แค่คิดว่าพี่ก็สอนเก่งเหมื่อนกันนะเนี้ย~ (หน้าปกติ)
+- msg: เปล่านะ~แค่คิดว่าพี่ก็สอนเก่งเหมื่อนกันนะเนี้ย~
   character: akari
 - character: tan
   position: right

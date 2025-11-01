@@ -15,6 +15,7 @@ bg_nurse's_room
 bg_restaurant01
 bg_restaurant02
 bg_songkran_street
+bg_university_bus
 bg_university_infront
 bg_uni_classroom
 bg_uni_classroom_BR
