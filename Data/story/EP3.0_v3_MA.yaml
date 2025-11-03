@@ -101,25 +101,22 @@
 - msg: '*|วาง|หนังสือ 3 เล่มบ|นโ|ต๊ะ*'
   character: minato
 - goto:
-    - EP3.0_v3(MA)_lb_0 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_4
+    - EP3.0_v3_MA_lb_0 if var_minato >= 8
+    - EP3.0_v3_MA_lb_4
 - character: minato
   position: left
   act: Surprised
-  label: EP3.0_v3(MA)_lb_0
+  label: EP3.0_v3_MA_lb_0
 - msg: เอา|เรื่อง|นี้|แล้วกัน
   character: minato
 - choice:
-    - msg: .
-      msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
-    - msg: .|.
-      msg_override: สาวเเกลกับนายคอสเพลย์
-      goto: EP3.0_v3(MA)_lb_1
-    - msg: .|.|.
-      msg_override: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
-      goto: EP3.0_v3(MA)_lb_2
+    - msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
+    - msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
+      goto: EP3.0_v3_MA_lb_1
+    - msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
+      goto: EP3.0_v3_MA_lb_2
   character: me
-  state: EP3.0_v3(MA)_st_0
+  state: EP3.0_v3_MA_st_0
 - msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
   character: minato
 - sound: sv_Epic Fail 01
@@ -147,10 +144,10 @@
     ฮ่าาๆๆ.|.|นิดๆหน่อย|เอ|งห|น่าา
     แต่|เนื้อหา|จริง|ดี|มาก|เลย|นะ|ถ้า|ตัด|เรื่อง|แย่ๆออก|ไป|นะ
   character: minato
-- goto: EP3.0_v3(MA)_lb_3
+- goto: EP3.0_v3_MA_lb_3
 - msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
   character: minato
-  label: EP3.0_v3(MA)_lb_1
+  label: EP3.0_v3_MA_lb_1
 - sound: sv_Glitter
 - character: akari
   position: center
@@ -171,10 +168,10 @@
 - sound: sv_Blushing
 - msg: 'เงีย|บห|น่าาาา '
   character: minato
-- goto: EP3.0_v3(MA)_lb_3
+- goto: EP3.0_v3_MA_lb_3
 - msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
   character: minato
-  label: EP3.0_v3(MA)_lb_2
+  label: EP3.0_v3_MA_lb_2
 - sound: sv_Breast Twitch
 - character: akari
   position: center
@@ -199,25 +196,22 @@
   act: Thinking
 - msg: 'อืม.|. '
   character: minato
-- goto: EP3.0_v3(MA)_lb_7
-  label: EP3.0_v3(MA)_lb_3
+- goto: EP3.0_v3_MA_lb_7
+  label: EP3.0_v3_MA_lb_3
 - character: akari
   position: center
   act: surprised
-  label: EP3.0_v3(MA)_lb_4
+  label: EP3.0_v3_MA_lb_4
 - msg: เอา|เรื่อง|นี้|แล้วกัน
   character: akari
 - choice:
-    - msg: .
-      msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
-    - msg: .|.
-      msg_override: สาวเเกลกับนายคอสเพลย์
-      goto: EP3.0_v3(MA)_lb_5
-    - msg: .|.|.
-      msg_override: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
-      goto: EP3.0_v3(MA)_lb_6
+    - msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
+    - msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
+      goto: EP3.0_v3_MA_lb_5
+    - msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
+      goto: EP3.0_v3_MA_lb_6
   character: me
-  state: EP3.0_v3(MA)_st_1
+  state: EP3.0_v3_MA_st_1
 - msg: เกิด|ชาติ|นี้|จะ|ทำ|อะไร|ดี|ใน|เมื่อ|เกิด|ชาติ|ที่|แล้ว|ไม่|ได้|ทำ
   character: akari
 - sound: sv_Epic Fail 01
@@ -248,10 +242,10 @@
     ฮ่าาๆๆ.|.|นิดๆหน่อย|เอ|งห|น่าา
     แต่|เนื้อหา|จริง|ดี|มาก|เลย|นะ|ถ้า|ตัด|เรื่อง|แย่ๆออก|ไป|นะ
   character: minato
-- goto: EP3.0_v3(MA)_lb_7
+- goto: EP3.0_v3_MA_lb_7
 - msg: สา|วเ|เกล|กับ|นา|ยค|อส|เพ|ลย์
   character: akari
-  label: EP3.0_v3(MA)_lb_5
+  label: EP3.0_v3_MA_lb_5
 - sound: sv_Glitter
 - character: akari
   position: center
@@ -272,10 +266,10 @@
 - sound: sv_Blushing
 - msg: 'เงีย|บห|น่าาาา '
   character: minato
-- goto: EP3.0_v3(MA)_lb_7
+- goto: EP3.0_v3_MA_lb_7
 - msg: ต้องหา|โรตี|อินเดีย|สูตร|ต้น|ตำ|หรับ|ชา|ยเ|เท|ร้สูตร|ดั้ง|เขย่า|ไข่
   character: akari
-  label: EP3.0_v3(MA)_lb_6
+  label: EP3.0_v3_MA_lb_6
 - sound: sv_Breast Twitch
 - character: akari
   position: center
@@ -301,7 +295,7 @@
 - msg: 'อืม.|. '
   character: minato
 - sound: sv_Turning Book Pages
-  label: EP3.0_v3(MA)_lb_7
+  label: EP3.0_v3_MA_lb_7
 - character: akari
   position: center
   act: surprised
@@ -487,12 +481,12 @@
 - msg: ไอ|ขยับ|ร่างกาย|เยอะ|เนี้ย|!|! ไม่|เห็น|จะ|เมค|เซ้นส์ตรง|ไหน|เลย *|เกาหั|ว*
   character: minato
 - goto:
-    - EP3.0_v3(MA)_lb_8 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_9
+    - EP3.0_v3_MA_lb_8 if var_minato >= 8
+    - EP3.0_v3_MA_lb_9
 - character: minato
   position: left
   act: Normal
-  label: EP3.0_v3(MA)_lb_8
+  label: EP3.0_v3_MA_lb_8
 - msg: >-
     อืมมม…|พี่|ขอ|เช็ค|แปบ|นะ ไหน|ขอ|ดู|ซิ|ว่า|มี|ไร|กิน|บ้าง 
     ได้|เปิด|ตู้|เย็น|แล้ว|ก็|ได้|รู้|ว่า…|.|. *|เดิน|ไป|เปิด|ตู้|เย็|น*
@@ -533,11 +527,11 @@
   character: minato
 - msg: อืมม|ไม่|เลว|เลย|!|! ไป|กัน|เลยย
   character: akari
-- goto: EP3.0_v3(MA)_lb_10
+- goto: EP3.0_v3_MA_lb_10
 - character: akari
   position: center
   act: Normal
-  label: EP3.0_v3(MA)_lb_9
+  label: EP3.0_v3_MA_lb_9
 - msg: >-
     อืมมม…|น้อง|ขอ|เช็ค|แปบ|นะ ไหน|ขอ|ดู|ซิ|ว่า|มี|ไร|กิน|บ้าง
     ได้|เปิด|ตู้|เย็น|แล้ว|ก็|ได้|รู้|ว่า…|.|. *|เดิน|ไป|เปิด|ตู้|เย็|น* 
@@ -582,7 +576,7 @@
     ทั้ง|คู่|ออก|จาก|บ้าน|แล้ว|กำลัง|เดิน|ไป|ที่|ร้าน|สะดวก|ซื้อ|ระหว่าง|ทาง|ก็|พูด|คุย|กัน|นิดหน่อย
     (|นอก|บ้าน|ซัก|ซอย|)
   character: narrator
-  label: EP3.0_v3(MA)_lb_10
+  label: EP3.0_v3_MA_lb_10
 - background: bg_nifront_wut
 - music: bgm_LoFi HipHop
 - sound: sv_Breast Twitch
@@ -1058,11 +1052,11 @@
 - msg: ฮึ|~
   character: akari
 - goto:
-    - EP3.0_v3(MA)_lb_11 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_12
+    - EP3.0_v3_MA_lb_11 if var_minato >= 8
+    - EP3.0_v3_MA_lb_12
 - character: empty
   position: center
-  label: EP3.0_v3(MA)_lb_11
+  label: EP3.0_v3_MA_lb_11
 - character: empty
   position: right
 - character: minato
@@ -1165,9 +1159,9 @@
 - sound: sv_Walking Fade out
 - msg: '*|ตาม Minato ไป|พร้อม|หัน|มา|ยิ้ม|ใส่|แทน|แล้|วหั|นก|ลั|บ*'
   character: akari
-- goto: EP3.0_v3(MA)_lb_14
+- goto: EP3.0_v3_MA_lb_14
 - sound: sv_Breast Twitch
-  label: EP3.0_v3(MA)_lb_12
+  label: EP3.0_v3_MA_lb_12
 - character: akari
   position: center
   act: happy
@@ -1195,18 +1189,16 @@
 - msg: (|พี่|แทน|วัน|นี้|ดู|เหนื่อย|มากๆเลย|เรา|พอ|ช่วย|อะไร|เขา|ได้|บ้าง|นะ|)
   character: akari
 - choice:
-    - msg: .|.
-      msg_override: เอาน้ำเปล่าที่ดื่มแล้วครึ่งนึงมาให้แทน
+    - msg: เอา|น้ำ|เปล่า|ที่|ดื่ม|แล้ว|ครึ่ง|นึง|มา|ให้|แทน
       update:
         - rp_tan_akari += 5
-    - msg: .|.|.
-      msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
+    - msg: ใช่|ผ้าเช็ดหน้า|เช็ด|หน้า|และ|เหงื่อ|ให้|แทน
       cost: 8
       update:
         - rp_tan_akari += 10
-      goto: EP3.0_v3(MA)_lb_13
+      goto: EP3.0_v3_MA_lb_13
   character: me
-  state: EP3.0_v3(MA)_st_2
+  state: EP3.0_v3_MA_st_2
 - music: bgm_Baguette
 - sound: sv_Breast Twitch
 - character: akari
@@ -1483,9 +1475,9 @@
 - sound: sv_Walking Fade out Duo
 - msg: '*|ตาม Minato ไป|พร้อม|หัน|มา|ยิ้ม|ใส่|แทน|แล้|วหั|นก|ลั|บ*'
   character: akari
-- goto: EP3.0_v3(MA)_lb_14
+- goto: EP3.0_v3_MA_lb_14
 - music: bgm_dreamy mode
-  label: EP3.0_v3(MA)_lb_13
+  label: EP3.0_v3_MA_lb_13
 - character: akari
   position: center
   act: Normal
@@ -1624,8 +1616,13 @@
 - character: akari
   position: left
   act: sad
-- msg: หนู|ไม่|เป็นไร|ค่ะ|พี่|แทน
+- msg: หนู|~|~
   character: akari
+- choice:
+    - msg: ไม่|เป็นไร|ค่ะ|พี่|แทน
+    - msg: ปวด|ก้น|นิดหน่อย|คะ|แต่|ไม่|เป็น|อะไร
+  character: me
+  state: EP3.0_v3_MA_st_3
 - character: tan
   position: center
   act: Angry
@@ -1747,9 +1744,6 @@
   character: akari
 - msg: 'Akari หน้า|น้อ|ง…|มัน *|หยิบ|ผ้า|เช็|หน้า|ออก|มา|เห|มื่อน|กั|น* '
   character: tan
-- msg: อ่ะ|!|?|!
-  character: me
-  override_name: Akari/แทน
 - sound: sv_Breast Twitch
 - character: empty
   position: center
@@ -1804,8 +1798,13 @@
 - character: akari
   position: center
   act: happy
-- msg: 'มะ|.|.|ไม่|มี|ไร|แล้ว|ค่ะ|.|. '
+- msg: มะ|.|.
   character: akari
+- choice:
+    - msg: 'ไม่|มี|ไร|แล้ว|ค่ะ|.|. '
+    - msg: ไม่|มี|นิ|คะ
+  character: me
+  state: EP3.0_v3_MA_st_4
 - msg: 'ถ้า|งั้น|ก็|มา|นั่ง|รอ|พี่|เธอ|กลับ|มา|ดี|กว่า|เห็นด้วย|ไหม '
   character: tan
 - msg: อืออ
@@ -1939,7 +1938,7 @@
     ใส่|กระเป๋า|เสื้อ|คู่|กับ|ผ้า|ของ|ตัว|เอ|ง* 
   character: tan
 - music: bgm_Your_Love_Is_Home
-  label: EP3.0_v3(MA)_lb_14
+  label: EP3.0_v3_MA_lb_14
 - background: bg_living_room_yamada
 - character: empty
   position: center

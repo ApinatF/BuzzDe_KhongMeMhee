@@ -114,22 +114,6 @@
     - Normal
   msg_color: B05A07
   name_bgcolor: B05A07
-- character: mob_D.C
-  model: mob_D.C
-  name: คณะกรรมการวินัย
-  action:
-    - Normal
-  msg_color: ffffff
-  name_bgcolor: ffffff
-- character: test
-  model: test
-  name: Test
-  action:
-    - Normal
-    - do_flip
-  msg_color: ffffff
-  name_bgcolor: ffffff
-  have_animation: true
 - character: lin
   model: lin
   name: Lin

@@ -67,8 +67,13 @@
 - character: akari
   position: center
   act: Normal
-- msg: ก็ไม่ว่าหรอกค่ะแต่มีสาเหตุอยู่หรือเปล่าคะ?
+- msg: พี่-
   character: akari
+- choice:
+    - msg: มีธุระหรอคะ?
+    - msg: ทำตัวหน้าสงสัย
+  character: me
+  state: EP3.0_SP1_Akari_st_0
 - character: minato
   position: left
   act: Smile
@@ -137,8 +142,13 @@
 - character: akari
   position: center
   act: Shy
-- msg: ไม่มีค่ะ!
+- msg: อ่า~
   character: akari
+- choice:
+    - msg: ไม่อะไรค่ะพี่แทน
+    - msg: ก็เปล่านิคะ
+  character: me
+  state: EP3.0_SP1_Akari_st_1
 - msg: ในตอนนั้นเองรถเมย์ก็ได้มาถึงแล้ว
   character: narrator
 - music: bgm_PublicBus_V1

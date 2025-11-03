@@ -89,4 +89,3 @@ sv_Walking Fade out
 sv_Walking_Footsteps_on_Woods_3
 sv_Walking_Footsteps_on_Woods_but_Fast
 sv_Whoosh
-ลบได้

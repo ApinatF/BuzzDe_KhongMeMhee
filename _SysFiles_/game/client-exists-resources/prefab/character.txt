@@ -45,7 +45,6 @@ nightrose
 professor-aa
 tan
 tan-Angry
-tan-enigma
 tan-Happy
 tan-Normal
 tan-Surprised

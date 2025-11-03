@@ -99,25 +99,22 @@
 - msg: '*วางหนังสือ 3 เล่มบนโต๊ะ*'
   character: minato
 - goto:
-    - EP3.0_v3(MA)_lb_0 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_4
+    - EP3.0_v3_MA_lb_0 if var_minato >= 8
+    - EP3.0_v3_MA_lb_4
 - character: minato
   position: left
   act: Surprised
-  label: EP3.0_v3(MA)_lb_0
+  label: EP3.0_v3_MA_lb_0
 - msg: เอาเรื่องนี้แล้วกัน
   character: minato
 - choice:
-    - msg: .
-      msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
-    - msg: ..
-      msg_override: สาวเเกลกับนายคอสเพลย์
-      goto: EP3.0_v3(MA)_lb_1
-    - msg: ...
-      msg_override: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
-      goto: EP3.0_v3(MA)_lb_2
+    - msg: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
+    - msg: สาวเเกลกับนายคอสเพลย์
+      goto: EP3.0_v3_MA_lb_1
+    - msg: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
+      goto: EP3.0_v3_MA_lb_2
   character: me
-  state: EP3.0_v3(MA)_st_0
+  state: EP3.0_v3_MA_st_0
 - msg: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
   character: minato
 - sound: sv_Epic Fail 01
@@ -141,10 +138,10 @@
   character: akari
 - msg: ฮ่าาๆๆ..นิดๆหน่อยเองหน่าา แต่เนื้อหาจริงดีมากเลยนะถ้าตัดเรื่องแย่ๆออกไปนะ
   character: minato
-- goto: EP3.0_v3(MA)_lb_3
+- goto: EP3.0_v3_MA_lb_3
 - msg: สาวเเกลกับนายคอสเพลย์
   character: minato
-  label: EP3.0_v3(MA)_lb_1
+  label: EP3.0_v3_MA_lb_1
 - sound: sv_Glitter
 - character: akari
   position: center
@@ -165,10 +162,10 @@
 - sound: sv_Blushing
 - msg: 'เงียบหน่าาาา '
   character: minato
-- goto: EP3.0_v3(MA)_lb_3
+- goto: EP3.0_v3_MA_lb_3
 - msg: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
   character: minato
-  label: EP3.0_v3(MA)_lb_2
+  label: EP3.0_v3_MA_lb_2
 - sound: sv_Breast Twitch
 - character: akari
   position: center
@@ -191,25 +188,22 @@
   act: Thinking
 - msg: 'อืม.. '
   character: minato
-- goto: EP3.0_v3(MA)_lb_7
-  label: EP3.0_v3(MA)_lb_3
+- goto: EP3.0_v3_MA_lb_7
+  label: EP3.0_v3_MA_lb_3
 - character: akari
   position: center
   act: surprised
-  label: EP3.0_v3(MA)_lb_4
+  label: EP3.0_v3_MA_lb_4
 - msg: เอาเรื่องนี้แล้วกัน
   character: akari
 - choice:
-    - msg: .
-      msg_override: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
-    - msg: ..
-      msg_override: สาวเเกลกับนายคอสเพลย์
-      goto: EP3.0_v3(MA)_lb_5
-    - msg: ...
-      msg_override: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
-      goto: EP3.0_v3(MA)_lb_6
+    - msg: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
+    - msg: สาวเเกลกับนายคอสเพลย์
+      goto: EP3.0_v3_MA_lb_5
+    - msg: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
+      goto: EP3.0_v3_MA_lb_6
   character: me
-  state: EP3.0_v3(MA)_st_1
+  state: EP3.0_v3_MA_st_1
 - msg: เกิดชาตินี้จะทำอะไรดีในเมื่อเกิดชาติที่แล้วไม่ได้ทำ
   character: akari
 - sound: sv_Epic Fail 01
@@ -236,10 +230,10 @@
   act: Thinking
 - msg: ฮ่าาๆๆ..นิดๆหน่อยเองหน่าา แต่เนื้อหาจริงดีมากเลยนะถ้าตัดเรื่องแย่ๆออกไปนะ
   character: minato
-- goto: EP3.0_v3(MA)_lb_7
+- goto: EP3.0_v3_MA_lb_7
 - msg: สาวเเกลกับนายคอสเพลย์
   character: akari
-  label: EP3.0_v3(MA)_lb_5
+  label: EP3.0_v3_MA_lb_5
 - sound: sv_Glitter
 - character: akari
   position: center
@@ -260,10 +254,10 @@
 - sound: sv_Blushing
 - msg: 'เงียบหน่าาาา '
   character: minato
-- goto: EP3.0_v3(MA)_lb_7
+- goto: EP3.0_v3_MA_lb_7
 - msg: ต้องหาโรตีอินเดียสูตรต้นตำหรับชายเเทร้สูตรดั้งเขย่าไข่
   character: akari
-  label: EP3.0_v3(MA)_lb_6
+  label: EP3.0_v3_MA_lb_6
 - sound: sv_Breast Twitch
 - character: akari
   position: center
@@ -287,7 +281,7 @@
 - msg: 'อืม.. '
   character: minato
 - sound: sv_Turning Book Pages
-  label: EP3.0_v3(MA)_lb_7
+  label: EP3.0_v3_MA_lb_7
 - character: akari
   position: center
   act: surprised
@@ -470,12 +464,12 @@
 - msg: ไอขยับร่างกายเยอะเนี้ย!! ไม่เห็นจะเมคเซ้นส์ตรงไหนเลย *เกาหัว*
   character: minato
 - goto:
-    - EP3.0_v3(MA)_lb_8 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_9
+    - EP3.0_v3_MA_lb_8 if var_minato >= 8
+    - EP3.0_v3_MA_lb_9
 - character: minato
   position: left
   act: Normal
-  label: EP3.0_v3(MA)_lb_8
+  label: EP3.0_v3_MA_lb_8
 - msg: >-
     อืมมม…พี่ขอเช็คแปบนะ ไหนขอดูซิว่ามีไรกินบ้าง 
     ได้เปิดตู้เย็นแล้วก็ได้รู้ว่า….. *เดินไปเปิดตู้เย็น*
@@ -515,11 +509,11 @@
   character: minato
 - msg: อืมมไม่เลวเลย!! ไปกันเลยย
   character: akari
-- goto: EP3.0_v3(MA)_lb_10
+- goto: EP3.0_v3_MA_lb_10
 - character: akari
   position: center
   act: Normal
-  label: EP3.0_v3(MA)_lb_9
+  label: EP3.0_v3_MA_lb_9
 - msg: >-
     อืมมม…น้องขอเช็คแปบนะ ไหนขอดูซิว่ามีไรกินบ้าง
     ได้เปิดตู้เย็นแล้วก็ได้รู้ว่า….. *เดินไปเปิดตู้เย็น* 
@@ -563,7 +557,7 @@
     ทั้งคู่ออกจากบ้านแล้วกำลังเดินไปที่ร้านสะดวกซื้อระหว่างทางก็พูดคุยกันนิดหน่อย
     (นอกบ้านซักซอย)
   character: narrator
-  label: EP3.0_v3(MA)_lb_10
+  label: EP3.0_v3_MA_lb_10
 - background: bg_nifront_wut
 - music: bgm_LoFi HipHop
 - sound: sv_Breast Twitch
@@ -1029,11 +1023,11 @@
 - msg: ฮึ~
   character: akari
 - goto:
-    - EP3.0_v3(MA)_lb_11 if var_minato >= 8
-    - EP3.0_v3(MA)_lb_12
+    - EP3.0_v3_MA_lb_11 if var_minato >= 8
+    - EP3.0_v3_MA_lb_12
 - character: empty
   position: center
-  label: EP3.0_v3(MA)_lb_11
+  label: EP3.0_v3_MA_lb_11
 - character: empty
   position: right
 - character: minato
@@ -1135,9 +1129,9 @@
 - sound: sv_Walking Fade out
 - msg: '*ตาม Minato ไปพร้อมหันมายิ้มใส่แทนแล้วหันกลับ*'
   character: akari
-- goto: EP3.0_v3(MA)_lb_14
+- goto: EP3.0_v3_MA_lb_14
 - sound: sv_Breast Twitch
-  label: EP3.0_v3(MA)_lb_12
+  label: EP3.0_v3_MA_lb_12
 - character: akari
   position: center
   act: happy
@@ -1164,18 +1158,16 @@
 - msg: (พี่แทนวันนี้ดูเหนื่อยมากๆเลยเราพอช่วยอะไรเขาได้บ้างนะ)
   character: akari
 - choice:
-    - msg: ..
-      msg_override: เอาน้ำเปล่าที่ดื่มแล้วครึ่งนึงมาให้แทน
+    - msg: เอาน้ำเปล่าที่ดื่มแล้วครึ่งนึงมาให้แทน
       update:
         - rp_tan_akari += 5
-    - msg: ...
-      msg_override: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
+    - msg: ใช่ผ้าเช็ดหน้าเช็ดหน้าและเหงื่อให้แทน
       cost: 8
       update:
         - rp_tan_akari += 10
-      goto: EP3.0_v3(MA)_lb_13
+      goto: EP3.0_v3_MA_lb_13
   character: me
-  state: EP3.0_v3(MA)_st_2
+  state: EP3.0_v3_MA_st_2
 - music: bgm_Baguette
 - sound: sv_Breast Twitch
 - character: akari
@@ -1442,9 +1434,9 @@
 - sound: sv_Walking Fade out Duo
 - msg: '*ตาม Minato ไปพร้อมหันมายิ้มใส่แทนแล้วหันกลับ*'
   character: akari
-- goto: EP3.0_v3(MA)_lb_14
+- goto: EP3.0_v3_MA_lb_14
 - music: bgm_dreamy mode
-  label: EP3.0_v3(MA)_lb_13
+  label: EP3.0_v3_MA_lb_13
 - character: akari
   position: center
   act: Normal
@@ -1579,8 +1571,13 @@
 - character: akari
   position: left
   act: sad
-- msg: หนูไม่เป็นไรค่ะพี่แทน
+- msg: หนู~~
   character: akari
+- choice:
+    - msg: ไม่เป็นไรค่ะพี่แทน
+    - msg: ปวดก้นนิดหน่อยคะแต่ไม่เป็นอะไร
+  character: me
+  state: EP3.0_v3_MA_st_3
 - character: tan
   position: center
   act: Angry
@@ -1696,9 +1693,6 @@
   character: akari
 - msg: 'Akari หน้าน้อง…มัน *หยิบผ้าเช็หน้าออกมาเหมื่อนกัน* '
   character: tan
-- msg: อ่ะ!?!
-  character: me
-  override_name: Akari/แทน
 - sound: sv_Breast Twitch
 - character: empty
   position: center
@@ -1751,8 +1745,13 @@
 - character: akari
   position: center
   act: happy
-- msg: 'มะ..ไม่มีไรแล้วค่ะ.. '
+- msg: มะ..
   character: akari
+- choice:
+    - msg: 'ไม่มีไรแล้วค่ะ.. '
+    - msg: ไม่มีนิคะ
+  character: me
+  state: EP3.0_v3_MA_st_4
 - msg: 'ถ้างั้นก็มานั่งรอพี่เธอกลับมาดีกว่าเห็นด้วยไหม '
   character: tan
 - msg: อืออ
@@ -1882,7 +1881,7 @@
     ใส่กระเป๋าเสื้อคู่กับผ้าของตัวเอง* 
   character: tan
 - music: bgm_Your_Love_Is_Home
-  label: EP3.0_v3(MA)_lb_14
+  label: EP3.0_v3_MA_lb_14
 - background: bg_living_room_yamada
 - character: empty
   position: center

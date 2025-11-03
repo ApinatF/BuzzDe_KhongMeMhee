@@ -34,6 +34,7 @@
   character: akari
 - msg: พี่|! พี่|ตื่น|ยัง|เนี่ย|!
   character: akari
+- background: bg_bedroom_minato
 - character: minato
   position: left
   act: Closeeye
@@ -78,13 +79,22 @@
   character: akari
 - msg: <b><size=40>お兄さん</size></b>| (|onii|-|san|) พี่|ชา|ย…
   character: akari
-- msg: >-
-    <b><size=40>もう起きて！大学に遅刻しちゃうよ！</size></b>| (|Mou okite|! Daigaku ni chikoku
-    shichau yo|!|) ตื่น|ได้|แล้ว|! เดี๋ยว|ไป|มหา|ลัย|สาย|หรอก|!
-  character: akari
-- msg: อ|ะ—อ|ุ้ก|!|!|! *|แสดง|สีหน้า|จุก|สุดๆ*
+- choice:
+    - msg: >-
+        <b><size=40>もう起きて！大学に遅刻しちゃうよ！</size></b>| (|Mou okite|! Daigaku ni
+        chikoku shichau yo|!|)
+    - msg: ตื่น|ได้|แล้ว|! เดี๋ยว|ไป|มหา|ลัย|สาย|หรอก|!
+      goto: EP2.0_v3_Akari_lb_0
+  character: me
+  state: EP2.0_v3_Akari_st_0
+- msg: 'อ|ะ—อ|ุ้ก|!|!|! *|แสดง|สีหน้า|จุก|สุดๆ* '
   character: minato
+- goto: EP2.0_v3_Akari_lb_1
+- msg: 'อ|ะ—อ|ุ้ก|!|!|! *|แสดง|สีหน้า|จุก|สุดๆ* '
+  character: minato
+  label: EP2.0_v3_Akari_lb_0
 - sound: sv_Body Fall
+  label: EP2.0_v3_Akari_lb_1
 - character: minato
   position: left
   act: Bemused
@@ -143,13 +153,27 @@
 - msg: 'ให้|ตาย|สิ ยัย|นี้|ตื่นเต้น|เรื่อง|วิชา|ทำ|อาหาร|สุดๆไป|เลย|นะ '
   character: minato
 - sound: sv_Walking Concrete Fast
+- msg: แสดง|สีหน้า Akari
+  character: narrator
+- choice:
+    - msg: ยิ้ม
+    - msg: โกรธ
+      goto: EP2.0_v3_Akari_lb_2
+  character: me
+  state: EP2.0_v3_Akari_st_1
 - character: akari
-  position: right
-  act: Normal
+  position: center
+  act: happy
+- goto: EP2.0_v3_Akari_lb_3
+- character: akari
+  position: center
+  act: angry
+  label: EP2.0_v3_Akari_lb_2
 - msg: >-
     เลิก|บ่น|ได้|แล้ว|รีบๆไป|เตรียม|ตัว|ได้|แล้ว|ค่ะ|!|!|! *|ดัน|ตัว Minato
     ให้|เดินไ|ป* 
   character: akari
+  label: EP2.0_v3_Akari_lb_3
 - background: BG_in_University
 - music: bgm_Old stories
 - character: minato
@@ -166,8 +190,11 @@
     งั้น|ก็|เดิน|ไป|ก็|ได้|มั่ง จาก|ตรง|นี้|ถึง|ที่|ห้อง|เรียน
     ก็|ใช้|เวลา|ไม่|นาน|เท่า|ไหร่|นะ  
   character: minato
-- msg: 'ก็|ได้|ค่ะ งั้น|เดิน|กัน|ไป|ดี|กว่า '
-  character: akari
+- choice:
+    - msg: 'ก็|ได้|ค่ะ งั้น|เดิน|กัน|ไป|ดี|กว่า '
+    - msg: 'ก็|ได้|ค่ะ งั้น|พวก|เรา|รีบ|เดิน|กัน|เถอะ|พี่ '
+  character: me
+  state: EP2.0_v3_Akari_st_2
 - msg: >-
     นี่ Akari
     ดู|ตาราง|ให้|หน่อย|สิ|ว่า|นอกจาก|คาบ|ทำ|อาหาร|แล้ว|มี|คาบ|อะไร|อีก|บ้าง
@@ -258,7 +285,7 @@
     - msg: หนู|เอา สต|รอ|เบอร์|รี่|มิลค์|เชค
     - msg: หนู|เอา ดับ|เบิ้ล|ช็อค|มิลค์
   character: me
-  state: EP2.0_v3(Akari)_st_0
+  state: EP2.0_v3_Akari_st_3
 - character: minato
   position: left
   act: Normal
@@ -336,46 +363,46 @@
         - var_faculty += 0
         - rp_tan_akari += 5
   character: me
-  state: EP2.0_v3(Akari)_st_1
+  state: EP2.0_v3_Akari_st_4
 - goto:
-    - EP2.0_v3(Akari)_lb_0 if var_faculty >= 1
-    - EP2.0_v3(Akari)_lb_2
+    - EP2.0_v3_Akari_lb_4 if var_faculty >= 1
+    - EP2.0_v3_Akari_lb_6
 - msg: จะ|เอา|คณะ|นี้|จริง|หรอ Akari|?
   character: minato
-  label: EP2.0_v3(Akari)_lb_0
+  label: EP2.0_v3_Akari_lb_4
 - msg: '(|ยืนยัน|คำ|ตอบ|ไหม *|คำ|เตือน|ไม่|สามารถ|กลับ|ไป|เลือก|ได้|แล้|ว*|) '
   character: akari
 - choice:
     - msg: อืมมม…|.
       msg_override: 'Yes'
-      goto: EP2.0_v3(Akari)_lb_1
+      goto: EP2.0_v3_Akari_lb_5
     - msg: หนู|ยัง|ไม่|แน่ใจ
       msg_override: 'NO'
   character: me
-  state: EP2.0_v3(Akari)_st_2
+  state: EP2.0_v3_Akari_st_5
 - msg: ไม่|ต้อง|คิด|มาก|หรอก Akari
   character: minato
-- goto: EP2.0_v3(Akari)_lb_3
-  label: EP2.0_v3(Akari)_lb_1
+- goto: EP2.0_v3_Akari_lb_7
+  label: EP2.0_v3_Akari_lb_5
 - msg: ยัง|คิด|ไม่|ออก|หรอ|?
   character: minato
-  label: EP2.0_v3(Akari)_lb_2
+  label: EP2.0_v3_Akari_lb_6
 - msg: '(|ยืนยัน|คำ|ตอบ|ไหม *|คำ|เตือน|ไม่|สามารถ|กลับ|ไป|เลือก|ได้|แล้|ว*|) '
   character: akari
 - choice:
     - msg: อืมมม…|.
       msg_override: 'Yes'
-      goto: EP2.0_v3(Akari)_lb_3
+      goto: EP2.0_v3_Akari_lb_7
     - msg: หนู|ยัง|คิด|ไม่|ออก
       msg_override: 'NO'
   character: me
-  state: EP2.0_v3(Akari)_st_3
+  state: EP2.0_v3_Akari_st_6
 - msg: ไม่|ต้อง|คิด|มาก|หรอก Akari
   character: minato
 - character: akari
   position: right
   act: Normal
-  label: EP2.0_v3(Akari)_lb_3
+  label: EP2.0_v3_Akari_lb_7
 - msg: หนู|คิด|ว่า|ประมาณ|นี้|แหละ|ค่ะ
   character: akari
 - msg: อย่าง|งั้น|หรอ|ก็|ไม่|แย่|นะ|สำหรับ|ตอน|นี้|น่ะ
@@ -466,21 +493,18 @@
 - msg: (|ทะ|.|.|ทำ|ยังไง|ดี|หละ|เนี้ย|.|.|)
   character: akari
 - choice:
-    - msg: .
-      msg_override: บอกพี่พนักงานดีกว่า
-    - msg: .|.
-      msg_override: ต้องเรียกพี่ Lin ก่อน!
+    - msg: บอก|พี่|พนักงาน|ดี|กว่า
+    - msg: ต้อง|เรียก|พี่ Lin ก่อน|!
       update:
         - rp_lin += 5
-      goto: EP2.0_v3(Akari)_lb_4
-    - msg: .|.|.
-      msg_override: '*เก็บกระเป๋าสตางค์ขึ้นมา* เรียกรุ่นพี่'
+      goto: EP2.0_v3_Akari_lb_8
+    - msg: เก็บ|กระเป๋า|สตางค์|ขึ้น|มา เรียก|รุ่น|พี่
       cost: 8
       update:
         - rp_lin += 10
-      goto: EP2.0_v3(Akari)_lb_5
+      goto: EP2.0_v3_Akari_lb_9
   character: me
-  state: EP2.0_v3(Akari)_st_4
+  state: EP2.0_v3_Akari_st_7
 - character: empty
   position: center
 - character: akari
@@ -521,10 +545,10 @@
     หลัง|จาก|นั้น Akari กับ Minato
     ก็|ได้|ดื่มด่ำ|กับ|เครื่อง|ดื่ม|แล้ว|ก็|พูด|คุย|อะไร|กัน|นิดหน่อย
   character: narrator
-- goto: EP2.0_v3(Akari)_lb_6
+- goto: EP2.0_v3_Akari_lb_10
 - msg: (|ต้อง|เรียก|พี่ Lin ก่อน|!|)
   character: akari
-  label: EP2.0_v3(Akari)_lb_4
+  label: EP2.0_v3_Akari_lb_8
 - character: akari
   position: left
   act: surprised
@@ -578,10 +602,10 @@
     หลัง|จาก|นั้น Akari กับ Minato
     ก็|ได้|ดื่มด่ำ|กับ|เครื่อง|ดื่ม|แล้ว|ก็|พูด|คุย|อะไร|กัน|นิดหน่อย
   character: narrator
-- goto: EP2.0_v3(Akari)_lb_6
-- msg: '*|เก็บ|กระเป๋า|สตางค์|ขึ้น|มา* รุ่น|พี่ lin คะ|!|!'
+- goto: EP2.0_v3_Akari_lb_10
+- msg: เก็บ|กระเป๋า|สตางค์|ขึ้น|มา รุ่น|พี่ lin คะ|!|!
   character: akari
-  label: EP2.0_v3(Akari)_lb_5
+  label: EP2.0_v3_Akari_lb_9
 - character: lin
   position: center
   act: Normal
@@ -666,7 +690,7 @@
     ก็|ได้|ดื่มด่ำ|กับ|เครื่อง|ดื่ม|แล้ว|ก็|พูด|คุย|อะไร|กัน|นิดหน่อย
   character: narrator
 - background: BG_in_University
-  label: EP2.0_v3(Akari)_lb_6
+  label: EP2.0_v3_Akari_lb_10
 - character: minato
   position: left
   act: Normal
@@ -704,8 +728,11 @@
 - character: akari
   position: center
   act: surprised
-- msg: แต่ว่า|อะไร|หรอ|คะ|พี่|?
-  character: akari
+- choice:
+    - msg: แต่ว่า|.|.|.|.|.|.|.
+    - msg: แต่ว่า|อะไร|หรอ|คะ|พี่|?
+  character: me
+  state: EP2.0_v3_Akari_st_8
 - character: minato
   position: left
   act: Normal
@@ -772,10 +799,13 @@
 - character: akari
   position: center
   act: Normal
-- msg: >-
-    Nightrose เอง|หรอ|เนี้ย|!|!
-    อรุณ|สวัสดิ์|~|เช้า|นี้|เธอ|ก็|เรียน|คาบ|นี้|ด้วย|หรอ|เนี้ย|~
-  character: akari
+- choice:
+    - msg: >-
+        Nightrose เอง|หรอ|เนี้ย|!|!
+        อรุณ|สวัสดิ์|~|เช้า|นี้|เธอ|ก็|เรียน|คาบ|นี้|ด้วย|หรอ|เนี้ย|~
+    - msg: Nightrose เอง|หรอ|เนี้ย|!|! เธอ|ก็|เรียน|ที่|นี้|หรอ
+  character: me
+  state: EP2.0_v3_Akari_st_9
 - character: nightrose
   position: right
   act: Smlie
@@ -846,8 +876,13 @@
 - character: akari
   position: center
   act: surprised
-- msg: พี่|คะ|นั้น|ใช่|ผู้หญิง|ที่|คาเฟ่|หรือ|ป่าว|คะ
+- msg: พี่|คะ|นั้น|ใช่|.|.|.
   character: akari
+- choice:
+    - msg: ผู้หญิง|ที่|เจอ|ที่|คาเฟ่|นิ
+    - msg: รุ่น|พี่ Lin นี่|นา
+  character: me
+  state: EP2.0_v3_Akari_st_10
 - msg: >-
     อืมใช่|แล้ว|ล่ะ
     แต่|เห็น|ว่า|เป็น|รุ่น|พี่|ไม่|ใช่|หรอ|ทำไม|ถึง|มา|อยู่|ห้อง|เรียน|ของ|เด็ก|ปี
@@ -878,8 +913,9 @@
     แถม|เป็น|กา|รดี|ด้วย
     เพราะ|จะ|ได้|มา|ดู|ว่า…|ใคร|จะ|เป็น|คน|ที่|น่า|จะ|มี|แว่ว|ใน|การ|ทำ|อาหาร|ที่|แบบ|ที่|จะ|ทำให้|ชื่อเสียง|ของ|คณะ|ยิ่ง|โด่งดัง|ขึ้น|ไป|ไง|ละ|คะ|~|~
   character: lin
+- msg: 'ทุก|คน|ใน|ห้อง|ต่าง|ตะลึง|ที่|รู้|ว่า หลิน คือ '
+  character: narrator
 - msg: >-
-    ทุก|คน|ใน|ห้อง|ต่าง|ตะลึง|ที่|รู้|ว่า หลิน คือ
     <b><color=#ff0000ff>หัวหน้า</color></b>|<b><color=#ff0000ff>ของ</color></b>|<b><color=#ff0000ff>คณะ</color></b>|<b><color=#ff0000ff>คหกรรม</color></b>|<b><color=#ff0000ff>ที่</color></b>|<b><color=#ff0000ff>มี</color></b>|<b><color=#ff0000ff>ชื่อเสียง</color></b>|<b><color=#ff0000ff>อันดับ</color></b>|<b><color=#ff0000ff>ต้น</color></b>|<b><color=#ff0000ff>ๆ</color></b>|<b><color=#ff0000ff>ของ</color></b>|<b><color=#ff0000ff>มหา</color></b>|<b><color=#ff0000ff>ลัย</color></b>|<b><color=#ff0000ff>แห่ง</color></b>|<b><color=#ff0000ff>นี้</color></b>
   character: narrator
 - msg: เฮ้ย|! คน|ดัง|มา|เอง|เลย|นี่|หว่า|!
@@ -887,6 +923,7 @@
   override_name: คนในห้อง
 - msg: ไม่|น่า|เชื่อ|เลย|แหะ
   character: man02
+  override_name: คนในห้อง
 - msg: >-
     อ้า|ทุก|คน|!|! ไม่|ต้อง|เกรงใจ|นะ|!
     จัดการ|ทำ|เมนู|วัน|นี้|ให้|เต็ม|ที่สุด|ฝีมือ|ไป|เลย|นะ|!|!|!
@@ -916,7 +953,10 @@
 - character: minato
   position: left
   act: Bemused
-- msg: ' อย่าง|งี้|นี้|เอง แต่ว่า สูตร|อาหาร|ชาววัง|นี้|มัน|อะไร|กัน|มัน|มี|จริงๆอย่าง|งั้น|หรอ <b><size=40>怪しい</size></b>|.|. (|Ayashii|.|.|)'
+- msg: >-
+    อย่าง|งี้|นี้|เอง แต่ว่า
+    สูตร|อาหาร|ชาววัง|นี้|มัน|อะไร|กัน|มัน|มี|จริงๆอย่าง|งั้น|หรอ
+    <b><size=40>怪しい</size></b>|.|. (|Ayashii|.|.|)
   character: minato
 - character: akari
   position: center
@@ -982,8 +1022,13 @@
   character: minato
 - msg: 'ถึง|จะ|สอน Akari เป็น|บาง|ครั้ง|ก็|เถอะ แต่|ผล|ที่|ออก|มาก|็… '
   character: minato
-- msg: ก็|การ|ทำ|อาหาร|มัน|ยุ่งยาก|นิ|พี่|! ใคร|มัน|จะ|ไป|เก่ง|เหมือน|พี่|ล่ะ|!
+- msg: ก็|นะ
   character: akari
+- choice:
+    - msg: การ|ทำ|อาหาร|มัน|ยุ่งยาก|นิ|พี่|!
+    - msg: ใคร|มัน|จะ|ไป|เก่ง|เหมือน|พี่|ล่ะ|!
+  character: me
+  state: EP2.0_v3_Akari_st_11
 - msg: ก็|ทั้ง|ห้อง|นี้|ไง * ชี้|แบ|บวง|กว้าง *
   character: minato
 - msg: 'งะ…<b><size=40>悔しい</size></b>|！！ (|Kuyashii|!|!|)  เจ็บ|ใจ|อ่าาา|!|! '
@@ -1009,7 +1054,7 @@
     หนู|ก็|อยาก|ชิม|ค่ะ|ถ้า|งั้น|ถะ|.|.|ถ้า|งั้น|ถ้า|พวก|เรา|ทำ|เสร็จ|แล้ว|มา
     Exchange กัน|ไหม|คะ|?|!
   character: nightrose
-- msg: ได้|เลย|ถ้างั้|มา|ดู|โจทย์|กัน|ก่อน|ละ|กัน
+- msg: ได้|เลย|ถ้า|งั้น|มา|ดู|โจทย์|กัน|ก่อน|ละ|กัน
   character: minato
 - msg: ได้|ค่ะ|! *|มุ่งมั่|น*
   character: nightrose
@@ -1234,9 +1279,9 @@
 - sound: sv_Look someone
 - msg: >-
     *|หัน|ไป|มอง Minato และ Nightros|e*
-    อยู่|ท่ามกลาง|คน|เก่ง|นี่|มัน|รู้สึก|แบบ|นี้|สิ|นะ
-    แฮะๆ.|.<b><size=40>もう終わった</size></b>|… (|Mō owatta|.|.|.|)
-    มัน|จบ|แล้ว|ล่ะ|.|.|. 
+    อยู่|ท่ามกลาง|คน|เก่ง|นี่|มัน|รู้สึก|แบบ|นี้|สิ|นะ แฮะๆ.|.
+  character: akari
+- msg: '<b><size=40>もう終わった</size></b>|… (|Mō owatta|.|.|.|) มัน|จบ|แล้ว|ล่ะ|.|.|. '
   character: akari
 - msg: >-
     ผ่าน|ไป|หลาย|นาที

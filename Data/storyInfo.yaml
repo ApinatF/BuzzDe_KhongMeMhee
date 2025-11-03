@@ -6,13 +6,13 @@ avatar:
 summary:
   progress:
     - key: rp_tan_akari
-      name: ค่าความสัมพันธ์ของแทนกับอคาริ
+      name: แทนกับอคาริ
       max: 100
     - key: rp_nightrose_minato
-      name: ค่าความสัมพันธ์ของไนท์โรสกับมินาโตะ
+      name: ไนท์โรสกับมินาโตะ
       max: 100
     - key: rp_lin
-      name: ค่าความสัมพันธ์ของหลิน
+      name: หลิน
       max: 100
 group:
   - รักโรแมนติก

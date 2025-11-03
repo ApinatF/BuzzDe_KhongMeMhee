@@ -14,11 +14,3 @@ me [
     ]
   }
 ]
-mob_D.C [
-  {
-    "index": 0,
-    "error": [
-      "missing model #mob_D.C"
-    ]
-  }
-]
