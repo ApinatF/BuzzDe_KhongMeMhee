@@ -1,0 +1,275 @@
+- background: bg_living_room_yamada
+- character: minato
+  position: left
+  act: Normal
+- msg: O1
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: O2
+  character: akari
+- character: tan
+  position: center
+  act: Normal
+- msg: O3
+  character: tan
+- character: minato
+  position: left
+  act: Happy
+- msg: O4
+  character: minato
+- character: akari
+  position: right
+  act: Haru
+- msg: O5
+  character: akari
+- character: tan
+  position: center
+  act: Angry
+- msg: O6
+  character: tan
+- msg: เลือก choice
+  character: narrator
+- character: empty
+  position: center
+- character: empty
+  position: left
+- character: empty
+  position: right
+- choice:
+    - msg: เลือกเล่นเป็น minato
+      update:
+        - var_minato += 10
+        - var_akari -= 10
+    - msg: เลือกเล่นเป็น akari
+      update:
+        - var_akari += 10
+        - var_minato -= 10
+  character: me
+  state: test_akari_st_0
+- goto:
+    - test_akari_lb_0 if var_minato >= 5
+    - test_akari_lb_1
+- character: minato
+  position: center
+  act: Normal
+  label: test_akari_lb_0
+- msg: m1 (center)
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: m2 (right)
+  character: akari
+- character: tan
+  position: left
+  act: Normal
+- msg: m3 (left)
+  character: tan
+- character: minato
+  position: center
+  act: Bemused
+- msg: m4 (center)
+  character: minato
+- character: akari
+  position: right
+  act: angry
+- msg: m5 (right)
+  character: akari
+- character: tan
+  position: left
+  act: Surprised
+- msg: m6 (left)
+  character: tan
+- character: minato
+  position: center
+  act: Sad
+- msg: m7 (center)
+  character: minato
+- character: akari
+  position: right
+  act: surprised
+- msg: m8 (right)
+  character: akari
+- character: tan
+  position: left
+  act: Angry
+- msg: m9 (left)
+  character: tan
+- character: minato
+  position: center
+  act: Shocked
+- msg: m10 (center)
+  character: minato
+- character: lucien
+  position: right
+  act: Normal
+- msg: m11 (right)
+  character: lucien
+- character: lin
+  position: left
+  act: happy
+- msg: 你好        nǐ hǎo        หนีห่าว (left)
+  character: lin
+- character: minato
+  position: center
+  act: Thinking
+- msg: m13 (center)
+  character: minato
+- character: professor
+  position: right
+  act: aa
+- msg: m14 (right)
+  character: professor
+- character: grandfather
+  position: left
+  act: Normal
+- msg: m15 (left)
+  character: grandfather
+- character: minato
+  position: center
+  act: TopView
+- msg: m16 (center)
+  character: minato
+- character: tan
+  position: right
+  act: Normal
+- msg: m17 (right)
+  character: tan
+- character: akari
+  position: left
+  act: Normal
+- msg: m18 (left)
+  character: akari
+- goto: test_akari_lb_2
+- character: minato
+  position: right
+  act: Normal
+  label: test_akari_lb_1
+- msg: A1 (right)
+  character: minato
+- character: akari
+  position: center
+  act: Normal
+- msg: A2 (center)
+  character: akari
+- character: tan
+  position: left
+  act: Normal
+- msg: A3 (left)
+  character: tan
+- character: minato
+  position: right
+  act: Bemused
+- msg: A4 (right)
+  character: minato
+- character: akari
+  position: center
+  act: angry
+- msg: A5 (center)
+  character: akari
+- character: tan
+  position: left
+  act: Surprised
+- msg: A6 (left)
+  character: tan
+- character: minato
+  position: right
+  act: Sad
+- msg: A7 (right)
+  character: minato
+- character: akari
+  position: center
+  act: surprised
+- msg: A8 (center)
+  character: akari
+- character: tan
+  position: left
+  act: Angry
+- msg: A9 (left)
+  character: tan
+- character: minato
+  position: right
+  act: Shocked
+- msg: A10 (right)
+  character: minato
+- character: lucien
+  position: center
+  act: Normal
+- msg: A11 (center)
+  character: lucien
+- character: lin
+  position: left
+  act: happy
+- msg: 你好        nǐ hǎo        หนีห่าว (left)
+  character: lin
+- character: minato
+  position: right
+  act: Thinking
+- msg: A13 (right)
+  character: minato
+- character: professor
+  position: center
+  act: aa
+- msg: A14 (center)
+  character: professor
+- character: grandfather
+  position: left
+  act: Normal
+- msg: A15 (left)
+  character: grandfather
+- character: minato
+  position: right
+  act: TopView
+- msg: A16 (right)
+  character: minato
+- character: tan
+  position: center
+  act: Normal
+- msg: A17 (center)
+  character: tan
+- character: akari
+  position: left
+  act: Normal
+- msg: A18 (left)
+  character: akari
+- character: empty
+  position: center
+  label: test_akari_lb_2
+- character: empty
+  position: left
+- character: empty
+  position: right
+- msg: ออกจาก condition
+  character: narrator
+- character: minato
+  position: left
+  act: Normal
+- msg: P1
+  character: minato
+- character: akari
+  position: right
+  act: Normal
+- msg: P2 (right)
+  character: akari
+- character: tan
+  position: center
+  act: Normal
+- msg: P3 (center)
+  character: tan
+- character: minato
+  position: left
+  act: Happy
+- msg: P4
+  character: minato
+- character: akari
+  position: right
+  act: Haru
+- msg: P5 (right)
+  character: akari
+- character: tan
+  position: center
+  act: Angry
+- msg: P6 (center)
+  character: tan

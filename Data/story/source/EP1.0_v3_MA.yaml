@@ -61,10 +61,10 @@
       goto: EP1.0_v3_MA_lb_0
   character: me
   state: EP1.0_v3_MA_st_0
-- msg: โอ้ย!!
+- msg: เจ็บ!!
   character: akari
 - goto: EP1.0_v3_MA_lb_1
-- msg: อ่าา
+- msg: เจ็บ!! อ่าา
   character: akari
   label: EP1.0_v3_MA_lb_0
 - delay: 1

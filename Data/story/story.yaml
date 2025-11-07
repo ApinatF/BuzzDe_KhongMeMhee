@@ -27,6 +27,12 @@
   cost:
     type: ticket
     value: 1
+- novel: test_minato
+  label: test_minato
+  title: TestCharacters
+  cost:
+    type: ticket
+    value: 99
 - ending:
     title: Ending
     subtitle: The End

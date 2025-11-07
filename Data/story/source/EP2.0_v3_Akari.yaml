@@ -142,7 +142,7 @@
 - msg: 'ให้ตายสิ ยัยนี้ตื่นเต้นเรื่องวิชาทำอาหารสุดๆไปเลยนะ '
   character: minato
 - sound: sv_Walking Concrete Fast
-- msg: แสดงสีหน้า Akari
+- msg: แสดงสีหน้า
   character: narrator
 - choice:
     - msg: ยิ้ม
@@ -151,11 +151,11 @@
   character: me
   state: EP2.0_v3_Akari_st_1
 - character: akari
-  position: center
+  position: right
   act: happy
 - goto: EP2.0_v3_Akari_lb_3
 - character: akari
-  position: center
+  position: right
   act: angry
   label: EP2.0_v3_Akari_lb_2
 - msg: 'เลิกบ่นได้แล้วรีบๆไปเตรียมตัวได้แล้วค่ะ!!! *ดันตัว Minato ให้เดินไป* '
@@ -173,9 +173,11 @@
   character: akari
 - msg: 'งั้นก็เดินไปก็ได้มั่ง จากตรงนี้ถึงที่ห้องเรียน ก็ใช้เวลาไม่นานเท่าไหร่นะ  '
   character: minato
+- msg: ก็ได้ค่ะ
+  character: akari
 - choice:
-    - msg: 'ก็ได้ค่ะ งั้นเดินกันไปดีกว่า '
-    - msg: 'ก็ได้ค่ะ งั้นพวกเรารีบเดินกันเถอะพี่ '
+    - msg: 'งั้นเดินกันไปดีกว่า '
+    - msg: 'งั้นพวกเรารีบเดินกันเถอะพี่ '
   character: me
   state: EP2.0_v3_Akari_st_2
 - msg: นี่ Akari ดูตารางให้หน่อยสิว่านอกจากคาบทำอาหารแล้วมีคาบอะไรอีกบ้าง
@@ -259,10 +261,12 @@
 - msg: สวัสดีค่ะคุณลูกค้า ไม่ทราบว่าจะรับอะไรหรอคะ?
   character: man03
   override_name: พนักงานร้านคาเฟ่
+- msg: 'หนูเอา '
+  character: akari
 - choice:
-    - msg: หนูเอา นมคาราเมลปั่น
-    - msg: หนูเอา สตรอเบอร์รี่มิลค์เชค
-    - msg: หนูเอา ดับเบิ้ลช็อคมิลค์
+    - msg: นมคาราเมลปั่น
+    - msg: สตรอเบอร์รี่มิลค์เชค
+    - msg: ดับเบิ้ลช็อคมิลค์
   character: me
   state: EP2.0_v3_Akari_st_3
 - character: minato
@@ -294,6 +298,7 @@
   character: minato
 - msg: ทราบแล้วค่ะเชิญรอที่โต๊ะสักครู่แล้วเดี๋ยวเราจะเรียกนะคะ
   character: man03
+  override_name: พนักงานร้านคาเฟ่
 - sound: sv_Walking Concrete Fast
 - msg: >-
     จากนั้น Akari กับ Minato
@@ -482,7 +487,7 @@
 - character: empty
   position: center
 - character: akari
-  position: left
+  position: right
   act: Normal
 - msg: บอกพี่พนักงานดีกว่า
   character: akari
@@ -518,7 +523,7 @@
   character: akari
   label: EP2.0_v3_Akari_lb_8
 - character: akari
-  position: left
+  position: right
   act: surprised
 - msg: พี่ lin คะ!
   character: akari
@@ -606,7 +611,6 @@
 - msg: เอ~...ถ้าอย่างงั้นหนูขอรับน้ำใจไว้นะคะ
   character: akari
 - image: mcg_Coffee
-- image: empty
 - msg: '*จากนั้น lin ก็สั่งน้ำอีกแก้วตามที่ Akari อยากได้ *'
   character: lin
 - delay: 2
@@ -683,6 +687,8 @@
 - character: akari
   position: center
   act: surprised
+- msg: ตะ-
+  character: akari
 - choice:
     - msg: แต่ว่า.......
     - msg: แต่ว่าอะไรหรอคะพี่?
@@ -753,9 +759,11 @@
 - character: akari
   position: center
   act: Normal
+- msg: Nightrose เองหรอเนี้ย!!
+  character: akari
 - choice:
-    - msg: Nightrose เองหรอเนี้ย!! อรุณสวัสดิ์~เช้านี้เธอก็เรียนคาบนี้ด้วยหรอเนี้ย~
-    - msg: Nightrose เองหรอเนี้ย!! เธอก็เรียนที่นี้หรอ
+    - msg: อรุณสวัสดิ์~เช้านี้เธอก็เรียนคาบนี้ด้วยหรอเนี้ย~
+    - msg: เธอก็เรียนที่นี้หรอ
   character: me
   state: EP2.0_v3_Akari_st_9
 - character: nightrose
@@ -1664,6 +1672,9 @@
   act: Smlie
 - msg: ไหงถึงมานี่ละคะ?
   character: nightrose
+- character: lin
+  position: center
+  act: smile
 - msg: >-
     ก็บอกแล้วนิว่าฉันไม่ได้จำเป็นจะเข้าเรียนคาบนั้นนี่นา
     แค่อยากมาดูพวกร่นน้องแบบเธอสองคนมาทำอาหารกันแค่นั้น 
@@ -1688,6 +1699,9 @@
   character: lin
 - msg: ไม่จำเป็นต้องลงทุนแบ่งมาให้พวกเราเลยนะครับ
   character: minato
+- character: lin
+  position: center
+  act: Normal
 - msg: >-
     ไม่เป็นไรหรอกน่า ถ้าไม่ได้ความเห็นจากทุกคนที่อยู่ในห้องนั้น
     อาหารนี่ก็ยังไม่สามารถพูดได้เต็มปากว่ามันอร่อยหรอกนะ รับไปเถอะน่า
@@ -1762,22 +1776,40 @@
     อ่อ งั้น… เอาไว้เจอกันคาบทำอาหารอีกละก็ เดียวฉันกับ Akari
     จะนั่งข้างๆด้วยละกันนะ
   character: minato
+- character: nightrose
+  position: right
+  act: Happy
 - msg: 'คะ– ค่ะ! หนูจะรอให้ถึงคาบทำอาหารอีกนะคะ '
   character: nightrose
 - msg: 'โอเคร~~ Akari ไปกันเถอะ '
   character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: 'ค่า… หนูจะไม่ทำอาหารเองอีกแล้วนะ '
   character: akari
+- character: minato
+  position: left
+  act: Angry
 - msg: 'ตามสบาย แต่ตกวิชานี้มา พี่ไม่ช่วยนะ '
   character: minato
+- character: akari
+  position: center
+  act: Haru
 - msg: 'อ๊าาาไม่อยากตกวิชานี้ งั้นพี่ต้องสอนน้องด้วยละ '
   character: akari
 - msg: จะดีหรอให้พี่สอนไม่กลัวโดนอะไรแปลกๆ หรอ
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: >-
     ถ้าพี่แกล้งน้องแล้วสอนไม่ดีน้องจะกระโดดทีบขาคู่ใส่พี่ตอนเช้าแทน
     เพื่อเป็นการแก้แค้นค่ะ
   character: akari
+- character: minato
+  position: left
+  act: Bemused
 - msg: อันนี้คือการปลุกพี่ชายจริงๆ ใช่ไหมเนี้ยทำไมมันดูโหดร้ายอย่างงี้
   character: minato
 - character: empty

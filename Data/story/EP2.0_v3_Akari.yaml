@@ -153,7 +153,7 @@
 - msg: 'ให้|ตาย|สิ ยัย|นี้|ตื่นเต้น|เรื่อง|วิชา|ทำ|อาหาร|สุดๆไป|เลย|นะ '
   character: minato
 - sound: sv_Walking Concrete Fast
-- msg: แสดง|สีหน้า Akari
+- msg: แสดง|สีหน้า
   character: narrator
 - choice:
     - msg: ยิ้ม
@@ -162,11 +162,11 @@
   character: me
   state: EP2.0_v3_Akari_st_1
 - character: akari
-  position: center
+  position: right
   act: happy
 - goto: EP2.0_v3_Akari_lb_3
 - character: akari
-  position: center
+  position: right
   act: angry
   label: EP2.0_v3_Akari_lb_2
 - msg: >-
@@ -190,9 +190,11 @@
     งั้น|ก็|เดิน|ไป|ก็|ได้|มั่ง จาก|ตรง|นี้|ถึง|ที่|ห้อง|เรียน
     ก็|ใช้|เวลา|ไม่|นาน|เท่า|ไหร่|นะ  
   character: minato
+- msg: ก็|ได้|ค่ะ
+  character: akari
 - choice:
-    - msg: 'ก็|ได้|ค่ะ งั้น|เดิน|กัน|ไป|ดี|กว่า '
-    - msg: 'ก็|ได้|ค่ะ งั้น|พวก|เรา|รีบ|เดิน|กัน|เถอะ|พี่ '
+    - msg: 'งั้น|เดิน|กัน|ไป|ดี|กว่า '
+    - msg: 'งั้น|พวก|เรา|รีบ|เดิน|กัน|เถอะ|พี่ '
   character: me
   state: EP2.0_v3_Akari_st_2
 - msg: >-
@@ -280,10 +282,12 @@
 - msg: สวัสดี|ค่ะ|คุณ|ลูกค้า ไม่|ทราบ|ว่า|จะ|รับ|อะไร|หรอ|คะ|?
   character: man03
   override_name: พนักงานร้านคาเฟ่
+- msg: 'หนู|เอา '
+  character: akari
 - choice:
-    - msg: หนู|เอา นม|คาราเมล|ปั่น
-    - msg: หนู|เอา สต|รอ|เบอร์|รี่|มิลค์|เชค
-    - msg: หนู|เอา ดับ|เบิ้ล|ช็อค|มิลค์
+    - msg: นม|คาราเมล|ปั่น
+    - msg: สต|รอ|เบอร์|รี่|มิลค์|เชค
+    - msg: ดับ|เบิ้ล|ช็อค|มิลค์
   character: me
   state: EP2.0_v3_Akari_st_3
 - character: minato
@@ -317,6 +321,7 @@
   character: minato
 - msg: ทราบ|แล้ว|ค่ะ|เชิญ|รอ|ที่|โต๊ะ|สัก|ครู่|แล้ว|เดี๋ยว|เรา|จะ|เรียก|นะ|คะ
   character: man03
+  override_name: พนักงานร้านคาเฟ่
 - sound: sv_Walking Concrete Fast
 - msg: >-
     จาก|นั้น Akari กับ Minato
@@ -508,7 +513,7 @@
 - character: empty
   position: center
 - character: akari
-  position: left
+  position: right
   act: Normal
 - msg: บอก|พี่|พนักงาน|ดี|กว่า
   character: akari
@@ -550,7 +555,7 @@
   character: akari
   label: EP2.0_v3_Akari_lb_8
 - character: akari
-  position: left
+  position: right
   act: surprised
 - msg: พี่ lin คะ|!
   character: akari
@@ -645,7 +650,6 @@
 - msg: เอ|~|.|.|.|ถ้า|อย่าง|งั้น|หนู|ขอ|รับ|น้ำใจ|ไว้|นะ|คะ
   character: akari
 - image: mcg_Coffee
-- image: empty
 - msg: '*|จาก|นั้น lin ก็|สั่ง|น้ำ|อีก|แก้ว|ตาม|ที่ Akari อยาก|ได้ *'
   character: lin
 - delay: 2
@@ -728,6 +732,8 @@
 - character: akari
   position: center
   act: surprised
+- msg: ตะ|-
+  character: akari
 - choice:
     - msg: แต่ว่า|.|.|.|.|.|.|.
     - msg: แต่ว่า|อะไร|หรอ|คะ|พี่|?
@@ -799,11 +805,11 @@
 - character: akari
   position: center
   act: Normal
+- msg: Nightrose เอง|หรอ|เนี้ย|!|!
+  character: akari
 - choice:
-    - msg: >-
-        Nightrose เอง|หรอ|เนี้ย|!|!
-        อรุณ|สวัสดิ์|~|เช้า|นี้|เธอ|ก็|เรียน|คาบ|นี้|ด้วย|หรอ|เนี้ย|~
-    - msg: Nightrose เอง|หรอ|เนี้ย|!|! เธอ|ก็|เรียน|ที่|นี้|หรอ
+    - msg: อรุณ|สวัสดิ์|~|เช้า|นี้|เธอ|ก็|เรียน|คาบ|นี้|ด้วย|หรอ|เนี้ย|~
+    - msg: เธอ|ก็|เรียน|ที่|นี้|หรอ
   character: me
   state: EP2.0_v3_Akari_st_9
 - character: nightrose
@@ -1771,6 +1777,9 @@
   act: Smlie
 - msg: ไหง|ถึง|มา|นี่|ละ|คะ|?
   character: nightrose
+- character: lin
+  position: center
+  act: smile
 - msg: >-
     ก็|บอก|แล้ว|นิ|ว่า|ฉัน|ไม่|ได้|จำเป็น|จะ|เข้า|เรียน|คาบ|นั้น|นี่|นา
     แค่|อยาก|มา|ดู|พวก|ร่น|น้อง|แบบ|เธอ|สอง|คน|มา|ทำ|อาหาร|กัน|แค่|นั้น 
@@ -1796,6 +1805,9 @@
   character: lin
 - msg: ไม่|จำเป็น|ต้อง|ลงทุน|แบ่ง|มา|ให้|พวก|เรา|เลย|นะ|ครับ
   character: minato
+- character: lin
+  position: center
+  act: Normal
 - msg: >-
     ไม่|เป็นไร|หรอก|น่า ถ้า|ไม่|ได้|ความเห็น|จาก|ทุก|คนที|่อ|ยู่|ใน|ห้อง|นั้น
     อาหาร|นี่|ก็|ยัง|ไม่|สามารถ|พูด|ได้|เต็ม|ปา|กว่า|มัน|อร่อย|หรอก|นะ
@@ -1871,22 +1883,40 @@
     อ่อ งั้|น… เอา|ไว้|เจอ|กัน|คาบ|ทำ|อาหาร|อีก|ละ|ก็ เดียว|ฉัน|กับ Akari
     จะ|นั่ง|ข้างๆด้วย|ละ|กัน|นะ
   character: minato
+- character: nightrose
+  position: right
+  act: Happy
 - msg: 'ค|ะ– ค่ะ|! หนู|จะ|รอ|ให้|ถึง|คาบ|ทำ|อาหาร|อีก|นะ|คะ '
   character: nightrose
 - msg: 'โอ|เคร|~|~ Akari ไป|กัน|เถอะ '
   character: minato
+- character: akari
+  position: center
+  act: sad
 - msg: 'ค่า… หนู|จะ|ไม่|ทำ|อาหาร|เอง|อีก|แล้ว|นะ '
   character: akari
+- character: minato
+  position: left
+  act: Angry
 - msg: 'ตาม|สบาย แต่|ตก|วิชา|นี้|มา พี่|ไม่|ช่วย|นะ '
   character: minato
+- character: akari
+  position: center
+  act: Haru
 - msg: 'อ๊าาา|ไม่|อยาก|ตก|วิชา|นี้ งั้น|พี่|ต้อง|สอน|น้อง|ด้วย|ละ '
   character: akari
 - msg: จะ|ดี|หรอ|ให้|พี่|สอน|ไม่|กลัว|โดน|อะไร|แปลกๆ หรอ
   character: minato
+- character: akari
+  position: center
+  act: angry
 - msg: >-
     ถ้า|พี่|แกล้ง|น้อง|แล้ว|สอน|ไม่|ดี|น้อง|จะ|กระโดด|ทีบ|ขา|คู่|ใส่|พี่|ตอน|เช้า|แทน
     เพื่อ|เป็น|การ|แก้|แค้น|ค่ะ
   character: akari
+- character: minato
+  position: left
+  act: Bemused
 - msg: >-
     อัน|นี้|คือ|การ|ปลุก|พี่|ชาย|จริงๆ
     ใช่|ไหม|เนี้ย|ทำไม|มัน|ดู|โหดร้าย|อย่าง|งี้
